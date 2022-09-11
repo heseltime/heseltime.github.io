@@ -1,8 +1,8 @@
 ---
 title: test
+permalink: test
 feed: show
 date: 09-11-2022
-permalink: test
 ---
 
 test Jack2
