@@ -1,7 +1,7 @@
 ---
 title: Motivation Basics
 feed: show
-date: 10-06-2022
+date: 06-10-2022
 ---
 
 # tech education
