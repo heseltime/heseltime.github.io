@@ -38,5 +38,4 @@ Dieses Problem brauchte einen Deep Dive in die DevTools, mit Nachexperimenten:
 
 ![Screenshot 2022-12-30 at 20 54 22](https://user-images.githubusercontent.com/66922223/210107450-2043cd50-352d-4b77-9c44-c3ccdba5e08d.png)
 
-
-
+Man sieht, die URL zu den Icons wird falsch encodiert/aufgerufen.
