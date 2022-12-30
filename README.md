@@ -7,6 +7,8 @@ From the base project: "Jekyll Garden theme lets you publish your [Obsidian](htt
 -  [Feature List](https://jekyll-garden.github.io/post/features)
 -  [How to Setup](https://jekyll-garden.github.io/post/how-to)
 
+What follows are notes on my process improving the website in some small regards, that make for added look and feel, so end up being important on that side of things.
+
 ## Further Development (WDP3): Additions
 
 ### Cross-Page Nav Bar (CSS, JavaScript, SVG)
@@ -17,19 +19,33 @@ Method: Static pages implementation for research notes as opposed to Obsidian no
 
 The html content is tied in at the level of the pages in order to set the active page via CSS-class, and so that the bar appears below the content, but only for posts (from where its view behavior might still be manipulated). Assets are put into a parallel assets folder assets-liquid-nav (based on https://github.com/bedimcode/liquid-navigation-indicator) and linked to from _layout/Post.html
 
+![Screenshot 2022-12-30 at 22 27 47](https://user-images.githubusercontent.com/66922223/210112885-580b9a31-b88f-460b-809b-ad8dcc32a9de.png)
+
 I think this lower navbar is useful for naviagating across content in the website, as opposed to the top navbar, which focuses on portfolio, resume, etc. links, aimed at people checking out the website speedily. But I decided to not make the lower nav visible from home, instead only after navigating into Feed or Portfolio, so the website unfolds a bit.
+
+![Screenshot 2022-12-30 at 22 27 57](https://user-images.githubusercontent.com/66922223/210112865-32ea64b2-51fe-4a6b-8517-5b7f3955f2a5.png)
+
 
 Technologies: CSS, Javascript, SVG (background). The javascript is implemented to move the background SVG, which only really comes out when linking to divs on one page, which I do not currently do, however.
 
 ### Favicons
 
-Goal: Cross-functional favicons.
+Goal: Device-cross-functional favicons. Starting point:
+
+![Screenshot 2022-12-30 at 21 45 31](https://user-images.githubusercontent.com/66922223/210110511-a32a81a0-c8e9-4513-9d1f-321a2236162d.png)
+
 
 Method: Using WDP-source [Favicon generator](https://realfavicongenerator.net) and [How to Favicon in 2021](https://css-tricks.com/how-to-favicon-in-2021/), which is recent enough. I basically followed this tool, putting the icons in my asset folder rather than root.
 
 I am also using a favicon version generated here to add some branding to the title in the top nav.
 
 ![Screenshot 2022-12-30 at 21 30 50](https://user-images.githubusercontent.com/66922223/210109781-602f42be-f84e-49db-9528-921b02821824.png)
+
+Very important: Emptying Chache between changes for testing (favicon info appears to be cashed a lot, certainly on Safari).
+
+![Screenshot 2022-12-30 at 22 26 03](https://user-images.githubusercontent.com/66922223/210112809-3fe8584f-196f-486e-9f32-df30f699dc51.png)
+
+I like the more strongly branded result.
 
 ## Further Development (WDP3): Improvements/Bug-Fixes
 
@@ -42,3 +58,12 @@ This problem required a deep dive into the DevTools:
 ![Screenshot 2022-12-30 at 20 54 22](https://user-images.githubusercontent.com/66922223/210107450-2043cd50-352d-4b77-9c44-c3ccdba5e08d.png)
 
 The secondary problem was encoding of the URL (I removed the prefix), but the issue remained, on exactly the first call (on load). It appears the ressource cannot be found the first time the script loads.
+
+### Metadata Update/Fix
+
+Embarassing: the base project info was still in here.
+
+![Screenshot 2022-12-30 at 22 50 33](https://user-images.githubusercontent.com/66922223/210113953-b803e6cd-af8e-4b3e-991d-80e6b25f0453.png)
+
+
+
