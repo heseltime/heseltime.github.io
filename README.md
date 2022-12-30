@@ -34,4 +34,9 @@ Method: Using WDP-source [Favicon generator](https://realfavicongenerator.net) a
 
 ![Screenshot 2022-12-30 at 20 21 22](https://user-images.githubusercontent.com/66922223/210105352-88be52e6-ef86-477e-a119-3be955de5075.png)
 
+Dieses Problem brauchte einen Deep Dive in die DevTools, mit Nachexperimenten:
+
+![Screenshot 2022-12-30 at 20 54 22](https://user-images.githubusercontent.com/66922223/210107450-2043cd50-352d-4b77-9c44-c3ccdba5e08d.png)
+
+
 
