@@ -7,7 +7,7 @@ From the base project: "Jekyll Garden theme lets you publish your [Obsidian](htt
 -  [Feature List](https://jekyll-garden.github.io/post/features)
 -  [How to Setup](https://jekyll-garden.github.io/post/how-to)
 
-## Further Development (WDP3)
+## Further Development (WDP3): Additions
 
 ### Cross-Page Nav Bar (CSS, JavaScript, SVG)
 
@@ -26,3 +26,12 @@ Technologies: CSS, Javascript, SVG (background). The javascript is implemented t
 Goal: Cross-functional favicons.
 
 Method: Using WDP-source [Favicon generator](https://realfavicongenerator.net) and [How to Favicon in 2021](https://css-tricks.com/how-to-favicon-in-2021/), which is recent enough.
+
+
+## Further Development (WDP3): Improvements/Bug-Fixes
+
+### Javascript Error in Day/Night Mode Switch Script
+
+![Screenshot 2022-12-30 at 20 21 22](https://user-images.githubusercontent.com/66922223/210105352-88be52e6-ef86-477e-a119-3be955de5075.png)
+
+
