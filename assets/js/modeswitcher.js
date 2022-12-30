@@ -1,6 +1,3 @@
----
----
-
 /* 
 Copied from https://github.com/derekkedziora/jekyll-demo/blob/master/scripts/mode-switcher.js
 https://github.com/derekkedziora/jekyll-demo
@@ -10,8 +7,8 @@ Creative Commons Attribution 4.0 International License
 let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
 let theme = sessionStorage.getItem('theme');
 
-const iconSun = "{{ site.baseurl }}/assets/img/sun.svg";
-const iconMoon = "{{ site.baseurl }}/assets/img/moon.svg";
+const iconSun = "/assets/img/sun.svg";
+const iconMoon = "/assets/img/moon.svg";
 
 
 function changeIconImgSrc(src) {
