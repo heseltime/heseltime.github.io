@@ -7,6 +7,9 @@ From the base project: "Jekyll Garden theme lets you publish your [Obsidian](htt
 -  [Feature List](https://jekyll-garden.github.io/post/features)
 -  [How to Setup](https://jekyll-garden.github.io/post/how-to)
 
-## Further Development: WDP3
+## Further Development (WDP3)
 
+### Cross-Page Nav Bar (CSS and Vanilla JavaScript)
+
+Content: draw together different directions of my studies.
 
