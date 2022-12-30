@@ -11,5 +11,5 @@ From the base project: "Jekyll Garden theme lets you publish your [Obsidian](htt
 
 ### Cross-Page Nav Bar (CSS and Vanilla JavaScript)
 
-Content: draw together different directions of my studies.
+Goal: In terms of content, draw together different directions of my studies. Technically, attempt an implementation to add on to the Jekyll Garden (JG) framework base.
 
