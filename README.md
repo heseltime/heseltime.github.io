@@ -13,3 +13,10 @@ From the base project: "Jekyll Garden theme lets you publish your [Obsidian](htt
 
 Goal: In terms of content, draw together different directions of my studies. Technically, attempt an implementation to add on to the Jekyll Garden (JG) framework base.
 
+Method: 
+
+### Favicons
+
+Goal: Cross-functional favicons.
+
+Method: Using WDP-source [Favicon generator](https://realfavicongenerator.net)
