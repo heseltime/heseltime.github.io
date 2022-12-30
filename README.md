@@ -25,8 +25,11 @@ Technologies: CSS, Javascript, SVG (background). The javascript is implemented t
 
 Goal: Cross-functional favicons.
 
-Method: Using WDP-source [Favicon generator](https://realfavicongenerator.net) and [How to Favicon in 2021](https://css-tricks.com/how-to-favicon-in-2021/), which is recent enough.
+Method: Using WDP-source [Favicon generator](https://realfavicongenerator.net) and [How to Favicon in 2021](https://css-tricks.com/how-to-favicon-in-2021/), which is recent enough. I basically followed this tool, putting the icons in my asset folder rather than root.
 
+I am also using a favicon version generated here to add some branding to the title in the top nav.
+
+![Screenshot 2022-12-30 at 21 30 50](https://user-images.githubusercontent.com/66922223/210109781-602f42be-f84e-49db-9528-921b02821824.png)
 
 ## Further Development (WDP3): Improvements/Bug-Fixes
 
@@ -34,8 +37,8 @@ Method: Using WDP-source [Favicon generator](https://realfavicongenerator.net) a
 
 ![Screenshot 2022-12-30 at 20 21 22](https://user-images.githubusercontent.com/66922223/210105352-88be52e6-ef86-477e-a119-3be955de5075.png)
 
-Dieses Problem brauchte einen Deep Dive in die DevTools, mit Nachexperimenten:
+This problem required a deep dive into the DevTools:
 
 ![Screenshot 2022-12-30 at 20 54 22](https://user-images.githubusercontent.com/66922223/210107450-2043cd50-352d-4b77-9c44-c3ccdba5e08d.png)
 
-Man sieht, die URL zu den Icons wird falsch encodiert/aufgerufen.
+The secondary problem was encoding of the URL (I removed the prefix), but the issue remained, on exactly the first call (on load). It appears the ressource cannot be found the first time the script loads.
