@@ -7,9 +7,9 @@ From the base project: "Jekyll Garden theme lets you publish your [Obsidian](htt
 -  [Feature List](https://jekyll-garden.github.io/post/features)
 -  [How to Setup](https://jekyll-garden.github.io/post/how-to)
 
-## Further Development (WDP3)
+## Further Development (WDP3): Additions
 
-### Cross-Page Nav Bar (CSS and Vanilla JavaScript)
+### Cross-Page Nav Bar (CSS, JavaScript, SVG)
 
 Goal: In terms of content, draw together different directions of my studies. Technically, attempt an implementation to add on to the Jekyll Garden (JG) framework base. In terms of design, I like this kind of fluid look [here](https://www.youtube.com/watch?v=argynmjupK8). The bar is placed on all pages too allow for easy switching between areas, the pages are static pages in the Jekyll garden project and kept current in Visual Studio Code (not Obsidian synching). The idea is to link to GitHub projects here containing university work and similar.
 
@@ -25,4 +25,20 @@ Technologies: CSS, Javascript, SVG (background). The javascript is implemented t
 
 Goal: Cross-functional favicons.
 
-Method: Using WDP-source [Favicon generator](https://realfavicongenerator.net) and [How to Favicon in 2021](https://css-tricks.com/how-to-favicon-in-2021/), which is recent enough.
+Method: Using WDP-source [Favicon generator](https://realfavicongenerator.net) and [How to Favicon in 2021](https://css-tricks.com/how-to-favicon-in-2021/), which is recent enough. I basically followed this tool, putting the icons in my asset folder rather than root.
+
+I am also using a favicon version generated here to add some branding to the title in the top nav.
+
+![Screenshot 2022-12-30 at 21 30 50](https://user-images.githubusercontent.com/66922223/210109781-602f42be-f84e-49db-9528-921b02821824.png)
+
+## Further Development (WDP3): Improvements/Bug-Fixes
+
+### Javascript Error in Day/Night Mode Switch Script
+
+![Screenshot 2022-12-30 at 20 21 22](https://user-images.githubusercontent.com/66922223/210105352-88be52e6-ef86-477e-a119-3be955de5075.png)
+
+This problem required a deep dive into the DevTools:
+
+![Screenshot 2022-12-30 at 20 54 22](https://user-images.githubusercontent.com/66922223/210107450-2043cd50-352d-4b77-9c44-c3ccdba5e08d.png)
+
+The secondary problem was encoding of the URL (I removed the prefix), but the issue remained, on exactly the first call (on load). It appears the ressource cannot be found the first time the script loads.
