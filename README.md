@@ -19,4 +19,4 @@ Method:
 
 Goal: Cross-functional favicons.
 
-Method: Using WDP-source [Favicon generator](https://realfavicongenerator.net)
+Method: Using WDP-source [Favicon generator](https://realfavicongenerator.net) and [How to Favicon in 2021](https://css-tricks.com/how-to-favicon-in-2021/), which is recent enough.
