@@ -13,7 +13,11 @@ From the base project: "Jekyll Garden theme lets you publish your [Obsidian](htt
 
 Goal: In terms of content, draw together different directions of my studies. Technically, attempt an implementation to add on to the Jekyll Garden (JG) framework base. In terms of design, I like this kind of fluid look [here](https://www.youtube.com/watch?v=argynmjupK8). The bar is placed on all pages too allow for easy switching between areas, the pages are static pages in the Jekyll garden project and kept current in Visual Studio Code (not Obsidian synching). The idea is to link to GitHub projects here containing university work and similar.
 
-Method: Static pages implementation for research notes as opposed to Obsidian notes for rX Feed. The pages are made available via markup links, the navbar links to these. I set up five pages or so this way.
+Method: Static pages implementation for research notes as opposed to Obsidian notes for rX Feed. The pages are made available via markup links, the navbar links to these. I set up five pages or so this way. Pages' content is edited in the project pages directory with markup files (.md).
+
+The html content is tied into the Content.html include, so that the bar appears below the content, but only for posts (from where its view behavior might still be manipulated). Assets are put into a parallel assets folder assets-liquid-nav (based on https://github.com/bedimcode/liquid-navigation-indicator) and linked to from _layout/Post.html
+
+Technologies: CSS, Javascript, SVG
 
 ### Favicons
 
