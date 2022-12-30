@@ -25,6 +25,9 @@ I think this lower navbar is useful for naviagating across content in the websit
 
 ![Screenshot 2022-12-30 at 22 27 57](https://user-images.githubusercontent.com/66922223/210112865-32ea64b2-51fe-4a6b-8517-5b7f3955f2a5.png)
 
+The homepage has a very toned down version that allows the jump into this navigation:
+
+![Screenshot 2022-12-30 at 23 15 12](https://user-images.githubusercontent.com/66922223/210115071-999d94d2-d121-4828-9995-22b658f477ca.png)
 
 Technologies: CSS, Javascript, SVG (background). The javascript is implemented to move the background SVG, which only really comes out when linking to divs on one page, which I do not currently do, however.
 
@@ -61,9 +64,8 @@ The secondary problem was encoding of the URL (I removed the prefix), but the is
 
 ### Metadata Update/Fix
 
-Embarassing: the base project info was still in here.
+Embarassing: the base project info was still in here. I updated it, including Open Graph data.
 
 ![Screenshot 2022-12-30 at 22 50 33](https://user-images.githubusercontent.com/66922223/210113953-b803e6cd-af8e-4b3e-991d-80e6b25f0453.png)
-
 
 
