@@ -11,7 +11,7 @@ From the base project: "Jekyll Garden theme lets you publish your [Obsidian](htt
 
 ### Cross-Page Nav Bar (CSS and Vanilla JavaScript)
 
-Goal: In terms of content, draw together different directions of my studies. Technically, attempt an implementation to add on to the Jekyll Garden (JG) framework base.
+Goal: In terms of content, draw together different directions of my studies. Technically, attempt an implementation to add on to the Jekyll Garden (JG) framework base. In terms of design, I like this kind of fluid look [here](https://www.youtube.com/watch?v=argynmjupK8). The bar is placed on all pages too allow for easy switching between areas, the pages are static pages in the Jekyll garden project and kept current in Visual Studio Code (not Obsidian synching). The idea is to link to GitHub projects here containing university work and similar.
 
 Method: 
 
