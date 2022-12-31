@@ -48,7 +48,7 @@ I am also using a favicon version generated here to add some branding to the tit
 
 ![BFC17E0247684DF0857556A305635A1C](https://user-images.githubusercontent.com/66922223/210134587-8a79ca24-8063-4b23-a9ee-3484fb7db6e7.png)
 
-**Fix: img-srcset tags, since the problem is high definition screen display. The improvement:
+**Fix: img-srcset tags, since the problem is high definition screen display. The improvement, on the same screen as before:
 
 ![30A2F2877F954CBDB2E00BE1F801E133](https://user-images.githubusercontent.com/66922223/210135219-20b75ff6-b8f4-4b44-9201-34e29639d711.png)
 
