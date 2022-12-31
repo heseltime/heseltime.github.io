@@ -44,7 +44,15 @@ I am also using a favicon version generated here to add some branding to the tit
 
 ![Screenshot 2022-12-30 at 21 30 50](https://user-images.githubusercontent.com/66922223/210109781-602f42be-f84e-49db-9528-921b02821824.png)
 
-Very important: Emptying Chache between changes for testing (favicon info appears to be cashed a lot, certainly on Safari).
+**Update: I only noticed the following unsharp look of this icon later, and on a different screen.
+
+![BFC17E0247684DF0857556A305635A1C](https://user-images.githubusercontent.com/66922223/210134587-8a79ca24-8063-4b23-a9ee-3484fb7db6e7.png)
+
+**Fix: img-srcset tags, since the problem is high definition screen display. The improvement:
+
+![30A2F2877F954CBDB2E00BE1F801E133](https://user-images.githubusercontent.com/66922223/210135219-20b75ff6-b8f4-4b44-9201-34e29639d711.png)
+
+Very important, concerning favicons again: Emptying Chache between changes for testing (favicon info appears to be cashed a lot, certainly on Safari).
 
 ![Screenshot 2022-12-30 at 22 26 03](https://user-images.githubusercontent.com/66922223/210112809-3fe8584f-196f-486e-9f32-df30f699dc51.png)
 
