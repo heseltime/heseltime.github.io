@@ -52,6 +52,8 @@ I am also using a favicon version generated here to add some branding to the tit
 
 ![30A2F2877F954CBDB2E00BE1F801E133](https://user-images.githubusercontent.com/66922223/210135219-20b75ff6-b8f4-4b44-9201-34e29639d711.png)
 
+**([Source](https://www.mediaevent.de/html/srcset.html) for this approach.)
+
 Very important, concerning favicons again: Emptying Chache between changes for testing (favicon info appears to be cashed a lot, certainly on Safari).
 
 ![Screenshot 2022-12-30 at 22 26 03](https://user-images.githubusercontent.com/66922223/210112809-3fe8584f-196f-486e-9f32-df30f699dc51.png)
@@ -68,12 +70,14 @@ This problem required a deep dive into the DevTools:
 
 ![Screenshot 2022-12-30 at 20 54 22](https://user-images.githubusercontent.com/66922223/210107450-2043cd50-352d-4b77-9c44-c3ccdba5e08d.png)
 
-The secondary problem was encoding of the URL (I removed the prefix), but the issue remained, on exactly the first call (on load). It appears the ressource cannot be found the first time the script loads.
+The secondary problem was encoding of the URL (I removed the prefix), but the issue remained, on exactly the first call (on load). It appears the ressource cannot be found the first time the script loads. So the solution was:
+
+![Screenshot 2022-12-31 at 13 58 53](https://user-images.githubusercontent.com/66922223/210137662-f9c75d3e-fd2a-4457-876b-9741338ac07c.png)
+
+I.e. waiting to make the changes. The module (modeswitcher.js) switches CSS themes on a button click and stores the dark/light preference in browser storage.
 
 ### Metadata Update/Fix
 
 Embarassing: the base project info was still in here. I updated it, including Open Graph data.
 
 ![Screenshot 2022-12-30 at 22 50 33](https://user-images.githubusercontent.com/66922223/210113953-b803e6cd-af8e-4b3e-991d-80e6b25f0453.png)
-
-
