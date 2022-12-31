@@ -74,7 +74,7 @@ The secondary problem was encoding of the URL (I removed the prefix), but the is
 
 ![Screenshot 2022-12-31 at 13 58 53](https://user-images.githubusercontent.com/66922223/210137662-f9c75d3e-fd2a-4457-876b-9741338ac07c.png)
 
-I.e. waiting to make the changes. The module (modeswitcher.js) switches CSS themes on a button click and stores the dark/light preference in browser storage.
+I.e. waiting to make the changes. The module (modeswitcher.js) switches CSS themes on a button click and stores the dark/light preference in browser storage. There are now no errors on load.
 
 ### Metadata Update/Fix
 
