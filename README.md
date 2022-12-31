@@ -44,7 +44,17 @@ I am also using a favicon version generated here to add some branding to the tit
 
 ![Screenshot 2022-12-30 at 21 30 50](https://user-images.githubusercontent.com/66922223/210109781-602f42be-f84e-49db-9528-921b02821824.png)
 
-Very important: Emptying Chache between changes for testing (favicon info appears to be cashed a lot, certainly on Safari).
+**Update: I only noticed the following unsharp look of this icon later, and on a different screen.
+
+![BFC17E0247684DF0857556A305635A1C](https://user-images.githubusercontent.com/66922223/210134587-8a79ca24-8063-4b23-a9ee-3484fb7db6e7.png)
+
+**Fix: img-srcset tags, since the problem is high definition screen display. The improvement, on the same screen as before:
+
+![30A2F2877F954CBDB2E00BE1F801E133](https://user-images.githubusercontent.com/66922223/210135219-20b75ff6-b8f4-4b44-9201-34e29639d711.png)
+
+**([Source](https://www.mediaevent.de/html/srcset.html) for this approach.)
+
+Very important, concerning favicons again: Emptying Chache between changes for testing (favicon info appears to be cashed a lot, certainly on Safari).
 
 ![Screenshot 2022-12-30 at 22 26 03](https://user-images.githubusercontent.com/66922223/210112809-3fe8584f-196f-486e-9f32-df30f699dc51.png)
 
@@ -60,12 +70,14 @@ This problem required a deep dive into the DevTools:
 
 ![Screenshot 2022-12-30 at 20 54 22](https://user-images.githubusercontent.com/66922223/210107450-2043cd50-352d-4b77-9c44-c3ccdba5e08d.png)
 
-The secondary problem was encoding of the URL (I removed the prefix), but the issue remained, on exactly the first call (on load). It appears the ressource cannot be found the first time the script loads.
+The secondary problem was encoding of the URL (I removed the prefix), but the issue remained, on exactly the first call (on load). It appears the ressource cannot be found the first time the script loads. So the solution was:
+
+![Screenshot 2022-12-31 at 13 58 53](https://user-images.githubusercontent.com/66922223/210137662-f9c75d3e-fd2a-4457-876b-9741338ac07c.png)
+
+I.e. waiting to make the changes. The module (modeswitcher.js) switches CSS themes on a button click and stores the dark/light preference in browser storage. There are now no errors on load.
 
 ### Metadata Update/Fix
 
 Embarassing: the base project info was still in here. I updated it, including Open Graph data.
 
 ![Screenshot 2022-12-30 at 22 50 33](https://user-images.githubusercontent.com/66922223/210113953-b803e6cd-af8e-4b3e-991d-80e6b25f0453.png)
-
-
