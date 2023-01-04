@@ -5,7 +5,7 @@ title: Studies in Model Checking (MC), Computer Vision (CV) and Natural Language
 feedformat: none
 ---
 
-# Here I show what I work on in the context of AI-Masters-level courses at Johannes Kepler Univerity. #
+## Here I show what I work on in the context of AI-Masters-level courses at Johannes Kepler Univerity. ##
 
 **_I am especially interested in Blood Banking applications._**
 

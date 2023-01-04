@@ -9,6 +9,8 @@ feedformat: none
 
 **_Or, in terms of content, I really love those almost linguistic inroads to thinking about and working with programs, where another topic, model checking, and compiler-compiling actually feel like two sides to the same coin. The question is how to make the program alwas do the right things, in both these areas: The compiler-compiler being the generating tool, the model implementation of a given program being the test case._**
 
+## The idea is to also collect future interesting engineering questions and approaches as they relate to this domain in this space. ##
+
 <nav class="nav">
     <ul class="nav__list">
         <a href="/" class="nav__link">
