@@ -81,3 +81,16 @@ I.e. waiting to make the changes. The module (modeswitcher.js) switches CSS them
 Embarassing: the base project info was still in here. I updated it, including Open Graph data.
 
 ![Screenshot 2022-12-30 at 22 50 33](https://user-images.githubusercontent.com/66922223/210113953-b803e6cd-af8e-4b3e-991d-80e6b25f0453.png)
+
+### IP Anonymization for Google Analytics
+
+This line is added:
+
+![Screenshot 2023-01-23 at 18 41 58](https://user-images.githubusercontent.com/66922223/214111116-8ae29da9-080a-406f-9bd1-aa03e825c733.png)
+
+The idea is summarized here:  https://support.google.com/analytics/answer/2763052?hl=en 
+
+This edit is included per suggestion, but I did notice Google says EU user IPs are not saved as per standard: https://support.google.com/analytics/answer/12017362?hl=en&ref_topic=2919631
+
+But let's be safe.
+
