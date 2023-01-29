@@ -191,3 +191,5 @@ An asset using a Google font was modified to not need an extra font at all, sinc
 The remaining assets or all loaded from inside the project, with the exception of Google Analytics functionality, as seen here:
 
 ![Screenshot 2023-01-29 at 19 36 54](https://user-images.githubusercontent.com/66922223/215348379-65a9ad29-a9cc-46d4-ab2f-cdc4821721f2.png)
+
+(This view is before removing the fonts include.)
