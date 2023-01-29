@@ -29,19 +29,19 @@
 *
 {%- endcomment -%}
 
-<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+<nav class="navbar is-transparent">
     <div class="navbar-brand">
       <a class="navbar-item" style="padding-left: 0;"; href="{{ site.baseurl }}/index.html">
-          <h6> <img width="16px" height="16px" srcset="{{ site.baseurl }}/assets/img/favicon.png 1x, {{ site.baseurl }}/assets/img/favicon-32x32.png 2x" alt="heseltime"> {{site.heading}}</h6></a>
+          <img width="16px" height="16px" srcset="{{ site.baseurl }}/assets/img/favicon.png 1x, {{ site.baseurl }}/assets/img/favicon-32x32.png 2x" alt="heseltime"> <span class="headline"> {{site.heading}} </span> </a>
           <script src="{{ site.baseurl }}/assets/js/modeswitcher.js"></script>
           <script src="{{ site.baseurl }}/assets/js/Hamburger.js"></script>
-      <div class="navbar-item navbar-dark-mode__mobile is-hidden-tablet" onclick="modeSwitcher()">
+      <div class="navbar-item navbar-dark-mode__mobile is-hidden-tablet">
         <div class="buttons">
-          <a class="button is-text">
+          <button class="button is-text" onclick="modeSwitcher()">
             <span class="icon is-small">
-              <img src="{{ '/assets/img/sun.svg' | relative_url }}" id="theme-toggle-img--mobile">
+              <img src="{{ '/assets/img/sun.svg' | relative_url }}" id="theme-toggle-img--mobile" alt="Switch to Dark/Light Mode">
             </span>
-          </a>
+          </button>
         </div>
       </div>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
