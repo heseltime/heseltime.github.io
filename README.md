@@ -14,10 +14,10 @@ What follows are notes on my process improving the website in some small regards
 This project is both developing the content and the forked project so as to make the most out of a maintainable portfolio site, to keep for a long time. Certain (very likely unnescesarily complex) base project implementations had to be kept -- e.g. class combinations like "column is-8-widescreen  is-8-desktop is-8-tablet is-12-mobile" -- because of the base project architecture involved/interdependencies. I focused on technical improvements/bug fixes (including policy-related, i.e. IP anonymization for Google analytics), HTML semantics, and performance, after adding custom elements not present in the base project:
 
 #### Overview :placard:
-- [Additions](https://github.com/heseltime/heseltime.github.io/edit/main/README.md#further-development-additions-to-the-base-project)
-- [Improvements/Bug Fixes](https://github.com/heseltime/heseltime.github.io/edit/main/README.md#improvementsbug-fixes-1)
-- [HTML Semantics](https://github.com/heseltime/heseltime.github.io/edit/main/README.md#improvementsbug-fixes-1)
-- [Performance](https://github.com/heseltime/heseltime.github.io/edit/main/README.md#performance-improvements)
+- [Additions](https://github.com/heseltime/heseltime.github.io#placard-further-development-additions-to-the-base-project)
+- [Improvements/Bug Fixes](https://github.com/heseltime/heseltime.github.io#placard-improvementsbug-fixes)
+- [HTML Semantics](https://github.com/heseltime/heseltime.github.io#placard-html-semantics)
+- [Performance](https://github.com/heseltime/heseltime.github.io#placard-performance-improvements)
 
 
 
