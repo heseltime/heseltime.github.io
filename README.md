@@ -9,7 +9,19 @@ From the base project: "Jekyll Garden theme lets you publish your [Obsidian](htt
 
 What follows are notes on my process improving the website in some small regards, that make for added look and feel, so end up being important on that side of things.
 
-## Further Development (WDP3): Additions
+## Preliminary Note and Overview of the (:star: WDP3 2022/23!) project
+
+This project is both developing the content and the forked project so as to make the most out of a maintainable portfolio site, to keep for a long time. Certain (very likely unnescesarily complex) base project implementations had to be kept -- e.g. class combinations like "column is-8-widescreen  is-8-desktop is-8-tablet is-12-mobile" -- because of the base project architecture involved/interdependencies. I focused on technical improvements/bug fixes (including policy-related, i.e. IP anonymization for Google analytics), HTML semantics, and performance, after adding custom elements not present in the base project:
+
+#### Overview :placard:
+- [Additions](https://github.com/heseltime/heseltime.github.io#placard-further-development-additions-to-the-base-project)
+- [Improvements/Bug Fixes](https://github.com/heseltime/heseltime.github.io#placard-improvementsbug-fixes)
+- [HTML Semantics](https://github.com/heseltime/heseltime.github.io#placard-html-semantics)
+- [Performance](https://github.com/heseltime/heseltime.github.io#placard-performance-improvements)
+
+
+
+## :placard: Further Development: Additions to the base project
 
 ### Cross-Page Nav Bar (CSS, JavaScript, SVG)
 
@@ -60,7 +72,7 @@ Very important, concerning favicons again: Emptying Chache between changes for t
 
 I like the more strongly branded result.
 
-## Further Development (WDP3): Improvements/Bug-Fixes
+## :placard: Improvements/Bug-Fixes
 
 ### Javascript Error in Day/Night Mode Switch Script
 
@@ -94,3 +106,46 @@ This edit is included per suggestion, but I did notice Google says EU user IPs a
 
 But let's be safe.
 
+## :placard: HTML Semantics
+
+Mainly the nav-include can be improved upon semantically (carefully matching in the base project's CSS reference).
+
+### Nav Headers
+
+H6 was chosen for the website navbar's headline (where the favicon-matching icon was also placed):
+
+![Screenshot 2023-01-29 at 15 36 20](https://user-images.githubusercontent.com/66922223/215333652-85ae2ab2-df90-429b-b6e0-1cff718a1239.png)
+
+Referencing the overall webpage where the nav is included to, h6 does not make sense, since it is too far down. Since it is a navbar headline rather than content specific to a page, I opted to make it a span (needed to style the text to match the h6 tag) in an anchor tag.
+
+![Screenshot 2023-01-29 at 15 46 11](https://user-images.githubusercontent.com/66922223/215334276-e2a990ac-36cb-4654-b2fd-52aee9697be5.png)
+
+Visually nothing changes.
+
+### Nav Navigation Role Removed 
+
+(Not necessary, implicit in nav element.)
+
+![Screenshot 2023-01-29 at 15 49 02](https://user-images.githubusercontent.com/66922223/215334471-73f2abca-e544-437b-a90a-2bed39f69d70.png)
+
+### Nav Buttons instead of anchor tags
+
+Per: https://www.htmhell.dev/8-anchor-tag-used-as-button/
+
+The highlighted anchor as button ...
+
+![Screenshot 2023-01-29 at 16 01 50](https://user-images.githubusercontent.com/66922223/215335845-ac3bfaad-65c3-4b9c-ae8f-1e7c953f3f29.png)
+
+... is easily replaceable as a semantically correct button:
+
+![Screenshot 2023-01-29 at 16 03 40](https://user-images.githubusercontent.com/66922223/215335833-a6bb9840-c36d-4408-8254-a66907d12e77.png)
+
+I subsequently also moved the onclick event onto the button itself and added an alt text to the image contained in the button:
+
+![Screenshot 2023-01-29 at 16 10 06](https://user-images.githubusercontent.com/66922223/215335763-c542dfb0-81ca-4573-859a-859b87821bbf.png)
+
+This one small example really shows how accessability and semantics need to be thought out on the micro-level.
+
+## :placard: Performance Improvements
+
+### ...
