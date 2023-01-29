@@ -168,11 +168,8 @@ This error was corrected:
 
 ![Screenshot 2023-01-29 at 17 34 57](https://user-images.githubusercontent.com/66922223/215340572-883ed827-6be6-4428-85dd-184d1435060d.png)
 
-There were some versions of this problem, which could be corrected as well:
+There were some versions of this problem, which could be corrected as well.
 
-![Screenshot 2023-01-29 at 17 39 20](https://user-images.githubusercontent.com/66922223/215340846-9b304474-1221-4e1a-a2c0-edc60d7f0caf.png)
-
-(Stray end tags.)
 
 ## :placard: Performance Improvements
 
