@@ -170,6 +170,15 @@ This error was corrected:
 
 There were some versions of this problem, which could be corrected as well: the problem was missing intermediary li-tags.
 
+In general even, I noticed I had misunderstood anchor tags and alt attributes. (Anchor tags do not get alt attributes: https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element) So the following error had to be fixed in almost all the links I added to the website:
+
+![Screenshot 2023-01-29 at 18 17 18](https://user-images.githubusercontent.com/66922223/215343995-771fdfda-543d-4c89-a930-96c64112c608.png)
+
+![Screenshot 2023-01-29 at 18 18 41](https://user-images.githubusercontent.com/66922223/215344064-f2652a4a-1d63-4dba-bbe8-2e752a3a9fbd.png)
+
+
+:hand_over_mouth:
+
 
 ## :placard: Performance Improvements
 
