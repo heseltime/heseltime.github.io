@@ -9,7 +9,17 @@ From the base project: "Jekyll Garden theme lets you publish your [Obsidian](htt
 
 What follows are notes on my process improving the website in some small regards, that make for added look and feel, so end up being important on that side of things.
 
-## Further Development (WDP3): Additions
+## Preliminary Note (January 28th 2023)
+
+This project is both developing the content and the forked project so as to make the most out of a maintainable portfolio site, to keep for a long time. Certain (very likely unnescesarily complex) base project implementations had to be kept -- e.g. class combinations like "column is-8-widescreen  is-8-desktop is-8-tablet is-12-mobile" -- because of the base project architecture involved/interdependencies. I focused on technical improvements/bug fixes (including policy-related, i.e. IP anonymization for Google analytics), HTML semantics, and performance, after adding custom elements not present in the base project:
+
+#### Overview
+##### Additions
+##### Improvements/Bug Fixes
+##### HTML Semantics
+##### Performance
+
+## Further Development (WDP3): Additions to the base project
 
 ### Cross-Page Nav Bar (CSS, JavaScript, SVG)
 
@@ -94,3 +104,12 @@ This edit is included per suggestion, but I did notice Google says EU user IPs a
 
 But let's be safe.
 
+## HTML Semantics
+
+### Nav Headers
+
+
+
+## Performance Improvements
+
+### ...
