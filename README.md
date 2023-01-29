@@ -112,7 +112,7 @@ Mainly the nav-include can be improved upon semantically (carefully matching in 
 
 ### Nav Headers
 
-H6 was chosen for the website navbar's headline (where the favicon-matching icon was also placed):
+H6 was previously chosen for the website navbar's headline (where the favicon-matching icon was also placed):
 
 ![Screenshot 2023-01-29 at 15 36 20](https://user-images.githubusercontent.com/66922223/215333652-85ae2ab2-df90-429b-b6e0-1cff718a1239.png)
 
