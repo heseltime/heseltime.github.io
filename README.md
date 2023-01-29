@@ -134,12 +134,11 @@ Per: https://www.htmhell.dev/8-anchor-tag-used-as-button/
 
 The highlighted anchor as button ...
 
-![Screenshot 2023-01-29 at 16 01 50](https://user-images.githubusercontent.com/66922223/215335592-e1df1d3f-cf12-4c71-88af-9b3fedf8a4bb.png)
-
+![Screenshot 2023-01-29 at 16 01 50](https://user-images.githubusercontent.com/66922223/215335845-ac3bfaad-65c3-4b9c-ae8f-1e7c953f3f29.png)
 
 ... is easily replaceable as a semantically correct button:
 
-![Screenshot 2023-01-29 at 16 01 50](https://user-images.githubusercontent.com/66922223/215335669-6c7f5327-8542-4ec3-acf9-347b0dd9acd4.png)
+![Screenshot 2023-01-29 at 16 03 40](https://user-images.githubusercontent.com/66922223/215335833-a6bb9840-c36d-4408-8254-a66907d12e77.png)
 
 I subsequently also moved the onclick event onto the button itself and added an alt text to the image contained in the button:
 
