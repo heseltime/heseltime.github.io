@@ -134,7 +134,8 @@ Per: https://www.htmhell.dev/8-anchor-tag-used-as-button/
 
 The highlighted anchor as button ...
 
-![Screenshot 2023-01-29 at 16 01 50](https://user-images.githubusercontent.com/66922223/215335160-12f4e223-6dc2-489a-b8df-5c03d92a5d49.png)
+![Screenshot 2023-01-29 at 16 01 50](https://user-images.githubusercontent.com/66922223/215335592-e1df1d3f-cf12-4c71-88af-9b3fedf8a4bb.png)
+
 
 ... is easily replaceable as a semantically correct button:
 
