@@ -9,19 +9,19 @@ From the base project: "Jekyll Garden theme lets you publish your [Obsidian](htt
 
 What follows are notes on my process improving the website in some small regards, that make for added look and feel, so end up being important on that side of things.
 
-## Preliminary Note (re: WDP3 2022/23!)
+## Preliminary Note and Overview of the (:star: WDP3 2022/23!) project
 
 This project is both developing the content and the forked project so as to make the most out of a maintainable portfolio site, to keep for a long time. Certain (very likely unnescesarily complex) base project implementations had to be kept -- e.g. class combinations like "column is-8-widescreen  is-8-desktop is-8-tablet is-12-mobile" -- because of the base project architecture involved/interdependencies. I focused on technical improvements/bug fixes (including policy-related, i.e. IP anonymization for Google analytics), HTML semantics, and performance, after adding custom elements not present in the base project:
 
-#### Overview
-##### [Additions](https://github.com/heseltime/heseltime.github.io/edit/main/README.md#further-development-additions-to-the-base-project)
-##### [Improvements/Bug Fixes](https://github.com/heseltime/heseltime.github.io/edit/main/README.md#improvementsbug-fixes-1)
-##### [HTML Semantics](https://github.com/heseltime/heseltime.github.io/edit/main/README.md#improvementsbug-fixes-1)
-##### [Performance](https://github.com/heseltime/heseltime.github.io/edit/main/README.md#performance-improvements)
+#### Overview :placard:
+- [Additions](https://github.com/heseltime/heseltime.github.io/edit/main/README.md#further-development-additions-to-the-base-project)
+- [Improvements/Bug Fixes](https://github.com/heseltime/heseltime.github.io/edit/main/README.md#improvementsbug-fixes-1)
+- [HTML Semantics](https://github.com/heseltime/heseltime.github.io/edit/main/README.md#improvementsbug-fixes-1)
+- [Performance](https://github.com/heseltime/heseltime.github.io/edit/main/README.md#performance-improvements)
 
 
 
-## Further Development: Additions to the base project
+## :placard: Further Development: Additions to the base project
 
 ### Cross-Page Nav Bar (CSS, JavaScript, SVG)
 
@@ -72,7 +72,7 @@ Very important, concerning favicons again: Emptying Chache between changes for t
 
 I like the more strongly branded result.
 
-## Improvements/Bug-Fixes
+## :placard: Improvements/Bug-Fixes
 
 ### Javascript Error in Day/Night Mode Switch Script
 
@@ -106,12 +106,12 @@ This edit is included per suggestion, but I did notice Google says EU user IPs a
 
 But let's be safe.
 
-## HTML Semantics
+## :placard: HTML Semantics
 
 ### Nav Headers
 
 
 
-## Performance Improvements
+## :placard: Performance Improvements
 
 ### ...
