@@ -112,7 +112,7 @@ Mainly the nav-include can be improved upon semantically (carefully matching in 
 
 ### Nav Headers
 
-H6 was chosen for the website navbar's headline (where the favicon-matching icon was also placed):
+H6 was previously chosen for the website navbar's headline (where the favicon-matching icon was also placed):
 
 ![Screenshot 2023-01-29 at 15 36 20](https://user-images.githubusercontent.com/66922223/215333652-85ae2ab2-df90-429b-b6e0-1cff718a1239.png)
 
@@ -145,6 +145,31 @@ I subsequently also moved the onclick event onto the button itself and added an 
 ![Screenshot 2023-01-29 at 16 10 06](https://user-images.githubusercontent.com/66922223/215335763-c542dfb0-81ca-4573-859a-859b87821bbf.png)
 
 This one small example really shows how accessability and semantics need to be thought out on the micro-level.
+
+### Validator Feedback
+
+A few loose ends:
+
+![Screenshot 2023-01-29 at 17 26 33](https://user-images.githubusercontent.com/66922223/215340202-e3055b45-0268-4b2e-af53-4d29d3a2d8a6.png)
+
+This was a learning for me, and I tried to implement integer values as far as I could to fix. 
+
+![Screenshot 2023-01-29 at 17 30 13](https://user-images.githubusercontent.com/66922223/215340301-39d643d1-a530-4aa0-9ef6-43acaa6e9a9d.png)
+
+(I also did not know I need a source tag with a srcset already present.)
+
+Errors like this absolutely need to be fixed:
+
+![Screenshot 2023-01-29 at 17 33 55](https://user-images.githubusercontent.com/66922223/215340515-81843fc4-70c5-4caf-8de0-c69ea0d07b1e.png)
+
+(And were fixed.)
+
+This error was corrected:
+
+![Screenshot 2023-01-29 at 17 34 57](https://user-images.githubusercontent.com/66922223/215340572-883ed827-6be6-4428-85dd-184d1435060d.png)
+
+There were some versions of this problem, which could be corrected as well: the problem was missing intermediary li-tags.
+
 
 ## :placard: Performance Improvements
 
