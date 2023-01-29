@@ -168,7 +168,7 @@ This error was corrected:
 
 ![Screenshot 2023-01-29 at 17 34 57](https://user-images.githubusercontent.com/66922223/215340572-883ed827-6be6-4428-85dd-184d1435060d.png)
 
-There were some versions of this problem, which could be corrected as well.
+There were some versions of this problem, which could be corrected as well: the problem was missing intermediary li-tags.
 
 
 ## :placard: Performance Improvements
