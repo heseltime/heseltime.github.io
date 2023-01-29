@@ -1598,3 +1598,7 @@ a[href^="http"] {
     font-weight: 600;
     padding: 0 5px;
 }
+
+.red {
+    color: red;
+}
