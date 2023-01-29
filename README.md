@@ -108,8 +108,39 @@ But let's be safe.
 
 ## :placard: HTML Semantics
 
+Mainly the nav-include can be improved upon semantically (carefully matching in the base project's CSS reference).
+
 ### Nav Headers
 
+H6 was chosen for the website navbar's headline (where the favicon-matching icon was also placed):
+
+![Screenshot 2023-01-29 at 15 36 20](https://user-images.githubusercontent.com/66922223/215333652-85ae2ab2-df90-429b-b6e0-1cff718a1239.png)
+
+Referencing the overall webpage where the nav is included to, h6 does not make sense, since it is too far down. Since it is a navbar headline rather than content specific to a page, I opted to make it a span (needed to style the text to match the h6 tag) in an anchor tag.
+
+![Screenshot 2023-01-29 at 15 46 11](https://user-images.githubusercontent.com/66922223/215334276-e2a990ac-36cb-4654-b2fd-52aee9697be5.png)
+
+Visually nothing changes.
+
+### Nav Navigation Role Removed 
+
+(Not necessary, implicit in nav element.)
+
+![Screenshot 2023-01-29 at 15 49 02](https://user-images.githubusercontent.com/66922223/215334471-73f2abca-e544-437b-a90a-2bed39f69d70.png)
+
+Nav Buttons instead of anchor tags
+
+Per: https://www.htmhell.dev/8-anchor-tag-used-as-button/
+
+The highlighted anchor as button ...
+
+![Screenshot 2023-01-29 at 16 01 50](https://user-images.githubusercontent.com/66922223/215335160-12f4e223-6dc2-489a-b8df-5c03d92a5d49.png)
+
+... is easily replaceable as a semantically correct button:
+
+![Screenshot 2023-01-29 at 16 03 40](https://user-images.githubusercontent.com/66922223/215335253-9fc5b637-7d88-4766-b701-8c2dff30ec43.png)
+
+I subsequently also moved the onclick event onto the button itself. 
 
 
 ## :placard: Performance Improvements
