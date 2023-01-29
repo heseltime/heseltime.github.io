@@ -182,4 +182,9 @@ In general even, I noticed I had misunderstood anchor tags and alt attributes. (
 
 ## :placard: Performance Improvements
 
-### ...
+### Google Font Removal
+
+An asset using a Google font was modified to not need an extra font at all, since the difference in appearance is also marginal.
+
+![Screenshot 2023-01-29 at 18 32 01](https://user-images.githubusercontent.com/66922223/215344796-6fd6d19a-d2dc-4182-b99f-4442296502c6.png)
+
