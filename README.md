@@ -139,10 +139,13 @@ The highlighted anchor as button ...
 
 ... is easily replaceable as a semantically correct button:
 
-![Screenshot 2023-01-29 at 16 03 40](https://user-images.githubusercontent.com/66922223/215335253-9fc5b637-7d88-4766-b701-8c2dff30ec43.png)
+![Screenshot 2023-01-29 at 16 01 50](https://user-images.githubusercontent.com/66922223/215335669-6c7f5327-8542-4ec3-acf9-347b0dd9acd4.png)
 
-I subsequently also moved the onclick event onto the button itself. 
+I subsequently also moved the onclick event onto the button itself and added an alt text to the image contained in the button:
 
+![Screenshot 2023-01-29 at 16 10 06](https://user-images.githubusercontent.com/66922223/215335763-c542dfb0-81ca-4573-859a-859b87821bbf.png)
+
+This one small example really shows how accessability and semantics need to be thought out on the micro-level.
 
 ## :placard: Performance Improvements
 
