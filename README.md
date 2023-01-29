@@ -128,7 +128,7 @@ Visually nothing changes.
 
 ![Screenshot 2023-01-29 at 15 49 02](https://user-images.githubusercontent.com/66922223/215334471-73f2abca-e544-437b-a90a-2bed39f69d70.png)
 
-Nav Buttons instead of anchor tags
+## Nav Buttons instead of anchor tags
 
 Per: https://www.htmhell.dev/8-anchor-tag-used-as-button/
 
