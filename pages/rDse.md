@@ -1,15 +1,72 @@
 ---
 layout: Post
 permalink: /rDse
-title: Software Engineering Diploma Thesis Work in Compiler-Compilers and Applications in Computer Science for Medicine
+title: Software Engineering Studies Documentation and Research-Projects/Interests
 feedformat: none
 ---
 
-## Here I show what I work on at FH Upper Austria (Hagenberg) with input from Johannes Kepler University classes. ##
+@University of Applied Sciences Upper Austria - Hagenberg Campus, Hagenberg: I am following a rigorous Software Engineering curriculum for a second Bachelor's degree in the subject, focussing mostly on the technical underpinnings and languages, but also related topics and soft skills, from project management through to modeling languages and approaches.
 
-**_Or, in terms of content, I really love those almost linguistic inroads to thinking about and working with programs, where another topic, model checking, and compiler-compiling actually feel like two sides to the same coin. The question is how to make the program alwas do the right things, in both these areas: The compiler-compiler being the generating tool, the model implementation of a given program being the test case._**
+What follows is documentation of my research project and thesis in Document Processing along with <b>a list of courses matching my transcript from school</b> below.
 
-## The idea is to also collect future interesting engineering questions and approaches as they relate to this domain in this space. ##
+# Thesis with RISC (Research Institute Symbolic Computation) also @Hagenberg: Mathematical Document Processing #
+
+Not just Document Processing (often: Document Preparation), but <b>Mathematical</b> Document Processing: the goal a translation tool from Mathematica to LaTeX in the context of RISC's Theorema Tool. Work in Progress, more [Details directly from RISC](https://risc.jku.at/th/theorema-project-document-processing/). 
+
+RISC is an international institute with a research focus on various branches of symbolic computation.
+
+# Software Engineering Full Curriculum (Bachelor's of Science '24) #
+
+Fifth semester starts in fall 2023, sixth semester is all about practice and in the field; limited course work in that time - spring 2024.
+
+## fourth semester
+
+- Lecture + Exercise: Graph Theory
+- Lecture + Exercise: Modern Platforms Programming (C++ and Java/C#)
+- Lecture + Exercise: Database-Systems and Semi-Strutured Data
+- Lecture + Exercise: Computer Graphics and Image Processing
+- Lecture + Exercise: Thesis Research Prep Course
+- Lecture + Exercise: Software Development Methodologies - Usability Engineering
+- Lecture + Exercise: Software Development Methodologies - Testing and Test-Automization
+- Lecture + Exercise: Business Process Management
+- Lecture + Exercise: Scripting Languages/PHP-Web-Project
+
+## third semester
+
+- Lecture + Exercise: Math 2 - Statistics
+- Lecture + Exercise: Classic Programming Languages (C and C++)
+- Lecture + Exercise: Advanced Computer Networking
+- Lecture + Exercise: Database-Systems
+- Lecture + Exercise: Software Development Methodologies - Modern Tools and Processes
+- Lecture + Exercise: Software Development Methodologies - UML-Modeling
+- Lecture + Exercise: Web Development/Web-Project
+
+## second semester
+
+- Lecture + Exercise: Math 1 - Linear Algebra
+- Lecture + Exercise: Advanced Algorithms and Datastructures (more PASCAL*)
+- Lecture + Exercise: Object Oriented Programming (more PASCAL, all of first year was PASCAL*)
+- Lecture + Exercise: Advanced Operating Systems
+- Lecture + Exercise: Computer Networking
+- Lecture + Exercise: Databases and Data Modeling
+- Lecture + Exercise: Advanced Software Project Engineering
+- Lecture + Exercise: Advanced Mircoeconomics/Accounting
+
+
+## first semester
+
+- Lecture + Exercise: Logic and Math 0
+- Lecture + Exercise: Elementary Algorithms and Datastructures (PASCAL as language of instruction!*)
+- Lecture + Exercise: Basic Concepts of Programming (more PASCAL*)
+- Lecture + Exercise: Fundamentals of Computer Science and Computer Architecture
+- Lecture + Exercise: Software Project Engineering
+- Lecture + Exercise: Microeconomics
+- Exercise/Regular Workshop: Holding Technical Presentations
+- Exercise: Operating Systems and Linux Basics
+
+*PASCAL as language of instruction: the idea is to teach a language most people have not touched yet and develop the concepts in that language. The language's inventor, Niklaus Wirth, actually designed the langauge for teaching purposes. I think the approach makes sense. From PASCAL I studied C, then C++, Java, C#, JavaScript and Scripting Languges like PHP and Swift, very methodologically.
+
+[Translated from the German](https://www.fh-ooe.at/campus-hagenberg/studiengaenge/bachelor/software-engineering/alle-infos-zum-studium/studienplan-vollzeit/) and with my own notes.
 
 <nav class="nav">
     <ul class="nav__list">

@@ -1,13 +1,51 @@
 ---
 layout: Post
 permalink: /rDai
-title: Studies in Model Checking (MC), Computer Vision (CV) and Natural Language Processing (NLP)
+title: AI Studies Interests and Research-Projects
 feedformat: none
 ---
 
-## Here I show what I work on in the context of AI-Masters-level courses at Johannes Kepler Univerity. ##
+@Johannes Kepler University (JKU), Linz: Motivated mainly by the apparent connection between AI technologies and approaches like modeling and NLP/LLM (Natural Language Processing/Large Language Models) and my discipline, ECM.
 
-**_I am especially interested in Blood Banking applications._**
+What follows are a selection of topics (correlating with course work) and what I did and do and think about in those areas: these Masters level studies are on-going (target 2025), part-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI: The [Curriculum is listed in English](https://studienhandbuch.jku.at/curr/933)
+
+# NLP/LLM Application (2023 Practicum) #
+
+# Knowledge Representation and Reasoning (2023 Project) #
+
+Prolog (Programming in Logic) implements First Order Logic, allowing evaluation and checking. Resolution strategy is Back Tracking and Depth First, so logical programming is to a degree sequential as well, but not the way programming laguages usually work. In this way it is similar to SMT, see below.
+
+This is an example where the stopping criterion is needed for a recursive call, for instance:
+
+```
+lastElement([E],E). % (1)
+lastElement([K|R],E) :- lastElement(R,E). % (2)
+```
+
+In any case a program like the above is built up, involving facts (1, the %-sign makes a line comment) and rules (2), making for a knowledge base that can the be queried or used to proove certain statements, also encoded in prolog. The tool used was SWI Prolog. The above code snippet also shows the typical use of recursion to encode iteration.
+
+In a project team of three, I tackled a solver for the game [Ruzzle](https://www.maginteractive.com/games/ruzzle/) (a bit like scrabble) with possible uses as a challenger AI or general solving tool. 
+
+# Model Checking (2022 Project) #
+
+[The full project is on GitHub](https://github.com/heseltime/modelchecking_project), but the principles can be summed up in a paragraph: Satisfiability Modulo Theories (SMT) is a growing area of automated deduction with many important applications, especially system verification. The idea is to test satisfiability of a problem formula against a model. Here's an example: a C-program is the model, some bug encoded into an formula is to be checked. If we get a satisfiable result, that is bad, because that means the bug is possible against this particular C-program. So what you are usually after in a verification task is actually an unsat(isfiable) result. 
+
+Here's a logic encoding of one of De Morgan's laws: $$ {\displaystyle {\overline {a\land b}}\equiv {\overline {a}}\lor {\overline {b}}} $$
+
+```
+(declare-fun a () Bool)
+(declare-fun b () Bool)
+(assert (not (= (not (and a b)) (or (not a)(not b)))))
+(check-sat)
+```
+
+Result:
+
+```unsat```
+
+The unsat result means that the negated (!) proposition (De Morgan's law) is not satisfiable: it is true.
+
+The concrete application was a numerical pad implementing a locking system (think something like a safe), coded up with C, and the task was to check for bugs. The final approach chosen by me and a project team of another person was to encode eight separate SMT LIB (SMT-standard language) files to run with Z3, Microsoft's SMT solver. This allowed us to rule out certain buggy behaviors to help locate the actual possible bug in the C program.
 
 <nav class="nav">
     <ul class="nav__list">

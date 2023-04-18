@@ -30,7 +30,7 @@ baseurl: ""
 heading: heseltime
 content: some light documentation
 copyright:  
-  year: © 2022
+  #year: © 2022
   msg: Jack Heseltine
 
 # Set title and content for private & broken link tooltop
