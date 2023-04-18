@@ -11,6 +11,8 @@ What follows are a selection of topics (correlating with course work) and what I
 
 # NLP/LLM Application (2023 Practicum) #
 
+(I am seeking interning opportunities in this area for the summer of 2023.)
+
 # Knowledge Representation and Reasoning (2023 Project) #
 
 Prolog (Programming in Logic) implements First Order Logic, allowing evaluation and checking. Resolution strategy is Back Tracking and Depth First, so logical programming is to a degree sequential as well, but not the way programming laguages usually work. In this way it is similar to SMT, see below.
