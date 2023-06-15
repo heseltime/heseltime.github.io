@@ -7,7 +7,19 @@ feedformat: none
 
 On top of DevOps I do Software Engineering work from formal training in the subject, with multi-year experience in Enterprise Content Management (ECM) and tangential implementations like Single Page Applications (SPAs), sprinkled in there.
 
-# ECM: D.velop Documents/Process (2020-23)
+# Classic Scripting Small-Scale Project (Vanilla PHP): Public-Private Pattern, Simple Database Connectivity ('23)
+
+What it says on the tin! 
+
+The project is fictional photovoltaics application portal, completed as part of a formal [Software Engineering](/rDse) (course: Scripting Languages/PHP-Web-Project) degree. 
+
+<img src="https://user-images.githubusercontent.com/66922223/245513932-ae0379f5-cce3-43df-af7d-840b12b29282.png" width="100%">
+<img src="https://user-images.githubusercontent.com/66922223/246044965-36aa6fa2-2e83-4fe6-8cb2-cf22b7594a35.png" width="100%">
+<img src="https://user-images.githubusercontent.com/66922223/246044798-5ddc6087-85a9-46bc-90ea-9d71c7e5dad4.png" width="100%">
+
+It's the stuff the web is made of, these small portal/applet-type things. [Full readme](https://github.com/heseltime/php-myseql-pv-assistance)
+
+# ECM: D.velop Documents/Process ('20-23)
 
 D.velop is a German company marketing a mid-tier ECM system that is now very common in the DACH region. It is often named in the innovative categories in Gartner Magic Quadrant because it is a well thought out system that nevertheless makes due with some legacy code and languages especially in their Workflow component (Flow Designer). The latter is being revamped though, as D.velop Process, on top of a Camunda Workflow Engine. Camunda itself is an (Alfresco) Activiti Fork.
 
@@ -23,7 +35,7 @@ This work took place for the Red Cross and is mostly confidential as such. I can
 
 I owned all of the above initiatives in the capacity of a DevOps Engineer focussed on internal Softare Implementation.
 
-# SPA: co2work (2022)
+# SPA: co2work ('22)
 
 [co2work](http://co2work.at) is an Upper Austrian co-working place lander with C02-Footprint calculator for social media sharing. 
 
