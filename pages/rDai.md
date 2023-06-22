@@ -15,6 +15,16 @@ I am a participant in the 2023 Wolfram Summer School to focus some weeks in June
 
 Somehow intertwined with this, for me: the Nativist/Symbolic vs. Empiricist/Neural Networks debate, see [Does AI need more innate machinery?](https://www.youtube.com/watch?v=vdWPQ6iAkT4&themeRefresh=1)
 
+My main reason for WSS was a turn to further university level math and the realization that I want a standard tool to do some of the work. I have planned for the upcoming two semesters to complete all the math from the bachelor's level AI course (marked orange in the following dependency graph visualization of the course content) together with some options out of interest (green and blue, preparatory for a deep learning reinforcement approach), as I still aim to work through the Master's course on time too.
+
+<img src="../assets/img/Bachelors_Program_AI.drawio-marked.png" width="100%">
+
+The options I marked orange I have completed but definitely would have benefitted from doing the math first (to level 3). But in general the AI content and projects discussed here related to the AI Master's course, here that curriculum for completeness (without dependencies, but with ECTS: this one is official JKU documentation).
+
+<img src="../assets/img/Screenshot 2023-06-22 at 16.10.40.png" width="100%">
+
+The goal is to complete this course in 2024 (most likely Fall), in coordination with <a href="/rDse">training in Software Engineering</a>.
+
 # Knowledge Representation and Reasoning (2023 Project) #
 
 Prolog (Programming in Logic) implements First Order Logic, allowing evaluation and checking. Resolution strategy is Back Tracking and Depth First, so logical programming is to a degree sequential as well, but not the way programming laguages usually work. In this way it is similar to SMT, see below.
