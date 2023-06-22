@@ -19,11 +19,13 @@ My main reason for WSS was a turn to further university level math and the reali
 
 <img src="../assets/img/Bachelors_Program_AI.drawio-marked.png" width="100%">
 
-The options I marked orange I have completed but definitely would have benefitted from doing the math first (to level 3). But in general the AI content and projects discussed here related to the AI Master's course, here that curriculum for completeness (without dependencies, but with ECTS: this one is official JKU documentation).
+I have actually completed to uncolored options save the practical/seminar/bachelors thesis part. 
+
+The options I marked orange I also completed but they would definitely have benefitted from doing the math first (to level 3). But in general the AI content and projects discussed here related to the AI Master's course, here that curriculum for completeness (without dependencies, but with ECTS: this one is official JKU documentation).
 
 <img src="../assets/img/Screenshot 2023-06-22 at 16.10.40.png" width="100%">
 
-The goal is to complete this course in 2024 (most likely Fall), in coordination with <a href="/rDse">training in Software Engineering</a>.
+The goal is to complete this course in 2024 (most likely Fall), in coordination with <a href="/rDse">training in Software Engineering</a>. But to bring it back to Wolfram/Mathematica: The Masters-level courses Computer Algebra and Automated Reasoning require/substanitally benefit from Mathematica, so here I am covering my bases.
 
 # Knowledge Representation and Reasoning (2023 Project) #
 
