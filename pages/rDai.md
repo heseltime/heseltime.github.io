@@ -9,9 +9,11 @@ feedformat: none
 
 What follows are a selection of topics (correlating with course work) and what I did and do and think about in those areas: these Masters level studies are on-going (target 2025), part-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI: The [Curriculum is listed in English](https://studienhandbuch.jku.at/curr/933)
 
-# NLP/LLM Application (2023 Practicum) #
+# NLP/LLM: Symbolic Approaches (2023 Wolfram Summer School) #
 
-(I am seeking interning opportunities in this area for the summer of 2023.)
+I am a participant in the 2023 Wolfram Summer School to focus some weeks in June and July on Mathematica and what they are doing on the LLM front.
+
+Somehow intertwined with this, for me: the Nativist/Symbolic vs. Empiricist/Neural Networks debate, see [Does AI need more innate machinery?](https://www.youtube.com/watch?v=vdWPQ6iAkT4&themeRefresh=1)
 
 # Knowledge Representation and Reasoning (2023 Project) #
 
