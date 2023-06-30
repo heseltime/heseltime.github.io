@@ -19,13 +19,9 @@ My main reason for WSS was a turn to further university level math and the reali
 
 <img src="../assets/img/Bachelors_Program_AI.drawio-marked.png" width="100%">
 
-I have actually completed to uncolored options save the practical/seminar/bachelors thesis part. 
+I have actually completed most uncolored options save the practical/seminar/bachelors thesis part. <a href="../assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf">More on the concept for these studies in Linz/Hagenberg (Austria, Software Engineering and AI studies).</a>
 
-The options I marked orange I also completed but they would definitely have benefitted from doing the math first (to level 3). But in general the AI content and projects discussed here related to the AI Master's course, here that curriculum for completeness (without dependencies, but with ECTS: this one is official JKU documentation).
-
-<img src="../assets/img/Screenshot 2023-06-22 at 16.10.40.png" width="100%">
-
-The goal is to complete this course in 2024 (most likely Fall), in coordination with <a href="/rDse">training in Software Engineering</a>. But to bring it back to Wolfram/Mathematica: The Masters-level courses Computer Algebra and Automated Reasoning require/substanitally benefit from Mathematica, so here I am covering my bases.
+To bring it back to Wolfram/Mathematica: The Masters-level courses Computer Algebra and Automated Reasoning require/substanitally benefit from Mathematica, so here I am covering my bases. I am looking forward to the WSS 2023 project (more information to follow) and how my further studies will benefit from skills in Mathematica I hope to derive.
 
 # Knowledge Representation and Reasoning (2023 Project) #
 
