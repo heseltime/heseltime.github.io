@@ -19,7 +19,7 @@ My main reason for WSS was a turn to further university level math and the reali
 
 <img src="../assets/img/Bachelors_Program_AI.drawio-marked.png" width="100%">
 
-I have actually completed most uncolored options save the practical/seminar/bachelors thesis part. <a href="../assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf">More on the concept for these studies in Linz/Hagenberg (Austria, Software Engineering and AI studies).</a>
+I have actually completed most uncolored options save the practical/seminar/bachelors thesis part. Orange means completed but might be worth re-doing with more math (yellow), green are Computational X topics that might be interesting at some point. <a href="../assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf">More on the concept for these studies in Linz/Hagenberg (Austria, Software Engineering and AI studies) incl. a view towards a Symbolic Computation PhD (long-term view).</a>
 
 To bring it back to Wolfram/Mathematica: The Masters-level courses Computer Algebra and Automated Reasoning require/substanitally benefit from Mathematica, so here I am covering my bases. I am looking forward to the WSS 2023 project (more information to follow) and how my further studies will benefit from skills in Mathematica I hope to derive.
 
