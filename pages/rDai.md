@@ -15,11 +15,13 @@ I am a participant in the 2023 Wolfram Summer School to focus some weeks in June
 
 Somehow intertwined with this, for me: the Nativist/Symbolic vs. Empiricist/Neural Networks debate, see [Does AI need more innate machinery?](https://www.youtube.com/watch?v=vdWPQ6iAkT4&themeRefresh=1)
 
-My main reason for WSS was a turn to further university level math and the realization that I want a standard tool to do some of the work. I have planned for the upcoming two semesters to complete all the math from the bachelor's level AI course (marked orange in the following dependency graph visualization of the course content) together with some options out of interest (green and blue, preparatory for a deep learning reinforcement approach), as I still aim to work through the Master's course on time too.
+My main reason for WSS was a turn to further university level math and the realization that I want a standard tool to do some of the work. I have planned for the upcoming two semesters to complete all the math from the bachelor's level AI course (marked yellow in the following dependency graph visualization of the BA-level course content) together with some options out of interest (green, Computational X, and blue, preparatory for a deep learning reinforcement approach), as I still aim to work through the Master's course on time too.
 
 <img src="../assets/img/Bachelors_Program_AI.drawio-marked.png" width="100%">
 
-I have actually completed most uncolored options save the practical/seminar/bachelors thesis part. Orange means completed but might be worth re-doing with more math (yellow), green are Computational X topics that might be interesting at some point. <a href="../assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf">More on the concept for these studies in Linz/Hagenberg (Austria, Software Engineering and AI studies) incl. a view towards a Symbolic Computation PhD (long-term view).</a>
+I have actually completed most uncolored options save the practical/seminar/bachelors thesis part. Orange means completed but might be worth re-doing with more math (yellow). 
+
+<a href="../assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf">More on the concept for these studies in Linz/Hagenberg (Austria, Software Engineering and AI studies) incl. a view towards a Symbolic Computation PhD (long-term view).</a>
 
 To bring it back to Wolfram/Mathematica: The Masters-level courses Computer Algebra and Automated Reasoning require/substanitally benefit from Mathematica, so here I am covering my bases. I am looking forward to the WSS 2023 project (more information to follow) and how my further studies will benefit from skills in Mathematica I hope to derive.
 
