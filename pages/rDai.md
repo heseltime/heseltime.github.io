@@ -23,7 +23,9 @@ I have actually completed most uncolored options save the practical/seminar/bach
 
 <a href="../assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf">More on the concept for these studies in Linz/Hagenberg (Austria, Software Engineering and AI studies) incl. a view towards a Symbolic Computation PhD (long-term view).</a>
 
-To bring it back to Wolfram/Mathematica: The Masters-level courses Computer Algebra and Automated Reasoning require/substanitally benefit from Mathematica, so here I am covering my bases. I am looking forward to the WSS 2023 project (more information to follow) and how my further studies will benefit from skills in Mathematica I hope to derive.
+To connect Wolfram/Mathematica with my Masters-level courses: Computer Algebra and Automated Reasoning (see concept document, these are the core RISC courses in my study track) require/substanitally benefit from Mathematica, so here I am covering my bases. 
+
+I am looking forward to the WSS 2023 project (<b>more information to follow</b>) and how my further studies will benefit from skills in Mathematica I hope to derive!
 
 # Knowledge Representation and Reasoning (2023 Project) #
 
