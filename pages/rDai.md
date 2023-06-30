@@ -9,11 +9,11 @@ feedformat: none
 
 What follows are a selection of topics (correlating with course work) and what I did and do and think about in those areas: these Masters level studies are on-going (target 2025), part-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI: The [Curriculum is listed in English](https://studienhandbuch.jku.at/curr/933)
 
-# NLP/LLM: Symbolic Approaches (2023 Wolfram Summer School) #
+# Metamathematics, Mathematica, Lean (2023 Wolfram Summer School) #
 
-I am a participant in the 2023 Wolfram Summer School to focus some weeks in June and July on Mathematica and what they are doing on the LLM front.
+I am a participant in the 2023 Wolfram Summer School (WSS) to focus some weeks in June and July.
 
-Somehow intertwined with this, for me: the Nativist/Symbolic vs. Empiricist/Neural Networks debate, see [Does AI need more innate machinery?](https://www.youtube.com/watch?v=vdWPQ6iAkT4&themeRefresh=1)
+Somehow intertwined with this, for me subjectively: the Nativist/Symbolic vs. Empiricist/Neural Networks debate, see [Does AI need more innate machinery?](https://www.youtube.com/watch?v=vdWPQ6iAkT4&themeRefresh=1) (Mathematica is a symbolic computation tool.)
 
 My main reason for WSS was a turn to further university level math and the realization that I want a standard tool to do some of the work. I have planned for the upcoming two semesters to complete all the math from the bachelor's level AI course (marked yellow in the following dependency graph visualization of the BA-level course content) together with some options out of interest (green, Computational X, and blue, preparatory for a deep learning reinforcement approach), as I still aim to work through the Master's course on time too.
 
