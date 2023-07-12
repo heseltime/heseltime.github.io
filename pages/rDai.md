@@ -48,7 +48,7 @@ In a project team of three, I tackled a solver for the game [Ruzzle](https://www
 
 Here's a logic encoding of one of De Morgan's laws: 
 
-$ {\displaystyle {\overline {a\land b}}\equiv {\overline {a}}\lor {\overline {b}}} $
+$$ {\displaystyle {\overline {a\land b}}\equiv {\overline {a}}\lor {\overline {b}}} $$
 
 ```
 (declare-fun a () Bool)
