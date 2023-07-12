@@ -46,7 +46,9 @@ In a project team of three, I tackled a solver for the game [Ruzzle](https://www
 
 [The full project is on GitHub](https://github.com/heseltime/modelchecking_project), but the principles can be summed up in a paragraph: Satisfiability Modulo Theories (SMT) is a growing area of automated deduction with many important applications, especially system verification. The idea is to test satisfiability of a problem formula against a model. Here's an example: a C-program is the model, some bug encoded into an formula is to be checked. If we get a satisfiable result, that is bad, because that means the bug is possible against this particular C-program. So what you are usually after in a verification task is actually an unsat(isfiable) result. 
 
-Here's a logic encoding of one of De Morgan's laws: $$ {\displaystyle {\overline {a\land b}}\equiv {\overline {a}}\lor {\overline {b}}} $$
+Here's a logic encoding of one of De Morgan's laws: 
+
+$ {\displaystyle {\overline {a\land b}}\equiv {\overline {a}}\lor {\overline {b}}} $
 
 ```
 (declare-fun a () Bool)
