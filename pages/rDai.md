@@ -19,7 +19,9 @@ My main reason for WSS was a turn to further university level math and the reali
 
 To connect Wolfram/Mathematica with my Masters-level courses: Computer Algebra and Automated Reasoning (see concept document, these are the core RISC courses in my study track) require/substanitally benefit from Mathematica. Here, for now, is the poster output of the summer school.
 
-<img src="../assets/pdf/PosterWSS2023JackHeseltine.pdf" alt="Empircial Metamathematics: Extending the Lean-Mathematica Bridge" />
+<img src="../assets/img/WSS23-poster-title.png" alt="Empircial Metamathematics: Extending the Lean-Mathematica Bridge" />
+
+<img src="../assets/img/WSS23-poster-body.png" alt="Empircial Metamathematics: Extending the Lean-Mathematica Bridge" />
 
 The final output of the school was a <a href="https://community.wolfram.com/groups/-/m/t/2957419">community post</a> and presentation, forthcoming as a publication in the 2023 Wolfram Summer School Proceedings.
 
