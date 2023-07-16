@@ -11,21 +11,17 @@ What follows are a selection of topics (correlating with course work) and what I
 
 # Metamathematics, Mathematica, Lean (2023 Wolfram Summer School) #
 
-I am a participant in the 2023 Wolfram Summer School (WSS) to focus some weeks in June and July.
+I am a participant in the 2023 Wolfram Summer School (WSS) three weeks in June and July 2023.
 
 Somehow intertwined with this, for me subjectively: the Nativist/Symbolic vs. Empiricist/Neural Networks debate, see [Does AI need more innate machinery?](https://www.youtube.com/watch?v=vdWPQ6iAkT4&themeRefresh=1) (Mathematica is a symbolic computation tool.)
 
-My main reason for WSS was a turn to further university level math and the realization that I want a standard tool to do some of the work. I have planned for the upcoming two semesters to complete all the math from the bachelor's level AI course (marked yellow in the following dependency graph visualization of the BA-level course content) together with some options out of interest (green, Computational X, and blue, preparatory for a deep learning reinforcement approach), as I still aim to work through the Master's course on time too.
+My main reason for WSS was a turn to further university level math and the realization that I want a standard tool to do some of the work. <a href="../assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf">More on the concept for these studies in Linz/Hagenberg (Austria, Software Engineering and AI studies) incl. a view towards a Symbolic Computation PhD (long-term view).</a>
 
-<img src="../assets/img/Bachelors_Program_AI.drawio-marked.png" width="100%">
+To connect Wolfram/Mathematica with my Masters-level courses: Computer Algebra and Automated Reasoning (see concept document, these are the core RISC courses in my study track) require/substanitally benefit from Mathematica. Here, for now, is the poster output of the summer school.
 
-I have actually completed most uncolored options save the practical/seminar/bachelors thesis part. Orange means completed but might be worth re-doing with more math (yellow). 
+<img src="../assets/pdf/PosterWSS2023JackHeseltine.pdf" alt="Empircial Metamathematics: Extending the Lean-Mathematica Bridge" />
 
-<a href="../assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf">More on the concept for these studies in Linz/Hagenberg (Austria, Software Engineering and AI studies) incl. a view towards a Symbolic Computation PhD (long-term view).</a>
-
-To connect Wolfram/Mathematica with my Masters-level courses: Computer Algebra and Automated Reasoning (see concept document, these are the core RISC courses in my study track) require/substanitally benefit from Mathematica.
-
-I am looking forward to the WSS 2023 project (<b>more information to follow</b>) and how my further studies will benefit from skills in Mathematica I hope to derive!
+The final output of the school was a <a href="https://community.wolfram.com/groups/-/m/t/2957419">community post</a> and presentation, forthcoming as a publication in the 2023 Wolfram Summer School Proceedings.
 
 # Knowledge Representation and Reasoning (2023 Project) #
 
