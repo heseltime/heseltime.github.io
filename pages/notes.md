@@ -5,7 +5,7 @@ feedformat: card
 title: rX Feed
 ---
 
-Feed page for on-going research project's notes: read into what's on my mind! Originally inteded as a non-profit digital transformation long-term research project with the Red Cross, this becomes one on foundation and problems of transformation in general, where I have since taken the position that my work has to come from outside these organizations, on a very technical basis. (More on this below.)
+Feed page for on-going research project's notes: read into what's on my mind! Originally intended as a non-profit digital transformation long-term research project with the Red Cross, this becomes one on foundation and problems of transformation in general, where I have since taken the position that my work has to come from outside these organizations, on a very technical basis. (More on this below.)
 
 <nav class="nav">
     <ul class="nav__list">
