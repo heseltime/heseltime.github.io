@@ -9,7 +9,7 @@ Thank you for taking care of Shabu for a short while! She is great, here are som
 
 # Cats #
 
-She is fine with cats, in fact lives with three of them at home. One thing though: you should keep the cat or cats out of sight when Shabu get's her food, ideally keeping them seperate in another room. She tends to snap at them because she feels anxious about them grabbing her food. Other than this easily managed form of food guarding I have never observed any animal (or human) directed agression in Shabu, and it is not aimed at people by the way, so never feel scared to touch her bowl yourself. But be careful about the cats.
+She is fine with cats, in fact lives with three of them at home. One thing though: you should keep the cat or cats out of sight when Shabu gets her food, ideally keeping them seperate in another room. She tends to snap at them because she feels anxious about them grabbing her food. Other than this easily managed form of food guarding I have never observed any animal (or human) directed agression in Shabu, and it is not aimed at people by the way, so never feel scared to touch her bowl yourself. But be careful about the cats.
 
 And to be fair, the cats at home do sometimes eat her food when she is not looking.
 
