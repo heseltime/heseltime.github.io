@@ -5,7 +5,9 @@ feedformat: card
 title: rX Feed
 ---
 
-Feed page for on-going research project's notes: read into what's on my mind! Originally intended as a non-profit digital transformation long-term research project with the Red Cross, this becomes one on foundation and problems of transformation in general, where I have since taken the position that my work has to come from outside these organizations, on a very technical basis. (More on this below.)
+Feed page for on-going research project's notes: read into what's on my mind! Originally intended as a non-profit digital transformation long-term research project with the Red Cross, this becomes one on foundation and problems of transformation in general, where <a href="https://www.bmbwf.gv.at/en/Topics/Higher-education---universities/Institute-of-Digital-Sciences-Austria-(IDSA)-%E2%80%93-A-new%2C-innovative-University-of-Technology-for-Digitalisation-and-Digital-Transformation-in-Austria.html">IDSA</a> (I am in a Foundling Lab with this new Technical University for Upper Austria) is proving the grist for my mill.
+
+<img src="../assets/img/machine.jpg" alt="IDSA and Ars Electronica Founding Lab Header">
 
 <nav class="nav">
     <ul class="nav__list">
