@@ -5,7 +5,7 @@ title: Portfolio
 feedformat: none
 ---
 
-On top of DevOps I do Software Engineering work from formal training in the subject, with multi-year experience in Enterprise Content Management (ECM) and tangential implementations like Single Page Applications (SPAs), sprinkled in there.
+On top of DevOps I do Software Engineering work from formal training in the subject, with multi-year experience in Enterprise Content Management (ECM) and tangential implementations like Single Page Applications (SPAs) sprinkled in there: my model for implementation is workflow-oriented, modern ECM (think Alfresco and Activiti/Camunda) coupled with high-level analytics (think Wolfram Language, i.e. really high level).
 
 # Classic Scripting Small-Scale Project (Vanilla PHP): Public-Private Pattern, Simple Database Connectivity ('23)
 
