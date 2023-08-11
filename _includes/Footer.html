@@ -30,7 +30,7 @@
 
 {%- if site.copyright.msg != nil and site.copyright.msg != empty and site.copyright.msg != null -%}
 <div id="copyright"> 
-    <img src="/assets/img/s.png" width="200" alt="Profile Picture of Shabu, Jack's Dog" style="display: block; margin: 30px auto;" />
+    <a href="/shabu"><img src="/assets/img/s.png" width="200" alt="Shabu, Jack's Dog" style="display: block; margin: 30px auto;" /></a>
     <p id="copyright-notice"> <span id="year"></span> • {{site.copyright.msg}} </p>
     <script>
         document.getElementById("year").innerHTML = new Date().getFullYear();

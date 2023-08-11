@@ -7,25 +7,23 @@ feedformat: none
 
 @Johannes Kepler University (JKU), Linz: Motivated mainly by the apparent connection between AI technologies and approaches like modeling and NLP/LLM (Natural Language Processing/Large Language Models) and my discipline, ECM.
 
-What follows are a selection of topics (correlating with course work) and what I did and do and think about in those areas: these Masters level studies are on-going (target 2025), part-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI: The [Curriculum is listed in English](https://studienhandbuch.jku.at/curr/933)
+What follows are a selection of topics (correlating with course work) and what I did and do and think about in those areas: these Masters level studies are on-going (target 2025), part-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI: The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for where I am headed with my studies, as one of the options.
 
-# NLP/LLM: Symbolic Approaches (2023 Wolfram Summer School) #
+# Metamathematics, Mathematica, Lean (2023 Wolfram Summer School) #
 
-I am a participant in the 2023 Wolfram Summer School to focus some weeks in June and July on Mathematica and what they are doing on the LLM front.
+I am a participant in the 2023 Wolfram Summer School (WSS) three weeks in June and July 2023.
 
-Somehow intertwined with this, for me: the Nativist/Symbolic vs. Empiricist/Neural Networks debate, see [Does AI need more innate machinery?](https://www.youtube.com/watch?v=vdWPQ6iAkT4&themeRefresh=1)
+Somehow intertwined with this, for me subjectively: the Nativist/Symbolic vs. Empiricist/Neural Networks debate, see [Does AI need more innate machinery?](https://www.youtube.com/watch?v=vdWPQ6iAkT4&themeRefresh=1) (Mathematica is a symbolic computation tool.)
 
-My main reason for WSS was a turn to further university level math and the realization that I want a standard tool to do some of the work. I have planned for the upcoming two semesters to complete all the math from the bachelor's level AI course (marked orange in the following dependency graph visualization of the course content) together with some options out of interest (green and blue, preparatory for a deep learning reinforcement approach), as I still aim to work through the Master's course on time too.
+My main reason for WSS was a turn to further university level math and the realization that I want a standard tool to do some of the work. <a href="../assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf">More on a concept for these potential studies in Linz/Hagenberg (Austria, Software Engineering and AI studies) incl. a view towards a Symbolic Computation PhD (again, writing it out as a *potential* long-term view).</a>
 
-<img src="../assets/img/Bachelors_Program_AI.drawio-marked.png" width="100%">
+To connect Wolfram/Mathematica with my Masters-level courses: Computer Algebra and Automated Reasoning (see concept document, these are the core RISC courses in my study track) require/substanitally benefit from Mathematica. Here, for now, is the poster output of the summer school.
 
-I have actually completed to uncolored options save the practical/seminar/bachelors thesis part. 
+<img src="../assets/img/WSS23-poster-title.png" alt="Empircial Metamathematics: Extending the Lean-Mathematica Bridge" />
 
-The options I marked orange I also completed but they would definitely have benefitted from doing the math first (to level 3). But in general the AI content and projects discussed here related to the AI Master's course, here that curriculum for completeness (without dependencies, but with ECTS: this one is official JKU documentation).
+<img src="../assets/img/WSS23-poster-body.png" alt="Empircial Metamathematics: Extending the Lean-Mathematica Bridge" />
 
-<img src="../assets/img/Screenshot 2023-06-22 at 16.10.40.png" width="100%">
-
-The goal is to complete this course in 2024 (most likely Fall), in coordination with <a href="/rDse">training in Software Engineering</a>. But to bring it back to Wolfram/Mathematica: The Masters-level courses Computer Algebra and Automated Reasoning require/substanitally benefit from Mathematica, so here I am covering my bases.
+The final output of the school was a <a href="https://community.wolfram.com/groups/-/m/t/2957419">community post</a> and presentation, forthcoming as a publication in the 2023 Wolfram Summer School Proceedings.
 
 # Knowledge Representation and Reasoning (2023 Project) #
 
@@ -46,7 +44,9 @@ In a project team of three, I tackled a solver for the game [Ruzzle](https://www
 
 [The full project is on GitHub](https://github.com/heseltime/modelchecking_project), but the principles can be summed up in a paragraph: Satisfiability Modulo Theories (SMT) is a growing area of automated deduction with many important applications, especially system verification. The idea is to test satisfiability of a problem formula against a model. Here's an example: a C-program is the model, some bug encoded into an formula is to be checked. If we get a satisfiable result, that is bad, because that means the bug is possible against this particular C-program. So what you are usually after in a verification task is actually an unsat(isfiable) result. 
 
-Here's a logic encoding of one of De Morgan's laws: $$ {\displaystyle {\overline {a\land b}}\equiv {\overline {a}}\lor {\overline {b}}} $$
+Here's a logic encoding of one of De Morgan's laws: 
+
+$$ {\displaystyle {\overline {a\land b}}\equiv {\overline {a}}\lor {\overline {b}}} $$
 
 ```
 (declare-fun a () Bool)
