@@ -1,4 +1,3 @@
-
 ---
 title: rX Goes Black?
 feed: show
