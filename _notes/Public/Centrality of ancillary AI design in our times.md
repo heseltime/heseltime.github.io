@@ -1,0 +1,1 @@
+Core notion of critical analysis when it comes especially to data centers: the ecological crisis is real, with exponential growth of the sector and cultural relevance, the data centers that run our AI should be in focus.
