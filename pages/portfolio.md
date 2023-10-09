@@ -7,7 +7,30 @@ feedformat: none
 
 On top of DevOps I do Software Engineering work from formal training in the subject, with multi-year experience in Enterprise Content Management (ECM) and tangential implementations like Single Page Applications (SPAs) sprinkled in there: my model for implementation is workflow-oriented, modern ECM (think Alfresco and Activiti/Camunda) coupled with high-level analytics (think Wolfram Language, i.e. really high level).
 
-# Classic Scripting Small-Scale Project (Vanilla PHP): Public-Private Pattern, Simple Database Connectivity ('23)
+# Der Standard Mock-up ('23, #ArsElectronica)
+
+See also <a href="/notes">rX Feed</a> and <a href="https://www.derstandard.at/promotion/velcom?DcIYkpda/idsa-eine-universitaet-beginnt#!/" target="_BLANK">the final piece published by Der Standard</a>, a high-end Austrian newspaper (my pretty face is in the header, if you can find me!) -  I delivered the below mockup for a scrollytelling, dynamic version with conveyor belts (the Ars Electronica Festival 2023 took place in an abandoned post (packages) processing plant) but Der Standard went with a simpler static design and layout (their loss!). 
+
+Nevertheless I was involved in the writing and content as well, see <a href="/notes">rX Feed</a> again, for that part: I find the art-society-technology approach Ars Electronica takes to be a fruitful way to think new tech, to say the least.
+
+## Screengrabs
+
+<img src="../assets/img/derstandard/Screenshot 2023-10-09 104641.png" width="100%">
+<img src="../assets/img/derstandard/Screenshot 2023-10-09 104814.png" width="100%">
+<img src="../assets/img/derstandard/Screenshot 2023-10-09 104659.png" width="100%">
+<img src="../assets/img/derstandard/Screenshot 2023-10-09 104709.png" width="100%">
+<img src="../assets/img/derstandard/Screenshot 2023-10-09 104720.png" width="100%">
+<img src="../assets/img/derstandard/Screenshot 2023-10-09 104726.png" width="100%">
+<img src="../assets/img/derstandard/Screenshot 2023-10-09 104747.png" width="100%">
+<img src="../assets/img/derstandard/Screenshot 2023-10-09 104756.png" width="100%">
+
+## Features
+
+* Vue.js project
+* scrollytelling with Scrollama
+
+
+# Classic Scripting Small-Scale Project (Vanilla PHP): Public-Private Pattern, Simple Database Connectivity ('23, #SoftwareEngineering)
 
 What it says on the tin! 
 
@@ -19,7 +42,7 @@ The project is fictional photovoltaics application portal, completed as part of 
 
 It's the stuff the web is made of, these small portal/applet-type things. [Full readme](https://github.com/heseltime/php-myseql-pv-assistance)
 
-# ECM: D.velop Documents/Process ('20-23)
+# ECM: D.velop Documents/Process ('20-23, #SoftwareEngineering)
 
 D.velop is a German company marketing a mid-tier ECM system that is now very common in the DACH region. It is often named in the innovative categories in Gartner Magic Quadrant because it is a well thought out system that nevertheless makes due with some legacy code and languages especially in their Workflow component (Flow Designer). The latter is being revamped though, as D.velop Process, on top of a Camunda Workflow Engine. Camunda itself is an (Alfresco) Activiti Fork.
 
@@ -35,9 +58,11 @@ This work took place for the Red Cross and is mostly confidential as such. I can
 
 I owned all of the above initiatives in the capacity of a DevOps Engineer focussed on internal Softare Implementation.
 
-# SPA: co2work ('22)
+# SPA: co2work ('22, #SoftwareEngineering)
 
 [co2work](http://co2work.at) is an Upper Austrian co-working place lander with C02-Footprint calculator for social media sharing. 
+
+## Screengrabs
 
 <img src="../assets/img/Screenshot 2022-09-10 at 20.46.02.png" width="100%">
 <img src="../assets/img/Screenshot 2022-09-10 at 20.46.46.png" width="100%">
