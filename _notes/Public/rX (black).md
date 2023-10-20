@@ -1,3 +1,9 @@
+---
+title: rX Goes Black?
+feed: show
+date: 30-06-2023
+---
+
 rX-pivot in the sense that it looks like the red has to be taken out of it! I wanted to do this as a Red Cross project but it turns out my superiors saw it as an investment in me as their employee, not their company and code base, which is how I see this. This was apparent in the project's cancellation at Blood Bank Linz when I announced my departure as their employee (the project was to happen in studies alone) -- in their view and decision, no employee, no project.
 
 I can see their logic: this project will be spun up and out in some other context, I am sure, in any case my studies requires a project, so that will happen.

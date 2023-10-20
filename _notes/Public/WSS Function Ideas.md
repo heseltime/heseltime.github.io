@@ -1,3 +1,9 @@
+---
+title: WSS Note
+feed: show
+date: 15-07-2023
+---
+
 getLeanAssociation[]
 getProofObject[]
 
