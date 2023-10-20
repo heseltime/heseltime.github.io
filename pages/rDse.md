@@ -19,6 +19,16 @@ RISC is an international institute with a research focus on various branches of 
 
 Fifth semester starts in fall 2023, sixth semester is all about practice and in the field; limited course work in that time - spring 2024.
 
+## fifth semester
+
+- Lecture + Exercise: Component-Oriented Software Engineering (C# and .NET)
+- Lecture + Exercise: Web-Architectures and Frameworks (Angular focus)
+- Lecture + Exercise: Virtualization Tooling (Docker focus)
+- Lecture + Exercise: Mobile Computing/Advanced Python
+- Lecture: IT Law
+- Study Project in C# with Industry Partner in Hagenberg ([ventopay](https://www.linkedin.com/company/ventopay-gmbh))
+- Thesis (see above)
+
 ## fourth semester
 
 - Lecture + Exercise: Graph Theory
