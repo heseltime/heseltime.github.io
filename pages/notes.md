@@ -7,7 +7,7 @@ title: rX Feed
 
 Feed for on-going research at the nexus <b>Tech x Art x Society</b>, as envisioned yearly at the Ars Electronica Festival in Linz, AT and particularly, the <b>2023 Festival encorporating <a href="https://ars.electronica.art/university/en/" target="_BLANK">the IDSA Founding Lab</a></b>, a collaborative prototype intended to identify and develop new approaches and formats that best promote the analysis and co-creation of the digital transformation on a society and global scale. I am excited about this iniative in (Upper) Austria and honored to paricipate at a critical stage in the project, allowing it to also become a template for my own and future thinking, in a loose format below.
 
-# Masters-level Research Notes (rx Feed) on Accessible Documents Follows Below
+# Masters-level Research Notes (rx Feed) on Accessible Documents Follows Below!
 
 IDSA/Ars 2023 offer the framework for my thinking and as I look to potential applications.
 
