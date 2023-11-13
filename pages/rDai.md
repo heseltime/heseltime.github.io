@@ -25,7 +25,7 @@ Very related to the EU Context: The [European Accessibility Act (EAA) is an EU D
 
 ## Thesis
 
-<i>TBD fully, most likely a comparison with Finetuning appraches.</i>
+<i>TBD fully, most likely a comparison with Finetuning appraches incl. use of open models like [Llama](https://ai.meta.com/llama/).</i>
 
 ### Further Notes
 
