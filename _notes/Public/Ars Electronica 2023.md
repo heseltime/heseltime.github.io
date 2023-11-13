@@ -3,10 +3,6 @@ title: Ars Electronica 2023
 feed: show
 date: 13-11-2023
 ---
-![[Pasted image 20231113181727.png]]
-
-_The [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine) that is digital transformation, courtesy of Ars Electronica._
-
 As part of my work on the Festival I wrote about my and the IDSA collective's ideas on the new university and the current trends in technology, for a high-end Austrian national publication (Der Standard), a regional publication (Oberösterreichische Nachrichten, OÖN) and the Ars Electronica Blog, see the following links!
 
 ### Related Publications (2023 Austrian National Media)
