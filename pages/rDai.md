@@ -7,27 +7,33 @@ feedformat: none
 
 @Johannes Kepler University (JKU), Linz: Motivated mainly by the apparent connection between AI technologies and approaches like modeling and NLP/LLM (Natural Language Processing/Large Language Models) and my discipline, ECM.
 
-What follows are a selection of topics (correlating with course work) and what I did and do and think about in those areas: these Masters level studies are on-going (target 2025), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and topic dear to my heart are taking center-stage for now:
+What follows are a selection of topics (correlating with course work) and what I did and do and think about in those areas: these Masters level studies are on-going (target 2025), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and a topic dear to my heart are taking center-stage for now.
 
 # Thesis (Seminar/Practical Work): Few-Shot/In-Context Applications of LLMs to Document Accessibility vs. Finetuning
 
-For a rounded Masters Thesis, on <b>an ECM-AI topic</b> as it turns out, a comparative exploration of Finetuning especially opposite [In-Context Learning approaches](https://medium.com/@myschang/cot-in-large-language-models-in-context-learning-14d73ff57b90#:~:text=In%20Context%20Learning%20of%20CoT,examples%20to%20guide%20its%20reasoning.) is the goal, starting with a seminar on a current paper and a company-affiliated (some more news to follow) practical work, all on the topic of making PDF-documents accessible. Very related: The [European Accessibility Act (EAA) is an EU Directive that sets binding accessibility goals to be achieved by all the member states](https://fep-fee.eu/IMG/pdf/20210629_european_accessibility_act_report_on_the_state_of_the_art_of_publishing_standards.pdf?1892/9929f3564221902d4ca19b53c0d4d9aa2118bb62), to be implemented by 2025.
+For a rounded Masters Thesis, on <b>an ECM-AI topic</b> naturally, a comparative exploration of Finetuning especially opposite [In-Context Learning approaches](https://medium.com/@myschang/cot-in-large-language-models-in-context-learning-14d73ff57b90#:~:text=In%20Context%20Learning%20of%20CoT,examples%20to%20guide%20its%20reasoning.) is the goal, starting with a seminar on a current paper and a company-affiliated (some more news to follow) practical work, all on the topic of making PDF-documents accessible. 
+
+Very related to the EU Context: The [European Accessibility Act (EAA) is an EU Directive that sets binding accessibility goals to be achieved by all the member states](https://fep-fee.eu/IMG/pdf/20210629_european_accessibility_act_report_on_the_state_of_the_art_of_publishing_standards.pdf?1892/9929f3564221902d4ca19b53c0d4d9aa2118bb62), to be implemented by 2025.
 
 ## Seminar: Language Models are Few-Shot Learners
 
-More notes and a presentation coming soon!
+<i>More notes and a presentation coming soon!</i>
 
 ## Practical Work
 
-TBD, e.g. a standard software component to check and transform pdfs to accessible formats in a fully automated fashion.
+<i>TBD, e.g. a standard software component to check and transform PDFs to accessible formats in a fully automated fashion.</i>
 
 ## Thesis
 
-TBD fully, most likely a comparison with Finetuning appraches.
+<i>TBD fully, most likely a comparison with Finetuning appraches.</i>
 
 ### Further Notes
 
 This could be a real world application too, clearly, since the basic functionality can be distributed by API with customization and standard software modules, as might be done for practical thesis work, on top: This idea also provides a clear delineation between data-oriented service (transformation to barrier free documents) and a module that would be implemented for a company in practical work, with loss of rights to such a module.
+
+# Planning (2023 Project)
+
+<i>More SMT, some Limboole! Details to follow shortly.</i>
 
 # Metamathematics, Mathematica, Lean (2023 Wolfram Summer School) #
 
@@ -37,7 +43,7 @@ Somehow intertwined with this, for me subjectively: the Nativist/Symbolic vs. Em
 
 My main reason for WSS was a turn to further university level math and the realization that I want a standard tool to do some of the work. <a href="../assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf">More on a concept for these potential studies in Linz/Hagenberg (Austria, Software Engineering and AI studies) incl. a view towards a Symbolic Computation PhD (again, writing it out as a *potential* long-term view).</a>
 
-To connect Wolfram/Mathematica with my Masters-level courses: Computer Algebra and Automated Reasoning (see concept document, these are the core RISC courses in my study track) require/substanitally benefit from Mathematica. Here, for now, is the poster output of the summer school.
+To connect Wolfram/Mathematica with my Masters-level courses: Computer Algebra and Automated Reasoning (see concept document, these are the core RISC courses in my study track) require/substantially benefit from Mathematica. Here, for now, is the poster output of the summer school.
 
 <img src="../assets/img/WSS23-poster-title.png" alt="Empircial Metamathematics: Extending the Lean-Mathematica Bridge" />
 
