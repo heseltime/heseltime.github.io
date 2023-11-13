@@ -11,7 +11,7 @@ What follows is documentation of my research project and thesis in Document Proc
 
 # Thesis with RISC (Research Institute Symbolic Computation) also @Hagenberg: Mathematical Document Processing #
 
-Not just Document Processing (often: Document Preparation), but <b>Mathematical</b> Document Processing: the goal a translation tool from Mathematica to LaTeX in the context of RISC's Theorema Tool. [Details directly from RISC](https://risc.jku.at/th/theorema-project-document-processing/) (RISC is an international institute with a research focus on various branches of symbolic computation) and [here a peresentation given about the project (some DE, but the main content is in EN)](..\assets\pdf\Tma2TexPresentation1.pdf) scheduled for completion by February 2024.
+Not just Document Processing (often: Document Preparation), but <b>Mathematical</b> Document Processing: the goal a translation tool from Mathematica to LaTeX in the context of RISC's Theorema Tool. [Details directly from RISC](https://risc.jku.at/th/theorema-project-document-processing/) (RISC is an international institute with a research focus on various branches of symbolic computation) and [here a presentation given about the project (some DE, but the main content is in EN)](..\assets\pdf\Tma2TexPresentation1.pdf) scheduled for completion by February 2024.
 
 # Software Engineering Full Curriculum (Bachelor's of Science '24) #
 
