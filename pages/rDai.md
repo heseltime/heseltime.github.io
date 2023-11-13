@@ -35,6 +35,8 @@ This could be a real world application too, clearly, since the basic functionali
 
 <i>More SMT, some Limboole! Details to follow shortly.</i>
 
+This concludes my Masters work in the [JKU Symbolic AI Institute](https://www.jku.at/en/institute-for-symbolic-artificial-intelligence/), where the other course was Model Checking. Work with [FAW, the institute,](https://www.jku.at/en/institute-for-application-oriented-knowledge-processing/) (Knowledge Representation and Reasoning) is also already completed, apart from the Masters Thesis which will be co-supervised by FAW (together with the [Machine Learning Institute](https://www.jku.at/en/institute-for-machine-learning/)): leaving Automated Reasoning and Computer Algebra for 2024, both located at [RISC](https://risc.jku.at/), which ich hope to connect to from my work with Wolfram Language this past year.
+
 # Metamathematics, Mathematica, Lean (2023 Wolfram Summer School) #
 
 I am a participant in the 2023 Wolfram Summer School (WSS) three weeks in June and July 2023.
