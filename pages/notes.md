@@ -34,7 +34,7 @@ As part of my work on the Festival I wrote about my and the IDSA collective's id
 
 <b>Let's keep up the dialog and the society-art-tech thinking!</b>
 
-## Ongoing rX Feed: Accessible Documents, an LLM Topic
+## Ongoing rX Feed: Accessible Documents, an LLM/ECM-AI Topic
 
 <nav class="nav">
     <ul class="nav__list">
