@@ -7,7 +7,27 @@ feedformat: none
 
 @Johannes Kepler University (JKU), Linz: Motivated mainly by the apparent connection between AI technologies and approaches like modeling and NLP/LLM (Natural Language Processing/Large Language Models) and my discipline, ECM.
 
-What follows are a selection of topics (correlating with course work) and what I did and do and think about in those areas: these Masters level studies are on-going (target 2025), part-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI: The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for where I am headed with my studies, as one of the options.
+What follows are a selection of topics (correlating with course work) and what I did and do and think about in those areas: these Masters level studies are on-going (target 2025), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and topic dear to my heart are taking center-stage for now:
+
+# Thesis (Seminar/Practical Work): Few-Shot/In-Context Applications of LLMs to Document Accessibility vs. Finetuning
+
+For a rounded Masters Thesis, on <b>an ECM-AI topic</b> as it turns out, a comparative exploration of Finetuning especially opposite [In-Context Learning approaches](https://medium.com/@myschang/cot-in-large-language-models-in-context-learning-14d73ff57b90#:~:text=In%20Context%20Learning%20of%20CoT,examples%20to%20guide%20its%20reasoning.) is the goal, starting with a seminar on a current paper and a company-affiliated (some more news to follow) practical work, all on the topic of making PDF-documents accessible. Very related: The [European Accessibility Act (EAA) is an EU Directive that sets binding accessibility goals to be achieved by all the member states](https://fep-fee.eu/IMG/pdf/20210629_european_accessibility_act_report_on_the_state_of_the_art_of_publishing_standards.pdf?1892/9929f3564221902d4ca19b53c0d4d9aa2118bb62), to be implemented by 2025.
+
+## Seminar: Language Models are Few-Shot Learners
+
+More notes and a presentation coming soon!
+
+## Practical Work
+
+TBD, e.g. a standard software component to check and transform pdfs to accessible formats in a fully automated fashion.
+
+## Thesis
+
+TBD fully, most likely a comparison with Finetuning appraches.
+
+### Further Notes
+
+This could be a real world application too, clearly, since the basic functionality can be distributed by API with customization and standard software modules, as might be done for practical thesis work, on top: This idea also provides a clear delineation between data-oriented service (transformation to barrier free documents) and a module that would be implemented for a company in practical work, with loss of rights to such a module.
 
 # Metamathematics, Mathematica, Lean (2023 Wolfram Summer School) #
 
@@ -23,7 +43,7 @@ To connect Wolfram/Mathematica with my Masters-level courses: Computer Algebra a
 
 <img src="../assets/img/WSS23-poster-body.png" alt="Empircial Metamathematics: Extending the Lean-Mathematica Bridge" />
 
-The final output of the school was a <a href="https://community.wolfram.com/groups/-/m/t/2957419">community post</a> and presentation, forthcoming as a publication in the 2023 Wolfram Summer School Proceedings.
+The final output of the school was a <a href="https://community.wolfram.com/groups/-/m/t/2957419">community post</a> and presentation, forthcoming as a publication in the 2023 Wolfram Summer School Proceedings: I also handed in [results and further study](..\assets\pdf\expose-tree-pattern-function-native-export.pdf) for my studies in Software Engineering at Hagenberg, see the Software Engineering page about the thesis this became.
 
 # Knowledge Representation and Reasoning (2023 Project) #
 
