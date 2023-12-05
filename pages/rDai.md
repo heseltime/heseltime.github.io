@@ -17,7 +17,11 @@ Very related to the EU Context: The [European Accessibility Act (EAA) is an EU D
 
 ## Seminar: Language Models are Few-Shot Learners
 
+<div id="jku-sem">
+
 <i>More notes and a presentation coming soon!</i>
+
+</div>
 
 ## Practical Work
 
