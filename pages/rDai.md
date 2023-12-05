@@ -39,6 +39,8 @@ This concludes my Masters work in the [JKU Symbolic AI Institute](https://www.jk
 
 <b>Taken together, this is a symbolic counterpoint to my thesis direction working in language models and applications, reflected in [my resarch (rX) feed](/notes) going forward.</b>
 
+<div id="wss">
+
 # Metamathematics, Mathematica, Lean (2023 Wolfram Summer School) #
 
 I am a participant in the 2023 Wolfram Summer School (WSS) three weeks in June and July 2023.
@@ -54,6 +56,8 @@ To connect Wolfram/Mathematica with my Masters-level courses: Computer Algebra a
 <img src="../assets/img/WSS23-poster-body.png" alt="Empircial Metamathematics: Extending the Lean-Mathematica Bridge" />
 
 The final output of the school was a <a href="https://community.wolfram.com/groups/-/m/t/2957419">community post</a> and presentation, forthcoming as a publication in the 2023 Wolfram Summer School Proceedings: I also handed in [results and further study](..\assets\pdf\expose-tree-pattern-function-native-export.pdf) for my studies in Software Engineering at Hagenberg, see the Software Engineering page about the thesis this became.
+
+</div>
 
 # Knowledge Representation and Reasoning (2023 Project) #
 
