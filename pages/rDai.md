@@ -39,9 +39,9 @@ This concludes my Masters work in the [JKU Symbolic AI Institute](https://www.jk
 
 <b>Taken together, this is a symbolic counterpoint to my thesis direction working in language models and applications, reflected in [my resarch (rX) feed](/notes) going forward.</b>
 
-<div id="wss">
-
 # Metamathematics, Mathematica, Lean (2023 Wolfram Summer School) #
+
+<div id="wss">
 
 I am a participant in the 2023 Wolfram Summer School (WSS) three weeks in June and July 2023.
 
