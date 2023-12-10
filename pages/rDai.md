@@ -19,9 +19,9 @@ Very related to the EU Context: The [European Accessibility Act (EAA) is an EU D
 
 <div id="jku-sem">
 
-<b>(Masters-)Project is a Go!</b> I even managed to get some Borges in, see slides three and four:
+<b>(Masters-)Project is a Go!</b> I even managed to get some Borges in, see slides three and four.
 
-<img src="../assets/img/Screenshot 2023-12-06 144908.png" alt="Language Models are Few-Shot Learners Seminar Presentation" />
+[<img src="../assets/img/Screenshot 2023-12-06 144908.png" alt="Language Models are Few-Shot Learners Seminar Presentation" />](..\assets\pdf\LtMDA-v1.pdf)
 
 </div>
 
