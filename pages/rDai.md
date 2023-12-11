@@ -19,9 +19,9 @@ Very related to the EU Context: The [European Accessibility Act (EAA) is an EU D
 
 <div id="jku-sem">
 
-<p><b>(Masters-)Project is a Go!</b> <a href="..\assets\pdf\LtMDA-v2.pdf">I even managed to get some Borges in, see slides three and four in the presentation.</a></p>
+<p><b>(Masters-)Project is a Go!</b> <a href="..\assets\pdf\LtMDA-v2-1.pdf">I even managed to get some Borges in, see slides three and four in the presentation.</a></p>
 
-<a href="..\assets\pdf\LtMDA-v2.pdf"><img src="../assets/img/Screenshot 2023-12-06 144908.png" alt="Language Models are Few-Shot Learners Seminar Presentation" /></a>
+<a href="..\assets\pdf\LtMDA-v2-1.pdf"><img src="../assets/img/LtMDA-v2-1-cover.png.png" alt="Language Models are Few-Shot Learners Seminar Presentation" /></a>
 
 <p>Delivered on December 11th, 2023, to IML (Machine Learning Insitute) at Johannes Kepler University.</p>
 
