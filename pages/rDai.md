@@ -33,7 +33,11 @@ Very related to the EU Context: The <a href="https://fep-fee.eu/IMG/pdf/20210629
 
 ## Practical Work
 
+<div id="jku-practical">
+
 <i>TBD, e.g. a standard software component to check and transform PDFs to accessible formats in a fully automated fashion.</i>
+
+</div>
 
 ## Thesis
 
