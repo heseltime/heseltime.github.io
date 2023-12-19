@@ -11,9 +11,13 @@ What follows are a selection of topics (correlating with course work) and what I
 
 # Thesis (Seminar/Practical Work): Few-Shot/In-Context Learning vs. Finetuning of LLMs for Document Accessibility
 
+<div id="jku-thesis-overview">
+
 For a rounded Masters Thesis, on <b>an ECM-AI topic</b> naturally, a comparative exploration of Finetuning especially opposite [In-Context Learning approaches](https://medium.com/@myschang/cot-in-large-language-models-in-context-learning-14d73ff57b90#:~:text=In%20Context%20Learning%20of%20CoT,examples%20to%20guide%20its%20reasoning.) is the goal, starting with a seminar on a current paper and a company-affiliated (some more news to follow) practical work, all on the topic of making PDF-documents accessible. 
 
 Very related to the EU Context: The [European Accessibility Act (EAA) is an EU Directive that sets binding accessibility goals to be achieved by all the member states](https://fep-fee.eu/IMG/pdf/20210629_european_accessibility_act_report_on_the_state_of_the_art_of_publishing_standards.pdf?1892/9929f3564221902d4ca19b53c0d4d9aa2118bb62), to be implemented by 2025.
+
+</div>
 
 ## Seminar: Language Models are Few-Shot Learners
 
