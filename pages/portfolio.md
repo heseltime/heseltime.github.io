@@ -7,6 +7,14 @@ feedformat: none
 
 On top of DevOps I do Software Engineering work from formal training in the subject, with multi-year experience in Enterprise Content Management (ECM) and tangential implementations like Single Page Applications (SPAs) sprinkled in there: my model for implementation is workflow-oriented, modern ECM (think Alfresco and Activiti/Camunda) coupled with high-level analytics (think Wolfram Language, i.e. really high level).
 
+# ASP.NET CORE Backend Reference Project "SnackBackend" ('23, #Software Engineering')
+
+A full scale .NET project with a focus on clean layering, MVC pattern, authetnication and token handling and all the good stuff that goes into a backend API solution: [clone of the actual study project on GitHub.](https://github.com/heseltime/SnackAdmin-reference-backend-project)
+
+<img src="../assets/img/Screenshot 2023-12-22 230644.png" width="100%">
+
+Angular frontend project to follow, concluding semester 5 of an intensive [Software Engineering](/rDse) curriculum.
+
 # Der Standard Mock-up ('23, #ArsElectronica)
 
 See also <a href="/notes">rX Feed</a> and <a href="https://www.derstandard.at/promotion/velcom?DcIYkpda/idsa-eine-universitaet-beginnt#!/" target="_BLANK">the final piece published by Der Standard</a>, a high-end Austrian newspaper (my pretty face is in the header, if you can find me!) -  I delivered the below mockup for a scrollytelling, dynamic version with conveyor belts (the Ars Electronica Festival 2023 took place in an abandoned post (packages) processing plant) but Der Standard went with a simpler static design and layout (their loss!). 
