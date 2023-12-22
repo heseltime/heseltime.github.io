@@ -5,9 +5,9 @@ title: Portfolio
 feedformat: none
 ---
 
-On top of DevOps I do Software Engineering work from formal training in the subject, with multi-year experience in Enterprise Content Management (ECM) and tangential implementations like Single Page Applications (SPAs) sprinkled in there: my model for implementation is workflow-oriented, modern ECM (think Alfresco and Activiti/Camunda) coupled with high-level analytics (think Wolfram Language, i.e. really high level).
+With a DevOps background I broke into Software Engineering, benefiting from [formal training in the subject](/rDse), and with multi-year experience in Enterprise Content Management (ECM) and my own initial hobby Single Page Applications (SPAs) sprinkled in there, I have made this my professional work: my model for implementation is workflow-oriented, modern ECM (think Alfresco and Activiti/Camunda) coupled with high-level analytics (think Wolfram Language, i.e. really high level). At the same time, I realize Software Engineering is many different approaches, so in the below I reference this where appropriate and explore the ways I can apply my skillset across paradigms.
 
-# ASP.NET CORE Backend Reference Project "SnackBackend" ('23, #Software Engineering')
+# ASP.NET CORE Backend Reference Project "SnackBackend" ('23, #SoftwareEngineering: Backend API)
 
 A full scale .NET project with a focus on clean layering, MVC pattern, authetnication and token handling and all the good stuff that goes into a backend API solution: [clone of the actual study project on GitHub.](https://github.com/heseltime/SnackAdmin-reference-backend-project)
 
@@ -15,7 +15,7 @@ A full scale .NET project with a focus on clean layering, MVC pattern, authetnic
 
 Angular frontend project to follow, concluding semester 5 of an intensive [Software Engineering](/rDse) curriculum.
 
-# Der Standard Mock-up ('23, #ArsElectronica)
+# Der Standard Mock-up ('23, #ArsElectronica/#SoftwareEngineering: Some Experimental Frontend)
 
 See also <a href="/notes">rX Feed</a> and <a href="https://www.derstandard.at/promotion/velcom?DcIYkpda/idsa-eine-universitaet-beginnt#!/" target="_BLANK">the final piece published by Der Standard</a>, a high-end Austrian newspaper (my pretty face is in the header, if you can find me!) -  I delivered the below mockup for a scrollytelling, dynamic version with conveyor belts (the Ars Electronica Festival 2023 took place in an abandoned post (packages) processing plant) but Der Standard went with a simpler static design and layout (their loss!). 
 
@@ -38,7 +38,7 @@ Nevertheless I was involved in the writing and content as well, see <a href="/no
 * scrollytelling with Scrollama
 
 
-# Classic Scripting Small-Scale Project (Vanilla PHP): Public-Private Pattern, Simple Database Connectivity ('23, #SoftwareEngineering)
+# Classic Scripting Small-Scale Project (Vanilla PHP): Public-Private Pattern, Simple Database Connectivity ('23, #SoftwareEngineering: Scripting)
 
 What it says on the tin! 
 
@@ -50,7 +50,7 @@ The project is fictional photovoltaics application portal, completed as part of 
 
 It's the stuff the web is made of, these small portal/applet-type things. [Full readme](https://github.com/heseltime/php-myseql-pv-assistance)
 
-# ECM: D.velop Documents/Process ('20-23, #SoftwareEngineering)
+# ECM: D.velop Documents/Process ('20-23, #SoftwareEngineering: Process Design, Forms and Frameworks)
 
 D.velop is a German company marketing a mid-tier ECM system that is now very common in the DACH region. It is often named in the innovative categories in Gartner Magic Quadrant because it is a well thought out system that nevertheless makes due with some legacy code and languages especially in their Workflow component (Flow Designer). The latter is being revamped though, as D.velop Process, on top of a Camunda Workflow Engine. Camunda itself is an (Alfresco) Activiti Fork.
 
@@ -66,7 +66,7 @@ This work took place for the Red Cross and is mostly confidential as such. I can
 
 I owned all of the above initiatives in the capacity of a DevOps Engineer focussed on internal Softare Implementation.
 
-# SPA: co2work ('22, #SoftwareEngineering)
+# SPA: co2work ('22, #SoftwareEngineering: Lightweight SPAs)
 
 [co2work](http://co2work.at) is an Upper Austrian co-working place lander with C02-Footprint calculator for social media sharing. 
 
