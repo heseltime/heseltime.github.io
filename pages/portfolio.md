@@ -9,7 +9,7 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
 
 # Little React List App ('23, #SoftwareEngineering: Backend + Frontend)
 
-React testing after being more a Vue.js guy! Here a small-scale [view/list app](https://github.com/heseltime/WEA5-BookShopWithReact) with an [Express backend](), simulating a bookstore.
+React testing after being more a Vue.js guy! Here a small-scale [view/list app](https://github.com/heseltime/WEA5-BookShopWithReact) with an [Express backend](https://github.com/heseltime/WEA5-ExpressBackend), simulating a bookstore.
 
 <img src="../assets/img/derstandard/Screenshot 2023-12-27 065838.png" width="100%">
 <img src="../assets/img/derstandard/Screenshot 2023-12-27 065905.png" width="100%">
