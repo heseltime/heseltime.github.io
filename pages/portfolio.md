@@ -7,6 +7,13 @@ feedformat: none
 
 With a DevOps background I broke into Software Engineering, benefiting from [formal training in the subject](/rDse), and with multi-year experience in Enterprise Content Management (ECM) and my own initial hobby Single Page Applications (SPAs) sprinkled in there, I have made this my professional work: my model for implementation is workflow-oriented, modern ECM (think Alfresco and Activiti/Camunda) coupled with high-level analytics (think Wolfram Language, i.e. really high level). At the same time, I realize Software Engineering is many different approaches, so in the below I reference this where appropriate and explore the ways I can apply my skillset across paradigms.
 
+# Little React List App ('23, #SoftwareEngineering: Backend + Frontend)
+
+React testing after being more a Vue.js guy! Here a small-scale [view/list app](https://github.com/heseltime/WEA5-BookShopWithReact) with an [Express backend](), simulating a bookstore.
+
+<img src="../assets/img/derstandard/Screenshot 2023-12-27 065838.png" width="100%">
+<img src="../assets/img/derstandard/Screenshot 2023-12-27 065905.png" width="100%">
+
 # ASP.NET CORE Backend Reference Project "SnackBackend" ('23, #SoftwareEngineering: Backend API)
 
 A full scale .NET project with a focus on clean layering, MVC pattern, authetnication and token handling and all the good stuff that goes into a backend API solution: [clone of the actual study project on GitHub.](https://github.com/heseltime/SnackAdmin-reference-backend-project)
