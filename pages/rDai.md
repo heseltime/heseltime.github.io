@@ -53,7 +53,7 @@ This could be a real world application too, clearly, since the basic functionali
 
 # Planning (2023 Project)
 
-For this project, [full repo available](https://github.com/heseltime/planning_reasoning/), I was more involved in the SMT2 (Satisfiability Modulo Theories Version 2) side, something I could imagine tieing into (Python) projects in the future, for validation and checking (and here planning) purposes - so I ended up exploring interfacing modalities, here the digram overview for part two, the SMT-part, of the project.
+For this project, [full repo available](https://github.com/heseltime/planning_reasoning/), I was more involved in the SMT2 (Satisfiability Modulo Theories Version 2) side, something I could imagine tying into (Python) projects in the future, for validation and checking (and here planning) purposes - so I ended up exploring interfacing modalities, here the digram overview for Part 2 of the project, the SMT-part.
 
 <img src="../assets/img/Screenshot 2023-12-29 215323.png" alt="Diagram Overview of the Project Part 2" />
 
