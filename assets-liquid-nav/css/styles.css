@@ -171,3 +171,12 @@ a.nav__link:hover {
     zoom: 1.1;
   }
 }
+
+
+/*=============== IMAGES ===============*/
+
+img.small {
+  width: 50%;
+  max-width: 200px;
+  height: auto;
+}
