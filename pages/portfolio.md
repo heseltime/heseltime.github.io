@@ -72,6 +72,7 @@ Build tool: [Vite.js](https://vitejs.dev/guide/) Here a small-scale [view/list a
 
 <div id="asp-leader">A full scale .NET project with a focus on clean layering, MVC pattern, authetnication and token handling.</div>
 
+
 [Clone of the actual study project on GitHub.](https://github.com/heseltime/SnackAdmin-reference-backend-project)
 
 <img src="../assets/img/Screenshot 2023-12-22 230644.png" width="100%" id="backend-endpoints">
