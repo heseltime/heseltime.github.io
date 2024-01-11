@@ -7,6 +7,54 @@ feedformat: none
 
 With a DevOps background I broke into Software Engineering, benefiting from [formal training in the subject](/rDse), and with multi-year experience in Enterprise Content Management (ECM) and my own initial hobby Single Page Applications (SPAs) sprinkled in there, I have made this my professional work: my model for implementation is workflow-oriented, modern ECM (think Alfresco and Activiti/Camunda) coupled with high-level analytics (think Wolfram Language, i.e. really high level). At the same time, I realize Software Engineering is many different approaches, so in the below I reference this where appropriate and explore the ways I can apply my skillset across paradigms.
 
+# Angular Frontend Reference Project "SnachFrontend" ('24, #SoftwareEngineering: Frontend to an API)
+
+This is the frotend piece realizing the SNACK (think restaurants) <a href="#backend-endpoints">endpoints</a> designed and implemented in ASP .NET CORE the previous year. <a href="https://github.com/heseltime/SnackFrontend-reference-project">Full repo of the one-man, ca. 100-hour project</a> and project structure with some screenshots to demonstrate. 
+
+I feel like this type of small-scale, but general, project lends itself to all kinds of use cases in terms of structure and design.
+
+## Frontend App Structure
+
+```
+src
+|-- app
+|  |-- discover-restaurants <--- *route: /restaurants ---------------- user view of this app, main part: see assumptions.txt
+|  |  |-- find-restaurants
+|  |  |  |-- restaurant-detail
+|  |  |  |  |-- order form
+|  |  |-- my-orders
+||||-- home <------------------- *route: /manage --------------------- restaurant view: authentication required
+||||  |-- incoming-orders
+||||  |-- my-restaurant with menu upload, and delivery condition/other info editing
+|  |-- login
+|  |-- register
+|  |-- page-not-found
+|  |-- shared
+|  |  |-- discover-restaurants.service.ts
+|  |  |-- discover-restaurants.model.ts?
+|  |  |-- discover-menus.model.ts?
+|  |  |-- discover-... .model.ts? - all the models in the end
+|  |  |-- manage-restaurant.service.ts
+|  |  |-- theme.service.ts - just for testing
+||||-- app.module.ts incl. AuthModule for OpenID Connect/0Auth authentication with Auth0 (Okta - https://auth0.com/)
+|-- styles.css, assets and environments
+|-- index.html
+```
+
+## Screenshots
+
+Boostrap and Fontawesome go pretty far as for design tools:
+
+<img width="473" alt="Screenshot 2024-01-11 013545" src="https://github.com/heseltime/SnackFrontend-reference-project/assets/66922223/29bdeb11-3315-42a2-bf78-278f3a17a572">
+
+<img width="473" alt="Screenshot 2024-01-11 013610" src="https://github.com/heseltime/SnackFrontend-reference-project/assets/66922223/08a54f6b-9a11-4c5f-90e6-ee8e1f2ac716">
+
+<img width="480" alt="Screenshot 2024-01-11 013843" src="https://github.com/heseltime/SnackFrontend-reference-project/assets/66922223/aa3dd71a-4f17-4026-adc5-fe1bd89f9056">
+
+Simple forms and form validations:
+
+<img width="527" alt="Screenshot 2024-01-11 014714" src="https://github.com/heseltime/SnackFrontend-reference-project/assets/66922223/12e9080a-7859-41c3-852b-a1ed37c8a94e">
+
 # Little React List App ('23, #SoftwareEngineering: Backend + Frontend)
 
 React testing after being more a Vue.js guy! Build tool: [Vite.js](https://vitejs.dev/guide/) Here a small-scale [view/list app](https://github.com/heseltime/WEA5-BookShopWithReact) with an [Express backend](https://github.com/heseltime/WEA5-ExpressBackend), simulating a bookstore.
@@ -18,7 +66,7 @@ React testing after being more a Vue.js guy! Build tool: [Vite.js](https://vitej
 
 A full scale .NET project with a focus on clean layering, MVC pattern, authetnication and token handling and all the good stuff that goes into a backend API solution: [clone of the actual study project on GitHub.](https://github.com/heseltime/SnackAdmin-reference-backend-project)
 
-<img src="../assets/img/Screenshot 2023-12-22 230644.png" width="100%">
+<img src="../assets/img/Screenshot 2023-12-22 230644.png" width="100%" id="backend-endpoints">
 
 Angular frontend project to follow, concluding semester 5 of an intensive [Software Engineering](/rDse) curriculum.
 
