@@ -7,9 +7,9 @@ feedformat: none
 
 With a DevOps background I broke into Software Engineering, benefiting from [formal training in the subject](/rDse), and with multi-year experience in Enterprise Content Management (ECM) and my own initial hobby Single Page Applications (SPAs) sprinkled in there, I have made this my professional work: my model for implementation is workflow-oriented, modern ECM (think Alfresco and Activiti/Camunda) coupled with high-level analytics (think Wolfram Language, i.e. really high level). At the same time, I realize Software Engineering is many different approaches, so in the below I reference this where appropriate and explore the ways I can apply my skillset across paradigms.
 
-# Angular Frontend Reference Project "SnachFrontend" ('24, #SoftwareEngineering: Frontend to an API)
+# Angular Frontend Reference Project "SnackFrontend" ('24, #SoftwareEngineering: Frontend to an API with Some Authentication)
 
-This is the frotend piece realizing the SNACK (think restaurants) <a href="#backend-endpoints">endpoints</a> designed and implemented in ASP .NET CORE the previous year. <a href="https://github.com/heseltime/SnackFrontend-reference-project">Full repo of the one-man, ca. 100-hour project</a> and project structure with some screenshots to demonstrate. 
+<div id="angular-leader">This is the frotend piece realizing the SNACK (think restaurants) <a href="#backend-endpoints">endpoints</a> designed and implemented in ASP .NET CORE the previous year. <a href="https://github.com/heseltime/SnackFrontend-reference-project">Full repo of the one-man, ca. 100-hour project</a> and project structure with some screenshots to demonstrate. </div>
 
 I feel like this type of small-scale, but general, project lends itself to all kinds of use cases in terms of structure and design.
 
@@ -49,11 +49,15 @@ Boostrap and Fontawesome go pretty far as for design tools:
 
 <img width="473" alt="Screenshot 2024-01-11 013610" src="https://github.com/heseltime/SnackFrontend-reference-project/assets/66922223/08a54f6b-9a11-4c5f-90e6-ee8e1f2ac716">
 
+Auth0 for authentication and user metadata:
+
 <img width="480" alt="Screenshot 2024-01-11 013843" src="https://github.com/heseltime/SnackFrontend-reference-project/assets/66922223/aa3dd71a-4f17-4026-adc5-fe1bd89f9056">
 
 Simple forms and form validations:
 
 <img width="527" alt="Screenshot 2024-01-11 014714" src="https://github.com/heseltime/SnackFrontend-reference-project/assets/66922223/12e9080a-7859-41c3-852b-a1ed37c8a94e">
+
+<img width="472" alt="Screenshot 2024-01-11 014702" src="https://github.com/heseltime/SnackFrontend-reference-project/assets/66922223/8ef80ec6-44eb-4482-b71e-b71a236a1572">
 
 # Little React List App ('23, #SoftwareEngineering: Backend + Frontend)
 
