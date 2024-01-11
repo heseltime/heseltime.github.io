@@ -61,14 +61,18 @@ Simple forms and form validations:
 
 # Little React List App ('23, #SoftwareEngineering: Backend + Frontend)
 
-React testing after being more a Vue.js guy! Build tool: [Vite.js](https://vitejs.dev/guide/) Here a small-scale [view/list app](https://github.com/heseltime/WEA5-BookShopWithReact) with an [Express backend](https://github.com/heseltime/WEA5-ExpressBackend), simulating a bookstore.
+<div id="react-leader">React testing after being more a Vue.js guy!</div>
+
+Build tool: [Vite.js](https://vitejs.dev/guide/) Here a small-scale [view/list app](https://github.com/heseltime/WEA5-BookShopWithReact) with an [Express backend](https://github.com/heseltime/WEA5-ExpressBackend), simulating a bookstore.
 
 <img src="../assets/img/Screenshot 2023-12-27 065838.png" width="100%">
 <img src="../assets/img/Screenshot 2023-12-27 065905.png" width="100%">
 
 # ASP.NET CORE Backend Reference Project "SnackBackend" ('23, #SoftwareEngineering: Backend API)
 
-A full scale .NET project with a focus on clean layering, MVC pattern, authetnication and token handling and all the good stuff that goes into a backend API solution: [clone of the actual study project on GitHub.](https://github.com/heseltime/SnackAdmin-reference-backend-project)
+<div id="asp-leader">A full scale .NET project with a focus on clean layering, MVC pattern, authetnication and token handling.</div>
+
+[Clone of the actual study project on GitHub.](https://github.com/heseltime/SnackAdmin-reference-backend-project)
 
 <img src="../assets/img/Screenshot 2023-12-22 230644.png" width="100%" id="backend-endpoints">
 
