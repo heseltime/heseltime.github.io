@@ -24,14 +24,14 @@ Fifth semester starts in fall 2023, sixth semester is all about practice and in 
 - Lecture + Exercise: Component-Oriented Software Engineering (C# and .NET)
 - Lecture + Exercise: Web-Architectures and Frameworks (Angular focus)
 - Lecture + Exercise: Virtualization Tooling (Docker focus)
-- Lecture + Exercise: Mobile Computing/Advanced Python
+- Lecture + Exercise: ~Mobile Computing~ Advanced Python
 - Lecture: IT Law (Austria/EU focus, but the concepts travel)
 - Study Project in C# with Industry Partner in Hagenberg ([ventopay](https://www.linkedin.com/company/ventopay-gmbh))
 - Thesis (see above)
 
 ## fourth semester
 
-- Lecture + Exercise: Graph Theory
+- Lecture + Exercise: Graph Theory/Intermediate Python
 - Lecture + Exercise: Modern Platforms Programming (C++ and Java/C#)
 - Lecture + Exercise: Database-Systems and Semi-Strutured Data
 - Lecture + Exercise: Computer Graphics and Image Processing
