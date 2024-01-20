@@ -13,9 +13,9 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
 
 ## Screengrabs
 
-<img src="../assets/img/Screenshot 2024-01-20 144320.png" alt="mocca screengrab 1" class="xx-large" />
-<img src="../assets/img/Screenshot 2024-01-20 144337.png" alt="mocca screengrab 2" class="xx-large" />
-<img src="../assets/img/Screenshot 2024-01-20 144348.png" alt="mocca screengrab 3" class="xx-large" />
+<img src="../assets/img/Screenshot 2024-01-20 144337.png" alt="mocca screengrab 2" class="xxx-large" /><img src="../assets/img/Screenshot 2024-01-20 144337.png" alt="mocca screengrab 2" class="xx-large" />
+<img src="../assets/img/Screenshot 2024-01-20 144320.png" alt="mocca screengrab 1" class="xxx-large" />
+<img src="../assets/img/Screenshot 2024-01-20 144348.png" alt="mocca screengrab 3" class="xxx-large" />
 
 ## Note
 
