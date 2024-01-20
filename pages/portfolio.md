@@ -7,6 +7,16 @@ feedformat: none
 
 With a DevOps background I broke into Software Engineering, benefiting from [formal training in the subject](/rDse) on top of long-time programming (since middle school), and with multi-year experience in Enterprise Content Management (ECM) and my own initial hobby Single Page Applications (SPAs) sprinkled in there, I have made this my professional work: my model for implementation is workflow-oriented, modern ECM (think Alfresco and Activiti/Camunda) coupled with high-level analytics (think Wolfram Language, i.e. really high level). At the same time, I realize Software Engineering is many different approaches, so in the below I reference this where appropriate and explore the ways I can apply my skillset across paradigms.
 
+# Industry Partnership Hagenberg Software Engineering: ventopay/mocca
+
+[Ventopay](https://ventopay.com/) does full-service cantine systems targeting the DACH market: their flagship [mocca](https://ventopay.com/bargeldloses-zahlungssystem-mocca/mocca-software/) software became the platform for a ten-person student project in close partnership between [Hagenberg Campus](https://www.fh-ooe.at/campus-hagenberg/) and the company. Tasked with developing the status and notifcation system, I took on a hybridge role of product owner (PO)/developer, implementing the traffic light style overview page for example, but also going in type loops between team and company to provide effective POing.
+
+## Screengrabs
+
+<img src="../assets/img/Screenshot 2024-01-20 144320.png" alt="mocca screengrab 1" class="large" />
+<img src="../assets/img/Screenshot 2024-01-20 144337.png" alt="mocca screengrab 2" class="large" />
+<img src="../assets/img/Screenshot 2024-01-20 144348.png" alt="mocca screengrab 3" class="large" />
+
 # Angular Frontend Reference Project "SnackFrontend" ('24, #SoftwareEngineering: Frontend to an API with Some Authentication)
 
 <div id="angular-leader">This is the frotend piece realizing the SNACK (think restaurants) <a href="#backend-endpoints">endpoints</a> designed and implemented in ASP .NET CORE the previous year. <a href="https://github.com/heseltime/SnackFrontend-reference-project">Full repo of the one-man, ca. 100-hour project</a> and project structure with some screenshots to demonstrate. </div>
