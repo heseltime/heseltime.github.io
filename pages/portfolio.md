@@ -9,7 +9,7 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
 
 # Industry Partnership Hagenberg Software Engineering: ventopay/mocca Dashboard
 
-[Ventopay](https://ventopay.com/) does full-service cantine systems targeting the DACH market: their flagship [mocca](https://ventopay.com/bargeldloses-zahlungssystem-mocca/mocca-software/) software became the platform for a ten-person student project in close partnership between [Hagenberg Campus](https://www.fh-ooe.at/campus-hagenberg/) and the company. Tasked with developing the status and notifcation system, I took on a hybridge role of product owner (PO)/developer, implementing the traffic light style overview page for example, but also going in type loops between team and company to provide effective POing.
+[Ventopay](https://ventopay.com/) does full-service cantine systems targeting the DACH market: their flagship [mocca](https://ventopay.com/bargeldloses-zahlungssystem-mocca/mocca-software/) software became the platform for a ten-person student project in close partnership between [Hagenberg Campus](https://www.fh-ooe.at/campus-hagenberg/) and the company. Tasked with developing the status and notifcation system, I took on a hybrid role of product owner (PO)/developer, implementing the traffic light style overview page for example, but also going in type loops between team and company to provide effective POing.
 
 ## Screengrabs
 
