@@ -9,11 +9,11 @@ feedformat: none
 
 The Wolfram Tech Stack: Factoring out the computation and knowledge for the current (LLM) trends in AI? In any case, I am super inspired and honored to join this amazing company, contributing to the Cloud Team as a consultant - where the Wolfram cloud product actually seems like an ECM product in many ways, so I am also happy to make some connections across different software product categories here, naturally tying in "math software" with my studies too.
 
-My Masters curriculum actually contains significant components from symbolic computation, situated at [RISC](https://risc.jku.at/), where I also describe some of how that works and what interests me on my [AI page](/rDai), but lately focussing more on my final thesis and project dealing with application of LLMs. I remain excited by Wolfram's own vision for "symbolically enhanced" LLMs, most markedly brought to life by [WolframGPT](https://www.wolfram.com/wolfram-plugin-chatgpt/) recently and work on my own experiments (take my [baby proof of concept shell/curl LLM reporting and summarization tool](/curl) as an example) in addition to my Masters thesis in that research direction, outlining these academic in-roads below, after talking a little more about the Wolfram Research Cloud Project.
+My Masters curriculum actually contains significant components from symbolic computation, situated at [RISC](https://risc.jku.at/), where I also describe some of how that works and what interests me on my [AI page](/rDai), but lately focussing more on my final thesis and project dealing with application of LLMs. I remain excited by Wolfram's own vision for "symbolically enhanced" LLMs, most markedly brought to life by [WolframGPT](https://www.wolfram.com/wolfram-plugin-chatgpt/) recently and work on my own experiments (take my [baby proof of concept shell/curl LLM reporting and summarization tool](/curl) as an example) in addition to my Masters thesis (including [a production-ready, ECM-integration of LLM capability](/rDai#jku-sem)) in that research direction, outlining the symbolic computation  in-roads below, after talking a little more about the Wolfram Research Cloud Project.
 
 ## Cloud Project
 
-Coming soon.
+Coming soon!
 
 ## Academic In-Roads at both the Masters and the Bachelors levels
 
@@ -30,7 +30,7 @@ Details to follow.
 
 <div id="automated-reasoning">
 
-Details to follow.
+Details to follow, asap, promise.
 
 </div>
 
@@ -39,12 +39,9 @@ Details to follow.
 
 <div id="theorema-et-al">
 
-I bridged from my Bachelor's in Software Engineering through the AI components in symbolic described here to my job for Wolfram Research: my Software Engineering thesis treats Wolfram Language as the full-fledged programming language it aims to be. 
+I bridged from my <a href="https://risc.jku.at/th/theorema-project-document-processing/">Bachelor's in Software Engineering (thesis details directly from RISC, an international institute with a research focus on various branches of symbolic computation)</a> through the AI components in symbolic described above to my job for Wolfram Research: my Software Engineering thesis treats Wolfram Language as the full-fledged programming language it aims to be! <a href="..\assets\pdf\Tma2TexPresentation1.pdf">Some more on Wolfram Language as an engineering tool in my presentation given about the thesis project (some in DE)</a>
 
 </div>
-
-[Details directly from RISC](https://risc.jku.at/th/theorema-project-document-processing/) (RISC is an international institute with a research focus on various branches of symbolic computation) and [here an initial presentation given about the project (some DE, but the main content is in EN)](..\assets\pdf\Tma2TexPresentation1.pdf).
-
 
 <nav class="nav">
     <ul class="nav__list">
