@@ -23,7 +23,9 @@ Mysterious member No 1 remains to be chosen! I wonder if this one might be offer
 
 ## Studies Overview
 
-But where am I right now in my studies and what is the timelined target? Coming soon.
+But where am I right now in my studies and what is the timelined target? 
+
+Coming soon.
 
 # Thesis (Seminar/Practical Work): Few-Shot/In-Context Learning vs. Finetuning of LLMs for Document Accessibility
 
