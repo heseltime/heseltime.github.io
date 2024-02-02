@@ -9,7 +9,7 @@ feedformat: none
 
 What follows are a selection of topics (correlating with course work) and what I did and do and think about in those areas: these Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and a topic dear to my heart are taking center-stage for now.
 
-# How to Wrap a Technical Masters Degree in Austria
+# How to Wrap a Technical Masters Degree in Austria (at Johannes Kepler University!)
 
 ## Thesis Committee Planning
 
