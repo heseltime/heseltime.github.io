@@ -13,6 +13,8 @@ Feed for on-going research at the nexus <b>Tech x Art x Society</b>, as envision
 
 ## Ongoing rX Feed: Accessible Documents, an LLM/ECM-AI Topic
 
+I think we are entering [a new paradigm in software and applications](/curl) and so, as I work on my LLM-centric Masters thesis, I want to keep adding context and development-note style feed entries as I go.
+
 <nav class="nav">
     <ul class="nav__list">
         <a href="/" class="nav__link">
