@@ -5,9 +5,38 @@ title: Wolfram (Consulting)
 feedformat: none
 ---
 
-# TBA
+# Wolfram Research: Cloud Project
+
+The Wolfram Tech Stack: Factoring out the computation and knowledge for the current (LLM) trends in AI? In any case, I am super inspired and honored to join this amazing company, contributing to the Cloud Team as a consultant - where the Wolfram cloud product actually seems like an ECM product in many ways, so I am also happy to make some connections across different software product categories here, naturally tying in "math software" with my studies too.
+
+My Masters curriculum actually contains significant components from symbolic computation, situated at [RISC](https://risc.jku.at/), where I also describe some of how that works and what interests me on my [AI page](/rDai), but lately focussing more on my final thesis and project dealing with application of LLMs. I remain excited by Wolfram's own vision for "symbolically enhanced" LLMs, most markedly brought to life by [WolframGPT](https://www.wolfram.com/wolfram-plugin-chatgpt/) recently and work on my own experiments (take my [baby proof of concept shell/curl LLM reporting and summarization tool](/curl) as an example) in addition to my Masters thesis in that research direction.
+
+
+## Computer Algebra
+
+<div id="computer-algebra">
 
 Details to follow.
+
+</div>
+
+
+## Automated Reasoning
+
+<div id="automated-reasoning">
+
+Details to follow.
+
+</div>
+
+
+## Theorema and More
+
+<div id="theorema-et-al">
+
+I bridged from my Bachelor's in Software Engineering through the AI components in symbolic described here to my job for Wolfram Research: my Software Engineering thesis treats Wolfram Language as the full-fledged programming language it aims to be. [Details directly from RISC](https://risc.jku.at/th/theorema-project-document-processing/) (RISC is an international institute with a research focus on various branches of symbolic computation) and [here an initial presentation given about the project (some DE, but the main content is in EN)](..\assets\pdf\Tma2TexPresentation1.pdf).
+
+</div>
 
 
 <nav class="nav">
