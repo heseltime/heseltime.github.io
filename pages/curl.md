@@ -7,6 +7,8 @@ feedformat: none
 
 # Let's Try Something Out
 
+How about some more development-notes style entries on this website, perhaps for rX Feed?
+
 ## Use Case
 
 Coming soon.
