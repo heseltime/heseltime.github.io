@@ -23,26 +23,15 @@ Daily report example (redacted):
 
 >Daily Report with Time (Jack Heseltine) - Date: February 1st
 >
->
->Daily Report
->
->
+>Daily Report:
 >Focused on PROJECT X Analysis after formalizing how to best troubleshoot with COLLEAGUE A on Monday: notes in JIRA-TICKET-NUMBER. As before, learning to track through client side, api side to DAO/entity layers and the table itself. Review meeting of analysis so far with COLLEAGUE A. Shift to developing a fix in a new ticket: JIRA-TICKET-NUMBER
 >
->
->
->Open Question/Idea for Weekly Recap
->
->
+>Open Question/Idea for Weekly Recap:
 >* "Needs Production Testing" field in jira tickets: general rule here?
 >
 >* COLLEAGUE A had an idea to do a Special Subclass Implementation (clean) version of the bug fix outlined in JIRA-TICKET-NUMBER which I like a lot.
 >
->
->
 >Time (hrs/category/work) February 1st
->
->
 >* 3.5	analyze PROJECT A, move to status Developing
 >* 1.5	meet COLLEAGE A to discuss JIRA-TICKET-NUMBER and intended fix
 >* 3	start on new ticket JIRA-TICKET-NUMBER, make new branch, ant format-java-clean process for building and pushing for review with COLLEAGUE A on Friday.
