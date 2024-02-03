@@ -96,7 +96,7 @@ The output per month should be:
 >
 >Total 109.5
 
-This is a manual, redacted progress report example, compare the LLM-example below! (Spoiler: The LLM one is just as good as my bored and haphazard effort at a slightly boring task, probably better.) It and other examples could be added to the prompt in few-shot learning manner, especially including pertinent details and ways to formulate and focus on certain aspects (see future steps below).
+This is a manual, redacted progress report example, compare the [LLM-example in the repo](https://github.com/heseltime/progress-reports/?tab=readme-ov-file#generated-progress-report-example)! (Spoiler: The LLM one is just as good as my bored and haphazard effort at a slightly boring task, probably better.) It and other examples could be added to the prompt in few-shot learning manner, especially including pertinent details and ways to formulate and focus on certain aspects (see future steps below).
 
 ### Tools
 
