@@ -9,7 +9,7 @@ feedformat: none
 
 How about some more development-notes style entries on this website, perhaps for rX Feed? In any case here is a test LLM workflow python script with actual influence on my productive work, based on [my repo](https://github.com/heseltime/progress-reports/) with a more detailed [setup section](https://github.com/heseltime/progress-reports/tree/main?tab=readme-ov-file#heres-the-setup-wrench) in the README.
 
-![alt text](image.png)
+![(Progress | X) Reports with the OpenAI API](image.png)
 
 ## Use Case
 
