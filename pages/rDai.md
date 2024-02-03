@@ -48,15 +48,53 @@ Please don't ask why I do things in complicated ways!
 
 ### Semester I/Winter (2023/24)
 
+Curricular ideal (here's a magical German term for you: "Idealtypischer Studienverlauf" ... ideal-typical (?) course (trajectory) of studies):
 
+![Semester 1 with Computer Vision, but No Thank You](image-7.png)
+
+Jack-actual:
+
+![Semester I without Computer Vision](image-6.png)
 
 ### Semester II/Summer (2024 - **NOW**)
 
+The upcoming semester, let's see if I can follow the ideal.
 
+![Smester II Upcoming](image-8.png)
+
+Actually, I already know I am doing my Practical Work Component this semester, so that already breaks with the ideal, oh well:
+
+
+![Seminar II in Practice, with Practical Work](image-12.png)
 
 ### Semester III (**Target Final Semester**)/Winter (2024/2025)
 
+Once again an ideal:
 
+![Semester III with Practical Work and Seminar](image-9.png)
+
+But I already completed Practical Work and Seminar at this point, and need to wrap my masters thesis (pulling from the intended Semester IV), but still need to do the Computer Vision component on the other hand, so:
+
+![Semester III without Practical Work and Seminar, but with Computer Vision, Masters Thesis, Thesis Seminar and Exam](image-10.png)
+
+### Shadow Semester IV (Summer 2025, Overflow/Bridging Semester)
+
+Basically only if needed for anything else than the following curricular ideal, where I already completed everything if I stay on target (then I would be doing my exam, see above, in the spring, which could be a nice timeline too): this would be a whole semester reserved for Masters Thesis (writing), Seminar and Exam. We'll see.
+
+![Boring Semster with just Masters Thesis, Seminar and Exam](image-13.png)
+
+#### Free Elective List
+
+These just kind of happened:
+
+* TODO 1
+* 2 ...
+
+#### Appendix: Curriculum 2019 vs 2021, Spot the Difference!
+
+![Curriculum 2019](image-5.png)
+
+![Curriculum 2021](image-4.png)
 
 # Thesis (Seminar/Practical Work): Few-Shot/In-Context Learning vs. Finetuning of LLMs for Document Accessibility
 
