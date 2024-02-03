@@ -7,9 +7,9 @@ feedformat: none
 
 With a DevOps background I broke into Software Engineering, benefiting from [formal training in the subject](/rDse) on top of long-time programming (since middle school), and with multi-year experience in Enterprise Content Management (ECM) and my own initial hobby Single Page Applications (SPAs) sprinkled in there, I have made this my professional work: my model for implementation is workflow-oriented, modern ECM (think Alfresco and Activiti/Camunda) coupled with high-level analytics (think Wolfram Language, i.e. really high level). At the same time, I realize Software Engineering is many different approaches, so in the below I reference this where appropriate and explore the ways I can apply my skillset across paradigms.
 
-## Scripting: (Progress | X) Reports with the OpenAI API
+## Scripting: Python OpenAI API Package Testing
 
-Not as visual, but certainly useful, therefore an honorable mention in my portfolio:
+Not as visual, but certainly useful (ties in with my [grad thesis](/rDai#jku-thesis-overview) too), therefore an honorable mention in my portfolio:
 
 [![(Progress) Reports with the OpenAI API](image.png)](https://github.com/heseltime/progress-reports/)
 
