@@ -21,7 +21,7 @@ But it is more interesting than what you can see at first glance (I would say, a
 
 ### [WolframGPT](https://www.wolfram.com/wolfram-plugin-chatgpt/) ...
 
-talks to Wolfram Cloud too, which is of particular interest to me, from a studies point of view.
+... talks to Wolfram Cloud too, which is of particular interest to me, from a studies-marriage-to-work point of view.
 
 ![WolframGPT](image-2.png)
 
