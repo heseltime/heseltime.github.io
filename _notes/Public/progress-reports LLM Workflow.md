@@ -1,5 +1,5 @@
 ---
-title: progress-reports LLM Workflow (Test)
+title: progress-reports LLM Workflow
 feed: show
 date: 03-02-2024
 ---
