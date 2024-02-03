@@ -19,6 +19,14 @@ This is the [product](https://www.wolframcloud.com/) I work on now:
 
 But it is more interesting than what you can see at first glance (I would say, as backend developer) and more than just an extension of Desktop Mathematica, if you know it: it is about the interplay of Wolfam Language and Java, about symbolic computation and web servers, enabling all those nifty http-travels under the hood of a simple Wolfram Language execution.
 
+### [WolframGPT](https://www.wolfram.com/wolfram-plugin-chatgpt/) ...
+
+talks to Wolfram Cloud too, which is of particular interest to me, from a studies point of view.
+
+![WolframGPT](image-2.png)
+
+![Payload and Result](image-3.png)
+
 Let's see if I can detail some work projects in the future, but for now, here are some academic connections I make to this work, especially the Wolfram Language, i.e. Symbolic side, from [my grad studies, especially](/rDai).
 
 ## Academic In-Roads

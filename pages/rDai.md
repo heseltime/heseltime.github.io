@@ -30,11 +30,33 @@ The ca. one-hour long exam remains for me to do, not the AI, and is about my Mas
 
 Mysterious member No 1 remains to be chosen! I wonder if this one might be offered by the Insitute of Integrated Study, see below details on the thesis' genesis.
 
-## Studies Overview
+## Studies Overview (in the 2019 Curriculum View)
 
 <div id="studies-overview">But where am I right now in my studies and what is the timelined target?</div>
 
-Coming soon.
+So the matter is complicated by a slight difference between the 2019 and the current 2021 curriculum (it is 2024 now and there is a delay between the given years and the years studied by: I am studying by the 2021 curriculum, I believe (!), but started by the 2019 curriculum - will need to check the details with the studies admin) but ok, let's not get weighed down here: by the 2019 curriculum and according to my original idea for this studies, subject to some slight shifting of coursework according to interest or lack thereof (sorry, looking at you, Computer vision), here are some nice Wolfram Language word clouds with the credit-weighted course titles, listed by semester.
+
+### Pre I (Bachelor's AI content in parallel to SE Bachelors)
+
+Please don't ask why I do things in complicated ways!
+
+
+
+### Pre II (Bachelor's AI content in parallel to SE Bachelors)
+
+
+
+### Semester I/Winter (2023/24)
+
+
+
+### Semester II/Summer (2024 - **NOW**)
+
+
+
+### Semester III (**Target Final Semester**)/Winter (2024/2025)
+
+
 
 # Thesis (Seminar/Practical Work): Few-Shot/In-Context Learning vs. Finetuning of LLMs for Document Accessibility
 
