@@ -13,7 +13,7 @@ Not as visual, but certainly useful, therefore an honorable mention in my portfo
 
 [![(Progress) Reports with the OpenAI API](image.png)](https://github.com/heseltime/progress-reports/)
 
-[More details on this page](/curl) and just click the image above to go to the repo and instructions for your own setup, if interested - I think I will move scripting topics to my [rX feed](/notes) in the future. Scroll down for my team engineering, visually appealing stuff!
+[More details on this page](/curl) and just click the image above to go to the repo and instructions for your own setup, if interested - I think I will move scripting topics to my [rX feed](/notes) in the future. Scroll down for my team-engineering, visually appealing (I try) type stuff!
 
 # Industry Partnership Hagenberg Software Engineering: ventopay/mocca Dashboard
 
