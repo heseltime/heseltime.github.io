@@ -168,6 +168,12 @@ def generate_report(year, month, temperature):
     return completion.choices[0].message.content
 ```
 
+## Final Thoughts
+
+It is fun to see how programming becomes prompting, a kind of mix of casting a character, setting a scene, and giving directions, to solve a real-life problem and provide value. To me this is an example in the small of where we are shifting to, in fact where I need to go to complete my [Masters thesis](/rDai#jku-thesis-overview), utilizing LLM-calls to do text transformation, but then requiring additional steps to do the validation and quality gating, and so on.
+
+Don't forget to check the repo for how to do you own setup if you are interested!
+
 <nav class="nav">
     <ul class="nav__list">
         <a href="/" class="nav__link">
