@@ -50,9 +50,9 @@ Please don't ask why I do things in complicated ways!
 
 Curricular ideal (here's a magical German term for you: "Idealtypischer Studienverlauf" ... ideal-typical (?) course (trajectory) of studies):
 
-![Semester 1 with Computer Vision, but No Thank You, and Model Checking/Computer Algebra](image-16.png)
+![Semester I with Computer Vision, but No Thank You, and Model Checking/Computer Algebra](image-16.png)
 
-Model Checking was already done in Pre I, note on Computer Algebra: replaced by **Planning and Reasoning in AI** in the 2021 curriculum. I took it, see the following word cloud, but still want to try and integrate Computer Algebra with my Masters as well, if possible.
+Model Checking was already done in Pre I, note on **Computer Algebra**: replaced by _Planning and Reasoning in AI_ in the 2021 curriculum. I took it, see the following word cloud, but still want to try and integrate Computer Algebra with my Masters as well, if possible: I am already in touch with the studies admin about this now.
 
 So, the Jack-actual (Computer Vision will be done in Semester III):
 
@@ -64,11 +64,11 @@ The upcoming semester, let's see if I can follow the ideal.
 
 ![Semmester II](image-17.png)
 
-Actually, I already know I am doing my Practical Work Component this semester, so that already breaks with the ideal, oh well:
+Actually, I already know I am doing my Practical Work Component this semester, so that already breaks with the ideal ...
 
 ![Seminar II in Practice, with Practical Work, no Symbolic AI (Already Done)](image-12.png)
 
-Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II.
+Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II. **Automated Reasoning** is going to be offered as far as I know and needs to be checked with studies admin too.
 
 ### Semester III (**Target Final Semester**)/Winter (2024/2025)
 
@@ -76,9 +76,11 @@ Once again an ideal:
 
 ![Semester III with Practical Work and Seminar](image-9.png)
 
-But I already completed Practical Work and Seminar at this point, and need to wrap my masters thesis (pulling from the intended Semester IV), but still need to do the Computer Vision component on the other hand, so:
+But I already completed Practical Work and Seminar at this point, and need to wrap my masters thesis (pulling from the intended Semester IV), but still need to do the Computer Vision component (technically only the exercise, the lecture was done in Pre I actually) on the other hand, so:
 
-![Semester III without Practical Work and Seminar, but with Computer Vision, Masters Thesis, Thesis Seminar and Exam](image-10.png)
+![Semester III without Practical Work and Seminar, but with Computer Vision, Masters Thesis, Thesis Seminar and Exam](image-19.png)
+
+Automated Reasoning is listed for this semster (2019 version), but should already have been offered in the previous semester - as is the case with Computer Algebra? Let's pin that for now.
 
 ### Shadow Semester IV (Summer 2025, Overflow/Bridging Semester)
 
@@ -88,10 +90,36 @@ Basically only if needed for anything else than the following curricular ideal, 
 
 #### Free Elective List
 
-These just kind of happened:
+12 credits to fill according to both curriculum versions below, CAN be taken from the AI Masters prerequisite Bachelor's level coursework too. (See Pre I and II above.)
 
-* TODO 1
-* 2 ...
+* ML supervised (4.5 credits)
+* ML unsupervised (4.5 credits)
+* Programming in Python II (3 credits)
+
+#### Area of Specialization (Computer and Data Science)
+
+9 credits to fill: 
+
+* ~~ML supervised (4.5 credits)~~
+* ~~ML unsupervised (4.5 credits)~~ (looks like cannot be granted because AI Masters prerequisite Bachelor's level coursework is not elgible in this category: tough bureaucracy!)
+
+* Statistics for AI (6 credits, not in the prerequisites)
+* Basic Methods of Data Analysis (3 credits)
+
+Oh, that's already 9! There are some other courses of interest available actually (looking at you, Semester III and Shadow Semester IV), see the [JKU AI Master's handbook](https://studienhandbuch.jku.at/curr/989) for a current list.
+
+#### Extra-Credit
+
+Also just kind of happened:
+
+* AI in Medicine (2 credits, JKU) - see if needed on transcript (it's there currently)
+* IDSA x Ars Electronica FOUNDING LAB Summer School (4 ECTS from IDSA/ITU) - not on transcript, that is fine
+
+Also
+
+* Math for AI II (6 credits, just the lecture, on my Master's transcript though the exercise for 3 credits is listed in the Bachelor's transcript, technically - see Pre II)
+
+probably not needed, along with a couple more exercises and lectures from the AI Bachelor's which will probably not be credited towards my Master's, which is only okay in a county where the higher ed price tag goes to zero.
 
 #### Appendix: Curriculum 2019 vs 2021, Spot the Difference!
 
