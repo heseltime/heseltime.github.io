@@ -50,11 +50,13 @@ Please don't ask why I do things in complicated ways!
 
 Curricular ideal (here's a magical German term for you: "Idealtypischer Studienverlauf" ... ideal-typical (?) course (trajectory) of studies):
 
-![Semester 1 with Computer Vision, but No Thank You, and Model Checking too](image-16.png)
+![Semester 1 with Computer Vision, but No Thank You, and Model Checking/Computer Algebra](image-16.png)
 
-Jack-actual (Computer Vision will be done in Semester III):
+Model Checking was already done in Pre I, note on Computer Algebra: replaced by **Planning and Reasoning in AI** in the 2021 curriculum. I took it, see the following word cloud, but still want to try and integrate Computer Algebra with my Masters as well, if possible.
 
-![Semester I without Computer Vision and Model Checking](image-15.png)
+So, the Jack-actual (Computer Vision will be done in Semester III):
+
+![Semester I without Computer Vision and Model Checking but with Planning and the Seminar](image-18.png)
 
 ### Semester II/Summer (2024 - **NOW**)
 
