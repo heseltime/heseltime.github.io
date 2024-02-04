@@ -60,12 +60,13 @@ Jack-actual (Computer Vision will be done in Semester III):
 
 The upcoming semester, let's see if I can follow the ideal.
 
-![Smester II Upcoming](image-8.png)
+![Semmester II](image-17.png)
 
 Actually, I already know I am doing my Practical Work Component this semester, so that already breaks with the ideal, oh well:
 
+![Seminar II in Practice, with Practical Work, no Symbolic AI (Already Done)](image-12.png)
 
-![Seminar II in Practice, with Practical Work](image-12.png)
+Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II.
 
 ### Semester III (**Target Final Semester**)/Winter (2024/2025)
 
