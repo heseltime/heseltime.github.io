@@ -38,11 +38,11 @@ So the matter is complicated by a slight difference between the 2019 and the cur
 
 ### Prerequisite Studies
 
-Please don't ask why I do things in complicated ways! During my [SE Bachelor's](/rDse) I enrolled in university coursework from the AI curriculum, both Bachelor's and Master's level, and then formally entered into the Masters on the basis of my college Bachelor's - requiring some preliminary coursework from the AI Bachelor's.
+Please don't ask why I do things in complicated ways! During my [SE Bachelor's](/rDse) I enrolled in university coursework from the AI curriculum, both Bachelor's and Master's level, and then formally entered into the Master's on the basis of my college Bachelor's - requiring some preliminary coursework from the AI Bachelor's. All while already working after college, which yes, did add a stress factor, so if you are planning a similar route, probably best to go it more linearly. But sometimes these things just come a certain way.
 
 #### Pre I (Bachelor's AI content in parallel to SE Bachelor's)
 
-Please don't ask why I do things in complicated ways!
+So yes, please don't ask why I do things in complicated ways!
 
 * ML (Machine Learning) Supervised Techniques
 
