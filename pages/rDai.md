@@ -101,7 +101,11 @@ Basically only if needed for anything else than the following curricular ideal, 
 9 credits to fill: 
 
 * ~~ML supervised (4.5 credits)~~
-* ~~ML unsupervised (4.5 credits)~~ (looks like cannot be granted because AI Masters prerequisite Bachelor's level coursework is not elgible in this category: tough bureaucracy!)
+* ~~ML unsupervised (4.5 credits)~~ 
+
+(Looks like cannot be granted because AI Masters prerequisite Bachelor's level coursework is not elgible in this category: tough bureaucracy!)
+
+So then, I can offer:
 
 * Statistics for AI (6 credits, not in the prerequisites)
 * Basic Methods of Data Analysis (3 credits)
