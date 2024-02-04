@@ -60,7 +60,7 @@ Curricular ideal (here's a magical German term for you: "Idealtypischer Studienv
 
 ![Semester I with Computer Vision, but No Thank You, and Model Checking/Computer Algebra](image-16.png)
 
-Model Checking was already done in Pre I, note on **Computer Algebra**: replaced by _Planning and Reasoning in AI_ in the 2021 curriculum. I took it, see the following word cloud, but still want to try and integrate Computer Algebra with my Masters as well, if possible: I am already in touch with the studies admin about this now.
+Model Checking was already done in Pre I, note on **Computer Algebra**: replaced by _Planning and Reasoning in AI_ in the 2021 curriculum. I took the Planning course, see the following word cloud, but still want to try and integrate Computer Algebra with my Master's as well, if possible: I am already in touch with the studies admin about this now.
 
 So, the Jack-actual (Computer Vision will be done in Semester III):
 
