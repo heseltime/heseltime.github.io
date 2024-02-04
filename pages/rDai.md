@@ -36,15 +36,23 @@ Mysterious member No 1 remains to be chosen! I wonder if this one might be offer
 
 So the matter is complicated by a slight difference between the 2019 and the current 2021 curriculum (it is 2024 now and there is a delay between the given years and the years studied by: I am studying by the 2021 curriculum, I believe (!), but started by the 2019 curriculum - will need to check the details with the studies admin) but ok, let's not get weighed down here: by the 2019 curriculum and according to my original idea for this studies, subject to some slight shifting of coursework according to interest or lack thereof (sorry, looking at you, Computer vision), here are some nice Wolfram Language word clouds with the credit-weighted course titles, listed by semester.
 
-### Pre I (Bachelor's AI content in parallel to SE Bachelors)
+### Prerequisite Studies
+
+Please don't ask why I do things in complicated ways! During my [SE Bachelor's](/rDse) I enrolled in university coursework from the AI curriculum, both Bachelor's and Master's level, and then formally entered into the Masters on the basis of my college Bachelor's - requiring some preliminary coursework from the AI Bachelor's.
+
+#### Pre I (Bachelor's AI content in parallel to SE Bachelor's)
 
 Please don't ask why I do things in complicated ways!
 
+* ML (Machine Learning) Supervised Techniques
 
+I already started on some Master's level coursework too here, Model Checking, some Computer Vision (lecture requirement), Basic Methods of Data Analysis (from the Bachelor's actually), AI in Medicine (short course at the Medical Faculty in Linz).
 
-### Pre II (Bachelor's AI content in parallel to SE Bachelors)
+#### Pre II (Bachelor's AI content in parallel to SE Bachelor's)
 
-
+* ML Unsupervised Techniques
+* Programming in Python II
+* Math for AI II
 
 ### Semester I/Winter (2023/24)
 
