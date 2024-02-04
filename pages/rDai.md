@@ -127,7 +127,7 @@ Oh, that's already 9! There are some other courses of interest available actuall
 Just kind of happened:
 
 * AI in Medicine (2 credits, JKU) - see if needed on transcript (it's there currently)
-* IDSA x Ars Electronica FOUNDING LAB Summer School (4 ECTS from IDSA/ITU) - not on transcript, that is fine
+* IDSA x Ars Electronica FOUNDING LAB Summer School (4 ECTS from IDSA/[ITU](https://it-u.at/)) - not on transcript, that is fine
 
 Also
 
