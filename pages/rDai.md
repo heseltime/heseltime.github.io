@@ -50,9 +50,9 @@ Please don't ask why I do things in complicated ways!
 
 Curricular ideal (here's a magical German term for you: "Idealtypischer Studienverlauf" ... ideal-typical (?) course (trajectory) of studies):
 
-![Semester 1 with Computer Vision, but No Thank You](image-7.png)
+![Semester 1 with Computer Vision, but No Thank You](image-14.png)
 
-Jack-actual:
+Jack-actual (Computer Vision will be done in Semester III):
 
 ![Semester I without Computer Vision](image-6.png)
 
