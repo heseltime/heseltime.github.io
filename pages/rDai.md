@@ -54,6 +54,8 @@ I already started on some Master's level coursework too here, Model Checking, so
 * Programming in Python II
 * Math for AI II
 
+Also did Knowledge Representation and Reasoning (formerly Symbolic AI) at the Master's level here.
+
 ### Semester I/Winter (2023/24)
 
 Curricular ideal (here's a magical German term for you: "Idealtypischer Studienverlauf" ... ideal-typical (?) course (trajectory) of studies):
@@ -70,11 +72,11 @@ So, the Jack-actual (Computer Vision will be done in Semester III):
 
 The upcoming semester, let's see if I can follow the ideal.
 
-![Semmester II](image-17.png)
+![Semester II](image-20.png)
 
 Actually, I already know I am doing my Practical Work Component this semester, so that already breaks with the ideal ...
 
-![Seminar II in Practice, with Practical Work, no Symbolic AI (Already Done)](image-12.png)
+![Seminar II in Practice, with Practical Work, no Symbolic AI (Already Done)](image-21.png)
 
 Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II. **Automated Reasoning** is going to be offered as far as I know and needs to be checked with studies admin too.
 
