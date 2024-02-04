@@ -86,7 +86,7 @@ Once again an ideal:
 
 ![Semester III with Practical Work and Seminar](image-9.png)
 
-But I already completed Practical Work and Seminar at this point, and need to wrap my masters thesis (pulling from the intended Semester IV), but still need to do the Computer Vision component (technically only the exercise, the lecture was done in Pre I actually) on the other hand, so:
+But I already completed Practical Work and Seminar at this point, and need to wrap my Master's thesis (pulling from the intended Semester IV), but still need to do the Computer Vision component (technically only the exercise, the lecture was done in Pre I actually) on the other hand, so:
 
 ![Semester III without Practical Work and Seminar, but with Computer Vision, Masters Thesis, Thesis Seminar and Exam](image-19.png)
 
