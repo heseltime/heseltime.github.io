@@ -72,13 +72,13 @@ So, the Jack-actual (Computer Vision will be done in Semester III):
 
 The upcoming semester, let's see if I can follow the ideal.
 
-![Semester II](image-20.png)
+![Semester II](image-23.png)
 
 Actually, I already know I am doing my Practical Work Component this semester, so that already breaks with the ideal ...
 
-![Seminar II in Practice, with Practical Work, no Symbolic AI (Already Done)](image-21.png)
+![Seminar II in Practice, with Practical Work, no Symbolic AI (Already Done)](image-22.png)
 
-Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II. **Automated Reasoning** is going to be offered as far as I know and needs to be checked with studies admin too.
+Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II.
 
 ### Semester III (**Target Final Semester**)/Winter (2024/2025)
 
@@ -88,9 +88,9 @@ Once again an ideal:
 
 But I already completed Practical Work and Seminar at this point, and need to wrap my Master's thesis (pulling from the intended Semester IV), but still need to do the Computer Vision component (technically only the exercise, the lecture was done in Pre I actually) on the other hand, so:
 
-![Semester III without Practical Work and Seminar, but with Computer Vision, Masters Thesis, Thesis Seminar and Exam](image-19.png)
+![Semester III without Practical Work and Seminar, but with Computer Vision, Masters Thesis, Thesis Seminar and Exam, also Automated Reasoning](image-24.png)
 
-Automated Reasoning is listed for this semster (2019 version), but should already have been offered in the previous semester - as is the case with Computer Algebra? Let's pin that for now.
+Automated Reasoning is listed for this semster (2019 version), and is only offered this semester currently, along with Computer Algebra (but this one is not required in the 2021 curriculum anymore, just a nice course).
 
 ### Shadow Semester IV (Summer 2025, Overflow/Bridging Semester)
 
