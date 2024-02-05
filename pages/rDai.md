@@ -64,6 +64,8 @@ Curricular ideal (here's a magical German term for you: "Idealtypischer Studienv
 
 Model Checking was already done in Pre I, note on **Computer Algebra**: replaced by _Planning and Reasoning in AI_ in the 2021 curriculum. I took the Planning course, see the following word cloud, but still want to try and integrate Computer Algebra with my Master's as well, if possible: I am already in touch with the studies admin about this now.
 
+#### Target (Update March 2024: **Reached**)
+
 So, the Jack-actual (Computer Vision will be done in Semester III, which I am ok with, so I consider **my target reached**):
 
 ![Semester I without Computer Vision and Model Checking but with Planning and the Seminar](image-18.png)
@@ -74,11 +76,13 @@ The upcoming semester, let's see if I can follow the ideal.
 
 ![Semester II](image-23.png)
 
+#### Target
+
 Actually, I already know I am doing my Practical Work Component this semester, so that already breaks with the ideal ...
 
 ![Seminar II in Practice, with Practical Work, no Symbolic AI (Already Done)](image-22.png)
 
-Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II.
+Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II: so, in other words, shooting beyond ideal here, for my target.
 
 ### Semester III (**Target Final Semester**)/Winter (2024/2025)
 
@@ -86,7 +90,10 @@ Once again an ideal:
 
 ![Semester III with Practical Work and Seminar](image-9.png)
 
-But I already completed Practical Work and Seminar at this point, and need to wrap my Master's thesis (pulling from the intended Semester IV), but still need to do the Computer Vision component (technically only the exercise, the lecture was done in Pre I actually) on the other hand, so:
+
+#### Target
+
+This might be a lofty goal ... I already completed Practical Work and Seminar at this point, and need to wrap my Master's thesis (pulling from the intended Semester IV), but still need to do the Computer Vision component (technically only the exercise, the lecture was done in Pre I actually) on the other hand, so:
 
 ![Semester III without Practical Work and Seminar, but with Computer Vision, Masters Thesis, Thesis Seminar and Exam, also Automated Reasoning](image-24.png)
 
@@ -97,6 +104,10 @@ Automated Reasoning is listed for this semster (2019 version), and is only offer
 Basically only if needed for anything else than the following curricular ideal, where I already completed everything if I stay on target (then I would be doing my exam, see above, in the spring, which could be a nice timeline too): this would be a whole semester reserved for Masters Thesis (writing), Seminar and Exam. We'll see.
 
 ![Boring Semster with just Masters Thesis, Seminar and Exam](image-13.png)
+
+#### Target
+
+On-target would be __just__ the final Master's exam open in the spring, to conclude with this course of studies in all but this last practical matter, maybe allowing for time for some interesting (extra-credit) courses, certainly making for a helpful financial support setup in a country where good studies progress is actually muneratively rewarded by public scholarship schemes - on a monthly basis for every month in studies, see. Ask me about it if you are interested in that topic, by the way!
 
 #### Free Elective List
 
