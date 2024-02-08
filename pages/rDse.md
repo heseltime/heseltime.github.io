@@ -27,7 +27,7 @@ Fifth semester starts in fall 2023, sixth semester is all about practice and in 
 - Lecture + Exercise: ~~Mobile Computing~~ Advanced Python
 - Lecture: IT Law (Austria/EU focus, but the concepts travel)
 - Study Project in C# with Industry Partner in Hagenberg ([ventopay](https://www.linkedin.com/company/ventopay-gmbh))
-- Thesis (see above)
+- Thesis (see above) + Thesis Seminar
 
 ## fourth semester
 
