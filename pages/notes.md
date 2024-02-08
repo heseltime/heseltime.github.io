@@ -11,7 +11,7 @@ Feed for on-going research at the nexus <b>Tech x Art x Society</b>, as envision
 
 <i>The <a href="https://en.wikipedia.org/wiki/Rube_Goldberg_machine" target="_BLANK">Rube Goldberg machine</a> that is digital transformation, courtesy of Ars Electronica. <b>For more, see the initial Ars Electronica 2023 note in the feed.</b></i>
 
-## Ongoing rX Feed: Accessible Documents, an LLM/ECM-AI Topic
+## Ongoing rX Feed: Accessible Documents, an LLM/ECM-AI Topic, now X Open Innovation in Science (Community Challenge)?
 
 I think we are entering [a new paradigm in software and applications](/curl) and so, as I work on my LLM-centric Masters thesis, I want to keep adding context and development-note style feed entries as I go.
 
