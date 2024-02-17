@@ -9,6 +9,12 @@ feedformat: none
 
 What follows are a selection of topics (correlating with course work) and what I did and do and think about in those areas: these Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and a topic dear to my heart are taking center-stage for now.
 
+# LSTM in the Linz-AI-Curriculum
+
+It's a core course for the Master's after all: Sepp Hochreiter invented LSTM (Long-Short-Term Memory), but to go there, you need to start with RNNs (Recurrent Neural Networks) first. 
+
+$$ \frac{P(B	A)\cdot P(A)}{P(B)} $$
+
 # Taking Symbolic on the Road (with [Wolfram](/wolfram)!)
 
 <div id="symbolic-conclusion">Apart from my thesis, practical work, final exam and <a href="studies-overview">core coursework</a> (see next sections below), my AI degree in Linz involves the symbolic track components I talk about above, essentially <a href="/wolfram#computer-algebra">Computer Algebra</a> and <a href="/wolfram#automated-reasoning">Automated Reasoning</a>, both situated at <a href="https://risc.jku.at/">RISC</a>: since I am now working for Wolfram during my Masters and in the foreseeable future, I am making an effort to basically pool that work and this part of my studies: the tool (also used in Linz and at RISC), Wolfram Language, is the same, after all.
