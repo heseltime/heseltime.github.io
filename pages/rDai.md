@@ -67,13 +67,16 @@ We arrive at the Fully RNN with recurrent hidden layers that are fully connected
 
 Let's discuss the ideas on a high level.
 
-The ARMA model is defined as follows:
+
+The Autoregressive Moving Average (ARMA) model is a popular statistical model used for time series forecasting. It combines two components: Autoregressive (AR) and Moving Average (MA). The AR part involves using the dependency between an observation and a number of lagged observations. The MA part involves modeling the error term as a linear combination of error terms occurring contemporaneously and at various times in the past.
+
+The ARMA model can be denoted as ARMA(p, q), where $$p$$ is the order of the autoregressive part, and $$q$$ is the order of the moving average part. The general form of the ARMA model is given by the following equation:
 
 $$
 X_t = \phi_1 X_{t-1} + \phi_2 X_{t-2} + \cdots + \phi_p X_{t-p} + \theta_1 \varepsilon_{t-1} + \theta_2 \varepsilon_{t-2} + \cdots + \theta_q \varepsilon_{t-q} + \varepsilon_t
 $$
 
-where:
+Where:
 
 - $$X_t$$ is the time series at time $$t$$,
 - $$\phi_1, \phi_2, \ldots, \phi_p$$ are the coefficients of the autoregressive terms,
@@ -89,11 +92,29 @@ $$
 y(t) = f\left(y(t-1), y(t-2), \ldots, y(t-d_y), u(t-1), u(t-2), \ldots, u(t-d_u)\right) + \varepsilon(t)
 $$
 
+Where:
+
 - $$y(t)$$ is the output at time $$t$$,
 - $$u(t)$$ is the exogenous input at time $$t$$,
 - $$d_y$$ and $$d_u$$ are the delays (or memory) for the output and input respectively,
 - $$f$$ represents a nonlinear function, often realized by a neural network,
 - $$\varepsilon(t)$$ is the error term at time $$t$$.
+
+Finally, Time Delay Neural Networks (TDNNs) are a specialized form of neural networks designed to recognize patterns across sequential data, effectively capturing temporal relationships. TDNNs introduce a mechanism to handle time series or sequence data by incorporating time-delayed connections in their architecture. This allows the network to consider input not just from the current time step but also from several previous time steps, thus leveraging the temporal context of the data.
+
+The operation of a neuron in a TDNN can be mathematically represented as follows:
+
+$$
+y(t) = f\left( \sum_{i=0}^{N} w_i x(t-i) + b \right)
+$$
+
+where:
+- $$y(t)$$ is the output of the neuron at time $$t$$,
+- $$x(t-i)$$ represents the input at time $$t-i$$,
+- $$w_i$$ are the weights associated with inputs at different time delays,
+- $$b$$ is the bias term,
+- $$f$$ is the activation function,
+- $$N$$ is the number of time steps considered (the window size).
 
 
 ## LSTM Solves the Vanishing Gradient Problem
