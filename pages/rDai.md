@@ -31,12 +31,10 @@ What follows is a small taxonomy of RNNs, centering on LSTM, _with the formulas!
 For the Jordan network, which is a type of recurrent neural network (RNN) that connects the output to the input of the network for the next time step, the equations are slightly different from those of LSTM-like networks we will look at in a moment.
 
 $$
-\[
 \begin{align}
 \boldsymbol{h}(t) &= \sigma\left(\boldsymbol{W}_{h}^{\top} \boldsymbol{x}(t) + \boldsymbol{R}_{h}^{\top} \boldsymbol{y}(t-1)\right) \\
 \boldsymbol{y}(t) &= \phi\left(\boldsymbol{W}_{y}^{\top} \boldsymbol{h}(t)\right)
 \end{align}
-\]
 $$
 
 The point here is: _weight sharing_ is emplyoed, that is, the same weights are used across time steps. **_R_** is the Recurrent Weight Matrix here.
@@ -46,12 +44,21 @@ The point here is: _weight sharing_ is emplyoed, that is, the same weights are u
 The _"simple recurren neural network"_ is a way to describe this network sometimes found. Internal hidden activations are remembered, but hidden units loop only to themselves, not neighbors or any other units:
 
 $$
-\[
 \begin{align}
 \boldsymbol{h}(t) &= \sigma\left(\boldsymbol{W}_{h}^{\top} \boldsymbol{x}(t) + \boldsymbol{R}_{h}^{\top} \boldsymbol{h}(t-1)\right) \\
 \boldsymbol{y}(t) &= \phi\left(\boldsymbol{W}_{y}^{\top} \boldsymbol{h}(t)\right)
 \end{align}
-\]
+$$
+
+### Fully Recurrent Network
+
+Do you spot what is moving in the formulas, as complexity and thereby expressivity is added?
+
+$$
+\begin{align}
+\boldsymbol{h}(t) &= \sigma\left(\boldsymbol{W} \boldsymbol{x}(t) + \boldsymbol{R} \boldsymbol{h}(t-1) + \boldsymbol{b}\right) \\
+\boldsymbol{y}(t) &= \phi\left(\boldsymbol{W}_{y} \boldsymbol{h}(t) + \boldsymbol{b}_y\right)
+\end{align}
 $$
 
 ## LSTM Solves the Vanishing Gradient Problem
