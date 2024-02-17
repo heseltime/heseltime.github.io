@@ -133,7 +133,7 @@ $$
 \end{align}
 $$
 
-
+![Schematic of the Vanilla LSTM Cell](/assets/img/vanilla_lstm_legend.png "Schematic of the Vanilla LSTM Cell")
 
 # Taking Symbolic on the Road (with [Wolfram](/wolfram)!)
 
