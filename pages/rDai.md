@@ -19,6 +19,17 @@ It's a core course for the Master's, treating a core AI datastructure so to spea
 
 RNN-Feats? Read [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy, maybe not so unreasonable in light of the quote from Chris Olah.
 
+## Wolfram Language LSTM Handling
+
+Let's try something to begin, though, before jumping into more background on RNNs generally, and LSTM specifically, right up to the 2024 [xLSTM Story](https://www.heise.de/news/NXAI-Sepp-Hochreiter-will-europaeische-Antwort-auf-OpenAI-erschaffen-9618232.html) (DE-world currently).
+
+
+```
+lstm = NetInitialize@
+  LongShortTermMemoryLayer[2, "Input" -> {"Varying", 2}]
+```
+
+
 What follows is a small taxonomy of RNNs, centering on LSTM, _with the formulas!_
 
 ## RNN Architectures
