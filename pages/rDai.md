@@ -15,6 +15,12 @@ It's a core course for the Master's. After all, JKU's [Sepp Hochreiter](https://
 
 $$ \frac{P(B \vert A)\cdot P(A)}{P(B)} $$
 
+> This chain-like nature reveals that recurrent neural networks are intimately related to sequences and lists. They’re the natural architecture of neural network to use for such data.
+
+(Chris Olah, "Understanding LSTM Networks" posted on August 27, 2015 and accessed Febrary 17, 2024)
+
+
+
 # Taking Symbolic on the Road (with [Wolfram](/wolfram)!)
 
 <div id="symbolic-conclusion">Apart from my thesis, practical work, final exam and <a href="studies-overview">core coursework</a> (see next sections below), my AI degree in Linz involves the symbolic track components I talk about above, essentially <a href="/wolfram#computer-algebra">Computer Algebra</a> and <a href="/wolfram#automated-reasoning">Automated Reasoning</a>, both situated at <a href="https://risc.jku.at/">RISC</a>: since I am now working for Wolfram during my Masters and in the foreseeable future, I am making an effort to basically pool that work and this part of my studies: the tool (also used in Linz and at RISC), Wolfram Language, is the same, after all.
