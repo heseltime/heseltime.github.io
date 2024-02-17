@@ -61,6 +61,8 @@ $$
 \end{align}
 $$
 
+We arrive at the Fully RNN with recurrent hidden layers that are fully connected, so all the hidden units are able to store information, i.e. from previous inputs. There is a time lag to these connections, therefore.
+
 ## LSTM Solves the Vanishing Gradient Problem
 
 $$
