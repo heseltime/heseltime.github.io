@@ -63,7 +63,9 @@ $$
 
 We arrive at the Fully RNN with recurrent hidden layers that are fully connected, so all the hidden units are able to store information, i.e. from previous inputs. There is a time lag to these connections, therefore.
 
-### Autoregressive-Moving-Average (ARMA)
+### Autoregressive-Moving-Average (ARMA), Non-linear Autoregressive Exogenous Models (NARX) and Time-Delay Neural Networks
+
+Let's discuss the ideas on a high level.
 
 The ARMA model is defined as follows:
 
@@ -80,6 +82,32 @@ $$
     \item \(\theta_1, \theta_2, \ldots, \theta_q\) are the coefficients of the moving average terms,
     \item \(\varepsilon_t\) is white noise at time \(t\).
 \end{itemize}
+$$
+
+The Nonlinear AutoRegressive with eXogenous inputs (NARX) model is a type of recurrent dynamic network that is particularly useful for modeling and predicting time series data influenced by past values of the target series and past values of external (exogenous) inputs. It is a powerful tool for capturing complex nonlinear relationships in time series data.
+
+$$
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The Nonlinear AutoRegressive with eXogenous inputs (NARX) model can be represented as follows:
+
+\[
+y(t) = f\left(y(t-1), y(t-2), \ldots, y(t-d_y), u(t-1), u(t-2), \ldots, u(t-d_u)\right) + \varepsilon(t)
+\]
+
+where:
+\begin{itemize}
+    \item \(y(t)\) is the output at time \(t\),
+    \item \(u(t)\) is the exogenous input at time \(t\),
+    \item \(d_y\) and \(d_u\) are the delays (or memory) for the output and input respectively,
+    \item \(f\) represents a nonlinear function, often realized by a neural network,
+    \item \(\varepsilon(t)\) is the error term at time \(t\).
+\end{itemize}
+
+\end{document}
 $$
 
 ## LSTM Solves the Vanishing Gradient Problem
