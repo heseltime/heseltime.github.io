@@ -11,7 +11,7 @@ What follows are a selection of topics (correlating with course work) and what I
 
 # LSTM in the Linz-AI-Curriculum
 
-It's a core course for the Master's. After all, JKU's [Sepp Hochreiter](https://en.wikipedia.org/wiki/Sepp_Hochreiter) [invented LSTM (Long-Short-Term Memory)](https://www.bioinf.jku.at/publications/older/2604.pdf), but to go there, you need to [start from RNNs (Recurrent Neural Networks)](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) first - check out the links for helpful resources to get up to speed. What follows is a small taxonomy of RNNs, centering on LSTM.
+It's a core course for the Master's. After all, JKU's [Sepp Hochreiter](https://en.wikipedia.org/wiki/Sepp_Hochreiter) [invented LSTM (Long-Short-Term Memory)](https://www.bioinf.jku.at/publications/older/2604.pdf), but to go there, you need to [start from RNNs (Recurrent Neural Networks)](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) first.
 
 $$ \frac{P(B \vert A)\cdot P(A)}{P(B)} $$
 
@@ -21,7 +21,38 @@ $$ \frac{P(B \vert A)\cdot P(A)}{P(B)} $$
 
 RNN-Feats? Read [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy, maybe not so unreasonable in light of the quote from Chris Olah.
 
+What follows is a small taxonomy of RNNs, centering on LSTM, _with the formulas!_
+
 ## RNN Architectures
+
+### Jordan
+
+
+For the Jordan network, which is a type of recurrent neural network (RNN) that connects the output to the input of the network for the next time step, the equations are slightly different from those of LSTM-like networks we will look at in a moment.
+
+$$
+\[
+\begin{align}
+\boldsymbol{h}(t) &= \sigma\left(\boldsymbol{W}_{h}^{\top} \boldsymbol{x}(t) + \boldsymbol{R}_{h}^{\top} \boldsymbol{y}(t-1)\right) \\
+\boldsymbol{y}(t) &= \phi\left(\boldsymbol{W}_{y}^{\top} \boldsymbol{h}(t)\right)
+\end{align}
+\]
+$$
+
+The point here is: _weight sharing_ is emplyoed, that is, the same weights are used across time steps. **_R_** is the Recurrent Weight Matrix here.
+
+### Elman
+
+The _"simple recurren neural network"_ is a way to describe this network sometimes found. Internal hidden activations are remembered, but hidden units loop only to themselves, not neighbors or any other units:
+
+$$
+\[
+\begin{align}
+\boldsymbol{h}(t) &= \sigma\left(\boldsymbol{W}_{h}^{\top} \boldsymbol{x}(t) + \boldsymbol{R}_{h}^{\top} \boldsymbol{h}(t-1)\right) \\
+\boldsymbol{y}(t) &= \phi\left(\boldsymbol{W}_{y}^{\top} \boldsymbol{h}(t)\right)
+\end{align}
+\]
+$$
 
 ## LSTM Solves the Vanishing Gradient Problem
 
