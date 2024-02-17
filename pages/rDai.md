@@ -56,7 +56,7 @@ Do you spot what is moving in the formulas, as complexity and thereby expressivi
 
 $$
 \begin{align}
-\boldsymbol{h}(t) &= \sigma\left(\boldsymbol{W}^{\top} \boldsymbol{x}(t) + \boldsymbol{a}(t-1) \\
+\boldsymbol{h}(t) &= \sigma\left(\boldsymbol{W}^{\top} \boldsymbol{x}(t) + \boldsymbol{a}(t-1)) \\
 \boldsymbol{y}(t) &= \phi\left(\boldsymbol{V}^{\top}\boldsymbol{a}(t)\right)
 \end{align}
 $$
