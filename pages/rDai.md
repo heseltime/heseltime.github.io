@@ -65,7 +65,7 @@ We arrive at the Fully RNN with recurrent hidden layers that are fully connected
 
 ### Autoregressive-Moving-Average (ARMA)
 
-The ARMA(p, q) model is defined as follows:
+The ARMA model is defined as follows:
 
 $$
 X_t = \phi_1 X_{t-1} + \phi_2 X_{t-2} + \cdots + \phi_p X_{t-p} + \theta_1 \varepsilon_{t-1} + \theta_2 \varepsilon_{t-2} + \cdots + \theta_q \varepsilon_{t-q} + \varepsilon_t
@@ -75,10 +75,10 @@ where:
 
 $$
 \begin{itemize}
-    \item $X_t$ is the time series at time $t$,
-    \item $\phi_1, \phi_2, \ldots, \phi_p$ are the coefficients of the autoregressive terms,
-    \item $\theta_1, \theta_2, \ldots, \theta_q$ are the coefficients of the moving average terms,
-    \item $\varepsilon_t$ is white noise at time $t$.
+    \item \(X_t\) is the time series at time \(t\),
+    \item \(\phi_1, \phi_2, \ldots, \phi_p\) are the coefficients of the autoregressive terms,
+    \item \(\theta_1, \theta_2, \ldots, \theta_q\) are the coefficients of the moving average terms,
+    \item \(\varepsilon_t\) is white noise at time \(t\).
 \end{itemize}
 $$
 
