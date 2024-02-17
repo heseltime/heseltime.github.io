@@ -75,40 +75,26 @@ $$
 
 where:
 
-$$
-\begin{itemize}
-    \item \(X_t\) is the time series at time \(t\),
-    \item \(\phi_1, \phi_2, \ldots, \phi_p\) are the coefficients of the autoregressive terms,
-    \item \(\theta_1, \theta_2, \ldots, \theta_q\) are the coefficients of the moving average terms,
-    \item \(\varepsilon_t\) is white noise at time \(t\).
-\end{itemize}
-$$
+- $$X_t$$ is the time series at time $$t$$,
+- $$\phi_1, \phi_2, \ldots, \phi_p$$ are the coefficients of the autoregressive terms,
+- $$\theta_1, \theta_2, \ldots, \theta_q$$ are the coefficients of the moving average terms,
+- $$\varepsilon_t$$ is white noise at time $$t$$.
+
 
 The Nonlinear AutoRegressive with eXogenous inputs (NARX) model is a type of recurrent dynamic network that is particularly useful for modeling and predicting time series data influenced by past values of the target series and past values of external (exogenous) inputs. It is a powerful tool for capturing complex nonlinear relationships in time series data.
 
-$$
-\documentclass{article}
-\usepackage{amsmath}
-
-\begin{document}
-
 The Nonlinear AutoRegressive with eXogenous inputs (NARX) model can be represented as follows:
 
-\[
-y(t) = f\left(y(t-1), y(t-2), \ldots, y(t-d_y), u(t-1), u(t-2), \ldots, u(t-d_u)\right) + \varepsilon(t)
-\]
-
-where:
-\begin{itemize}
-    \item \(y(t)\) is the output at time \(t\),
-    \item \(u(t)\) is the exogenous input at time \(t\),
-    \item \(d_y\) and \(d_u\) are the delays (or memory) for the output and input respectively,
-    \item \(f\) represents a nonlinear function, often realized by a neural network,
-    \item \(\varepsilon(t)\) is the error term at time \(t\).
-\end{itemize}
-
-\end{document}
 $$
+y(t) = f\left(y(t-1), y(t-2), \ldots, y(t-d_y), u(t-1), u(t-2), \ldots, u(t-d_u)\right) + \varepsilon(t)
+$$
+
+- $$y(t)$$ is the output at time $$t$$,
+- $$u(t)$$ is the exogenous input at time $$t$$,
+- $$d_y$$ and $$d_u$$ are the delays (or memory) for the output and input respectively,
+- $$f$$ represents a nonlinear function, often realized by a neural network,
+- $$\varepsilon(t)$$ is the error term at time $$t$$.
+
 
 ## LSTM Solves the Vanishing Gradient Problem
 
