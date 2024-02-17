@@ -11,11 +11,9 @@ What follows are a selection of topics (correlating with course work) and what I
 
 # LSTM in the Linz-AI-Curriculum
 
-It's a core course for the Master's. After all, JKU's Sepp Hochreiter invented LSTM (Long-Short-Term Memory), but to go there, you need to start with RNNs (Recurrent Neural Networks) first - check out the links for helpful resources to get up to speed. What follows is a small taxonomy of RNNs, centering on LSTM.
+It's a core course for the Master's. After all, JKU's [Sepp Hochreiter](https://en.wikipedia.org/wiki/Sepp_Hochreiter) [invented LSTM (Long-Short-Term Memory)](https://www.bioinf.jku.at/publications/older/2604.pdf), but to go there, you need to [start from RNNs (Recurrent Neural Networks)](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) first - check out the links for helpful resources to get up to speed. What follows is a small taxonomy of RNNs, centering on LSTM.
 
-$$ \frac{P(B	A)\cdot P(A)}{P(B)} $$
-
-When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+$$ \frac{P(B \vert A)\cdot P(A)}{P(B)} $$
 
 # Taking Symbolic on the Road (with [Wolfram](/wolfram)!)
 
