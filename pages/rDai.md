@@ -63,6 +63,25 @@ $$
 
 We arrive at the Fully RNN with recurrent hidden layers that are fully connected, so all the hidden units are able to store information, i.e. from previous inputs. There is a time lag to these connections, therefore.
 
+### Autoregressive-Moving-Average (ARMA)
+
+The ARMA(p, q) model is defined as follows:
+
+$$
+X_t = \phi_1 X_{t-1} + \phi_2 X_{t-2} + \cdots + \phi_p X_{t-p} + \theta_1 \varepsilon_{t-1} + \theta_2 \varepsilon_{t-2} + \cdots + \theta_q \varepsilon_{t-q} + \varepsilon_t
+$$
+
+where:
+
+$$
+\begin{itemize}
+    \item $X_t$ is the time series at time $t$,
+    \item $\phi_1, \phi_2, \ldots, \phi_p$ are the coefficients of the autoregressive terms,
+    \item $\theta_1, \theta_2, \ldots, \theta_q$ are the coefficients of the moving average terms,
+    \item $\varepsilon_t$ is white noise at time $t$.
+\end{itemize}
+$$
+
 ## LSTM Solves the Vanishing Gradient Problem
 
 $$
