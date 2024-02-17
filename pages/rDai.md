@@ -13,8 +13,6 @@ What follows are a selection of topics (correlating with course work) and what I
 
 It's a core course for the Master's, treating a core AI datastructure so to speak, maybe as central as Convolutional Neural Networks, and at least framing the perspective on Transformers (where there is no separate course). After all, JKU's [Sepp Hochreiter](https://en.wikipedia.org/wiki/Sepp_Hochreiter) [invented LSTM (Long-Short-Term Memory)](https://www.bioinf.jku.at/publications/older/2604.pdf), but to go there, you need to [start from RNNs (Recurrent Neural Networks)](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) first.
 
-$$ \frac{P(B \vert A)\cdot P(A)}{P(B)} $$
-
 > This chain-like nature reveals that recurrent neural networks are intimately related to sequences and lists. They’re the natural architecture of neural network to use for such data.
 
 (Chris Olah, "Understanding LSTM Networks" posted on August 27, 2015 and accessed Febrary 17, 2024)
@@ -116,6 +114,11 @@ where:
 - $$f$$ is the activation function,
 - $$N$$ is the number of time steps considered (the window size).
 
+So much for further background on the architectural levels. Let's let the latter models especially serve as contextual notes, the goal always being to express connections across time steps. So far so good!
+
+## Learning and the Vanishing Gradient Problem
+
+
 
 ## LSTM Solves the Vanishing Gradient Problem
 
@@ -129,6 +132,8 @@ $$
 \boldsymbol{y}(t) &= \boldsymbol{o}(t) \odot h(\boldsymbol{c}(t))
 \end{align}
 $$
+
+
 
 # Taking Symbolic on the Road (with [Wolfram](/wolfram)!)
 
