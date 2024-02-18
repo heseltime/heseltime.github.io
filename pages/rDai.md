@@ -158,7 +158,29 @@ So much for further background on the architectural levels. Let's let the latter
 
 ## Learning and the Vanishing Gradient Problem
 
+### Backpropagation Through Time (BPTT)
 
+#### How BPTT Works:
+
+1. **Unfolding the Network:** The RNN is "unrolled" for each time step in the input sequence, transforming it into an equivalent feedforward network where each layer corresponds to a time step.
+
+2. **Forward Pass:** Inputs are fed sequentially, and activations are computed across the unrolled network, moving forward through time.
+
+3. **Backward Pass:** The loss is calculated at the final output, and gradients are backpropagated through the network, taking into account the impact of weights across all time steps.
+
+4. **Gradient Accumulation:** Gradients for each time step are accumulated since the same weights are applied at every step.
+
+5. **Weight Update:** The weights are updated using the accumulated gradients, employing optimization algorithms like SGD, Adam, or RMSprop.
+
+#### Challenges with BPTT:
+
+- **Vanishing and Exploding Gradients:** These issues can significantly hinder learning, especially for long sequences. LSTM and GRU units are designed to mitigate these problems.
+
+- **Computational Intensity:** Processing long sequences in their entirety for each update can be computationally demanding and memory-intensive.
+
+- **Truncated BPTT:** This approach limits the unrolled network to a fixed number of steps to reduce computational requirements, though it may restrict the model's ability to learn from longer sequences.
+
+BPTT enables RNNs to effectively leverage sequence data, making it crucial for applications in fields like natural language processing and time series analysis.
 
 ## LSTM Solves the Vanishing Gradient Problem
 
