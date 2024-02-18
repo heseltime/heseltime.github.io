@@ -255,7 +255,9 @@ Figure from K. Greff, R.K. Srivastava, J. Koutnik, B.R. Steunebrink, J. Schmidhu
 
 **Focused LSTM**: No forget gate and fewer parameters than Vanilla LSTM.
 
-**Lightweight LSTM**: The Focused LSTM without output gates. (Has Markov properties.)
+**Lightweight LSTM**: The Focused LSTM without output gates. (Has Markov properties*.)
+
+(*The Markov property is a fundamental concept in the theory of stochastic processes. It refers to the memoryless property of a process, where the future state depends only on the current state and not on the sequence of events that preceded it. There are several types.)
 
 ### Tricks of the Trade
 
