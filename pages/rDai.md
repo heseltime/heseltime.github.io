@@ -23,6 +23,9 @@ RNN-Feats? Read [The Unreasonable Effectiveness of Recurrent Neural Networks](ht
 
 Let's try something to begin, though, before jumping into more background on RNNs generally, and LSTM specifically, right up to the 2024 [xLSTM Story](https://www.heise.de/news/NXAI-Sepp-Hochreiter-will-europaeische-Antwort-auf-OpenAI-erschaffen-9618232.html) (DE-world currently).
 
+I know Python is the default in many AI curricula nowadays, but tools like Wolfram Language (WL) can be more effective because they are more high level. It really depends on what you want to emphasize: are you interested in implementation details, or do you just want to work with the networks?
+
+Let's try this **Input:**
 
 ```
 (*recurrent layer acting on variable-length sequences of 2-vectors*)
@@ -31,8 +34,30 @@ lstm = NetInitialize@
 (*Evaluate the layer on a batch of variable-length sequencesEvaluate the layer on a batch of variable-length sequences*)
 seq1 = \{\{0.1, 0.4\}, \{-0.2, 0.7\}\};
 seq2 = \{\{0.2, -0.3\}, \{0.1, 0.8\}, \{-1.3, -0.6\}\};
+result = lstm[{seq1, seq2}]
 ```
 
+**Output:**
+
+```
+\{\{\{-0.0620258, 0.0420743\}, \{-0.0738596, 
+   0.0826808\}\}, \{\{0.0240281, -0.00213933\}, \{-0.0691157, 
+   0.0852326\}, \{0.190297, -0.117645\}\}\}
+```
+
+For something just a bit more complicated, let's produce a number for each sequence: this is what it would look like to chain up the layers in WL.
+
+**Input:**
+
+```
+net = NetInitialize@
+  NetChain[{EmbeddingLayer[3], LongShortTermMemoryLayer[1], 
+    SequenceLastLayer[]}, "Input" -> NetEncoder["Characters"]]
+```
+
+**Output** [after the jump, in a repo I made for the demo notebook.](https://github.com/heseltime/WLForRNNs/blob/main/lstm-tests.nb) If you don't want to download the notebook and boot up Mathematic, the output looks like this, however.
+
+![NetChaining in WL](image-25.png)
 
 What follows is a small taxonomy of RNNs, centering on LSTM, _with the formulas!_
 
