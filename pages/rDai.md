@@ -55,7 +55,7 @@ net = NetInitialize@
     SequenceLastLayer[]}, "Input" -> NetEncoder["Characters"]]
 ```
 
-**Output** [after the jump, in a repo I made for the demo notebook.](https://github.com/heseltime/WLForRNNs/blob/main/lstm-tests.nb) If you don't want to download the notebook and boot up Mathematic, the output looks like this, however.
+**Output** [after the jump, in a repo I made for the demo notebook.](https://github.com/heseltime/WLForRNNs/blob/main/lstm-tests.nb) If you don't want to download the notebook and boot up Mathematica, the output looks like this, however.
 
 ![NetChaining in WL](image-25.png)
 
