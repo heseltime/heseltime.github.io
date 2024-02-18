@@ -184,7 +184,16 @@ BPTT enables RNNs to effectively leverage sequence data, making it crucial for a
 
 #### The Formulas
 
+[I'll refer to Dive Into Deep Learning's section on this topic.](https://d2l.ai/chapter_recurrent-neural-networks/bptt.html)
 
+### Truncated BPTT
+
+Dive Into Deep Learning (ibid) has the idea:
+
+>  ... an approximation of the true gradient, simply by terminating the sum at $$\partial h_{t-\tau}/\partial w_\textrm{h}$$
+. In practice this works quite well. It is what is commonly referred to as truncated backpropgation through time (Jaeger, 2002).
+
+[Here is a reference tutorial paper I really like by Herbert Jaeger](https://www.ai.rug.nl/minds/uploads/ESNTutorialRev.pdf), covering the method in some more detail and also presenting the material covered in this post from different angles.
 
 ## LSTM Solves the Vanishing Gradient Problem
 
