@@ -180,7 +180,11 @@ So much for further background on the architectural levels. Let's let the latter
 
 **- Truncated BPTT:** This approach limits the unrolled network to a fixed number of steps to reduce computational requirements, though it may restrict the model's ability to learn from longer sequences.
 
-BPTT enables RNNs to effectively leverage sequence data, making it crucial for applications in fields like natural language processing and time series analysis. We will go over some important initialization, regularization, and other approaches and methods for the purposes of this summary post.
+BPTT enables RNNs to effectively leverage sequence data, making it crucial for applications in fields like natural language processing and time series analysis. We will pass by some important initialization, regularization, and other approaches and methods for the purposes of this summary post.
+
+#### The Formulas
+
+
 
 ## LSTM Solves the Vanishing Gradient Problem
 

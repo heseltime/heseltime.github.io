@@ -78,6 +78,10 @@ Fifth semester starts in fall 2023, sixth semester is all about practice and in 
 
 [Translated from the German](https://www.fh-ooe.at/campus-hagenberg/studiengaenge/bachelor/software-engineering/alle-infos-zum-studium/studienplan-vollzeit/) and with my own notes.
 
+## a Note
+
+When it comes to development work, what I notice time and time again, is that there is some much IT/admin involved to get to a place where you can effectively "develop" (also the soft wrappers involved in getting the specs, if those are not a given), that I would really consider any and all work in that domain as much of an asset as any of the fomral skills learned according to the list above. This is where Software Engineering is as much an art and a coordination etc. soft skill as an engineering discipline.
+
 <nav class="nav">
     <ul class="nav__list">
         <a href="/" class="nav__link">
