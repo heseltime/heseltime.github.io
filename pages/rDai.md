@@ -205,6 +205,18 @@ Despite its computational demands, RTRL has been foundational in the development
 
 RTRL is particularly valued in scenarios where it's crucial to update the model weights as new data arrives, without the luxury of processing the data in large batches. However, due to its computational cost, practical applications often use alternative methods that strike a balance between real-time updating and computational feasibility.
 
+### Summary of the asymptotic complexities
+
+**- BPTT (Backpropagation Through Time)**
+  **- Asymptotic Complexity:** `O(T * C)` where `T` is the length of the input sequence and `C` represents the complexity of computing the gradients at a single timestep (including both forward and backward passes). The complexity scales linearly with the length of the input sequence but requires significant memory for long sequences.
+
+**- RTRL (Real-Time Recurrent Learning)**
+  **- Asymptotic Complexity:** `O(n^4)` for a network with `n` units. This high computational complexity arises from the need to update a full Jacobian matrix tracking the dependencies of all units on each other at every timestep. It makes RTRL impractical for large networks despite its real-time learning capability.
+
+**- TBPTT (Truncated Backpropagation Through Time)**
+  **- Asymptotic Complexity:** `O(k * C)` where `k` is the truncation length (the number of timesteps for which the network is unfolded) and `C` is similar to that in BPTT. TBPTT provides a more manageable and predictable computational cost, especially for long sequences, offering a practical compromise between computational efficiency and the benefits of temporal learning.
+
+
 ## LSTM Solves the Vanishing Gradient Problem
 
 ### Vanilla LSTM
