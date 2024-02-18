@@ -195,6 +195,16 @@ Dive Into Deep Learning (ibid) has the idea:
 
 [Here is a reference tutorial paper I really like by Herbert Jaeger](https://www.ai.rug.nl/minds/uploads/ESNTutorialRev.pdf), covering the method in some more detail and also presenting the material covered in this post from different angles.
 
+### Real-time Recurrent Learning (RTRL)
+
+RTRL is an online learning algorithm, which means it updates the weights of the neural network in real-time as each input is processed, rather than waiting for a full pass through the dataset (as in batch learning). This characteristic makes RTRL suitable for applications where the model needs to adapt continuously to incoming data, such as in control systems, real-time prediction tasks, or any scenario where the data is streaming or too large to process in batches.
+
+The key feature of RTRL is its ability to compute the gradient of the loss function with respect to the weights of the network at each time step, using the information available up to that point. This is achieved by maintaining a full Jacobian matrix that tracks how the output of each unit in the network affects each other unit. However, this comes with a significant computational cost because the size of the Jacobian matrix grows quadratically with the number of units in the network, making RTRL computationally expensive for large networks.
+
+Despite its computational demands, RTRL has been foundational in the development of algorithms for training RNNs, and it has inspired the creation of more efficient algorithms that approximate its computations in a more computationally feasible manner, such as Backpropagation Through Time (BPTT) and its various optimized forms.
+
+RTRL is particularly valued in scenarios where it's crucial to update the model weights as new data arrives, without the luxury of processing the data in large batches. However, due to its computational cost, practical applications often use alternative methods that strike a balance between real-time updating and computational feasibility.
+
 ## LSTM Solves the Vanishing Gradient Problem
 
 ### Vanilla LSTM
