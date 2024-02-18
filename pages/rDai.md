@@ -19,14 +19,18 @@ It's a core course for the Master's, treating a core AI datastructure so to spea
 
 RNN-Feats? Read [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy, maybe not so unreasonable in light of the quote from Chris Olah.
 
-## Wolfram Language LSTM Handling
+## Quick Test: Wolfram Language LSTM Handling
 
 Let's try something to begin, though, before jumping into more background on RNNs generally, and LSTM specifically, right up to the 2024 [xLSTM Story](https://www.heise.de/news/NXAI-Sepp-Hochreiter-will-europaeische-Antwort-auf-OpenAI-erschaffen-9618232.html) (DE-world currently).
 
 
 ```
+(*recurrent layer acting on variable-length sequences of 2-vectors*)
 lstm = NetInitialize@
   LongShortTermMemoryLayer[2, "Input" -> {"Varying", 2}]
+(*Evaluate the layer on a batch of variable-length sequencesEvaluate the layer on a batch of variable-length sequences*)
+seq1 = \{\{0.1, 0.4\}, \{-0.2, 0.7\}\};
+seq2 = \{\{0.2, -0.3\}, \{0.1, 0.8\}, \{-1.3, -0.6\}\};
 ```
 
 
@@ -50,7 +54,7 @@ The point here is: _weight sharing_ is emplyoed, that is, the same weights are u
 
 ### Elman
 
-The _"simple recurren neural network"_ is a way to describe this network sometimes found. Internal hidden activations are remembered, but hidden units loop only to themselves, not neighbors or any other units:
+The _"simple recurrent neural network"_ as you sometimes see it called: Internal hidden activations are remembered, but hidden units loop only to themselves, not neighbors or any other units:
 
 $$
 \begin{align}
@@ -167,7 +171,11 @@ Figure from K. Greff, R.K. Srivastava, J. Koutnik, B.R. Steunebrink, J. Schmidhu
 
 ### Focused and Lightweight LSTM
 
+
+
 ### Tricks of the Trade
+
+
 
 ## LSTM, Transformers, Hybrid xLSTM?
 
