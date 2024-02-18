@@ -174,15 +174,17 @@ So much for further background on the architectural levels. Let's let the latter
 
 #### Challenges with BPTT:
 
-- **Vanishing and Exploding Gradients:** These issues can significantly hinder learning, especially for long sequences. LSTM and GRU units are designed to mitigate these problems.
+**- Vanishing and Exploding Gradients:** These issues can significantly hinder learning, especially for long sequences. LSTM and GRU units are designed to mitigate these problems.
 
-- **Computational Intensity:** Processing long sequences in their entirety for each update can be computationally demanding and memory-intensive.
+**- Computational Intensity:** Processing long sequences in their entirety for each update can be computationally demanding and memory-intensive.
 
-- **Truncated BPTT:** This approach limits the unrolled network to a fixed number of steps to reduce computational requirements, though it may restrict the model's ability to learn from longer sequences.
+**- Truncated BPTT:** This approach limits the unrolled network to a fixed number of steps to reduce computational requirements, though it may restrict the model's ability to learn from longer sequences.
 
-BPTT enables RNNs to effectively leverage sequence data, making it crucial for applications in fields like natural language processing and time series analysis.
+BPTT enables RNNs to effectively leverage sequence data, making it crucial for applications in fields like natural language processing and time series analysis. We will go over some important initialization, regularization, and other approaches and methods for the purposes of this summary post.
 
 ## LSTM Solves the Vanishing Gradient Problem
+
+
 
 ### Vanilla LSTM
 
