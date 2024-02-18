@@ -197,8 +197,6 @@ Dive Into Deep Learning (ibid) has the idea:
 
 ## LSTM Solves the Vanishing Gradient Problem
 
-
-
 ### Vanilla LSTM
 
 Let's dive into the formulas following the architectures approach from before.
@@ -233,11 +231,13 @@ Figure from K. Greff, R.K. Srivastava, J. Koutnik, B.R. Steunebrink, J. Schmidhu
 
 ### Focused and Lightweight LSTM
 
+**Focused LSTM**: No forget gate and fewer parameters than Vanilla LSTM.
 
+**Lightweight LSTM**: The Focused LSTM without output gates. (Has Markov properties.)
 
 ### Tricks of the Trade
 
-
+See **Ticker Steps**, **Negative Gate Biases**, **Scaled Activation Functions**, etc. in [The Sorcerer’s Apprentice Guide to Training LSTMs](https://www.niklasschmidinger.com/posts/2020-09-09-lstm-tricks/) by Niklas Schmidinger.
 
 ## LSTM, Transformers, Hybrid xLSTM?
 
