@@ -265,6 +265,13 @@ Figure from K. Greff, R.K. Srivastava, J. Koutnik, B.R. Steunebrink, J. Schmidhu
 
 From Chris Olah’s [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/): great diagrams there.
 
+### Getting LSTM
+
+Regardless of architecture, and since a lot has been written to explain LSTMs from the ground up, I would like to clear up the blocks you might face if you are similar to me, as you try and understand the approach.
+
+- The weights $$ W_{{i,o,f,z}} are **matrices**, for the input data to each of the gates
+- The recurrent weights $$ R_{i,o,f,z} $$ are **also just learnable matrices**, it really is all very similar to a regular neural net once you unroll the thing formally
+
 ### Tricks of the Trade
 
 See **Ticker Steps**, **Negative Gate Biases**, **Scaled Activation Functions**, etc. in [The Sorcerer’s Apprentice Guide to Training LSTMs](https://www.niklasschmidinger.com/posts/2020-09-09-lstm-tricks/) by Niklas Schmidinger.
