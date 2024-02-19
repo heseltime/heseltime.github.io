@@ -269,8 +269,14 @@ From Chris Olah’s [Understanding LSTM Networks](https://colah.github.io/posts/
 
 Regardless of architecture, and since a lot has been written to explain LSTMs from the ground up, I would like to clear up the blocks you might face if you are similar to me, as you try and understand the approach.
 
-- The weights $$ W_{{i,o,f,z}} are **matrices**, for the input data to each of the gates
+- The weights $$ W_{{i,o,f,z}} $$ are **matrices**, for the input data to each of the gates
 - The recurrent weights $$ R_{i,o,f,z} $$ are **also just learnable matrices**, it really is all very similar to a regular neural net once you unroll the thing formally
+- you end up with two pathways through the unit and overall structures, basically one for short-range and one for long-range dependencies: short-term corresponds to inner states of the cells.
+- the first stage in the LSTM cell determines what percentage of the long-term memory is remembered (forget gate)
+- the part that of the LSTM cell that determines how to update the long-term memory is called the input gate
+- opposite this last point, the output gate: updates the short-term memory
+
+I can really recommend [StatQuest if you want a video](https://www.youtube.com/watch?v=YCzL96nL7j0), but you have to like the StatQuest presentation style ("Bam").
 
 ### Tricks of the Trade
 
