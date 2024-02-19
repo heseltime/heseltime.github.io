@@ -251,13 +251,19 @@ This structured approach allows the Vanilla LSTM to adeptly navigate through tim
 
 Figure from K. Greff, R.K. Srivastava, J. Koutnik, B.R. Steunebrink, J. Schmidhuber. IEEE Transactions on Neural Networks and Learning Systems, Vol 28(10), pp. 2222–2232. Institute of Electrical and Electronics Engineers (IEEE). 2017.
 
-### Focused and Lightweight LSTM
+### Focused, Lightweight LSTM and Gated Recurrent Unit (GRU)
 
 **Focused LSTM**: No forget gate and fewer parameters than Vanilla LSTM.
 
 **Lightweight LSTM**: The Focused LSTM without output gates. (Has Markov properties*.)
 
 (*The Markov property is a fundamental concept in the theory of stochastic processes. It refers to the memoryless property of a process, where the future state depends only on the current state and not on the sequence of events that preceded it. There are several types.)
+
+**Gated Recurrent Unit (GRU)**
+
+> A slightly more dramatic variation on the LSTM is the Gated Recurrent Unit, or GRU, introduced by [Cho, et al. (2014)](https://arxiv.org/pdf/1406.1078v3.pdf). It combines the forget and input gates into a single “update gate.” It also merges the cell state and hidden state, and makes some other changes. The resulting model is simpler than standard LSTM models, and has been growing increasingly popular.
+
+From Chris Olah’s [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/): great diagrams there.
 
 ### Tricks of the Trade
 
