@@ -275,6 +275,7 @@ Regardless of architecture, and since a lot has been written to explain LSTMs fr
 - the first stage in the LSTM cell determines what percentage of the long-term memory is remembered (forget gate)
 - the part that of the LSTM cell that determines how to update the long-term memory is called the input gate
 - opposite this last point, the output gate: updates the short-term memory
+- separating the paths for long- and short-term memories, LSTMs avoid the vanishing/exploding gradient problem: that means we can unroll them more times to accommodate longer sequences of input data
 
 I can really recommend [StatQuest if you want a video](https://www.youtube.com/watch?v=YCzL96nL7j0), but you have to like the StatQuest presentation style ("Bam").
 
