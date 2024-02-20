@@ -11,7 +11,10 @@ feedformat: none
     <h2>academic blog: overview</h2>
     <ul>
         <li>Attention via LSTM, as the Transformers-Connection</li>
-        <li>LSTM in the Linz-AI-Curriculum</li>
+        <li>
+            <h3>LSTM in the Linz-AI-Curriculum</h3>
+            <p>Includes some WL</p>
+        </li>
     </ul>
 </div>
 
