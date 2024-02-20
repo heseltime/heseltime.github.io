@@ -14,10 +14,10 @@ feedformat: none
             <h3>Attention via LSTM, as the Transformers-Connection</h3>
             <p>Includes some WL</p>
         </li>
-        <a href="#lstm"><li>
-            <h3>LSTM in the Linz-AI-Curriculum</h3>
+        <li>
+            <a href="#lstm"><h3>LSTM in the Linz-AI-Curriculum</h3></a>
             <p>Includes some WL</p>
-        </li></a>
+        </li>
     </ul>
 </div>
 
