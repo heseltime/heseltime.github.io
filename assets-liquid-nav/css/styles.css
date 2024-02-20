@@ -239,11 +239,11 @@ img.xxx-large {
   margin: 20px 0; /* Space outside the box, adjust as needed */
 }
 
-  .toc h3 {
+  .toc > h3 {
     color: var(--highlight-color-orange); /* Use the custom orange color for h3 */
   }
 
-  .toc ul {
+  .toc > ul {
     list-style-type: none; /* Remove bullet points */
     padding-left: 0; /* Optional: Remove padding to align with the parent container */
   }
