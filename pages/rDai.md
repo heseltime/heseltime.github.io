@@ -7,7 +7,17 @@ feedformat: none
 
 @Johannes Kepler University (JKU), Linz: Motivated mainly by the apparent connection between AI technologies and approaches like modeling and NLP/LLM (Natural Language Processing/Large Language Models) and my discipline, ECM.
 
-What follows are a selection of topics (correlating with course work) and what I did and do and think about in those areas: these Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and a topic dear to my heart are taking center-stage for now.
+<div class="toc">
+    <h2>academic blog</h2>
+    <h3>Overview</h3>
+    <ul>
+        <li>Attention via LSTM, as the Transformers-Connection</li>
+        <li>LSTM in the Linz-AI-Curriculum</li>
+    </ul>
+</div>
+
+
+These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and are taking center-stage for now, as my Masters contribution to the Zeitgeist.
 
 # LSTM in the Linz-AI-Curriculum
 
@@ -265,7 +275,7 @@ Figure from K. Greff, R.K. Srivastava, J. Koutnik, B.R. Steunebrink, J. Schmidhu
 
 From Chris Olah’s [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/): great diagrams there.
 
-### Getting LSTM
+### "Getting" LSTM
 
 Regardless of architecture, and since a lot has been written to explain LSTMs from the ground up, I would like to clear up the blocks you might face if you are similar to me, as you try and understand the approach.
 

@@ -229,3 +229,12 @@ img.xxx-large {
   margin-left: auto;
   margin-right: auto;
 }
+
+/*=============== POST-SECTIONS OVERVIEW ===============*/
+
+.toc {
+  background-color: #f0f0f0; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Space inside the box */
+  margin: 20px 0; /* Space outside the box, adjust as needed */
+}
