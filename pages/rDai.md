@@ -8,8 +8,7 @@ feedformat: none
 @Johannes Kepler University (JKU), Linz: Motivated mainly by the apparent connection between AI technologies and approaches like modeling and NLP/LLM (Natural Language Processing/Large Language Models) and my discipline, ECM.
 
 <div class="toc">
-    <h2>academic blog</h2>
-    <h3>Overview</h3>
+    <h2>academic blog: overview</h2>
     <ul>
         <li>Attention via LSTM, as the Transformers-Connection</li>
         <li>LSTM in the Linz-AI-Curriculum</li>
