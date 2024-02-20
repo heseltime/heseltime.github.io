@@ -11,12 +11,16 @@ feedformat: none
     <h2>academic blog post overview</h2>
     <ul>
         <li>
-            <h3>Attention via LSTM, as the Transformers-Connection</h3>
-            <p>Includes some WL</p>
+            <h3>Attention via LSTM, the Transformers-Connection</h3>
+            <p>Coming soon.</p>
         </li>
         <li>
             <a href="#lstm"><h3>LSTM in the Linz-AI-Curriculum</h3></a>
-            <p>Includes some WL</p>
+            <p>Includes some WL (Wolfram Language). Let's always include some WL.</p>
+        </li>
+        <li>
+            <a href="#jku-sem"><h3>[Seminar-Presentation:] Language Models are Few-Shot Learners</h3></a>
+            <p>Kickstarts my Thesis work: Next up a practical component and the thesis itself.</p>
         </li>
     </ul>
     <p><i>Some <a href="#housekeeping">housekeeping notes</a> on my degree, and shorter tool-oriented posts about <a href="#wss">Wolfram Language</a>, <a href="#prolog">Prolog</a> (!), and SMT2 <a href="#smt-for-model-checking">for model checking</a> and <a href="#smt-for-planning">for planning</a> are also here.</i></p>
