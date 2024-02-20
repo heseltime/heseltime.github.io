@@ -10,7 +10,10 @@ feedformat: none
 <div class="toc">
     <h2>academic blog: overview</h2>
     <ul>
-        <li>Attention via LSTM, as the Transformers-Connection</li>
+        <li>
+            <h3>Attention via LSTM, as the Transformers-Connection</h3>
+            <p>Includes some WL</p>
+        </li>
         <li>
             <h3>LSTM in the Linz-AI-Curriculum</h3>
             <p>Includes some WL</p>
