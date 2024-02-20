@@ -239,10 +239,6 @@ img.xxx-large {
   margin: 20px 0; /* Space outside the box, adjust as needed */
 }
 
-  .toc ul li a h3 {
-    color: var(--highlight-color-orange); /* Use the custom orange color for h3 */
-  }
-
   .toc ul li h3 a {
     color: var(--highlight-color-orange); /* Use the custom orange color for h3 */
   }

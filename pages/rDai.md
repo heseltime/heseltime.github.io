@@ -15,7 +15,7 @@ feedformat: none
             <p>Coming soon.</p>
         </li>
         <li>
-            <a href="#lstm"><h3>LSTM in the Linz-AI-Curriculum</h3></a>
+            <h3><a href="#lstm">LSTM in the Linz-AI-Curriculum</a></h3>
             <p>Includes some WL (Wolfram Language). Let's always include some WL.</p>
         </li>
         <li>
