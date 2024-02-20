@@ -7,7 +7,7 @@ feedformat: none
 
 @University of Applied Sciences Upper Austria - Hagenberg Campus, Hagenberg: I am following a rigorous Software Engineering curriculum for a second Bachelor's degree in the subject, focussing mostly on the technical underpinnings and languages, but also related topics and soft skills, from project management through to modeling languages and approaches.
 
-**What follows is documentation of my research project and thesis in Document Processing along with <b>a list of courses matching my transcript from school</b> below.**
+**What follows is documentation of my research project and thesis in Document Processing along with a list of courses matching my transcript from school below.**
 
 # Thesis with RISC (Research Institute Symbolic Computation) also @Hagenberg: Mathematical Document Processing #
 
