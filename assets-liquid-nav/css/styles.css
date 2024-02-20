@@ -243,6 +243,10 @@ img.xxx-large {
     color: var(--highlight-color-orange); /* Use the custom orange color for h3 */
   }
 
+  .toc ul li h3 a {
+    color: var(--highlight-color-orange); /* Use the custom orange color for h3 */
+  }
+
   .toc ul {
     list-style-type: none; /* Remove bullet points */
     padding-left: 0; /* Optional: Remove padding to align with the parent container */

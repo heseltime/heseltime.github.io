@@ -19,7 +19,7 @@ feedformat: none
             <p>Includes some WL (Wolfram Language). Let's always include some WL.</p>
         </li>
         <li>
-            <a href="#jku-sem"><h3>[Presentation:] Language Models are Few-Shot Learners</h3></a>
+            <h3>Presentation: <a href="#jku-sem">Language Models are Few-Shot Learners</a></h3>
             <p><b>Seminar-presentation/Thesis I.</b> Next up a practical component and the thesis itself.</p>
         </li>
     </ul>
