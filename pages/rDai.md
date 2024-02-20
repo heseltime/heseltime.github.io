@@ -11,7 +11,7 @@ feedformat: none
     <h2>academic blog post overview</h2>
     <ul>
         <li>
-            <h3>Attention via LSTM, the Transformers-Connection</h3>
+            <h3>Attention via LSTM, the Transformer-Connection</h3>
             <p>Coming soon.</p>
         </li>
         <li>
@@ -19,7 +19,7 @@ feedformat: none
             <p>Includes some WL (Wolfram Language). Let's always include some WL.</p>
         </li>
         <li>
-            <a href="#jku-sem"><h3>Language Models are Few-Shot Learners</h3></a>
+            <a href="#jku-sem"><h3>[Presentation:] Language Models are Few-Shot Learners</h3></a>
             <p><b>Seminar-presentation/Thesis I.</b> Next up a practical component and the thesis itself.</p>
         </li>
     </ul>
