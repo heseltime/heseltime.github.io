@@ -8,7 +8,7 @@ feedformat: none
 @Johannes Kepler University (JKU), Linz: Motivated mainly by the apparent connection between AI technologies and approaches like modeling and NLP/LLM (Natural Language Processing/Large Language Models) and my discipline, ECM.
 
 <div class="toc">
-    <h2>academic blog: overview</h2>
+    <h2>academic blog post overview</h2>
     <ul>
         <li>
             <h3>Attention via LSTM, as the Transformers-Connection</h3>
@@ -19,6 +19,7 @@ feedformat: none
             <p>Includes some WL</p>
         </li>
     </ul>
+    <p>Some <a href="#housekeeping">housekeeping notes</a> on my degree, and shorter tool-oriented posts about <a href="#wss">Wolfram Language</a>, <a href="#prolog">Prolog</a> (!), and SMT2 <a href="#smt-for-model-checking">for model checking</a> and <a href="#smt-for-planning">for planning</a> are also here. </p>
 </div>
 
 _These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and are taking center-stage for now, as my Masters contribution to the Zeitgeist._
@@ -314,7 +315,7 @@ The remaining sections in this page deal with all other areas of my degree inclu
 
 # How to Wrap a Technical Masters Degree in Austria (at Johannes Kepler University!)
 
-_Now for some Housekeeping._
+<div id="housekeeping"><i>Now for some Housekeeping.</i></div>
 
 ## Thesis Committee Planning
 
@@ -494,6 +495,8 @@ This could be a real world application too, clearly, since the basic functionali
 
 # Planning (2023 Project)
 
+<div id="smt-for-planning">This is my <a href="#smt-for-model-checking">second dive</a> into SMT2 actually.</div>
+
 For this project, [full repo available](https://github.com/heseltime/planning_reasoning/), I was more involved in the SMT2 (Satisfiability Modulo Theories Version 2) side, something I could imagine tying into (Python) projects in the future, for validation and checking (and here planning) purposes - so I ended up exploring interfacing modalities, here the digram overview for Part 2 of the project, the SMT-part.
 
 <img src="../assets/img/Screenshot 2023-12-29 215323.png" alt="Diagram Overview of the Project Part 2" class="large" id="planning-overview" />
@@ -532,7 +535,9 @@ The final output of the school was a <a href="https://community.wolfram.com/grou
 
 # Knowledge Representation and Reasoning (2023 Project) #
 
+<div id="prolog">
 Prolog (Programming in Logic) implements First Order Logic, allowing evaluation and checking. Resolution strategy is Back Tracking and Depth First, so logical programming is to a degree sequential as well, but not the way programming laguages usually work. In this way it is similar to SMT, see below.
+</div>
 
 This is an example where the stopping criterion is needed for a recursive call, for instance:
 
@@ -549,7 +554,9 @@ In a project team of three, I tackled a solver for the game [Ruzzle](https://www
 
 [The full project is on GitHub](https://github.com/heseltime/modelchecking_project), but the principles can be summed up in a paragraph: Satisfiability Modulo Theories (SMT) is a growing area of automated deduction with many important applications, especially system verification. The idea is to test satisfiability of a problem formula against a model. Here's an example: a C-program is the model, some bug encoded into an formula is to be checked. If we get a satisfiable result, that is bad, because that means the bug is possible against this particular C-program. So what you are usually after in a verification task is actually an unsat(isfiable) result. 
 
+<div id="smt-for-model-checking">
 Here's a logic encoding of one of De Morgan's laws: 
+</div>
 
 $$ {\displaystyle {\overline {a\land b}}\equiv {\overline {a}}\lor {\overline {b}}} $$
 
