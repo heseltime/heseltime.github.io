@@ -14,10 +14,10 @@ feedformat: none
             <h3>Attention via LSTM, as the Transformers-Connection</h3>
             <p>Includes some WL</p>
         </li>
-        <li>
+        <a href="#lstm"><li>
             <h3>LSTM in the Linz-AI-Curriculum</h3>
             <p>Includes some WL</p>
-        </li>
+        </li></a>
     </ul>
 </div>
 
@@ -29,7 +29,7 @@ It's a core course for the Master's, treating a core AI datastructure so to spea
 
 > This chain-like nature reveals that recurrent neural networks are intimately related to sequences and lists. They’re the natural architecture of neural network to use for such data.
 
-(Chris Olah, "Understanding LSTM Networks" posted on August 27, 2015 and accessed Febrary 17, 2024)
+<div id="lstm">(Chris Olah, "Understanding LSTM Networks" posted on August 27, 2015 and accessed Febrary 17, 2024)</div>
 
 RNN-Feats? Read [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy, maybe not so unreasonable in light of the quote from Chris Olah.
 
