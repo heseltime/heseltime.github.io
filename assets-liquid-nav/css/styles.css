@@ -237,7 +237,10 @@ img.xxx-large {
   border-radius: 10px; /* Rounded corners */
   padding: 20px; /* Space inside the box */
   margin: 20px 0; /* Space outside the box, adjust as needed */
+  color: #000; /* Dark body text, set also for dark theming case */
 }
+
+  /*TODO: Dark Theme body text needs to stay dark on the light background*/
 
   .toc ul li h3 a {
     color: var(--highlight-color-orange); /* Use the custom orange color for h3 */
