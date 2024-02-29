@@ -12,7 +12,7 @@ feedformat: none
     <ul>
         <li>
             <h3>Reinforcement Learning Goes Deep</h3>
-            <p>[Part I: Q-learning Algorithm Implementation for a Grid World Environment](# Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment)</p>
+            <p>[Part I: Q-learning Algorithm Implementation for a Grid World Environment](#rl-1)</p>
         </li>
         <li>
             <h3>Attention via LSTM, the Transformer-Connection</h3>
@@ -33,7 +33,7 @@ feedformat: none
 
 _These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and are taking center-stage for now, as my Masters contribution to the Zeitgeist._
 
-# Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
+# <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
 
 _Repository on [GitHub](https://github.com/heseltime/reinforcement-learning-ubern): for this **Part I** to a look at Deep Learning for Reinforcement Learning (RL), i.e. Deep Reinforcement Learning, I want to review some RL basics, largely following the well-tested [Sutton and Barto text](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), ending on a note about [planning](#smt-for-planning) vs learning and a focus on the foundational Bellman equation._
 
