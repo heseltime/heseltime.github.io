@@ -37,6 +37,10 @@ _These Masters level studies are on-going (target December 2024), now full-time,
 
 _Repository on [GitHub](https://github.com/heseltime/reinforcement-learning-ubern): for this **Part I** to a look at Deep Learning for Reinforcement Learning (RL), i.e. Deep Reinforcement Learning, I want to review some RL basics, largely following the well-tested [Sutton and Barto text](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), ending on a note about [planning](#smt-for-planning) vs learning and a focus on the foundational Bellman equation._
 
+![uBern Winter School Banner](../assets/img/winterschoolbanner.png)
+
+_Excited to have been part of the [uBern Winter School](https://www.dsl.unibe.ch/training/winter_schools/) on Reinforcement Learning this February, to catch up on some basics._
+
 ## Test Project: Environment, Policy, and the OpenAI Gym
 
 ## Q-learning as a Learning Algorithm
