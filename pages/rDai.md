@@ -12,6 +12,7 @@ feedformat: none
     <ul>
         <li>
             <h3>Reinforcement Learning Goes Deep (Part II Coming Soon)</h3>
+            <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
             <p><a href="#rl-1">Part I: Q-learning Algorithm Implementation for a Grid World Environment</a></p>
         </li>
         <li>
