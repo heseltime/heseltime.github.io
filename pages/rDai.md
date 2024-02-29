@@ -111,6 +111,13 @@ def run_episode_gwenv(env, Q, lr, discount, epsilon=0.1, render=False, _maxsteps
     return Q, reward
 ```
 
+The implementation assumes the environment provides specific functionalities:
+
+* `env.reset()`: Resets the environment to an initial state.
+* env.render(): Renders the current state of the environment.
+* env.action_space.sample(): Samples a random action from the action space.
+* env.step(action): Executes an action in the environment, returning the new state, reward, and other information.
+
 ## Planning vs Learning
 
 ## The Bellman Equation
