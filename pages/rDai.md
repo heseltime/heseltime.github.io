@@ -36,7 +36,7 @@ _These Masters level studies are on-going (target December 2024), now full-time,
 
 # <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
 
-_Repository on [GitHub](https://github.com/heseltime/reinforcement-learning-ubern): for this **Part I** to a look at Deep Learning for Reinforcement Learning (RL), i.e. Deep Reinforcement Learning, I want to review some RL basics, largely following the well-tested [Sutton and Barto text](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), ending on a note about [planning](#smt-for-planning) vs learning and a focus on the foundational Bellman equation._
+Repository on [GitHub](https://github.com/heseltime/reinforcement-learning-ubern): for this **Part I** to a look at Deep Learning for Reinforcement Learning (RL), i.e. Deep Reinforcement Learning, I want to review some RL basics, largely following the well-tested [Sutton and Barto text](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), ending on a note about [planning](#smt-for-planning) vs learning and a focus on the foundational Bellman equation.
 
 ![uBern Winter School Banner](../assets/img/winterschoolbanner.png)
 
@@ -44,7 +44,59 @@ _Excited to have been part of the [uBern Winter School](https://www.dsl.unibe.ch
 
 ## Test Project: Environment, Policy, and the OpenAI Gym
 
-## Q-learning as a Learning Algorithm
+The provided code is an implementation of the Q-learning algorithm tailored for a specific grid world environment. This environment includes an agent, an enemy, and a target, all located within a grid. The goal of the Q-learning algorithm is to learn an optimal policy for the agent to navigate the grid to reach the target while avoiding the enemy.
+
+![Sample Successful Run with Blind Enemy](../assets/video/sample_successful_run_RL_post.mp4)
+
+## Q-learning Algorithm for Grid World Environment
+
+This Python function implements the Q-learning algorithm for a grid world environment where an agent navigates to reach a target while avoiding an enemy. It demonstrates key reinforcement learning concepts such as state representation, action selection, and Q-value updates.
+
+```python
+def run_episode_gwenv(env, Q, lr, discount, epsilon=0.1, render=False, _maxsteps=20, optimal=False):
+    observation, _ = env.reset()
+    done = False
+    nsteps = 0
+
+    for x in range(_maxsteps):
+        nsteps += 1
+        if done:
+            break
+
+        if render:
+            env.render()
+
+        curr_state = observation
+        ax = curr_state['agent'][0]
+        ay = curr_state['agent'][1]
+        ex = curr_state['enemy'][0]
+        ey = curr_state['enemy'][1]
+        tx = curr_state['target'][0]
+        ty = curr_state['target'][1]
+
+        if not optimal:
+            randnum = np.random.rand(1)
+            if randnum < epsilon:
+                action = env.action_space.sample()
+            else:
+                action = np.argmax(Q[ax, ay, ex, ey, tx, ty,:])
+
+            observation, reward, done, _, info = env.step(action)
+            ax_next = observation['agent'][0]
+            ay_next = observation['agent'][1]
+            ex_next = observation['enemy'][0]
+            ey_next = observation['enemy'][1]
+            tx_next = observation['target'][0]
+            ty_next = observation['target'][1]
+
+            Q[ax, ay, ex, ey, tx, ty, action] += lr * \
+                (reward + discount * np.max(Q[ax_next, ay_next, ex_next, ey_next, tx_next, ty_next, :]) - Q[ax, ay, ex, ey, tx, ty, action])
+        else:
+            action = np.argmax(Q[ax, ay, ex, ey, tx, ty,:])
+            observation, reward, done, _, info = env.step(action)
+
+    return Q, reward
+```
 
 ## Planning vs Learning
 
