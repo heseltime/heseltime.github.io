@@ -11,7 +11,7 @@ feedformat: none
     <h2>academic blog post overview</h2>
     <ul>
         <li>
-            <h3>Reinforcement Learning Goes Deep</h3>
+            <h3>Reinforcement Learning Goes Deep (Part II Coming Soon)</h3>
             <p>[Part I: Q-learning Algorithm Implementation for a Grid World Environment](#rl-1)</p>
         </li>
         <li>
