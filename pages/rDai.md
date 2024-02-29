@@ -12,7 +12,7 @@ feedformat: none
     <ul>
         <li>
             <h3>Reinforcement Learning Goes Deep (Part II Coming Soon)</h3>
-            <p>[Part I: Q-learning Algorithm Implementation for a Grid World Environment](#rl-1)</p>
+            <p><a href="#rl-1">Part I: Q-learning Algorithm Implementation for a Grid World Environment</a></p>
         </li>
         <li>
             <h3>Attention via LSTM, the Transformer-Connection</h3>
