@@ -44,11 +44,11 @@ _Excited to have been part of the [uBern Winter School](https://www.dsl.unibe.ch
 
 ## Test Project: Environment, Policy, and the OpenAI Gym
 
-The provided code is an implementation of the Q-learning algorithm tailored for a specific grid world environment. This environment includes an agent, an enemy, and a target, all located within a grid. The goal of the Q-learning algorithm is to learn an optimal policy for the agent to navigate the grid to reach the target while avoiding the enemy.
+The provided code is an implementation of the Q-learning algorithm in the [OpenAI Gym](https://github.com/openai/gym) tailored for a specific grid world environment. This environment includes an agent, an enemy, and a target, all located within a grid. The goal of the Q-learning algorithm is to learn an optimal policy for the agent to navigate the grid to reach the target while avoiding the enemy.
 
 [![Image of Sample Successful Run with Blind Enemy, Video on GitHub](image-26.png)](https://github.com/heseltime/reinforcement-learning-ubern/blob/main/README.md)
 
-### Key Components
+### Key Components of the Code
 
 * **Initialization and Episode Loop**: The run_episode_gwenv function initializes the episode by resetting the environment, which provides the initial state. The episode then runs for a maximum number of steps defined by _maxsteps, simulating the agent's interactions within the environment.
 * **State Representation**: States are represented by the grid positions of the agent, enemy, and target. This requires a multidimensional Q-table to accommodate the multi-entity state space.
@@ -113,14 +113,110 @@ def run_episode_gwenv(env, Q, lr, discount, epsilon=0.1, render=False, _maxsteps
 
 The implementation assumes the environment provides specific functionalities:
 
-* ```env.reset()```: Resets the environment to an initial state.
-* env.render(): Renders the current state of the environment.
-* env.action_space.sample(): Samples a random action from the action space.
-* env.step(action): Executes an action in the environment, returning the new state, reward, and other information.
+* `env.reset()`: Resets the environment to an initial state.
+* `env.render()`: Renders the current state of the environment.
+* `env.action_space.sample()`: Samples a **random** action from the action space.
+* `env.step(action)`: Executes an action in the environment, returning the new state, reward, and other information.
+
+Q-learning is a model-free reinforcement learning algorithm that aims to learn the value of an action in a particular state without requiring a model of the environment. It does so by estimating Q-values, which represent the expected utility of taking a given action in a given state and following the optimal policy thereafter. 
+
+The key features of Q-learning include:
+
+* **Model-free**: It does not require knowledge of the environment's dynamics (i.e., the transition probabilities and rewards). This makes Q-learning highly versatile and applicable to a wide range of problems where the environment is unknown or difficult to model accurately.
+* **Off-policy**: Q-learning learns the optimal policy independently of the agent's actions. This means it can learn from exploratory actions and even from observing other agents.
+* **Q-value Updates**: The core of the algorithm involves updating the Q-values using the Bellman equation as an iterative update rule. This update minimizes the difference between the left-hand side (the current Q-value estimate) and the right-hand side (the observed reward plus the discounted maximum future Q-value).
 
 ## Planning vs Learning
 
+Planning, in the context of reinforcement learning, involves generating or improving a policy for decision-making by using a model of the environment. Unlike Q-learning, planning requires a model that predicts the outcomes of actions (transitions and rewards). Planning can be used to simulate experiences and improve policies without direct interaction with the environment. Key aspects of planning include:
+
+* **Model-based**: Planning requires a model of the environment to predict the outcomes of actions. This model can be learned from experience or provided a priori.
+* **Simulated Experience**: Planning algorithms use the model to simulate experiences, which are then used to improve the policy. This process can significantly reduce the need for actual interactions with the environment, which might be costly or dangerous.
+* **Value Iteration and Policy Iteration**: Common planning algorithms include value iteration and policy iteration, both of which rely on the Bellman equation to iteratively improve value estimates or policies.
+
 ## The Bellman Equation
+
+The Bellman equation is central to both Q-learning and planning, serving as the mathematical foundation that describes the relationship between the value of a state (or state-action pair) and the values of its successor states. In its essence, the Bellman equation provides a recursive decomposition of value functions:
+
+**Bellman Equation for Value Functions**:
+
+$$
+V(s) = \max_a \left[ R(s, a) + \gamma \sum_{s'} P(s' \mid s, a) V(s') \right]
+$$
+
+In Python code with a description of the parameters above as well:
+
+```
+def update_value_function(V, R, P, gamma, states, actions):
+    """
+    Update the value function for each state using the Bellman equation.
+    
+    Parameters:
+    - V: dict, value function, where keys are states and values are values of states
+    - R: function, reward function R(s, a) returning immediate reward
+    - P: function, transition probabilities P(s'|s, a) returning dict of {state: probability}
+    - gamma: float, discount factor
+    - states: list, all possible states
+    - actions: list, all possible actions
+    
+    Returns:
+    - Updated value function V
+    """
+    V_updated = V.copy()
+    for s in states:
+        V_updated[s] = max([R(s, a) + gamma * sum(P(s, a)[s_prime] * V[s_prime] for s_prime in states) for a in actions])
+    return V_updated
+
+```
+
+**Bellman Equation for Q-Values**
+
+$$
+Q(s, a) = R(s, a) + \gamma \sum_{s'} P(s' \mid s, a) \max_{a'} Q(s', a')
+$$
+
+In Python code, with the parameters again:
+
+```
+def update_q_values(Q, R, P, gamma, states, actions):
+    """
+    Update the Q-values for each state-action pair using the Bellman equation.
+    
+    Parameters:
+    - Q: dict, Q-values, where keys are (state, action) pairs and values are Q-values
+    - R: function, reward function R(s, a) returning immediate reward
+    - P: function, transition probabilities P(s'|s, a) returning dict of {state: probability}
+    - gamma: float, discount factor
+    - states: list, all possible states
+    - actions: list, all possible actions
+    
+    Returns:
+    - Updated Q-values Q
+    """
+    Q_updated = Q.copy()
+    for s in states:
+        for a in actions:
+            Q_updated[(s, a)] = R(s, a) + gamma * sum(P(s, a)[s_prime] * max(Q[(s_prime, a_prime)] for a_prime in actions) for s_prime in states)
+    return Q_updated
+```
+
+These equations are at the heart of many reinforcement learning algorithms, providing a recursive relationship that is used to iteratively update the values or Q-values towards their optimal values.
+
+## Connecting to Planning Symbolic AI
+
+We already discussed planning vs learning, and now I would like to connect to Planning in Symbolic AI. See also my [SMT Project in Planning (N-Queens Problem)](#smt-for-planning).
+
+Planning in symbolic artificial intelligence, including techniques such as Satisfiability Modulation Theories (SMT), offers a different approach compared to the statistical or model-free methods seen in Q-learning. SMT, an extension of Boolean satisfiability (SAT), involves finding solutions to logical formulas over one or more theories (e.g., arithmetic, bit-vectors, arrays). These capabilities make SMT particularly well-suited for planning in deterministic, discrete environments where problems can be expressed as logical constraints. A classic example of such a problem is the N Queens puzzle, which can be solved using SMT by formulating it as a set of constraints.
+
+### Advantages and Considerations
+
+* **Deterministic Solutions**: SMT provides a deterministic way to solve the N Queens problem, giving a definitive answer about the existence of a solution and providing the solution if it exists.
+* **Scalability**: While SMT solvers are powerful, the complexity of solving such problems can grow exponentially with the size of N, making it challenging for very large N.
+* **General Applicability**: The approach used for the N Queens problem can be adapted to solve a wide range of other constraint-based problems in various domains, including scheduling, configuration problems, and more.
+
+In contrast to the statistical learning approaches in reinforcement learning, SMT and other symbolic AI planning methods offer precise, logic-based solutions to well-defined problems. This makes them particularly useful in scenarios where the problem space is discrete and can be fully expressed through logical constraints.
+
+Next up: Part II, combining Deep Learning and Reinforcement Learning for Deep Reinforcement Learning. (Coming soon.)
 
 # LSTM in the Linz-AI-Curriculum
 
