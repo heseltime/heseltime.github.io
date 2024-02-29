@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>rDai.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p>@Johannes Kepler University (JKU), Linz: Motivated mainly by the apparent connection between AI technologies and approaches like modeling and NLP/LLM (Natural Language Processing/Large Language Models) and my discipline, ECM.</p>
+<div class="toc">
+    <h2>academic blog post overview</h2>
+    <ul>
+        <li>
+            <h3>Reinforcement Learning Goes Deep</h3>
+            <p>Part I Coming soon.</p>
+        </li>
+        <li>
+            <h3>Attention via LSTM, the Transformer-Connection</h3>
+            <p>Coming soon.</p>
+        </li>
+        <li>
+            <h3><a href="#lstm">LSTM in the Linz-AI-Curriculum</a></h3>
+            <p>Includes some WL (Wolfram Language). Let's always include some WL.</p>
+        </li>
+        <li>
+            <h3>Presentation: <a href="#jku-sem">Language Models are Few-Shot Learners</a></h3>
+            <p><b>Seminar-presentation/Thesis I.</b> Next up a practical component and the thesis itself.</p>
+        </li>
+    </ul>
+    <p><i>Some <a href="#housekeeping">housekeeping notes</a> on my degree, and shorter tool-oriented posts about <a href="#wss">Wolfram Language</a>, <a href="#prolog">Prolog</a> (!), and SMT2 <a href="#smt-for-model-checking">for model checking</a> and <a href="#smt-for-planning">for planning</a> are also here, whereas <a href="/wolfram">further Wolfram Language work is documented as part of my engagement at Wolfram Research</a>.</i></p>
+    <p><a href="/notes">rX Feed</a> (really, notes on how to apply this stuff) and my <a href="#jku-thesis-overview">formal thesis</a> in its different parts, interlaced with these blog posts, become part of the same project, I find: <b>I hope you have fun reading! All credit for the techniques presented goes to the authors. All errors in their presentation are mine.</b> I am happy for you to <a href="mailto:jack.heseltine@gmail.com">get in touch</a> for any comments, suggestions and any notes you have for me about the material.</p>
+</div>
+<p><em>These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date <a href="https://studienhandbuch.jku.at/curr/933">curriculum is listed in English</a> and I also wrote a <a href="/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf">concept document</a> for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and are taking center-stage for now, as my Masters contribution to the Zeitgeist.</em></p>
+<h1 id="reinforcement-learning-goes-deep-part-i">Reinforcement Learning Goes Deep (Part I)</h1>
+<p><em>Repository on <a href="https://github.com/heseltime/reinforcement-learning-ubern">GitHub</a>: for this <strong>Part I</strong> to a look at Deep Learning for Reinforcement Learning (RL), i.e. Deep Reinforcement Learning, I want to review some RL basics, largely following the well-tested <a href="https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf">Sutton and Barto text</a>, ending on a note about <a href="#smt-for-planning">planning</a> vs learning and a focus on the foundational Bellman equation.</em></p>
+<h2 id="test-project-environment-policy-and-the-openai-gym">Test Project: Environment, Policy, and the OpenAI Gym</h2>
+<h2 id="q-learning-as-a-learning-algorithm">Q-learning as a Learning Algorithm</h2>
+<h2 id="planning-vs-learning">Planning vs Learning</h2>
+<h2 id="the-bellman-equation">The Bellman Equation</h2>
+<h1 id="lstm-in-the-linz-ai-curriculum">LSTM in the Linz-AI-Curriculum</h1>
+<p>It's a core course for the Master's, treating a core AI datastructure so to speak, maybe as central as Convolutional Neural Networks, and at least framing the perspective on Transformers (where there is no separate course). After all, JKU's <a href="https://en.wikipedia.org/wiki/Sepp_Hochreiter">Sepp Hochreiter</a> <a href="https://www.bioinf.jku.at/publications/older/2604.pdf">invented LSTM (Long-Short-Term Memory)</a>, but to go there, you need to <a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">start from RNNs (Recurrent Neural Networks)</a> first.</p>
+<blockquote>
+<p>This chain-like nature reveals that recurrent neural networks are intimately related to sequences and lists. They’re the natural architecture of neural network to use for such data.</p>
+</blockquote>
+<div id="lstm">(Chris Olah, "Understanding LSTM Networks" posted on August 27, 2015 and accessed Febrary 17, 2024)</div>
+<p>RNN-Feats? Read <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/">The Unreasonable Effectiveness of Recurrent Neural Networks</a> by Andrej Karpathy, maybe not so unreasonable in light of the quote from Chris Olah.</p>
+<h2 id="quick-test-wolfram-language-lstm-handling">Quick Test: Wolfram Language LSTM Handling</h2>
+<p>Let's try something to begin, though, before jumping into more background on RNNs generally, and LSTM specifically, right up to the 2024 <a href="https://www.heise.de/news/NXAI-Sepp-Hochreiter-will-europaeische-Antwort-auf-OpenAI-erschaffen-9618232.html">xLSTM Story</a> (DE-world currently).</p>
+<p>I know Python is the default in many AI curricula nowadays, but tools like Wolfram Language (WL) can be more effective because they are more high level. It really depends on what you want to emphasize: are you interested in implementation details, or do you just want to work with the networks?</p>
+<p>Let's try this <strong>Input:</strong></p>
+<pre class="hljs"><code><div>(*recurrent layer acting on variable-length sequences of 2-vectors*)
+lstm = NetInitialize@
+  LongShortTermMemoryLayer[2, &quot;Input&quot; -&gt; {&quot;Varying&quot;, 2}]
+(*Evaluate the layer on a batch of variable-length sequencesEvaluate the layer on a batch of variable-length sequences*)
+seq1 = \{\{0.1, 0.4\}, \{-0.2, 0.7\}\};
+seq2 = \{\{0.2, -0.3\}, \{0.1, 0.8\}, \{-1.3, -0.6\}\};
+result = lstm[{seq1, seq2}]
+</div></code></pre>
+<p><strong>Output:</strong></p>
+<pre class="hljs"><code><div>\{\{\{-0.0620258, 0.0420743\}, \{-0.0738596, 
+   0.0826808\}\}, \{\{0.0240281, -0.00213933\}, \{-0.0691157, 
+   0.0852326\}, \{0.190297, -0.117645\}\}\}
+</div></code></pre>
+<p>For something just a bit more complicated, let's produce a number for each sequence: this is what it would look like to chain up the layers in WL.</p>
+<p><strong>Input:</strong></p>
+<pre class="hljs"><code><div>net = NetInitialize@
+  NetChain[{EmbeddingLayer[3], LongShortTermMemoryLayer[1], 
+    SequenceLastLayer[]}, &quot;Input&quot; -&gt; NetEncoder[&quot;Characters&quot;]]
+</div></code></pre>
+<p><strong>Output</strong> <a href="https://github.com/heseltime/WLForRNNs/blob/main/lstm-tests.nb">after the jump, in a repo I made for the demo notebook.</a> If you don't want to download the notebook and boot up Mathematica, the output looks like this, however.</p>
+<p><img src="image-25.png" alt="NetChaining in WL"></p>
+<p>What follows is a small taxonomy of RNNs, centering on LSTM, <em>with the formulas!</em></p>
+<h2 id="rnn-architectures">RNN Architectures</h2>
+<h3 id="jordan">Jordan</h3>
+<p>For the Jordan network, which is a type of recurrent neural network (RNN) that connects the output to the input of the network for the next time step, the equations are slightly different from those of LSTM-like networks we will look at in a moment.</p>
+<p>$$
+\begin{align}
+\boldsymbol{h}(t) &amp;= \sigma\left(\boldsymbol{W}<em>{h}^{\top} \boldsymbol{x}(t) + \boldsymbol{R}</em>{h}^{\top} \boldsymbol{y}(t-1)\right) \
+\boldsymbol{y}(t) &amp;= \phi\left(\boldsymbol{W}_{y}^{\top} \boldsymbol{h}(t)\right)
+\end{align}
+$$</p>
+<p>The point here is: <em>weight sharing</em> is emplyoed, that is, the same weights are used across time steps. <strong><em>R</em></strong> is the Recurrent Weight Matrix here.</p>
+<h3 id="elman">Elman</h3>
+<p>The <em>&quot;simple recurrent neural network&quot;</em> as you sometimes see it called: Internal hidden activations are remembered, but hidden units loop only to themselves, not neighbors or any other units:</p>
+<p>$$
+\begin{align}
+\boldsymbol{h}(t) &amp;= \sigma\left(\boldsymbol{W}_{h}^{\top} \boldsymbol{x}(t) + \boldsymbol{a}(t-1)\right) \
+\boldsymbol{y}(t) &amp;= \phi\left(\boldsymbol{V}^{\top} \boldsymbol{a}(t)\right)
+\end{align}
+$$</p>
+<h3 id="fully-recurrent-network">Fully Recurrent Network</h3>
+<p>Do you spot what is moving in the formulas, as complexity and thereby expressivity is added?</p>
+<p>$$
+\begin{align}
+\boldsymbol{h}(t) &amp;= \sigma\left(\boldsymbol{W}^{\top} \boldsymbol{x}(t) + \boldsymbol{R}^{\top} \boldsymbol{h}(t-1)\right) \
+\boldsymbol{y}(t) &amp;= \phi\left(\boldsymbol{V}^{\top} \boldsymbol{h}(t)\right)
+\end{align}
+$$</p>
+<p>We arrive at the Fully RNN with recurrent hidden layers that are fully connected, so all the hidden units are able to store information, i.e. from previous inputs. There is a time lag to these connections, therefore.</p>
+<h3 id="autoregressive-moving-average-arma-non-linear-autoregressive-exogenous-models-narx-and-time-delay-neural-networks">Autoregressive-Moving-Average (ARMA), Non-linear Autoregressive Exogenous Models (NARX) and Time-Delay Neural Networks</h3>
+<p>Let's discuss the ideas on a high level.</p>
+<p>The Autoregressive Moving Average (ARMA) model is a popular statistical model used for time series forecasting. It combines two components: Autoregressive (AR) and Moving Average (MA). The AR part involves using the dependency between an observation and a number of lagged observations. The MA part involves modeling the error term as a linear combination of error terms occurring contemporaneously and at various times in the past.</p>
+<p>The ARMA model can be denoted as ARMA(p, q), where $$p$$ is the order of the autoregressive part, and $$q$$ is the order of the moving average part. The general form of the ARMA model is given by the following equation:</p>
+<p>$$
+X_t = \phi_1 X_{t-1} + \phi_2 X_{t-2} + \cdots + \phi_p X_{t-p} + \theta_1 \varepsilon_{t-1} + \theta_2 \varepsilon_{t-2} + \cdots + \theta_q \varepsilon_{t-q} + \varepsilon_t
+$$</p>
+<p>Where:</p>
+<ul>
+<li>$$X_t$$ is the time series at time $$t$$,</li>
+<li>$$\phi_1, \phi_2, \ldots, \phi_p$$ are the coefficients of the autoregressive terms,</li>
+<li>$$\theta_1, \theta_2, \ldots, \theta_q$$ are the coefficients of the moving average terms,</li>
+<li>$$\varepsilon_t$$ is white noise at time $$t$$.</li>
+</ul>
+<p>The Nonlinear AutoRegressive with eXogenous inputs (NARX) model is a type of recurrent dynamic network that is particularly useful for modeling and predicting time series data influenced by past values of the target series and past values of external (exogenous) inputs. It is a powerful tool for capturing complex nonlinear relationships in time series data.</p>
+<p>The Nonlinear AutoRegressive with eXogenous inputs (NARX) model can be represented as follows:</p>
+<p>$$
+y(t) = f\left(y(t-1), y(t-2), \ldots, y(t-d_y), u(t-1), u(t-2), \ldots, u(t-d_u)\right) + \varepsilon(t)
+$$</p>
+<p>Where:</p>
+<ul>
+<li>$$y(t)$$ is the output at time $$t$$,</li>
+<li>$$u(t)$$ is the exogenous input at time $$t$$,</li>
+<li>$$d_y$$ and $$d_u$$ are the delays (or memory) for the output and input respectively,</li>
+<li>$$f$$ represents a nonlinear function, often realized by a neural network,</li>
+<li>$$\varepsilon(t)$$ is the error term at time $$t$$.</li>
+</ul>
+<p>Finally, Time Delay Neural Networks (TDNNs) are a specialized form of neural networks designed to recognize patterns across sequential data, effectively capturing temporal relationships. TDNNs introduce a mechanism to handle time series or sequence data by incorporating time-delayed connections in their architecture. This allows the network to consider input not just from the current time step but also from several previous time steps, thus leveraging the temporal context of the data.</p>
+<p>The operation of a neuron in a TDNN can be mathematically represented as follows:</p>
+<p>$$
+y(t) = f\left( \sum_{i=0}^{N} w_i x(t-i) + b \right)
+$$</p>
+<p>where:</p>
+<ul>
+<li>$$y(t)$$ is the output of the neuron at time $$t$$,</li>
+<li>$$x(t-i)$$ represents the input at time $$t-i$$,</li>
+<li>$$w_i$$ are the weights associated with inputs at different time delays,</li>
+<li>$$b$$ is the bias term,</li>
+<li>$$f$$ is the activation function,</li>
+<li>$$N$$ is the number of time steps considered (the window size).</li>
+</ul>
+<p>So much for further background on the architectural levels. Let's let the latter models especially serve as contextual notes, the goal always being to express connections across time steps. So far so good!</p>
+<h2 id="learning-and-the-vanishing-gradient-problem">Learning and the Vanishing Gradient Problem</h2>
+<h3 id="backpropagation-through-time-bptt">Backpropagation Through Time (BPTT)</h3>
+<h4 id="how-bptt-works">How BPTT Works:</h4>
+<ol>
+<li>
+<p><strong>Unfolding the Network:</strong> The RNN is &quot;unrolled&quot; for each time step in the input sequence, transforming it into an equivalent feedforward network where each layer corresponds to a time step.</p>
+</li>
+<li>
+<p><strong>Forward Pass:</strong> Inputs are fed sequentially, and activations are computed across the unrolled network, moving forward through time.</p>
+</li>
+<li>
+<p><strong>Backward Pass:</strong> The loss is calculated at the final output, and gradients are backpropagated through the network, taking into account the impact of weights across all time steps.</p>
+</li>
+<li>
+<p><strong>Gradient Accumulation:</strong> Gradients for each time step are accumulated since the same weights are applied at every step.</p>
+</li>
+<li>
+<p><strong>Weight Update:</strong> The weights are updated using the accumulated gradients, employing optimization algorithms like SGD, Adam, or RMSprop.</p>
+</li>
+</ol>
+<h4 id="challenges-with-bptt">Challenges with BPTT:</h4>
+<p><strong>- Vanishing and Exploding Gradients:</strong> These issues can significantly hinder learning, especially for long sequences. LSTM and GRU units are designed to mitigate these problems.</p>
+<p><strong>- Computational Intensity:</strong> Processing long sequences in their entirety for each update can be computationally demanding and memory-intensive.</p>
+<p><strong>- Truncated BPTT:</strong> This approach limits the unrolled network to a fixed number of steps to reduce computational requirements, though it may restrict the model's ability to learn from longer sequences.</p>
+<p>BPTT enables RNNs to effectively leverage sequence data, making it crucial for applications in fields like natural language processing and time series analysis. We will pass by some important initialization, regularization, and other approaches and methods for the purposes of this summary post.</p>
+<h4 id="the-formulas">The Formulas</h4>
+<p><a href="https://d2l.ai/chapter_recurrent-neural-networks/bptt.html">I'll refer to Dive Into Deep Learning's section on this topic.</a></p>
+<h3 id="truncated-bptt">Truncated BPTT</h3>
+<p>Dive Into Deep Learning (ibid) has the idea:</p>
+<blockquote>
+<p>... an approximation of the true gradient, simply by terminating the sum at $$\partial h_{t-\tau}/\partial w_\textrm{h}$$
+. In practice this works quite well. It is what is commonly referred to as truncated backpropgation through time (Jaeger, 2002).</p>
+</blockquote>
+<p><a href="https://www.ai.rug.nl/minds/uploads/ESNTutorialRev.pdf">Here is a reference tutorial paper I really like by Herbert Jaeger</a>, covering the method in some more detail and also presenting the material covered in this post from different angles.</p>
+<h3 id="real-time-recurrent-learning-rtrl">Real-time Recurrent Learning (RTRL)</h3>
+<p>RTRL is an online learning algorithm, which means it updates the weights of the neural network in real-time as each input is processed, rather than waiting for a full pass through the dataset (as in batch learning). This characteristic makes RTRL suitable for applications where the model needs to adapt continuously to incoming data, such as in control systems, real-time prediction tasks, or any scenario where the data is streaming or too large to process in batches.</p>
+<p>The key feature of RTRL is its ability to compute the gradient of the loss function with respect to the weights of the network at each time step, using the information available up to that point. This is achieved by maintaining a full Jacobian matrix that tracks how the output of each unit in the network affects each other unit. However, this comes with a significant computational cost because the size of the Jacobian matrix grows quadratically with the number of units in the network, making RTRL computationally expensive for large networks.</p>
+<p>Despite its computational demands, RTRL has been foundational in the development of algorithms for training RNNs, and it has inspired the creation of more efficient algorithms that approximate its computations in a more computationally feasible manner, such as Backpropagation Through Time (BPTT) and its various optimized forms.</p>
+<p>RTRL is particularly valued in scenarios where it's crucial to update the model weights as new data arrives, without the luxury of processing the data in large batches. However, due to its computational cost, practical applications often use alternative methods that strike a balance between real-time updating and computational feasibility.</p>
+<h3 id="summary-of-the-asymptotic-complexities">Summary of the asymptotic complexities</h3>
+<p><strong>- BPTT (Backpropagation Through Time)</strong>
+<strong>- Asymptotic Complexity:</strong> <code>O(T * C)</code> where <code>T</code> is the length of the input sequence and <code>C</code> represents the complexity of computing the gradients at a single timestep (including both forward and backward passes). The complexity scales linearly with the length of the input sequence but requires significant memory for long sequences.</p>
+<p><strong>- RTRL (Real-Time Recurrent Learning)</strong>
+<strong>- Asymptotic Complexity:</strong> <code>O(n^4)</code> for a network with <code>n</code> units. This high computational complexity arises from the need to update a full Jacobian matrix tracking the dependencies of all units on each other at every timestep. It makes RTRL impractical for large networks despite its real-time learning capability.</p>
+<p><strong>- TBPTT (Truncated Backpropagation Through Time)</strong>
+<strong>- Asymptotic Complexity:</strong> <code>O(k * C)</code> where <code>k</code> is the truncation length (the number of timesteps for which the network is unfolded) and <code>C</code> is similar to that in BPTT. TBPTT provides a more manageable and predictable computational cost, especially for long sequences, offering a practical compromise between computational efficiency and the benefits of temporal learning.</p>
+<h2 id="lstm-solves-the-vanishing-gradient-problem">LSTM Solves the Vanishing Gradient Problem</h2>
+<h3 id="vanilla-lstm">Vanilla LSTM</h3>
+<p>Let's dive into the formulas following the architectures approach from before.</p>
+<p>$$
+\begin{align}
+\boldsymbol{i}(t) &amp;= \sigma\left(\boldsymbol{W}<em>{i}^{\top} \boldsymbol{x}(t)+\boldsymbol{R}</em>{i}^{\top} \boldsymbol{y}(t-1)\right) \
+\boldsymbol{o}(t) &amp;= \sigma\left(\boldsymbol{W}<em>{o}^{\top} \boldsymbol{x}(t)+\boldsymbol{R}</em>{o}^{\top} \boldsymbol{y}(t-1)\right) \
+\boldsymbol{f}(t) &amp;= \sigma\left(\boldsymbol{W}<em>{f}^{\top} \boldsymbol{x}(t)+\boldsymbol{R}</em>{f}^{\top} \boldsymbol{y}(t-1)\right)  \
+\boldsymbol{z}(t) &amp;= g\left(\boldsymbol{W}<em>{z}^{\top} \boldsymbol{x}(t)+\boldsymbol{R}</em>{z}^{\top} \boldsymbol{y}(t-1)\right) \
+\boldsymbol{c}(t) &amp;= \boldsymbol{f}(t) \odot \boldsymbol{c}(t-1)+\boldsymbol{i}(t) \odot \boldsymbol{z}(t) \
+\boldsymbol{y}(t) &amp;= \boldsymbol{o}(t) \odot h(\boldsymbol{c}(t))
+\end{align}
+$$</p>
+<p>The Vanilla LSTM, distinguished by its three gates and a memory state, is a staple variant in the realm of Long Short-Term Memory networks. It stands out for its ability to selectively preserve or ignore information, making it adept at managing memory cells amid potential distractions and noise. This selective filtering results in a highly non-linear dynamic that equips the LSTM to execute complex functions effectively.</p>
+<p>Here's an overview of the Vanilla LSTM's operation, highlighting its components and their respective functions:</p>
+<ul>
+<li><strong>Sensory Inputs (<code>x(t)</code>):</strong> Incoming data at each time step, transformed into cell input activations (<code>z(t)</code>) through a non-linear function (<code>g(·)</code>), typically the hyperbolic tangent (<code>tanh</code>).</li>
+<li><strong>Input Gate (<code>i(t)</code>):</strong> Utilizes a sigmoid function to filter (<code>z(t)</code>), allowing only relevant information to pass through based on the current context.</li>
+<li><strong>Forget Gate (<code>f(t)</code>):</strong> Also employing a sigmoid function, it determines the proportion of the previous cell state (<code>c(t−1)</code>) to retain or discard, enabling the cell to forget irrelevant past information.</li>
+<li><strong>Cell State Update:</strong> The new cell state (<code>c(t)</code>) is formed by an element-wise addition of the product of the input gate and cell input activations (<code>i(t)⊙z(t)</code>) with the product of the forget gate and the previous cell state (<code>f(t)⊙c(t−1)</code>), effectively updating the memory with relevant new information while discarding the old.</li>
+<li><strong>Output Gate (<code>o(t)</code>):</strong> The final step involves squashing the memory cell's contents into a numerical range via a cell activation function (<code>h(·)</code>) and then filtering this through an output gate. This process yields the final memory cell state activation (<code>y(t)</code>), ready for the next computational step or to serve as the output.</li>
+</ul>
+<p>This structured approach allows the Vanilla LSTM to adeptly navigate through time series data, learning from long-term dependencies and making it a powerful tool for a wide range of sequential data processing tasks.</p>
+<p><img src="/assets/img/vanilla_lstm_legend.png" alt="Schematic of the Vanilla LSTM Cell" title="Schematic of the Vanilla LSTM Cell"></p>
+<p>Figure from K. Greff, R.K. Srivastava, J. Koutnik, B.R. Steunebrink, J. Schmidhuber. IEEE Transactions on Neural Networks and Learning Systems, Vol 28(10), pp. 2222–2232. Institute of Electrical and Electronics Engineers (IEEE). 2017.</p>
+<h3 id="focused-lightweight-lstm-and-gated-recurrent-unit-gru">Focused, Lightweight LSTM and Gated Recurrent Unit (GRU)</h3>
+<p><strong>Focused LSTM</strong>: No forget gate and fewer parameters than Vanilla LSTM.</p>
+<p><strong>Lightweight LSTM</strong>: The Focused LSTM without output gates. (Has Markov properties*.)</p>
+<p>(*The Markov property is a fundamental concept in the theory of stochastic processes. It refers to the memoryless property of a process, where the future state depends only on the current state and not on the sequence of events that preceded it. There are several types.)</p>
+<p><strong>Gated Recurrent Unit (GRU)</strong></p>
+<blockquote>
+<p>A slightly more dramatic variation on the LSTM is the Gated Recurrent Unit, or GRU, introduced by <a href="https://arxiv.org/pdf/1406.1078v3.pdf">Cho, et al. (2014)</a>. It combines the forget and input gates into a single “update gate.” It also merges the cell state and hidden state, and makes some other changes. The resulting model is simpler than standard LSTM models, and has been growing increasingly popular.</p>
+</blockquote>
+<p>From Chris Olah’s <a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">Understanding LSTM Networks</a>: great diagrams there.</p>
+<h3 id="%22getting%22-lstm">&quot;Getting&quot; LSTM</h3>
+<p>Regardless of architecture, and since a lot has been written to explain LSTMs from the ground up, I would like to clear up the blocks you might face if you are similar to me, as you try and understand the approach.</p>
+<ul>
+<li>The weights $$ W_{{i,o,f,z}} $$ are <strong>matrices</strong>, for the input data to each of the gates</li>
+<li>The recurrent weights $$ R_{{i,o,f,z}} $$ are <strong>also just learnable matrices</strong>, it really is all very similar to a regular neural net once you unroll the thing formally</li>
+<li>you end up with two pathways through the unit and overall structures, basically one for short-range and one for long-range dependencies: short-term corresponds to inner states of the cells.</li>
+<li>the first stage in the LSTM cell determines what percentage of the long-term memory is remembered (forget gate)</li>
+<li>the part that of the LSTM cell that determines how to update the long-term memory is called the input gate</li>
+<li>opposite this last point, the output gate: updates the short-term memory</li>
+<li>separating the paths for long- and short-term memories, LSTMs avoid the vanishing/exploding gradient problem: that means we can unroll them more times to accommodate longer sequences of input data</li>
+</ul>
+<p>I can really recommend <a href="https://www.youtube.com/watch?v=YCzL96nL7j0">StatQuest if you want a video</a>, but you have to like the StatQuest presentation style (&quot;Bam&quot;).</p>
+<h3 id="tricks-of-the-trade">Tricks of the Trade</h3>
+<p>See <strong>Ticker Steps</strong>, <strong>Negative Gate Biases</strong>, <strong>Scaled Activation Functions</strong>, etc. in <a href="https://www.niklasschmidinger.com/posts/2020-09-09-lstm-tricks/">The Sorcerer’s Apprentice Guide to Training LSTMs</a> by Niklas Schmidinger.</p>
+<h2 id="lstm-transformers-hybrid-xlstm">LSTM, Transformers, Hybrid xLSTM?</h2>
+<p>For another day: <a href="https://www.jku.at/en/news-events/news/detail/news/ai-made-in-europe-spitzenforscher-sepp-hochreiter-und-sein-xlstm-erhalten-unternehmerische-verstaerkung-fuer-europaeisches-large-language-model/">JKU in the headlines, precisely on topic</a>, but what's the idea? I think this is not yet out of the bag but will be soon, providing an opportunity for another post here. At the core, this is about LSTM vs Transfomers however and sounds like something hybrid.</p>
+<blockquote>
+<p>The transformer computations increase quadratically according to the text length. By contrast, xLSTM calculations increase in a linear manner only, along with the text length, thereby using less processing power during operation. As complex tasks require more text for both the task description and the solution, this is a great advantage. Fortunately, xLSTM can, for example, facilitate industrial applications, especially if transformer models are too slow. Similar to transformer models, xLSTM has a phonetic memory. The algorithm is, however, equipped with an additional component that results in a closer resemblance to human verbal working memory, making the xLSTM algorithm much more powerful.</p>
+</blockquote>
+<p>I am excited to catch wind of the story directly as it unfolds at JKU.</p>
+<h1 id="taking-symbolic-on-the-road-with-wolfram">Taking Symbolic on the Road (with <a href="/wolfram">Wolfram</a>!)</h1>
+<div id="symbolic-conclusion">Apart from my thesis, practical work, final exam and <a href="studies-overview">core coursework</a> (see next sections below), my AI degree in Linz involves the symbolic track components I talk about above, essentially <a href="/wolfram#computer-algebra">Computer Algebra</a> and <a href="/wolfram#automated-reasoning">Automated Reasoning</a>, both situated at <a href="https://risc.jku.at/">RISC</a>: since I am now working for Wolfram during my Masters and in the foreseeable future, I am making an effort to basically pool that work and this part of my studies: the tool (also used in Linz and at RISC), Wolfram Language, is the same, after all.
+<p>The remaining sections in this page deal with all other areas of my degree including other parts of the Symbolic track in Linz, already completed and outlined towards the end of the page.</p>
+</div>
+<h1 id="how-to-wrap-a-technical-masters-degree-in-austria-at-johannes-kepler-university">How to Wrap a Technical Masters Degree in Austria (at Johannes Kepler University!)</h1>
+<div id="housekeeping"><i>Now for some Housekeeping.</i></div>
+<h2 id="thesis-committee-planning">Thesis Committee Planning</h2>
+<p>As my thesis approaches a writing-stage, I start to think about the tetris-like putting together of my thesis committee, following this guideline (<a href="https://www.jku.at/en/degree-programs/types-of-degree-programs/masters-degree-programs/ma-artificial-intelligence/program-details/">online in full (EN)</a>).</p>
+<blockquote>
+<p>As part of the oral examination, the student will be asked to create a 3-member examination committee consisting of a committee head (member 1) and two additional members (members 2 and 3). This first committee member may not be a thesis supervisor and will preside over the oral defense. The second committee member will conduct an examination in the subject area of “Machine Learning and Perception”. The third committee member will conduct an examination in regard to the selected elective track. The thesis supervisor should also be a member of the committee. Whereas two committee members may be from the same institute, all of the committee members should not be from the same institute.</p>
+</blockquote>
+<p>Is this task <a href="#planning-overview">AI/Symbolically solvable</a>? A neural network could do it, we can be sure of that.</p>
+<p>The ca. one-hour long exam remains for me to do, not the AI, and is about my Master's thesis, with a grade provided by member 1 in the above. Members 2 and 3 cover the required and elective coursework (according to a track, Symbolic in my case). Because I have two supervisors and it seems at least one of them (conceivably both) need to be part of the examination, I see how these slots fill up and decide subject areas in terms of the examiner for me: my supervisors come from the machine learning and the knowledge processing institutes respectively, where machine learning constitutes the core, required coursework and knowledge processing is taken to be part of the symbolic track (where I actually would have liked a cross-over to <a href="/wolfram">Wolfram Language and RISC topics</a>, but cannot cover these in this view - except maybe if there is no need to task all supervisors to the examination table!) so it looks like this is where I am headed, to exit my degree (in style) eventually.</p>
+<p>Mysterious member No 1 remains to be chosen! I wonder if this one might be offered by the Insitute of Integrated Study, see below details on the thesis' genesis.</p>
+<h2 id="studies-overview-in-the-2019-curriculum-view">Studies Overview (in the 2019 Curriculum View)</h2>
+<div id="studies-overview">But where am I right now in my studies and what is the timelined target?</div>
+<p>So the matter is complicated by a slight difference between the 2019 and the current 2021 curriculum (it is 2024 now and there is a delay between the given years and the years studied by: I am studying by the 2021 curriculum, I believe (!), but started by the 2019 curriculum - will need to check the details with the studies admin) but ok, let's not get weighed down here: by the 2019 curriculum and according to my original idea for this studies, subject to some slight shifting of coursework according to interest or lack thereof (sorry, looking at you, Computer vision), here are some nice Wolfram Language word clouds with the credit-weighted course titles, listed by semester.</p>
+<h3 id="prerequisite-studies">Prerequisite Studies</h3>
+<p>Please don't ask why I do things in complicated ways! During my <a href="/rDse">SE Bachelor's</a> I enrolled in university coursework from the AI curriculum, both Bachelor's and Master's level, and then formally entered into the Master's on the basis of my college Bachelor's - requiring some preliminary coursework from the AI Bachelor's. All while already working after college, which yes, did add a stress factor, so if you are planning a similar route, probably best to go it more linearly. But sometimes these things just come a certain way: in addition to the following timeline and work officially credited to the Master's I actually did a lot of Bachelor's level courses from both the JKU <a href="https://www.jku.at/en/degree-programs/types-of-degree-programs/bachelors-and-diploma-degree-programs/ba-artificial-intelligence/">AI</a> and <a href="https://www.jku.at/en/degree-programs/types-of-degree-programs/bachelors-and-diploma-degree-programs/ba-computer-science/">CS (or Informatics, as Austrians like to say) Bachelor's</a>, before at arriving at my model of combining <a href="/rDse">skills-based learning at Hagenberg</a> with semi-direct entry to a science-oriented Master's.</p>
+<h4 id="pre-i-bachelors-ai-content-in-parallel-to-se-bachelors">Pre I (Bachelor's AI content in parallel to SE Bachelor's)</h4>
+<p>So yes, please don't ask why I do things in complicated ways!</p>
+<ul>
+<li>ML (Machine Learning) Supervised Techniques</li>
+</ul>
+<p>I already started on some Master's level coursework too here, Model Checking, some Computer Vision (lecture requirement), Basic Methods of Data Analysis (from the Bachelor's actually), AI in Medicine (short course at the Medical Faculty in Linz).</p>
+<h4 id="pre-ii-bachelors-ai-content-in-parallel-to-se-bachelors">Pre II (Bachelor's AI content in parallel to SE Bachelor's)</h4>
+<ul>
+<li>ML Unsupervised Techniques</li>
+<li>Programming in Python II</li>
+<li>Math for AI II</li>
+</ul>
+<p>Also did Knowledge Representation and Reasoning (formerly Symbolic AI) at the Master's level here.</p>
+<h3 id="semester-iwinter-202324">Semester I/Winter (2023/24)</h3>
+<p>Curricular ideal (here's a magical German term for you: &quot;Idealtypischer Studienverlauf&quot; ... ideal-typical (?) course (trajectory) of studies):</p>
+<p><img src="image-16.png" alt="Semester I with Computer Vision, but No Thank You, and Model Checking/Computer Algebra"></p>
+<p>Model Checking was already done in Pre I, note on <strong>Computer Algebra</strong>: replaced by <em>Planning and Reasoning in AI</em> in the 2021 curriculum. I took the Planning course, see the following word cloud, but still want to try and integrate Computer Algebra with my Master's as well, if possible: I am already in touch with the studies admin about this now.</p>
+<h4 id="target-update-march-2024-reached">Target (Update March 2024: <strong>Reached</strong>)</h4>
+<p>So, the Jack-actual (Computer Vision will be done in Semester III, which I am ok with, so I consider <strong>my target reached</strong>):</p>
+<p><img src="image-18.png" alt="Semester I without Computer Vision and Model Checking but with Planning and the Seminar"></p>
+<h3 id="semester-iisummer-2024---now">Semester II/Summer (2024 - <strong>NOW</strong>)</h3>
+<p>The upcoming semester, let's see if I can follow the ideal.</p>
+<p><img src="image-23.png" alt="Semester II"></p>
+<h4 id="target">Target</h4>
+<p>Actually, I already know I am doing my Practical Work Component this semester, so that already breaks with the ideal ...</p>
+<p><img src="image-22.png" alt="Seminar II in Practice, with Practical Work, no Symbolic AI (Already Done)"></p>
+<p>Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II: so, in other words, shooting beyond ideal here, for my target.</p>
+<h3 id="semester-iii-target-final-semesterwinter-20242025">Semester III (<strong>Target Final Semester</strong>)/Winter (2024/2025)</h3>
+<p>Once again an ideal:</p>
+<p><img src="image-9.png" alt="Semester III with Practical Work and Seminar"></p>
+<h4 id="target">Target</h4>
+<p>This might be a lofty goal ... I already completed Practical Work and Seminar at this point, and need to wrap my Master's thesis (pulling from the intended Semester IV), but still need to do the Computer Vision component (technically only the exercise, the lecture was done in Pre I actually) on the other hand, so:</p>
+<p><img src="image-24.png" alt="Semester III without Practical Work and Seminar, but with Computer Vision, Masters Thesis, Thesis Seminar and Exam, also Automated Reasoning"></p>
+<p>Automated Reasoning is listed for this semster (2019 version), and is only offered this semester currently, along with Computer Algebra (but this one is not required in the 2021 curriculum anymore, just a nice course).</p>
+<h3 id="shadow-semester-iv-summer-2025-overflowbridging-semester">Shadow Semester IV (Summer 2025, Overflow/Bridging Semester)</h3>
+<p>Basically only if needed for anything else than the following curricular ideal, where I already completed everything if I stay on target (then I would be doing my exam, see above, in the spring, which could be a nice timeline too): this would be a whole semester reserved for Masters Thesis (writing), Seminar and Exam. We'll see.</p>
+<p><img src="image-13.png" alt="Boring Semster with just Masters Thesis, Seminar and Exam"></p>
+<h4 id="target">Target</h4>
+<div id="scholarship-hint">On-target would be only the final Master's exam open in the spring, to conclude with this course of studies in all but this last practical matter, maybe allowing for time for some interesting (extra-credit) courses, certainly making for a helpful financial support setup in a country where good studies progress is actually monetarily rewarded by public scholarship schemes - on a monthly basis for every month in studies, see. Ask me about it if you are interested in that topic, by the way!</div>
+<h4 id="free-elective-list">Free Elective List</h4>
+<p>12 credits to fill according to both curriculum versions below, CAN be taken from the AI Masters prerequisite Bachelor's level coursework too. (See Pre I and II above.)</p>
+<ul>
+<li>ML supervised (4.5 credits)</li>
+<li>ML unsupervised (4.5 credits)</li>
+<li>Programming in Python II (3 credits)</li>
+</ul>
+<h4 id="area-of-specialization-computer-and-data-science">Area of Specialization (Computer and Data Science)</h4>
+<p>9 credits to fill:</p>
+<ul>
+<li><s>ML supervised (4.5 credits)</s></li>
+<li><s>ML unsupervised (4.5 credits)</s></li>
+</ul>
+<p>(Looks like cannot be granted because AI Masters prerequisite Bachelor's level coursework is not elgible in this category: tough bureaucracy!)</p>
+<p>So then, I can offer:</p>
+<ul>
+<li>Statistics for AI (6 credits, not in the prerequisites)</li>
+<li>Basic Methods of Data Analysis (3 credits)</li>
+</ul>
+<p>Oh, that's already 9! There are some other courses of interest available actually (looking at you, Semester III and Shadow Semester IV), see the <a href="https://studienhandbuch.jku.at/curr/989">JKU AI Master's handbook</a> for a current list.</p>
+<h4 id="extra-credit">Extra-Credit</h4>
+<p>Just kind of happened:</p>
+<ul>
+<li>AI in Medicine (2 credits, JKU) - see if needed on transcript (it's there currently)</li>
+<li>IDSA x Ars Electronica FOUNDING LAB Summer School (4 ECTS from IDSA/<a href="https://it-u.at/">ITU</a>) - not on transcript, that is fine</li>
+</ul>
+<p>Also</p>
+<ul>
+<li>Math for AI II (6 credits, just the lecture, on my Master's transcript though the exercise for 3 credits is listed in the Bachelor's transcript, technically - see Pre II)</li>
+</ul>
+<p>probably not needed, along with a couple more exercises and lectures from the AI Bachelor's which will probably not be credited towards my Master's, which is only okay in a county where the higher ed price tag goes to zero/<a href="#scholarship-hint">see above</a>.</p>
+<h4 id="appendix-curriculum-2019-vs-2021-spot-the-difference">Appendix: Curriculum 2019 vs 2021, Spot the Difference!</h4>
+<p><img src="image-5.png" alt="Curriculum 2019"></p>
+<p><img src="image-4.png" alt="Curriculum 2021"></p>
+<h1 id="thesis-seminarpractical-work-few-shotin-context-learning-vs-finetuning-of-llms-for-document-accessibility">Thesis (Seminar/Practical Work): Few-Shot/In-Context Learning vs. Finetuning of LLMs for Document Accessibility</h1>
+<div id="jku-thesis-overview">
+<p>For a rounded Masters Thesis, on <b>an ECM-AI topic</b> naturally, a comparative exploration of Finetuning especially opposite <a href="https://medium.com/@myschang/cot-in-large-language-models-in-context-learning-14d73ff57b90#:~:text=In%20Context%20Learning%20of%20CoT,examples%20to%20guide%20its%20reasoning.">In-Context Learning approaches</a> is the goal, starting with a seminar on a current paper and a company-affiliated (some more news to follow) practical work, all on the topic of making PDF-documents accessible.</p>
+<p>Very related to the EU Context: The <a href="https://fep-fee.eu/IMG/pdf/20210629_european_accessibility_act_report_on_the_state_of_the_art_of_publishing_standards.pdf?1892/9929f3564221902d4ca19b53c0d4d9aa2118bb62">European Accessibility Act (EAA) is an EU Directive that sets binding accessibility goals to be achieved by all the member states</a>, to be implemented by 2025.</p>
+</div>
+<h2 id="seminar-language-models-are-few-shot-learners">Seminar: Language Models are Few-Shot Learners</h2>
+<div id="jku-sem">
+<p><b>(Masters-)Project is a Go!</b> <a href="..\assets\pdf\LtMDA-v2-1.pdf">I even managed to get some Borges in, see slides three and four in the presentation.</a></p>
+<p><a href="..\assets\pdf\LtMDA-v2-1.pdf"><img src="../assets/img/LtMDA-v2-1-cover.png" alt="Language Models are Few-Shot Learners Seminar Presentation" /></a></p>
+<p>Delivered on December 11th, 2023, to IML (Machine Learning Insitute) at Johannes Kepler University.</p>
+</div>
+<h2 id="practical-work">Practical Work</h2>
+<div id="jku-practical">
+<p><i>TBD, e.g. a standard software component to check and transform PDFs to accessible formats in a fully automated fashion.</i></p>
+</div>
+<h2 id="thesis">Thesis</h2>
+<div id="jku-thesis">
+<p><i>TBD fully, most likely a comparison with Finetuning appraches incl. use of open models like <a href="https://ai.meta.com/llama/">Llama</a>.</i></p>
+</div>
+<h3 id="further-notes">Further Notes</h3>
+<p>This could be a real world application too, clearly, since the basic functionality can be distributed by API with customization and standard software modules, as might be done for practical thesis work, on top: This idea also provides a clear delineation between data-oriented service (transformation to barrier free documents) and a module that would be implemented for a company in practical work, with loss of rights to such a module.</p>
+<h1 id="planning-2023-project">Planning (2023 Project)</h1>
+<div id="smt-for-planning">This is my <a href="#smt-for-model-checking">second dive</a> into SMT2 actually.</div>
+<p>For this project, <a href="https://github.com/heseltime/planning_reasoning/">full repo available</a>, I was more involved in the SMT2 (Satisfiability Modulo Theories Version 2) side, something I could imagine tying into (Python) projects in the future, for validation and checking (and here planning) purposes - so I ended up exploring interfacing modalities, here the digram overview for Part 2 of the project, the SMT-part.</p>
+<img src="../assets/img/Screenshot 2023-12-29 215323.png" alt="Diagram Overview of the Project Part 2" class="large" id="planning-overview" />
+<p>The actual application is the N-Queens Problem, specifically the 8x8 version, where my solution actually implements a generator code file for generic problem sizes, together with MatPlotLib visualization actually:</p>
+<img src="../assets/img/Screenshot 2023-12-29 020140.png" alt="8x8 Version of N-Queens Problem" class="small" />
+<p>Part 1 is a <a href="https://fmv.jku.at/limboole/">Limboole</a> implementation, see <a href="https://github.com/heseltime/planning_reasoning/">the repo</a>: I like Limboole because it is a JKU project, as &quot;a simple tool for checking satisfiability respectively tautology on arbitrary structural formulas, and not just satisfiability for formulas in conjunctive normal form (CNF), like the DIMACS format, which the standard input format of SAT solvers. The tool can also be used as a translator of such structural problems into CNF.&quot; <a href="https://fmv.jku.at/index.html">Quoted from the JKU Insitute for Formal Models and Verification</a></p>
+<p>A little more on JKU institutes actually: This concludes my Masters work in the <a href="https://www.jku.at/en/institute-for-symbolic-artificial-intelligence/">JKU Symbolic AI Institute</a>, where the other course was Model Checking. Work with <a href="https://www.jku.at/en/institute-for-application-oriented-knowledge-processing/">FAW, the institute,</a> (Knowledge Representation and Reasoning) is also already completed, apart from the Masters Thesis which will be co-supervised by FAW (together with the <a href="https://www.jku.at/en/institute-for-machine-learning/">Machine Learning Institute</a>): leaving Automated Reasoning and Computer Algebra for 2024, both located at <a href="https://risc.jku.at/">RISC</a>, which I hope to connect to from my work with Wolfram Language.</p>
+<p><b>Taken together, this is a symbolic counterpoint to my thesis direction working in language models and applications, reflected in <a href="/notes">my resarch (rX) feed</a> going forward.</b></p>
+<p>More details on my work in symbolic computation and Wolfram Language on my <a href="/wolfram">Wolfram page</a>, touching on my consulting work for the company as well.</p>
+<h1 id="metamathematics-mathematica-lean-2023-wolfram-summer-school">Metamathematics, Mathematica, Lean (2023 Wolfram Summer School)</h1>
+<div id="wss">
+<p>I was a grad student participant in the 2023 Wolfram Summer School (WSS) three weeks in June and July 2023.</p>
+</div>
+<p>Somehow intertwined with this, for me subjectively: the Nativist/Symbolic vs. Empiricist/Neural Networks debate, see <a href="https://www.youtube.com/watch?v=vdWPQ6iAkT4&amp;themeRefresh=1">Does AI need more innate machinery?</a> (Mathematica is a symbolic computation tool.)</p>
+<p>My main reason for WSS was a turn to further university level math and the realization that I want a standard tool to do some of the work. <a href="../assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf">More on a concept for these potential studies in Linz/Hagenberg (Austria, Software Engineering and AI studies) incl. a view towards a Symbolic Computation PhD (again, writing it out as a <em>potential</em> long-term view).</a></p>
+<p>To connect Wolfram/Mathematica with my Masters-level courses: Computer Algebra and Automated Reasoning (see concept document, these are the core RISC courses in my study track) require/substantially benefit from Mathematica. Here, for now, is the poster output of the summer school.</p>
+<img src="../assets/img/WSS23-poster-title.png" alt="Empircial Metamathematics: Extending the Lean-Mathematica Bridge" />
+<img src="../assets/img/WSS23-poster-body.png" alt="Empircial Metamathematics: Extending the Lean-Mathematica Bridge" />
+<p>The final output of the school was a <a href="https://community.wolfram.com/groups/-/m/t/2957419">community post</a> and presentation, forthcoming as a publication in the 2023 Wolfram Summer School Proceedings: I also handed in <a href="..%5Cassets%5Cpdf%5Cexpose-tree-pattern-function-native-export.pdf">results and further study</a> for my studies in Software Engineering at Hagenberg, see the Software Engineering page about the thesis this became.</p>
+<h1 id="knowledge-representation-and-reasoning-2023-project">Knowledge Representation and Reasoning (2023 Project)</h1>
+<div id="prolog">
+Prolog (Programming in Logic) implements First Order Logic, allowing evaluation and checking. Resolution strategy is Back Tracking and Depth First, so logical programming is to a degree sequential as well, but not the way programming laguages usually work. In this way it is similar to SMT, see below.
+</div>
+<p>This is an example where the stopping criterion is needed for a recursive call, for instance:</p>
+<pre class="hljs"><code><div>lastElement([E],E). % (1)
+lastElement([K|R],E) :- lastElement(R,E). % (2)
+</div></code></pre>
+<p>In any case a program like the above is built up, involving facts (1, the %-sign makes a line comment) and rules (2), making for a knowledge base that can the be queried or used to proove certain statements, also encoded in prolog. The tool used was SWI Prolog. The above code snippet also shows the typical use of recursion to encode iteration.</p>
+<p>In a project team of three, I tackled a solver for the game <a href="https://www.maginteractive.com/games/ruzzle/">Ruzzle</a> (a bit like scrabble) with possible uses as a challenger AI or general solving tool. (<a href="https://github.com/buchasia/prolog-ruzzle">Github has the code</a>, and there's <a href="https://docs.google.com/presentation/d/18AH9J0t4yj24fl6Qlm01qGRyB6TRpj3i9aj9wGxRCzc/">slides</a> to get an overview over the project too, presented at Johannes Kepler University on April 25th, 2023.)</p>
+<h1 id="model-checking-2022-project">Model Checking (2022 Project)</h1>
+<p><a href="https://github.com/heseltime/modelchecking_project">The full project is on GitHub</a>, but the principles can be summed up in a paragraph: Satisfiability Modulo Theories (SMT) is a growing area of automated deduction with many important applications, especially system verification. The idea is to test satisfiability of a problem formula against a model. Here's an example: a C-program is the model, some bug encoded into an formula is to be checked. If we get a satisfiable result, that is bad, because that means the bug is possible against this particular C-program. So what you are usually after in a verification task is actually an unsat(isfiable) result.</p>
+<div id="smt-for-model-checking">
+Here's a logic encoding of one of De Morgan's laws: 
+</div>
+<p>$$ {\displaystyle {\overline {a\land b}}\equiv {\overline {a}}\lor {\overline {b}}} $$</p>
+<pre class="hljs"><code><div>(declare-fun a () Bool)
+(declare-fun b () Bool)
+(assert (not (= (not (and a b)) (or (not a)(not b)))))
+(check-sat)
+</div></code></pre>
+<p>Result:</p>
+<p><code>unsat</code></p>
+<p>The unsat result means that the negated (!) proposition (De Morgan's law) is not satisfiable: it is true.</p>
+<p>The concrete application was a numerical pad implementing a locking system (think something like a safe), coded up with C, and the task was to check for bugs. The final approach chosen by me and a project team of another person was to encode eight separate SMT LIB (SMT-standard language) files to run with Z3, Microsoft's SMT solver. This allowed us to rule out certain buggy behaviors to help locate the actual possible bug in the C program.</p>
+<nav class="nav">
+    <ul class="nav__list">
+        <a href="/" class="nav__link">
+            <i class="ri-home-5-line"></i>
+            <span class="nav__name">
+                Home
+            </span>
+        </a>
+<pre><code>    &lt;a href=&quot;/notes&quot; class=&quot;nav__link&quot;&gt;
+        &lt;i class=&quot;ri-swap-line&quot;&gt;&lt;/i&gt;
+        &lt;span class=&quot;nav__name&quot;&gt;
+            Feed
+        &lt;/span&gt;
+    &lt;/a&gt;
+
+    &lt;a href=&quot;/portfolio&quot; class=&quot;nav__link&quot;&gt;
+        &lt;i class=&quot;ri-slideshow-2-line&quot;&gt;&lt;/i&gt;
+        &lt;span class=&quot;nav__name&quot;&gt;
+            Portfolio
+        &lt;/span&gt;
+    &lt;/a&gt;
+
+    &lt;a href=&quot;/rDai&quot; class=&quot;nav__link active-link&quot;&gt;
+        &lt;i class=&quot;ri-robot-line&quot;&gt;&lt;/i&gt;
+        &lt;span class=&quot;nav__name&quot;&gt;
+            AI
+        &lt;/span&gt;
+    &lt;/a&gt;
+
+    &lt;a href=&quot;/rDse&quot; class=&quot;nav__link&quot;&gt;
+        &lt;i class=&quot;ri-command-line&quot;&gt;&lt;/i&gt;
+        &lt;span class=&quot;nav__name&quot;&gt;
+            Software
+        &lt;/span&gt;
+    &lt;/a&gt;
+
+    &lt;svg class=&quot;indicator&quot; width=&quot;94&quot; height=&quot;56&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+        &lt;ellipse cx=&quot;47&quot; cy=&quot;28&quot; rx=&quot;24&quot; ry=&quot;28&quot;/&gt;
+        &lt;path d=&quot;M24 20C24 20 28 55.9999 48 56L0 55.9997C18 55.9998 24 20 24 20Z&quot;/&gt;
+        &lt;path d=&quot;M70 20C70 20 66 55.9999 46 56L94 55.9997C76 55.9998 70 20 70 20Z&quot;/&gt;
+    &lt;/svg&gt;
+&lt;/ul&gt;
+
+&lt;script src=&quot;{{ site.baseurl }}/assets-liquid-nav/js/main.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+</nav>
+</body>
+</html>
