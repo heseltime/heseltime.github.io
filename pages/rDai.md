@@ -217,7 +217,11 @@ Planning in symbolic artificial intelligence, including techniques such as Satis
 
 In contrast to the statistical learning approaches in reinforcement learning, SMT and other symbolic AI planning methods offer precise, logic-based solutions to well-defined problems. This makes them particularly useful in scenarios where the problem space is discrete and can be fully expressed through logical constraints.
 
-Next up: Part II, combining Deep Learning and Reinforcement Learning for Deep Reinforcement Learning. (Coming soon.)
+## Connecting to Deep Learning
+
+Next up: Part II, combining Deep Learning and Reinforcement Learning for Deep Reinforcement Learning. (Coming soon.) 
+
+The deep learning idea experimentally explored in [AdvancedRL.ipynb](https://github.com/heseltime/reinforcement-learning-ubern/blob/main/AdvancedRL.ipynb) revolves around using a neural network as a function approximator for the Q-learning algorithm, a method known as Deep Q-Learning (DQN).
 
 # LSTM in the Linz-AI-Curriculum
 
