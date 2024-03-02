@@ -50,6 +50,12 @@ This will happen in coordination with IIS: there is a solid data set already! Mo
 
 The service model idea is part of this project as well as there is a legislative need currently. Once, again please see project proposal for details.
 
+# Timeline
+
+See also in the project proposal for details about the milestones, diamond shapes in the table below.
+
+![[Pasted image 20240302082755.png]]
+
 # Fellows and Skills
 
 This is an open call and anyone with any skills is welcome! *Looking forward, Jack; March 2nd, 2024.*
