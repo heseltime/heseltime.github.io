@@ -9,7 +9,7 @@ date: 02-03-2024
 
 [![Accessibility Buddies Header Image](../../assets/img/feed/Screenshot 2024-03-02 085410.png)](https://www.linkedin.com/in/heselt-in-e/)
 
-## Efficient and effective preparation of accessible PDF documents for Inclusion
+## "Efficient and effective preparation of accessible PDF documents for Inclusion"
 
 To summarize and from my perspective: I need help with the four points below to check assumptions and clean up data going into my thesis, but I think the potential of the project outlined here goes beyond an academic research project alone and I am happy and honored that [LIFT_C (Institute for Transformative Change)](https://www.jku.at/lift-c/) and the [OIC (Open Innovation Center)](https://www.jku.at/campus/der-jku-campus/campusfuehrung/self-guided-jku-campus-tour/oic/)/[Open Innovation in Science](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/) (with [LBG (Ludwig Boltzmann Gesellschaft)](https://ois.lbg.ac.at/)) agree. 
 
