@@ -23,7 +23,7 @@ The cool thing is, for **any AI Bachelors or Masters students that want to get i
 
 ***These are done informally at KHG at this point. Just reach out to [Jack](mailto:jack.heseltine@gmail.com) now, +43 664 965 3008! We are doing this fast**, no paper application required. A resume if you have it would be nice, or reference projects, IF you have those, that is all: but this can be an entry to ML/scientific projects for you, to be sure.*
 
-Your incentive is 2600 EUR cumulatively and 3 ECTS, which is also nice. You will need to invest the time. You will also have some extra lectures and events, but likely also extras like coffee and snacks and a fancy evening event sometime in June/July.
+Your incentive is 2600 EUR cumulatively and 3 ECTS (associated course: [Update Social: Building Future Communities](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/lehre-und-weiterbildung/updatesocial/)), which is also nice. You will need to invest the time. You will also have some extra lectures and events, but likely also extras like coffee and snacks and a fancy evening event sometime in June.
 
 There is an official [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) (DE) by the way, if you need that for reference. Fellowship distribution is happening informally and fast, but the project is serious (enough).
 
