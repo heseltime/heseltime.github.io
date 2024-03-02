@@ -508,6 +508,22 @@ For another day: [JKU in the headlines, precisely on topic](https://www.jku.at/e
 
 I am excited to catch wind of the story directly as it unfolds at JKU.
 
+## Traditional LSTM Variants
+
+## LSTM-Applications
+
+## Attention
+
+I leave off on this [note from Chris Olah](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) (accessed March 2nd, 2024):
+
+> LSTMs were a big step in what we can accomplish with RNNs. It’s natural to wonder: is there another big step? A common opinion among researchers is: “Yes! There is a next step and it’s attention!” The idea is to let every step of an RNN pick information to look at from some larger collection of information. For example, if you are using an RNN to create a caption describing an image, it might pick a part of the image to look at for every word it outputs.
+
+Xu et al. show the way:
+
+![Xu et al](image-28.png)
+
+Let's follow this thought to the next post, looking more closely at Attention and the way into thinking about transformers. (Coming soon.)
+
 # Taking Symbolic on the Road (with [Wolfram](/wolfram)!)
 
 <div id="symbolic-conclusion">Apart from my thesis, practical work, final exam and <a href="studies-overview">core coursework</a> (see next sections below), my AI degree in Linz involves the symbolic track components I talk about above, essentially <a href="/wolfram#computer-algebra">Computer Algebra</a> and <a href="/wolfram#automated-reasoning">Automated Reasoning</a>, both situated at <a href="https://risc.jku.at/">RISC</a>: since I am now working for Wolfram during my Masters and in the foreseeable future, I am making an effort to basically pool that work and this part of my studies: the tool (also used in Linz and at RISC), Wolfram Language, is the same, after all.
