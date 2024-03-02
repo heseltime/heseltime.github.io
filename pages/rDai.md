@@ -528,7 +528,7 @@ I leave off on this [note from Chris Olah](https://colah.github.io/posts/2015-08
 
 > LSTMs were a big step in what we can accomplish with RNNs. It’s natural to wonder: is there another big step? A common opinion among researchers is: “Yes! There is a next step and it’s attention!” The idea is to let every step of an RNN pick information to look at from some larger collection of information. For example, if you are using an RNN to create a caption describing an image, it might pick a part of the image to look at for every word it outputs.
 
-[Xu et al.](https://arxiv.org/pdf/1502.03044v2.pdf) (2015) show the way:
+[Xu et al.](https://arxiv.org/pdf/1502.03044v2.pdf) (2015) show the way, 
 
 ![Xu et al](image-28.png)
 
