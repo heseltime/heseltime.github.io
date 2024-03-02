@@ -551,7 +551,7 @@ There are two seq2seq approaches by the way, with seq2seq one-to-one corresponde
 
 $$
 
-\boldsymbol{p} \left \boldsymbol{y}(t)) | \boldsymbol{x}(\mathbf{1}), ..., \boldsymbol{x}(\mathbf{t}), \boldsymbol{y}(\boldsymbol{1}), ..., \boldsymbol{y}(\mathbf{t - 1}) \right
+\boldsymbol{p} ( \boldsymbol{y}((t)) | \boldsymbol{x}(\mathbf{1}), ..., \boldsymbol{x}(\mathbf{t}), \boldsymbol{y}(\boldsymbol{1}), ..., \boldsymbol{y}(\mathbf{t - 1}) )
 
 $$
 
