@@ -74,6 +74,14 @@ See also in the [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Fin
 
 ![Timeline](../../assets/img/feed/Screenshot 2024-03-02 082747.png)
 
+Milestone Summaries:
+
+* M1 - Know-How-Building
+* M2 - Curation of Training Data
+* M3 - Experiments
+* M4 - Development of JKU Service Model
+* M5 - Documentation and Presentation
+
 # Fellows and Skills
 
 This is an open call and anyone with any skills is welcome, despite the listings above. These might also include:
