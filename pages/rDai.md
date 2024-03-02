@@ -526,9 +526,36 @@ I am excited to catch wind of the story directly as it unfolds at JKU.
 
 ## LSTM-Applications
 
+The algorithm has a history, naturally:
 
+![LSTM has been quoted more than 100000 Times](image-30.png)
 
-## Attention (Next)
+(According to Google Scholar, LSTM has been quoted more than 100000 Times.)
+
+So the following can only be a selection.
+
+* **Sequence to sequence (seq2seq)** learning with Long Short-Term Memory (LSTM) networks is a method in deep learning where one sequence (input sequence) is used to generate another sequence (output sequence). This approach is commonly used in tasks such as machine translation, where an input sequence in one language is converted into an output sequence in another language. Here's a high-level overview of how it works:
+    * **Encoder** LSTM: The first part of a seq2seq model is the encoder. The encoder processes the input sequence and compresses the information into a context vector (also known as the encoder's final hidden state). This vector aims to encapsulate the information for all input elements in order to help the decoder make accurate predictions. The encoder reads the input sequence, element by element, and updates its internal state at each step.
+    * This (overall) **Input Representation** is how individual elements (e.g., words in a sentence) in the input sequence are represented. In the context of natural language processing, words are often converted into vectors using word embeddings. These word embeddings serve as the input representation for each word in the sequence. Examples of word embeddings (methods) are _latent semantic analysis_ (Dumais, 2004) and neural word embedding (Bengio et al., 2003), based on a next-word predictiont task. _word2vec_ is a related toolkit (Mikolov et al., 2013) that makes use of continuous Bag-of-Words (predict target word from context words, in any order) and the inverse, continuous skipgram (predict context words from target word). In all cases semantic properites of words are encoded by vectors.
+    * **Context Vector**: This is the final state of the encoder LSTM, which is supposed to capture the essence of the input sequence. It's used as the initial hidden state of the decoder LSTM.
+    * **Decoder** LSTM: The decoder is trained to predict the next element in the sequence, given the previous element and the context vector. Initially, the decoder is provided with a start-of-sequence token as its first input along with the context vector. At each step, the decoder updates its internal state and predicts the next element in the output sequence.
+    * **Training** Process: During training, the decoder's predictions are compared to the actual output sequence, and the error is backpropagated through both the decoder and encoder to update their weights. Typically, a technique called **Teacher Forcing** is used where the actual output element (rather than the predicted one) is provided to the decoder in the next time step.
+    * **Inference**: At inference time, the encoder processes the input sequence and generates a context vector. The decoder then uses this vector to generate the output sequence. Since the actual output sequence is not available during inference, the decoder's previous prediction is used as the next input.
+    * **Attention** Mechanism: Modern seq2seq models often incorporate an attention mechanism, which allows the decoder to focus on different parts of the input sequence at each step of the output generation. This is particularly useful for long sequences, where the context vector alone may not be sufficient to capture all the necessary information. Seq2seq models with LSTMs have been a cornerstone in natural language processing before the advent of transformer models, offering robustness in handling sequences of varying lengths and the ability to capture long-term dependencies. (See the last section of this post, and the upcoming post on Attention.)
+
+Sutskever et al. (2014) successfully employed the above technique - here the abstract for _Sequence to Sequence Learning with Neural Networks_:
+
+> Deep Neural Networks (DNNs) are powerful models that have achieved excellent performance on difficult learning tasks. Although DNNs work well whenever large labeled training sets are available, they cannot be used to map sequences to sequences. In this paper, we present a general end-to-end approach to sequence learning that makes minimal assumptions on the sequence structure. Our method uses a multilayered Long Short-Term Memory (LSTM) to map the input sequence to a vector of a fixed dimensionality, and then another deep LSTM to decode the target sequence from the vector. Our main result is that on an English to French translation task from the WMT’14 dataset, the translations produced by the LSTM achieve a BLEU score of 34.8 on the entire test set, where the LSTM’s BLEU score was penalized on out-of-vocabulary words. Additionally, the LSTM did not have difficulty on long sentences. For comparison, a phrase-based SMT system achieves a BLEU score of 33.3 on the same dataset. When we used the LSTM to rerank the 1000 hypotheses produced by the aforementioned SMT system, its BLEU score increases to 36.5, which is close to the previous best result on this task. The LSTM also learned sensible phrase and sentence representations that are sensitive to word order and are relatively invariant to the active and the passive voice. Finally, we found that reversing the order of the words in all source sentences (but not target sentences) improved the LSTM’s performance markedly, because doing so introduced many short term dependencies between the source and the target sentence which made the optimization problem easier.
+
+There are two seq2seq approaches by the way, with seq2seq one-to-one correspondence, and without.
+
+$$
+
+\boldsymbol{p} \left \boldsymbol{y}(t)) | \boldsymbol{x}(\mathbf{1}), ..., \boldsymbol{x}(\mathbf{t}), \boldsymbol{y}(\boldsymbol{1}), ..., \boldsymbol{y}(\mathbf{t - 1}) \right
+
+$$
+
+## **Attention** (Next)
 
 I leave off on this [note from Chris Olah](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) (accessed March 2nd, 2024):
 
