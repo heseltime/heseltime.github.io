@@ -3,11 +3,11 @@ title: LIFT_C and OIS Community Call for Fellows!
 feed: show
 date: 02-03-2024
 ---
-# Welcome (KHG Person?)
+# Welcome (**KHG Person?**)
 
 [This now live!](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/community-call/challenges/), see (working title) "Accessibility Buddies" (DE).
 
-![Accessibility Buddies Header Image](../../assets/img/feed/Screenshot 2024-03-02 085410.png)
+[![Accessibility Buddies Header Image](../../assets/img/feed/Screenshot 2024-03-02 085410.png)](https://www.linkedin.com/in/heselt-in-e/)
 
 ## Efficient and effective preparation of accessible PDF documents for Inclusion
 
