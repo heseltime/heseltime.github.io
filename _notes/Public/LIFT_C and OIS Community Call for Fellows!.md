@@ -29,9 +29,9 @@ And what does fleshing out mean, firstly? I'd say developing concepts and protot
 
 # 4 Topic Areas/Questions for 4 Fellows
 
-### What tool would be like to work in? 
+## What tool would be like to work in? 
 
-#### Helpful Skill: Software Engineering
+### Helpful Skill: Software Engineering
 
 Right now I am looking at Alfresco ECM for this but can take over this part, as this more niche and technical.
 
@@ -40,9 +40,10 @@ Right now I am looking at Alfresco ECM for this but can take over this part, as 
 ### Helpful Skill: General AI background, critical thinking, etc.
 
 We want to process documents to make them accessible. But does the concept track fully? To what degree if not? Please reference the project proposal for more details on the concept. 
+
 ## What is the data situation and how can it be improved?
 
-#### Helpful Skill: Data Science and ML
+### Helpful Skill: Data Science and ML
 
 This will happen in coordination with IIS: there is a solid data set already! More info on this when the project starts.
 
