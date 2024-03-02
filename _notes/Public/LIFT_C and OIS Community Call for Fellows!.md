@@ -9,6 +9,8 @@ date: 02-03-2024
 
 ![Accessibility Buddies Header Image](../../assets/img/feed/Screenshot 2024-03-02 085410.png)
 
+## Efficient and effective preparation of accessible PDF documents for Inclusion
+
 To summarize and from my perspective: I need help with the four points below to check assumptions and clean up data going into my thesis, but I think the potential of the project outlined here goes beyond an academic research project alone and I am happy and honored that [LIFT_C (Institute for Transformative Change)](https://www.jku.at/lift-c/) and the [OIC (Open Innovation Center)](https://www.jku.at/campus/der-jku-campus/campusfuehrung/self-guided-jku-campus-tour/oic/)/[Open Innovation in Science](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/) (with [LBG (Ludwig Boltzmann Gesellschaft)](https://ois.lbg.ac.at/)) agree. 
 
 **Read on for an opportunity that might be interesting to you!**
@@ -23,9 +25,9 @@ The cool thing is, for **any AI Bachelors or Masters students that want to get i
 
 Your incentive is 2600 EUR cumulatively and 3 ECTS, which is also nice. You will need to invest the time. You will also have some extra lectures and events, but likely also extras like coffee and snacks and an evening event sometime in June/July.
 
-There is an official project plan by the way, if you need that for reference. Fellowship distribution is happening informally and fast, but the project is serious (enough).
+There is an official [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) by the way, if you need that for reference. Fellowship distribution is happening informally and fast, but the project is serious (enough).
 
-What are the four areas that need to be fleshed out for this project, aligning with the four fellowships? 
+What are the **four areas** that need to be fleshed out for this project, aligning with the four fellowships? 
 
 And what does fleshing out mean, firstly? I'd say developing concepts and prototypes, which is a realistic goal for the two month period. Anything further, i.e. any actual implementation of a project, would need to happen later and in a different format. A likely outcome of this iteration is a short presentation contribution, of the following topic areas for example, though not everyone needs to present, to be sure.
 
@@ -41,7 +43,7 @@ Right now I am looking at Alfresco ECM for this but can take over this part, as 
 
 ### Helpful Skill: General AI background, critical thinking, etc.
 
-We want to process documents to make them accessible. But does the concept track fully? To what degree if not? Please reference the project proposal for more details on the concept. 
+We want to process documents to make them accessible. But does the concept track fully? To what degree if not? Please reference the [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) for more details on the concept. 
 
 ## What is the data situation and how can it be improved?
 
@@ -53,7 +55,7 @@ This will happen in coordination with IIS: there is a solid data set already! Mo
 
 ### Helpful Skill: General AI background, critical thinking, etc.
 
-The service model idea is part of this project as well as there is a legislative need currently. Once, again please see project proposal for details.
+The service model idea is part of this project as well as there is a legislative need currently. Once, again please see [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) for details.
 
 # Timeline
 
@@ -63,7 +65,7 @@ See also in the [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Fin
 
 # Fellows and Skills
 
-This is an open call and anyone with any skills is welcome!
+This is an open call and anyone with any skills is welcome, despite the listings above. These might also include:
 
 * CS and/or Software Engineering
 * AI, Data Science and LLMs
