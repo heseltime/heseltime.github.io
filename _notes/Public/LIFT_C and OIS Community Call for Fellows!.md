@@ -56,7 +56,7 @@ The service model idea is part of this project as well as there is a legislative
 
 See also in the [project proposal](https://github.com/heseltime/heseltime.github.io/blob/e10cc293c4ef0854b5a62fb7f8643861ba82155b/_notes/Public/LIFT_C%20and%20OIS%20Community%20Call%20for%20Fellows!.md) for details about the milestones, diamond shapes in the table below.
 
-![Timeline](![alt text](../../assets/img/feed/Screenshot 2024-03-02 082747.png)
+![Timeline](../../assets/img/feed/Screenshot 2024-03-02 082747.png)
 
 # Fellows and Skills
 
