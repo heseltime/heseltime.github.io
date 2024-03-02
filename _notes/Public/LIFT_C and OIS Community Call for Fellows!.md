@@ -31,7 +31,7 @@ And what does fleshing out mean, firstly? I'd say developing concepts and protot
 
 # 4 Topic Areas/Questions for 4 Fellows
 
-## What tool would be like to work in? 
+## :cloud: What tool would be like to work in? 
 
 ### Helpful Skill: Software Engineering
 
