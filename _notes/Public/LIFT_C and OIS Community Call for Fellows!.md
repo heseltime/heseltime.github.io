@@ -33,7 +33,7 @@ And what does fleshing out mean, firstly? I'd say developing concepts and protot
 
 # 4 Topic Areas/Questions for 4 Fellows
 
-## What tool would be like to work in? 
+## 1. What tool would we like to work in? 
 
 ### Helpful Skill: Software Engineering
 
@@ -41,7 +41,7 @@ Right now I am looking at [Alfresco/ECM](/) for this but can take over this part
 
 *This would be the **Builder** role, if we want to look at it this way.*
 
-## How does the LLM concept work in detail and to what degree is it feasible?
+## 2. How does the LLM concept work in detail and to what degree is it feasible?
 
 ### Helpful Skill: General AI background, critical thinking, etc.
 
@@ -49,7 +49,7 @@ We want to process documents to make them accessible. But does the concept track
 
 *This is an **ML/LLM-Tinkerer** role, maybe, though might be more abstract and big picture.*
 
-## What is the data situation and how can it be improved?
+## 3. What is the data situation and how can it be improved?
 
 ### Helpful Skill: Data Science and ML
 
@@ -57,7 +57,7 @@ This will happen in coordination with IIS: there is a solid data set already! Mo
 
 *This is the **Data Scientist** role!*
 
-## What is the Bigger Picture? What might a service model look like for JKU?
+## 4. What is the Bigger Picture? What might a service model look like for JKU?
 
 ### Helpful Skill: General AI background, Science Communication!
 
