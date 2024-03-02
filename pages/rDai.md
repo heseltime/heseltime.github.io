@@ -454,7 +454,10 @@ Here's an overview of the Vanilla LSTM's operation, highlighting its components 
 
 - **Sensory Inputs (`x(t)`):** Incoming data at each time step, transformed into cell input activations (`z(t)`) through a non-linear function (`g(·)`), typically the hyperbolic tangent (`tanh`).
 - **Input Gate (`i(t)`):** Utilizes a sigmoid function to filter (`z(t)`), allowing only relevant information to pass through based on the current context.
-- **Forget Gate (`f(t)`):** Also employing a sigmoid function, it determines the proportion of the previous cell state (`c(t−1)`) to retain or discard, enabling the cell to forget irrelevant past information.
+- **Forget Gate (`f(t)`):** Also employing a sigmoid function, it determines the proportion of the previous cell state (`c(t−1)`) to retain or discard, enabling the cell to forget irrelevant past information. This is added to the original design propsed by Hochreiter and Schmidhuber 1997 (Hochreiter 1991) - along with some other changes:
+
+![1997 Abstract](image-27.png)
+
 - **Cell State Update:** The new cell state (`c(t)`) is formed by an element-wise addition of the product of the input gate and cell input activations (`i(t)⊙z(t)`) with the product of the forget gate and the previous cell state (`f(t)⊙c(t−1)`), effectively updating the memory with relevant new information while discarding the old.
 - **Output Gate (`o(t)`):** The final step involves squashing the memory cell's contents into a numerical range via a cell activation function (`h(·)`) and then filtering this through an output gate. This process yields the final memory cell state activation (`y(t)`), ready for the next computational step or to serve as the output.
 
