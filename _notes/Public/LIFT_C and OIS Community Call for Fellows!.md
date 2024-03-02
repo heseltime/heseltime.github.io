@@ -45,7 +45,7 @@ Right now I am looking at [Alfresco/ECM](/) for this but can take over this part
 
 ### Helpful Skill: General AI background, critical thinking, etc.
 
-We want to process documents to make them accessible. But does the concept track fully? To what degree if not? Please reference the [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) (DE) for more details on the concept. 
+We want to process documents to make them accessible. But does the concept track fully? To what degree if not? Please reference the [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) for more details on the concept. 
 
 *This is an **ML/LLM-Tinkerer** role, maybe, though might be more abstract and big picture.*
 
@@ -63,7 +63,7 @@ This will happen in coordination with IIS: there is a solid data set already! Mo
 
 <div id="science-communicator">The service model idea is part of this project as well as there is a legislative need currently.</div>
 
-Once, again please see [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) (DE) for details on the context.
+Once, again please see [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) for details on the context.
 
 *I see this as a communicative, **Presenter**-type role.*
 
