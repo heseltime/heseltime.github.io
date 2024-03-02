@@ -19,7 +19,7 @@ The cool thing is, for **any AI Bachelors or Masters students that want to get i
 **Nominations will happen by March 15th!** If interested please apply now (early March).
 # Applications: Apply Now!
 
-**These are done informally at KHG at this point. Just reach out to [Jack](mailto:jack.heseltine@gmail.com) now, +43 664 965 3008! We are doing this fast**, no paper application required. A resume if you have it would be nice, or reference projects, IF you have those, that is all: but this can be an entry to ML/scientific projects for you, to be sure.
+***These are done informally at KHG at this point. Just reach out to [Jack](mailto:jack.heseltine@gmail.com) now, +43 664 965 3008! We are doing this fast**, *no paper application required. A resume if you have it would be nice, or reference projects, IF you have those, that is all: but this can be an entry to ML/scientific projects for you, to be sure.*
 
 Your incentive is 2600 EUR cumulatively and 3 ECTS, which is also nice. You will need to invest the time. You will also have some extra lectures and events, but likely also extras like coffee and snacks and an evening event sometime in June/July.
 
