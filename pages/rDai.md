@@ -532,7 +532,7 @@ The algorithm has a history, naturally:
 
 (According to Google Scholar, LSTM has been quoted more than 100000 Times.)
 
-So the following can only be a selection.
+So the following can only be a selection: I am **mostly interested in language**, you will notice.
 
 ### Sequence to sequence (seq2seq)
 
@@ -569,7 +569,26 @@ $$
 
 The encoder-decoder step is needed for the latter.
 
+#### BLEU
 
+![BLEU Paper Top](image-31.png)
+
+The abstract:
+
+> Human evaluations of machine translation are extensive but expensive. Human evaluations can take months to finish and involve human labor that can not be reused. We propose a method of automatic machine translation evaluation that is quick,
+inexpensive, and language-independent, that correlates highly with human evaluation, and that has little marginal cost per
+run. We present this method as an automated understudy to skilled human judges which substitutes for them when there is
+need for quick or frequent evaluations.
+
+BLEU therefore stands for _Bilingual Evaluation Understudy_.
+
+In practice, according to Hochreiter and Adler: "it can [...] be hard to use if judging between systems which are truly better than humans" - because judgement at the single-sentence level is not a given. It consists of two parts, a brevity penalty _B_ amd the geometric mean of n-gram precisions, "where an n-gram is a contiguous sequence of _n_ items from a given sample of text or speech and the geometric mean is computed for all values of _n_ between 1 and the upper limit _N_:
+
+$$
+
+\text{BLEU} = B \cdot \exp\left(\sum_{n=1}^{N} w_n \log p_n\right)
+
+$$
 
 ## **Attention** (Next)
 
