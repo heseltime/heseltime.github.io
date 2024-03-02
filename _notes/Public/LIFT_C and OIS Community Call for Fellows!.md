@@ -12,10 +12,9 @@ To summarize and from my perspective: I need help with the four points below to 
 **Read on for an opportunity that might be interesting to you!**
 # Fellowship Opportunity April and May 2024 (2600 EUR/research employment with JKU's Open Innovation Center included)
 
-The cool thing is, for **any AI Bachelors or Masters students that want to get involved, especially,** that the fellowship offers both credits and money: 3 ECTS and 2 Months (April and May 2024) employment a 20 hrs/wk and 1299.60 EUR can be offered for continuous contributions in this time period. Since I am living at (KHG)[[KHG Linz: Katholische Hochschulgemeinde Linz (dioezese-linz.at)](https://www.dioezese-linz.at/khg/leben)], the academic catholic society in Linz, and the JKU center is right by OIC/LIFT_C geographically speaking, my idea is to advertize this to this community especially. (Professors at the backing institutes, IIS, Institute of Integrated Study at JKU, and FAW, Institute for Application-oriented Knowledge Processing, also at JKU) especially, might also nominate.)
+The cool thing is, for **any AI Bachelors or Masters students that want to get involved, especially,** that the fellowship offers both credits and money: 3 ECTS and 2 Months (April and May 2024) employment a 20 hrs/wk and 1299.60 EUR can be offered for continuous contributions in this time period. Since I am living at [KHG](https://www.dioezese-linz.at/khg/leben), the academic catholic society in Linz, and its JKU center is right by OIC/LIFT_C geographically speaking, my idea is to advertize this to this community especially. (Professors at two of the three backing institutes, IIS, Institute of Integrated Study at JKU, and FAW, Institute for Application-oriented Knowledge Processing, also at JKU), might also nominate.)
 
 **Nominations will happen by March 15th!** If interested please apply now (early March).
-
 # Applications: Apply Now!
 
 **These are done informally at KHG at this point. Just reach out to [Jack](mailto:jack.heseltine@gmail.com) now, +43 664 965 3008! We are doing this fast**, no paper application required. A resume if you have it would be nice, or reference projects, IF you have those, that is all: but this can be an entry to ML/scientific projects for you, to be sure.
