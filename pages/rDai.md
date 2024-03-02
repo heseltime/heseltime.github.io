@@ -534,7 +534,9 @@ I leave off on this [note from Chris Olah](https://colah.github.io/posts/2015-08
 
 _Xu et al.'s words/image alignments with visualized attention maps, Figure 1 in the paper._
 
-Note how attention is applied in the _LSTM_ context, not the currently predominant Transformer paradigm: It turns out that the concept travels. Let's follow this thought to the next post, looking more closely at Attention and this way into talking about Transformers. (Coming soon.)
+Note how attention is applied in the _LSTM_ context, not the currently predominant Transformer paradigm: It turns out that the concept travels. 
+
+Let's follow this thought to the next post, looking more closely at Attention and this way into talking about Transformers. (Coming soon.)
 
 # Taking Symbolic on the Road (with [Wolfram](/wolfram)!)
 
