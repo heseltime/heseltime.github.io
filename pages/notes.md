@@ -13,7 +13,7 @@ Feed for on-going research at the nexus <b>Tech x Art x Society</b>, as envision
 
 ## Ongoing rX Feed: Accessible Documents, an LLM/ECM-AI Topic
 
-Now also a X JKU (Johannes Kepler University) [OIC (Open Innovation Center)](https://www.jku.at/campus/der-jku-campus/campusfuehrung/self-guided-jku-campus-tour/oic/)/[Open Innovation in Science](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/) (with [LBG (Ludwig Boltzmann Gesellschaft)](https://ois.lbg.ac.at/)) and [LIFT_C (Institute for Transformative Change)](https://www.jku.at/lift-c/) Official [Community Call](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/community-call/challenges/) + [my own Community Call](https://heseltime.github.io/note/LIFT_C-and-OIS-Community-Call-for-Fellows) to my current community.
+Now also a X JKU (Johannes Kepler University) [OIC (Open Innovation Center)](https://www.jku.at/campus/der-jku-campus/campusfuehrung/self-guided-jku-campus-tour/oic/)/[Open Innovation in Science](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/) (with [LBG (Ludwig Boltzmann Gesellschaft)](https://ois.lbg.ac.at/)) and [LIFT_C (Institute for Transformative Change)](https://www.jku.at/lift-c/) Official [Community Call](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/community-call/challenges/) + [own Call](https://heseltime.github.io/note/LIFT_C-and-OIS-Community-Call-for-Fellows) to my local community.
 
 <nav class="nav">
     <ul class="nav__list">
