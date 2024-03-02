@@ -60,7 +60,11 @@ See also in the [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Fin
 
 # Fellows and Skills
 
-This is an open call and anyone with any skills is welcome! *Looking forward, Jack; March 2nd, 2024.*
+This is an open call and anyone with any skills is welcome! 
+
+*Looking forward, Jack*
+
+*March 2nd, 2024.*
 
 
 
