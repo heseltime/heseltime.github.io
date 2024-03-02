@@ -7,7 +7,7 @@ date: 02-03-2024
 
 [This now live!](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/community-call/challenges/), see (working title) "Accessibility Buddies" (DE).
 
-[![Accessibility Buddies Header Image](../../assets/img/feed/Screenshot 2024-03-02 085410.png)](https://www.linkedin.com/in/heselt-in-e/)
+[![Accessibility Buddies Header Image](../../assets/img/feed/Screenshot 2024-03-02 085410.png)](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/community-call/challenges/)
 
 ## "Efficient and effective preparation of accessible PDF documents for Inclusion"
 
@@ -61,7 +61,7 @@ This will happen in coordination with IIS: there is a solid data set already! Mo
 
 ### Helpful Skill: General AI background, Science Communication!
 
-<div id="science-communicator">The service model idea is part of this project as well as there is a legislative need currently.</div>
+<div id="science-communicator">The service model idea is part of this project as well as there is a legislative need currently, mainly  due to the [European Accessibility Act](https://ec.europa.eu/social/main.jsp?catId=1202).</div>
 
 Once, again please see [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) for details on the context.
 
