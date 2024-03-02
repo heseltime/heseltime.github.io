@@ -37,7 +37,7 @@ And what does fleshing out mean, firstly? I'd say developing concepts and protot
 
 ### Helpful Skill: Software Engineering
 
-Right now I am looking at Alfresco ECM for this but can take over this part, as this more niche and technical. This would be the **Builder** role, if we want to look at it this way.
+Right now I am looking at [Alfresco/ECM](/) for this but can take over this part, as this more niche and technical. This would be the **Builder** role, if we want to look at it this way.
 
 ## How does the LLM concept work in detail and to what degree is it feasible?
 
