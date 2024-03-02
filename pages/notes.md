@@ -5,15 +5,15 @@ feedformat: card
 title: rX Feed
 ---
 
-Feed for on-going research at the nexus <b>Tech x Art x Society</b>, as envisioned yearly at the Ars Electronica Festival in Linz, AT and particularly, the <b>2023 Festival encorporating <a href="https://ars.electronica.art/university/en/" target="_BLANK">the IDSA Founding Lab</a></b>, a collaborative prototype intended to identify and develop new approaches and formats that best promote the analysis and co-creation of the digital transformation on a society and global scale. I am excited about this iniative in (Upper) Austria and honored to paricipate at a critical stage in the project, allowing it to also become a template for my own and future thinking, in a loose format below.
+Feed for on-going research at the nexus <b>Tech x Art x Society</b>, as envisioned yearly at the Ars Electronica Festival in Linz, Austria and particularly, the <b>2023 Festival encorporating <a href="https://ars.electronica.art/university/en/" target="_BLANK">the IDSA Founding Lab</a></b>, a collaborative prototype intended to identify and develop new approaches and formats that best promote the analysis and co-creation of the digital transformation on a society and global scale. I am excited about this iniative in (Upper) Austria and honored to paricipate at a critical stage in the project, allowing it to also become a template for a <a href="https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/community-call/challenges/" targe="_BLANK">project</a> with the <a href="https://www.jku.at/lift-c/" target="_BLANK">Open Innovation Center/LIFT_C at JKU</a>, Johannes Kepler University in Linz.
 
 <img src="../assets/img/machine.jpg" alt="IDSA and Ars Electronica Founding Lab Header">
 
 <i>The <a href="https://en.wikipedia.org/wiki/Rube_Goldberg_machine" target="_BLANK">Rube Goldberg machine</a> that is digital transformation, courtesy of Ars Electronica. <b>For more, see the initial Ars Electronica 2023 note in the feed.</b></i>
 
-## Ongoing rX Feed: Accessible Documents, an LLM/ECM-AI Topic, now X Open Innovation in Science (Community Challenge)?
+## Ongoing rX Feed: Accessible Documents, an LLM/ECM-AI Topic
 
-I think we are entering [a new paradigm in software and applications](/curl) and so, as I work on my LLM-centric Masters thesis, I want to keep adding context and development-note style feed entries as I go.
+Now also a X JKU (Johannes Kepler University) [OIC (Open Innovation Center)](https://www.jku.at/campus/der-jku-campus/campusfuehrung/self-guided-jku-campus-tour/oic/)/[Open Innovation in Science](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/) (with [LBG (Ludwig Boltzmann Gesellschaft)](https://ois.lbg.ac.at/)) and [LIFT_C (Institute for Transformative Change)](https://www.jku.at/lift-c/) [Community Call](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/community-call/challenges/)!
 
 <nav class="nav">
     <ul class="nav__list">
