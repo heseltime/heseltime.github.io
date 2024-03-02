@@ -522,7 +522,7 @@ I am excited to catch wind of the story directly as it unfolds at JKU.
 
 ## LSTM-Applications
 
-## Attention
+## Attention (Next)
 
 I leave off on this [note from Chris Olah](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) (accessed March 2nd, 2024):
 
