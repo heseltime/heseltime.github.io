@@ -25,7 +25,7 @@ The cool thing is, for **any AI Bachelors or Masters students that want to get i
 
 Your incentive is 2600 EUR cumulatively and 3 ECTS, which is also nice. You will need to invest the time. You will also have some extra lectures and events, but likely also extras like coffee and snacks and a fancy evening event sometime in June/July.
 
-There is an official [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) by the way, if you need that for reference. Fellowship distribution is happening informally and fast, but the project is serious (enough).
+There is an official [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) (DE) by the way, if you need that for reference. Fellowship distribution is happening informally and fast, but the project is serious (enough).
 
 What are the **four areas** that need to be fleshed out for this project, aligning with the four fellowships? 
 
@@ -45,7 +45,7 @@ Right now I am looking at [Alfresco/ECM](/) for this but can take over this part
 
 ### Helpful Skill: General AI background, critical thinking, etc.
 
-We want to process documents to make them accessible. But does the concept track fully? To what degree if not? Please reference the [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) for more details on the concept. 
+We want to process documents to make them accessible. But does the concept track fully? To what degree if not? Please reference the [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) (DE) for more details on the concept. 
 
 *This is an **ML/LLM-Tinkerer** role, maybe, though might be more abstract and big picture.*
 
@@ -61,7 +61,7 @@ This will happen in coordination with IIS: there is a solid data set already! Mo
 
 ### Helpful Skill: General AI background, Science Communication!
 
-The service model idea is part of this project as well as there is a legislative need currently. Once, again please see [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) for details. 
+The service model idea is part of this project as well as there is a legislative need currently. Once, again please see [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) (DE) for details. 
 
 *I see this as a communicative, **Presenter**-type role.*
 
