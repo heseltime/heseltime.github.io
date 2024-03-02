@@ -1,5 +1,5 @@
 ---
-title: LIFT_C and OIS Community Call for Fellows!
+title: LIFT_C and OIS Community Call for Fellows
 feed: show
 date: 02-03-2024
 ---
