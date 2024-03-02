@@ -468,7 +468,7 @@ This structured approach allows the Vanilla LSTM to adeptly navigate through tim
 
 Figure from K. Greff, R.K. Srivastava, J. Koutnik, B.R. Steunebrink, J. Schmidhuber. IEEE Transactions on Neural Networks and Learning Systems, Vol 28(10), pp. 2222–2232. Institute of Electrical and Electronics Engineers (IEEE). 2017.
 
-### Focused, Lightweight LSTM and Gated Recurrent Unit (GRU)
+### Focused, Lightweight LSTM and Gated Recurrent Unit (GRU): Traditional LSTM Variants
 
 **Focused LSTM**: No forget gate and fewer parameters than Vanilla LSTM.
 
@@ -510,6 +510,12 @@ I can really recommend [StatQuest if you want a video](https://www.youtube.com/w
 
 See **Ticker Steps**, **Negative Gate Biases**, **Scaled Activation Functions**, etc. in [The Sorcerer’s Apprentice Guide to Training LSTMs](https://www.niklasschmidinger.com/posts/2020-09-09-lstm-tricks/) by Niklas Schmidinger.
 
+Dropout on the feedforward structure of LSTM will disturb the function of memory cells for sufficiently long sequences, due to exponential decay. This hinders learning. 
+
+> Another LSTM dropout method that is not limited in this sense is called **_zoneout_** (Krueger et al., 2017), whose basic idea is to drop out the updates to the memory cell instead of clearing its entire content. In this manner, dependencies spanning over a dropout event can still be learned as long as the dropped-out update did not carry the crucial piece of information.
+
+Hochreiter and Adler, LSTM and Recurrent Neural Nets (lecture notes from the course at IML, JKU Linz, Winter Semeseter 2021)
+
 ## LSTM, Transformers, Hybrid xLSTM?
 
 For another day: [JKU in the headlines, precisely on topic](https://www.jku.at/en/news-events/news/detail/news/ai-made-in-europe-spitzenforscher-sepp-hochreiter-und-sein-xlstm-erhalten-unternehmerische-verstaerkung-fuer-europaeisches-large-language-model/), but what's the idea? I think this is not yet out of the bag but will be soon, providing an opportunity for another post here. At the core, this is about LSTM vs Transfomers however and sounds like something hybrid.
@@ -518,9 +524,9 @@ For another day: [JKU in the headlines, precisely on topic](https://www.jku.at/e
 
 I am excited to catch wind of the story directly as it unfolds at JKU.
 
-## Traditional LSTM Variants
-
 ## LSTM-Applications
+
+
 
 ## Attention (Next)
 
