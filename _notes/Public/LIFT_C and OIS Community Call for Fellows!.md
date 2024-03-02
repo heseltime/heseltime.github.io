@@ -14,7 +14,7 @@ date: 02-03-2024
 To summarize and from my perspective: I need help with the four points below to check assumptions and clean up data going into my thesis, but I think the potential of the project outlined here goes beyond an academic research project alone and I am happy and honored that [LIFT_C (Institute for Transformative Change)](https://www.jku.at/lift-c/) and the [OIC (Open Innovation Center)](https://www.jku.at/campus/der-jku-campus/campusfuehrung/self-guided-jku-campus-tour/oic/)/[Open Innovation in Science](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/) (with [LBG (Ludwig Boltzmann Gesellschaft)](https://ois.lbg.ac.at/)) agree. 
 
 **Read on for an opportunity that might be interesting to you!**
-# Fellowship Opportunity April and May 2024 (2600 EUR total/research employment with JKU's Open Innovation Center included)
+# Fellowship Opportunity April and May 2024 (2600 EUR total (p.P.) research employment with JKU's Open Innovation Center included)
 
 The cool thing is, for **any AI Bachelors or Masters students that want to get involved, especially,** that the fellowship offers both credits and money: 3 ECTS and 2 Months (April and May 2024) employment a 20 hrs/wk and 1299.60 EUR/M, so ca. 2600 EUR total for this project, can be offered for continuous contributions in this time period. Since I am living at [KHG](https://www.dioezese-linz.at/khg/leben), the academic catholic society in Linz, and its JKU center is right by OIC/LIFT_C geographically speaking, my idea is to advertize this to this community especially. (Professors at two of the three backing institutes, IIS, Institute of Integrated Study at JKU, and FAW, Institute for Application-oriented Knowledge Processing, also at JKU), might also nominate.)
 
@@ -29,7 +29,7 @@ There is an official [project proposal](../../assets/pdf/JKU_CommunityCall_Antra
 
 What are the **four areas** that need to be fleshed out for this project, aligning with the four fellowships? 
 
-And what does fleshing out mean, firstly? I'd say developing concepts and prototypes, which is a realistic goal for the two month period. Anything further, i.e. any actual implementation of a project, would need to happen later and in a different format. A likely outcome of this iteration is a short presentation contribution, of the following topic areas for example; not everyone needs to present, to be sure: Science Communicator, anyone?
+And what does fleshing out mean, firstly? I'd say developing concepts and prototypes, which is a realistic goal for the two month period. Anything further, i.e. any actual implementation of a project, would need to happen later and in a different format. A likely outcome of this iteration is a short presentation contribution, of the following topic areas for example; not everyone needs to present, to be sure: [Science Communicator](#science-communicator), anyone?
 
 # 4 Topic Areas/Questions for 4 Fellows
 
@@ -61,7 +61,9 @@ This will happen in coordination with IIS: there is a solid data set already! Mo
 
 ### Helpful Skill: General AI background, Science Communication!
 
-The service model idea is part of this project as well as there is a legislative need currently. Once, again please see [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) (DE) for details. 
+<div id="science-communicator">The service model idea is part of this project as well as there is a legislative need currently.</div>
+
+Once, again please see [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) (DE) for details on the context.
 
 *I see this as a communicative, **Presenter**-type role.*
 
