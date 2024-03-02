@@ -482,7 +482,9 @@ Figure from K. Greff, R.K. Srivastava, J. Koutnik, B.R. Steunebrink, J. Schmidhu
 
 From Chris Olah’s [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/): great diagrams there.
 
-Previous state is replaced to the degree that a new update is made, in a simpler architecture. This follows:
+Previous state is replaced to the degree that a new update is made, in a simpler architecture. 
+
+This follows:
 
 $$
 
