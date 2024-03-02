@@ -3,10 +3,13 @@ title: LIFT_C and OIS Community Call for Fellows!
 feed: show
 date: 02-03-2024
 ---
+# Welcome (KHG Person?)
+
 [This now live!]([Challenges | LIT Open Innovation Center (jku.at)](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/community-call/challenges/)), see (working title) "Accessibility Buddies" (DE).
 
-To summarize and from my perspective: I need help with the following four points to check assumptions and clean up data going into my thesis, but I think the potential of the project goes beyond an academic project and am happy and honored that [LIFT_C (Institute for Transformative Change)](https://www.jku.at/lift-c/) and the [OIC (Open Innovation Center)](https://www.jku.at/campus/der-jku-campus/campusfuehrung/self-guided-jku-campus-tour/oic/)/[Open Innovation in Science](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/) (with [LBG (Ludwig Boltzmann Gesellschaft)](https://ois.lbg.ac.at/)) agree.
+To summarize and from my perspective: I need help with the four points below to check assumptions and clean up data going into my thesis, but I think the potential of the project outlined here goes beyond an academic research project alone and I am happy and honored that [LIFT_C (Institute for Transformative Change)](https://www.jku.at/lift-c/) and the [OIC (Open Innovation Center)](https://www.jku.at/campus/der-jku-campus/campusfuehrung/self-guided-jku-campus-tour/oic/)/[Open Innovation in Science](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/) (with [LBG (Ludwig Boltzmann Gesellschaft)](https://ois.lbg.ac.at/)) agree. 
 
+**Read on for an opportunity that might be interesting to you!**
 # Fellowship Opportunity April and May 2024 (2600 EUR/research employment with JKU's Open Innovation Center included)
 
 The cool thing is, for **any AI Bachelors or Masters students that want to get involved, especially,** that the fellowship offers both credits and money: 3 ECTS and 2 Months (April and May 2024) employment a 20 hrs/wk and 1299.60 EUR can be offered for continuous contributions in this time period. Since I am living at (KHG)[[KHG Linz: Katholische Hochschulgemeinde Linz (dioezese-linz.at)](https://www.dioezese-linz.at/khg/leben)], the academic catholic society in Linz, and the JKU center is right by OIC/LIFT_C geographically speaking, my idea is to advertize this to this community especially. (Professors at the backing institutes, IIS, Institute of Integrated Study at JKU, and FAW, Institute for Application-oriented Knowledge Processing, also at JKU) especially, might also nominate.)
