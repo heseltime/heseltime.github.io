@@ -586,9 +586,11 @@ In practice, according to Hochreiter and Adler: "it can [...] be hard to use if 
 
 $$
 
-\text{BLEU} = B \cdot \exp\left(\sum_{n=1}^{N} w_n \log p_n\right)
+\text{BLEU} = B \cdot \exp\left(\sum_{n=1}^{N} \log c^{(n)}\right)
 
 $$
+
+$$ c^{(n)} $$ is the number of n-grams in the candidate translation that occur in any of the reference translations, divided by the total nmber of n-grams in the candidate translation.
 
 ## **Attention** (Next)
 
