@@ -622,7 +622,9 @@ Two concreate generative examples using LSTM:
 * Karpathy: LaTeX and Linux kernel code generation in blog post, [The Unreasobal Effectiveness of RNNs](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 * Radford et al., 2017.: I really like this work. It breaks down a review represented by an Amazon-review-trained next character prediction LSTM to a single unit performing sentiment analysis, the prediction this work is intersted in. From the Abstract:
     > We explore the properties of byte-level recurrent language models. When given sufficient amounts of capacity, training data, and compute time, the representations learned by these models include disentangled features corresponding to high-level concepts. Specifically, we find a single unit which performs sentiment analysis.
-    ![IMBD Case](image-34.png)
+    ![IMDB Case](image-34.png)
+    The sentiment analysis was done on other review sources like IMDB and Yelp and essentially were good/bad classification.
+    ![IMDB Per-Sentence Results](image-35.png)
 
 
 ### LSTM Success Stories: Image Captioning, Learning to Learn, Rainfall-Runoff and Talking Heads
