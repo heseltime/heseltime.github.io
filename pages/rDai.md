@@ -640,7 +640,33 @@ Given an image, the system should come up with a short description of what is de
 
 > Inspired by recent advances in multimodal learning and machine translation, we introduce an encoder-decoder pipeline that learns (a): a multimodal joint embedding space with images and text and (b): a novel language model for decoding distributed representations from our space. Our pipeline effectively unifies joint image-text embedding models with multimodal neural language models. We introduce the structure-content neural language model that disentangles the structure of a sentence to its content, conditioned on representations produced by the encoder. The encoder allows one to rank images and sentences while the decoder can generate novel descriptions from scratch. Using LSTM to encode sentences, we match the state-of-the-art performance on Flickr8K and Flickr30K without using object detections.
 
+**Learning to learn using LSTM**: Meta-learning, i.e. designing systems which discover new learning algorithms. 
 
+> In principle, such systems consist of two components, the supervisory system and the subordinate system. The supervisory system trains the subordinate system to learn to solve certain machine learning tasks. Hochreiter et al. (2001) pointed out that an RNN can be used as a meta-learning system. Since an RNN is Turing equivalent, it can model both the supervisory and the subordinate system. In Hochreiter et al. (2001) it was even shown that these two systems do not have to be distinguished. Only the current best solution must be stored by the RNN.
+
+This sounds like something that would be worth exploring in the future: **#future-blog-post.**
+
+**Rainfall-Runoff**: This is an example of LSTM modelling of the environment. The goal for rainfall-runoff modelling is to systematically describe how rainfall leads river discharge. So one is working with waterflow properties basd on the inputs of temperature and precipitation, mainly. (Hydrological prediction is important for utilizing water properly and/or protecting against its adverse impact in the case of floods.)
+
+**Talking Heads**: Fan et al. (2015) showed how to use _bidirectional_ LSTM (BLSTM) to generate video of talking heads,in the field of computer vision and graphics, particularly focusing on generating or animating realistic talking heads from images or videos. The general aim of such research is to create realistic animations of human heads and faces that can mimic speech and expressions, often using deep learning or other machine learning techniques.
+
+In the context of computer vision and graphics, "talking heads" research usually involves the following (is therefore no easy task):
+
+1. **Facial Feature Detection:** Identifying and tracking key facial features, such as the mouth, eyes, and eyebrows, which are crucial for realistic animation.
+
+2. **Speech Synchronization:** Aligning facial movements with audio to ensure that the mouth movements match the spoken words, enhancing the realism of the talking head.
+
+3. **Expression Generation:** Creating a range of expressions that can be applied to the talking head, allowing it to convey emotions and reactions in addition to speech.
+
+4. **Model Training:** Utilizing datasets of human faces and speech to train models that can generate and animate talking heads. This might involve deep learning models that can learn from a large amount of data to produce high-quality animations.
+
+Overvieww for the Fan et al. BLSTM Training system:
+
+![BLSTM Training for Talking Heads, System overview](image-37.png)
+
+The results have already entered mainstream consciousness, creating, among other things, a new level of distrust for video media of, well, talking heads, whomever they belong to - speaking at the cultural level.
+
+In the preceeding, some _further LSTM variants_ than the traditional ones like Vanilla, Focused and Lightweight already discussed. Let's review those towards the end of this post, to understand where LSTM implementations were at the last couple of years.
 
 ## (Further) LSTM Variants
 
@@ -667,7 +693,7 @@ _Xu et al.'s words/image alignments with visualized attention maps, Figure 1 in 
 
 Note how attention is applied in the _LSTM_ context, not the currently predominant Transformer paradigm: It turns out that the concept travels. 
 
-Let's follow this thought to the next post, looking more closely at Attention and this way into talking about Transformers. (Coming soon.)
+Let's follow this thought to the next post, looking more closely at Attention and this way into talking about Transformers. (Coming soon, _#future-blog-post_.)
 
 # Taking Symbolic on the Road (with [Wolfram](/wolfram)!) 
 
