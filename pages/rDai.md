@@ -92,7 +92,11 @@ $$
 
 The magnitude of $$ e_k $$ depends on the product of the norms of $$ w^*_{k} $$ and $$ x $$ while the sign depends on the angle. As the magnitude grows and $$ w^*_{k} $$ and $$ x $$ in a similar direction, the attention will be high because $$ \sigma(e_k) \approx 1 $$. If the vectors point in opposite directions, attention will be $$ \approx 0 $$. 
 
-> This way, every column of the weight matrix $$ \boldsymbol{W}_i $$ can learn to selectively choose input vectors with certain traits. Every entry of the input gate [...] is of the form $$ \boldsymbol{i_k} \in \left(0, 1\right) $$. This can be considered as _soft attention_ to entry $$ z_k $$, since it can also choose to let through half of the information. Would the gate be either zero or one, i.e. $$ \boldsymbol{i_k} \in \left\{0, 1\right\} $$.
+> This way, every column of the weight matrix $$ \boldsymbol{W}_i $$ can learn to selectively choose input vectors with certain traits. Every entry of the input gate [...] is of the form $$ \boldsymbol{i_k} \in \left(0, 1\right) $$. This can be considered as _soft attention_ to entry $$ z_k $$, since it can also choose to let through half of the information. Would the gate be either zero or one, i.e. $$ \boldsymbol{i_k} \in \left\{0, 1\right\} $$, teh gate $$ i_k $$ is paying _hard attention_ to the entry $$ z_k $$.
+
+## Attention in seq2seq (Sequence-to-Sequence Models)
+
+## Key-Value Attention and Transformers
 
 # <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
 
