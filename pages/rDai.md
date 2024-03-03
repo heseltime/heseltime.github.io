@@ -47,7 +47,7 @@ He goes on to distinguish between soft attention (he likens it to declaring a po
 
 But we take the route though RNNs/[LSTM](#lstm), not directly via Transformers: we will get there, though.
 
-## Xu et al. (2015)
+## Xu et al. (2015): _Spatial Attention_
 
 I already talked about this at the end of [LSTM in the Linz AI Curriculum.](#lstm) Basically: to make a classification or a prediction, I don't need to _pay attention_ to every detail involved. This makes intuitive sense. Here is how Hochreiter and Adler put it in the LSTM and Recurrent Neural Networks lecture script, which I could not find in a public place online for the moment.
 
@@ -56,6 +56,10 @@ I already talked about this at the end of [LSTM in the Linz AI Curriculum.](#lst
 The authors go on to cite Xu, specifically the attention needed for image captioning.
 
 ![Xu et al. Image Captioning](image-39.png)
+
+The attention involved in this kind of image captioning is _spatial_.
+
+## LSTM: Gates Introduced _Temporal Attention_
 
 
 
