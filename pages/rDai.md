@@ -66,6 +66,8 @@ Spatial attention is for images and data in more-than-1-D space, whereas tempora
 
 > Without explicitly mentioning it, we already have dealt with attention mechanisms. The gating mechanisms of LSTM memory calles have the purpose of controlling which information is used or kept and which information is ignored. Gates can decide wich information enters a memory cell, which information is kept over time, and which information can be disregarded or scaled down. **Gating is focusing on a subset of the available information, i.e. it is an attention mechanims.**
 
+(Hochreiter and Adler Scriptum)
+
 This is the fundamental insight here.
 
 As an example, consider the input gate of an LSTM memory cell.
@@ -80,7 +82,13 @@ $$
 
 The input activation vector is of the form $$ \boldsymbol{i}(t) \in \left(0, 1\right)^I $$. This means that its multiplication with the cell input activation in the final equation above controls which, and to which degree, elements of $$ \boldsymbol{z}(t) $$ are used to update the cell state. Therefore the elements of $$ \boldsymbol{i}(t) $$ can be interpreted as the attention $$ \boldsymbol{z}(t) $$ receives.
 
+In the language that has developed around attention mechanisms in deep learning, the inner product between the kth column of $$ \boldsymbol{W}_i $$ and the input vector as the _attention score_ $$ e_k \in \mathbb{R} $$:
 
+$$
+
+
+
+$$
 
 # <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
 
