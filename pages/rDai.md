@@ -43,9 +43,9 @@ _These Masters level studies are on-going (target December 2024), now full-time,
 
 _In [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/): check it out for RNN character-level language modeling on several fun datasets._
 
-He goes on to distinguish between soft attention (he likens it to declaring a pointer in C, just it doesn't point to an address, but instead defines an entire distribution over all addresses in the entire memory) and hard attention, _where chings of memory are attended to at a time_. This is a good image to have in mind as we move into the topic.
+He goes on to distinguish between soft attention (he likens it to declaring a pointer in C, just it doesn't point to an address, but instead defines an entire distribution over all addresses in the entire memory) and hard attention, _where chunks of memory are attended to at a time_. This is a good image to have in mind as we move into the topic.
 
-But we take the route though RNNs/[LSTM](#lstm), not directly via Transformers: we will get there.
+But we take the route though RNNs/[LSTM](#lstm), not directly via Transformers: we will get there, though.
 
 
 
