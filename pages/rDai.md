@@ -626,12 +626,19 @@ Two concreate generative examples using LSTM:
     ![IMDB Case](image-34.png)
 
     The sentiment analysis was done on other review sources like IMDB and Yelp and essentially were good/bad classification.
-    
+
     ![IMDB Per-Sentence Results](image-35.png)
 
 
 ### LSTM Success Stories: Image Captioning, Learning to Learn, Rainfall-Runoff and Talking Heads
 
+In **image captioning**, Karapathy and Fei-Fei (2015), present a model that generates natural language descriptions of images and their regions. The goal is to learn the inter-modal correspondences.
+
+![Concept/Figure](image-36.png)
+
+Given an image, the system should come up with a short description of what is depicted in the image, in natural language: the authors split the task into two stages: First, a CNN which was pretrained on [ImageNet](https://www.image-net.org/) parses the image content. The output hidden representation is passed to the bidirectional, fully recurrent RNN which generates a sentence that describes the image content. [Kiros et al.](https://arxiv.org/abs/1411.2539) followed a similar approach in 2014 but using LSTM as recurrent network.
+
+> Inspired by recent advances in multimodal learning and machine translation, we introduce an encoder-decoder pipeline that learns (a): a multimodal joint embedding space with images and text and (b): a novel language model for decoding distributed representations from our space. Our pipeline effectively unifies joint image-text embedding models with multimodal neural language models. We introduce the structure-content neural language model that disentangles the structure of a sentence to its content, conditioned on representations produced by the encoder. The encoder allows one to rank images and sentences while the decoder can generate novel descriptions from scratch. Using LSTM to encode sentences, we match the state-of-the-art performance on Flickr8K and Flickr30K without using object detections.
 
 
 
