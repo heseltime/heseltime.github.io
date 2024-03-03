@@ -90,6 +90,8 @@ e_k = \sum_{l=1}^{d} w_{lk} \cdot x_l + (w^*_{k})^\top \cdot x = \|w^*_{k}\| \cd
 
 $$
 
+The magnitude of $$ e_k $$ depends on the product of the norms of $$ w^*_{k} $$ and $$ x $$ while the sign depends on the angle. As the magnitude grows and $$ w^*_{k} $$ and $$ x $$ in a similar direction, the attention will be high because $$ \sigma(e_k) \round 1 $$. If the vectors point in opposite directions, attention will be $$ \round 0 $$. 
+
 # <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
 
 Repository on [GitHub](https://github.com/heseltime/reinforcement-learning-ubern): for this **Part I** to a look at Deep Learning for Reinforcement Learning (RL), i.e. Deep Reinforcement Learning, I want to review some RL basics, largely following the well-tested [Sutton and Barto text](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), ending on a note about [planning](#smt-for-planning) vs learning and a focus on the foundational Bellman equation.
