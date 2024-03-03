@@ -18,7 +18,7 @@ feedformat: none
         </li>
         <li>
             <h3><a href="#attn"><b>Attention</b> via LSTM, the Transformer-Connection</a></h3>
-            <p>Coming soon.</p>
+            <p>LSTM's <i>Temporal</i> Attention as the way in to this topic: why process all input, when only some parts are relevant?I end the simplifications Transformers make. (End-of-story? <a href="https://www.nx-ai.com/">We'll see, maybe in Linz!</a>)</p>
         </li>
         <li>
             <h3><a href="#lstm">LSTM in the Linz AI Curriculum</a></h3>
