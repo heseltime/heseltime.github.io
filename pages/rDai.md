@@ -590,7 +590,14 @@ $$
 
 $$
 
-$$ c^{(n)} $$ is the number of n-grams in the candidate translation that occur in any of the reference translations, divided by the total nmber of n-grams in the candidate translation.
+$$ c^{(n)} $$ is the number of n-grams in the candidate translation that occur in any of the reference translations, divided by the total nmber of n-grams in the candidate translation: The metric is a form of _precision_ - this implements what the authors call "translation closeness" and relies on a corpus of good quality human reference translations. From the paper:
+
+> The primary programming task for a BLEU implementor is to compare n-grams of the candidate with the n-grams of the reference translation and count the number of matches. These matches are positionindependent. The more the matches, the better the
+candidate translation is.
+
+### Generating Sequences
+
+### Image Captioning, Learning to Learn, 
 
 ## **Attention** (Next)
 

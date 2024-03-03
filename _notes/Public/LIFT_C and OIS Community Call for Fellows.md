@@ -44,11 +44,11 @@ Right now I am looking at [Alfresco/ECM](/) for this but can take over this part
 
 ## 2. How does the LLM concept work in detail and to what degree is it feasible?
 
-### Helpful Skill: General AI background, critical thinking, etc.
+### Helpful Skill: General AI background, NLP, critical thinking, etc.
 
 We want to process documents to make them accessible. But does the concept track fully? To what degree if not? Please reference the [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) for more details on the concept. 
 
-*This is an **ML/LLM-Tinkerer** role, maybe, though might be more abstract and big picture.*
+*This is an **ML/LLM-Tinkerer** role, maybe, though might be more about LLM performance evaluation: Things like [BLEU-score](https://aclanthology.org/P02-1040.pdf) and the basic math involved should not scare away, ideally. Fun for someone into NLP!*
 
 ## 3. What is the data situation and how can it be improved?
 
