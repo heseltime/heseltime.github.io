@@ -603,11 +603,29 @@ Abstract from Graves, 2013, a landmark paper in demonstrating the capabilities o
 
 > This paper shows how Long Short-term Memory recurrent neural networks can be used to generate complex sequences with long-range structure, simply by predicting one data point at a time. The approach is demonstrated for text (where the data are discrete) and online handwriting (where the data are real-valued). It is then extended to handwriting synthesis by allowing the network to condition its predictions on a text sequence. The resulting system is able to generate highly realistic cursive handwriting in a wide variety of styles.
 
+This paper predicts **at the character level** (by the way, the Linz curriculum implements this in the companion exercise to the lecture - you would have to reach out if you want to take a look at this, but you can find the relevant code approaches pretty easily) and is based on corpora like the Hitter Prize, revolving around the compression for the frist 100 million bytes of the complete English Wikipedia data. Graves splits the first 96 million bytes evenly into sequences of 100 bytes and uses them to train the network. The remaining 4 M bytes are used for validation. 
+
+The LSTM was tasked to predict a single byte at a time.
+
+From Hochreiter and Adler:
+
+> To make it possible for the network to capture the long-term dependencies of the data, the units and the output gate activations were only reset every 100 sequences and no shuffling was conducted during training. The network was therefore able to access information from up to 10K characters in the past when making predictions.
+
+The architecture is digrammed as follows.
+
 ![Deep RNN Prediction Architecture](image-33.png)
 
+While the network does invent (feasible looking) words, it also learns punctuation, e.g. being able to open and close quotation marks correctly and so on, clearly indicating language modeling memory. It is easy to see how the principle at work here might have informed **word-level** approaches in the years to come, even when switching to Transformers.
+
+Two concreate generative examples using LSTM:
+
+* Karpathy: LaTeX and Linux kernel code generation in blog post, [The Unreasobal Effectiveness of RNNs](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+* Radford et al., 2017.: I really like this work. It breaks down a review represented by an Amazon-review-trained next character prediction LSTM to a single unit performing sentiment analysis, the prediction this work is intersted in. From the Abstract:
+    > We explore the properties of byte-level recurrent language models. When given sufficient amounts of capacity, training data, and compute time, the representations learned by these models include disentangled features corresponding to high-level concepts. Specifically, we find a single unit which performs sentiment analysis.
+    ![IMBD Case](image-34.png)
 
 
-### Success Stories: Image Captioning, Learning to Learn, Rainfall-Runoff and Talking Heads
+### LSTM Success Stories: Image Captioning, Learning to Learn, Rainfall-Runoff and Talking Heads
 
 
 
