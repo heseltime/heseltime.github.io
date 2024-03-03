@@ -666,7 +666,9 @@ Overview for the Fan et al. BLSTM Training system:
 
 ![BLSTM Training for Talking Heads, System overview](image-37.png)
 
-The results have already entered mainstream consciousness, creating, among other things, a new level of distrust for video media of, well, talking heads, whomever they belong to - speaking at the cultural level.
+The results have already entered mainstream consciousness, creating, among other things, a new level of distrust for video media of, well, talking heads, whomever they belong to - speaking at the cultural level. See here: very notable was the Synthesizing-Obama application in [Suwajanakorn et al.](https://grail.cs.washington.edu/projects/AudioToObama/siggraph17_obama.pdf)
+
+![Synth-Obama](image-38.png)
 
 In the preceeding, some _further LSTM variants_ than the traditional ones like Vanilla, Focused and Lightweight have already beendiscussed. Let's review those towards the end of this post, to understand where LSTM implementations were at the last couple of years.
 
