@@ -62,7 +62,23 @@ The attention involved in this kind of image captioning is _spatial_.
 
 ## LSTM: Gates Introduced _Temporal Attention_
 
+Spatial attention is for images and data in more-than-1-D space, whereas temporal attention is for sequences and focuses on the elements (or the intervals) of sequences.
 
+> Without explicitly mentioning it, we already have dealt with attention mechanisms. The gating mechanisms of LSTM memory calles have the purpose of controlling which information is used or kept and which information is ignored. Gates can decide wich information enters a memory cell, which information is kept over time, and which information can be disregarded or scaled down. **Gating is focusing on a subset of the available information, i.e. it is an attention mechanims.**
+
+This is the fundamental insight here.
+
+As an example, consider the input gate of an LSTM memory cell.
+
+$$
+\begin{align}
+\boldsymbol{i}(t) &= \sigma\left(\boldsymbol{W}_{i}^{\top} \boldsymbol{x}(t)+\boldsymbol{R}_{i}^{\top} \boldsymbol{y}(t-1)\right) \\
+\boldsymbol{z}(t) &= g\left(\boldsymbol{W}_{z}^{\top} \boldsymbol{x}(t)+\boldsymbol{R}_{z}^{\top} \boldsymbol{y}(t-1)\right) \\
+\boldsymbol{c}(t) &= \boldsymbol{f}(t) \odot \boldsymbol{c}(t-1)+\boldsymbol{i}(t) \odot \boldsymbol{z}(t) \\
+\end{align}
+$$
+
+The input activation vector is of the form $$ \boldysmbol{i}(t) \in [0, 1]^I $$
 
 # <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
 
