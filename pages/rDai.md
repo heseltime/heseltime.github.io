@@ -21,7 +21,7 @@ feedformat: none
             <p>Coming soon.</p>
         </li>
         <li>
-            <h3><a href="#lstm">LSTM in the Linz-AI-Curriculum</a></h3>
+            <h3><a href="#lstm">LSTM in the Linz AI Curriculum</a></h3>
             <p>Includes some WL (Wolfram Language). (Let's always include some WL.) My focus here is on LSTM for language (seq2seq and generative), but I build up from the basics and draw on the most helpful resources I could find where needed, though still following the central JKU AI course's presentation of the topic.</p>
         </li>
         <li>
@@ -223,7 +223,7 @@ Next up: Part II, combining Deep Learning and Reinforcement Learning for Deep Re
 
 The deep learning idea experimentally explored in [AdvancedRL.ipynb](https://github.com/heseltime/reinforcement-learning-ubern/blob/main/AdvancedRL.ipynb) revolves around using a neural network as a function approximator for the Q-learning algorithm, a method known as Deep Q-Learning (DQN).
 
-# LSTM in the Linz-AI-Curriculum
+# LSTM in the Linz AI Curriculum
 
 It's a core course for the Master's, treating a core AI datastructure so to speak, maybe as central as Convolutional Neural Networks, and at least framing the perspective on Transformers (where there is no separate course). After all, JKU's [Sepp Hochreiter](https://en.wikipedia.org/wiki/Sepp_Hochreiter) [invented LSTM (Long-Short-Term Memory)](https://www.bioinf.jku.at/publications/older/2604.pdf), but to go there, you need to [start from RNNs (Recurrent Neural Networks)](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) first.
 
