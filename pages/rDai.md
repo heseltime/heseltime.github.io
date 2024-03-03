@@ -47,6 +47,16 @@ He goes on to distinguish between soft attention (he likens it to declaring a po
 
 But we take the route though RNNs/[LSTM](#lstm), not directly via Transformers: we will get there, though.
 
+## Xu et al. (2015)
+
+I already talked about this at the end of [LSTM in the Linz AI Curriculum.](#lstm) Basically: to make a classification or a prediction, I don't need to _pay attention_ to every detail involved. This makes intuitive sense. Here is how Hochreiter and Adler put it in the LSTM and Recurrent Neural Networks lecture script, which I could not find in a public place online for the moment.
+
+> To find an appropriate caption for an image, a distinction between important and dispensable content has to be made.
+
+The authors go on to cite Xu, specifically the attention needed for image captioning.
+
+![Xu et al. Image Captioning](image-39.png)
+
 
 
 # <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
