@@ -597,7 +597,17 @@ candidate translation is.
 
 ### Generating Sequences
 
-### Image Captioning, Learning to Learn, 
+### Success Stories: Image Captioning, Learning to Learn, Rainfall-Runoff and Talking Heads
+
+## (Further) LSTM Variants
+
+* **Peephole Connections**:
+* **Bidirectional LSTM**:
+* **Multidimensional LSTM**:
+* **Pyramid LSTM**:
+* **Stacked LSTM**:
+* **Grid LSTM**:
+* **Convolutional LSTM**:
 
 ## **Attention** (Next)
 
