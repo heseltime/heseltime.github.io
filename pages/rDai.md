@@ -96,7 +96,13 @@ The magnitude of $$ e_k $$ depends on the product of the norms of $$ w^*_{k} $$ 
 
 ## Attention in seq2seq (Sequence-to-Sequence Models)
 
+
+
+
 ## Key-Value Attention and Transformers
+
+
+
 
 # <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
 

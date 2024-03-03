@@ -62,7 +62,7 @@ This will happen in coordination with IIS: there is a solid data set already! Mo
 
 ### Helpful Skill: General AI background, Science Communication!
 
-<div id="science-communicator">The service model idea is part of this project as well as there is a legislative need currently, mainly  due to the [European Accessibility Act](https://ec.europa.eu/social/main.jsp?catId=1202).</div>
+<div id="science-communicator">The service model idea is part of this project as well as there is a legislative need currently, mainly  due to the <a href="https://ec.europa.eu/social/main.jsp?catId=1202">European Accessibility Act</a>.</div>
 
 Once, again please see [project proposal](../../assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) for details on the context.
 
