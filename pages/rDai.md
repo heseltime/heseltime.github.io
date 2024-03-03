@@ -597,7 +597,20 @@ candidate translation is.
 
 ### Generating Sequences
 
+![Graves 2013](image-32.png)
+
+Abstract from Graves, 2013, a landmark paper in demonstrating the capabilities of LSTMs in sequence generation tasks:
+
+> This paper shows how Long Short-term Memory recurrent neural networks can be used to generate complex sequences with long-range structure, simply by predicting one data point at a time. The approach is demonstrated for text (where the data are discrete) and online handwriting (where the data are real-valued). It is then extended to handwriting synthesis by allowing the network to condition its predictions on a text sequence. The resulting system is able to generate highly realistic cursive handwriting in a wide variety of styles.
+
+![Deep RNN Prediction Architecture](image-33.png)
+
+
+
 ### Success Stories: Image Captioning, Learning to Learn, Rainfall-Runoff and Talking Heads
+
+
+
 
 ## (Further) LSTM Variants
 
@@ -608,6 +621,7 @@ candidate translation is.
 * **Stacked LSTM**:
 * **Grid LSTM**:
 * **Convolutional LSTM**:
+
 
 ## **Attention** (Next)
 
