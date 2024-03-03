@@ -22,7 +22,7 @@ feedformat: none
         </li>
         <li>
             <h3><a href="#lstm">LSTM in the Linz-AI-Curriculum</a></h3>
-            <p>Includes some WL (Wolfram Language). Let's always include some WL.</p>
+            <p>Includes some WL (Wolfram Language). (Let's always include some WL.) My focus here is on LSTM for language (seq2seq and generative), but I build up from the basics and drawing on the most helpful resources I could find for understanding of the topic.</p>
         </li>
         <li>
             <h3>Presentation: <a href="#jku-sem">Language Models are Few-Shot Learners</a></h3>
