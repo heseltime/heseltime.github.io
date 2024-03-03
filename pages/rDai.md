@@ -660,7 +660,7 @@ In the context of computer vision and graphics, "talking heads" research usually
 
 4. **Model Training:** Utilizing datasets of human faces and speech to train models that can generate and animate talking heads. This might involve deep learning models that can learn from a large amount of data to produce high-quality animations.
 
-Overvieww for the Fan et al. BLSTM Training system:
+Overview for the Fan et al. BLSTM Training system:
 
 ![BLSTM Training for Talking Heads, System overview](image-37.png)
 
