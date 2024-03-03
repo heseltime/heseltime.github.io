@@ -33,7 +33,7 @@ feedformat: none
     <p><a href="/notes">rX Feed</a> (really, notes on how to apply this stuff) and my <a href="#jku-thesis-overview">formal thesis</a> in its different parts, interlaced with these blog posts, become part of the same project, I find: <b>I hope you have fun reading! All credit for the techniques presented goes to the authors. All errors in their presentation are mine.</b> I am happy for you to <a href="mailto:jack.heseltine@gmail.com">get in touch</a> for any comments, suggestions and any notes you have for me about the material.</p>
 </div>
 
-_These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and are taking center-stage for now, as my Masters contribution to the Zeitgeist._
+_These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and their application too are taking center-stage for now, as my Masters contribution to the Zeitgeist._
 
 # <a name="attn"></a> Attention via LSTM, the Transformer-Connection
 
