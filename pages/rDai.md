@@ -18,7 +18,7 @@ feedformat: none
         </li>
         <li>
             <h3><a href="#attn"><b>Attention</b> via LSTM, the Transformer-Connection</a></h3>
-            <p>LSTM's <i>Temporal</i> Attention as the way into this topic: why process all input, when only some parts are relevant? I want to end on the simplifications Transformers make. </p>
+            <p>LSTM's <i>Temporal</i> Attention as the way into this topic: why process all input, when only some parts are relevant? I want to end on the simplifications Transformers make, while focusing on Attention for seq2seq, i.e. Sequence-to-Sequence models. </p>
             <p>(End-of-story? <a href="https://www.nx-ai.com/">We'll see, maybe in Linz!</a>)</p>
         </li>
         <li>
