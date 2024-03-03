@@ -86,7 +86,7 @@ In the language that has developed around attention mechanisms in deep learning,
 
 $$
 
-
+e_k = \sum_{l=1}^{d} w_{lk} \cdot x_l + (w^*_{k})^\top \cdot x = \|w^*_{k}\| \cdot \|x\| \cdot \cos(\angle(w^*_{k}, x))
 
 $$
 
