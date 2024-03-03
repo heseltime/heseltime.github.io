@@ -78,7 +78,9 @@ $$
 \end{align}
 $$
 
-The input activation vector is of the form $$ \boldysmbol{i}(t) \in [0, 1]^I $$
+The input activation vector is of the form $$ \boldysmbol{i}(t) \in [0, 1]^I $$. This means that its multiplication with the cell input activation in the final equation above controls which, and to which degree, elements of $$ \boldsymbol{z}(t) $$ are used to update the cell state. Therefore the elements of $$ \boldsymbol{i}(t) $$ can be interpreted as the attention $$ \boldsymbol{z}(t) $$ receives.
+
+
 
 # <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
 
