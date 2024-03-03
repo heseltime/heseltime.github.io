@@ -666,17 +666,42 @@ Overview for the Fan et al. BLSTM Training system:
 
 The results have already entered mainstream consciousness, creating, among other things, a new level of distrust for video media of, well, talking heads, whomever they belong to - speaking at the cultural level.
 
-In the preceeding, some _further LSTM variants_ than the traditional ones like Vanilla, Focused and Lightweight already discussed. Let's review those towards the end of this post, to understand where LSTM implementations were at the last couple of years.
+In the preceeding, some _further LSTM variants_ than the traditional ones like Vanilla, Focused and Lightweight have already beendiscussed. Let's review those towards the end of this post, to understand where LSTM implementations were at the last couple of years.
+
 
 ## (Further) LSTM Variants
 
-* **Peephole Connections**:
-* **Bidirectional LSTM**:
-* **Multidimensional LSTM**:
-* **Pyramid LSTM**:
-* **Stacked LSTM**:
-* **Grid LSTM**:
-* **Convolutional LSTM**:
+The LSTM networks have seen numerous variations and adaptations to enhance their performance in various tasks. While the base-LSTM was designed to tackle the vanishing gradient problem and to better capture long-term dependencies in sequence data compared to standard RNNs, these actually have been developed to address specific challenges and applications.
+
+### Peephole Connections
+
+In a standard LSTM unit, the gate mechanisms (input, output, and forget gates) make decisions based on the current input and the previous hidden state. Peephole connections are a modification where these gates can also look at the cell state directly. This allows the gates to have more context, enabling the LSTM to learn more precise timing information. In essence, the gates have a "peephole" to view the cell state, hence the name.
+
+### Bidirectional LSTM (BiLSTM)
+
+Bidirectional LSTMs are an extension where two separate LSTMs are combined. One processes the data in a forward direction, and the other processes the data in a backward direction. This approach allows the network to have both past and future context at each time step, making BiLSTMs particularly useful for applications where the context in both directions is important, such as in natural language processing tasks.
+
+### Multidimensional LSTM (MD LSTM)
+
+While traditional LSTMs process data sequentially (one dimension), MD LSTM extends this to multiple dimensions, which is particularly useful for data with more than one dimension like images or videos. In MD LSTM, each LSTM unit can have inputs and outputs in multiple directions, and this variant is especially beneficial for tasks that require capturing complex spatial dependencies, not just temporal ones.
+
+### Pyramid LSTM
+
+Pyramid LSTM is a variant designed to reduce the computational complexity and increase the processing speed. It involves reducing the sequence length at each subsequent layer of the network. This is typically achieved by pooling or other downsampling methods. As the data progresses through layers, its temporal resolution decreases, enabling the network to focus on more abstract and higher-level features at each subsequent layer.
+
+### Stacked LSTM
+
+Stacked LSTM involves layering multiple LSTM layers on top of each other, with the output sequence of one layer forming the input sequence for the next. This stacking helps the network learn at multiple levels of abstraction, as higher layers can learn to interpret the output of lower layers, adding depth to the network. Stacked LSTMs are particularly useful for complex problems where additional layers of abstraction are beneficial.
+
+### Grid LSTM
+
+Grid LSTM is a variant where each LSTM unit is connected to multiple LSTM units in a grid-like structure, not just the previous or next temporal unit. This structure allows it to process data across multiple dimensions simultaneously, making it a more generalized form of the traditional LSTM. It's particularly useful for tasks where dependencies are not strictly sequential and can benefit from a multi-dimensional processing approach.
+
+### Convolutional LSTM (ConvLSTM)
+
+ConvLSTM integrates convolutional structures into the LSTM units, making it particularly suited for tasks involving spatial data, like video or image processing. In ConvLSTM, the input-to-state and state-to-state transitions are convolutions, allowing the network to capture spatial dependencies. This is particularly useful for tasks where the input data is multidimensional and has spatial relationships, such as predicting the next frame in a video.
+
+Each of these LSTM variants offers unique advantages and is suited for particular types of problems or data. The evolution of LSTM architectures demonstrates the adaptability and robustness of neural networks in tackling a wide range of challenges in sequence and spatial data processing.
 
 
 ## **Attention** (Next)
