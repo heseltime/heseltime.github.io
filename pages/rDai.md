@@ -615,9 +615,9 @@ Note how attention is applied in the _LSTM_ context, not the currently predomina
 
 Let's follow this thought to the next post, looking more closely at Attention and this way into talking about Transformers. (Coming soon.)
 
-# Taking Symbolic on the Road (with [Wolfram](/wolfram)!)
+# Taking Symbolic on the Road (with [Wolfram](/wolfram)!) 
 
-<div id="symbolic-conclusion">Apart from my thesis, practical work, final exam and <a href="studies-overview">core coursework</a> (see next sections below), my AI degree in Linz involves the symbolic track components I talk about above, essentially <a href="/wolfram#computer-algebra">Computer Algebra</a> and <a href="/wolfram#automated-reasoning">Automated Reasoning</a>, both situated at <a href="https://risc.jku.at/">RISC</a>: since I am now working for Wolfram during my Masters and in the foreseeable future, I am making an effort to basically pool that work and this part of my studies: the tool (also used in Linz and at RISC), Wolfram Language, is the same, after all.
+<div id="symbolic-conclusion"><img width="20" src="assets/img/Mathematica_Logo.png" alt="Mathematica Logo Wolfram Resarch" /> Apart from my thesis, practical work, final exam and <a href="studies-overview">core coursework</a> (see next sections below), my AI degree in Linz involves the symbolic track components I talk about above, essentially <a href="/wolfram#computer-algebra">Computer Algebra</a> and <a href="/wolfram#automated-reasoning">Automated Reasoning</a>, both situated at <a href="https://risc.jku.at/">RISC</a>: since I am now working for Wolfram during my Masters and in the foreseeable future, I am making an effort to basically pool that work and this part of my studies: the tool (also used in Linz and at RISC), Wolfram Language, is the same, after all.
 
 The remaining sections in this page deal with all other areas of my degree including other parts of the Symbolic track in Linz, already completed and outlined towards the end of the page.
 </div>
