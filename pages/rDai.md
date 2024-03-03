@@ -35,6 +35,8 @@ feedformat: none
 
 _These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and are taking center-stage for now, as my Masters contribution to the Zeitgeist._
 
+# <a name="attn"></a> Attention via LSTM, the Transformer-Connection
+
 # <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
 
 Repository on [GitHub](https://github.com/heseltime/reinforcement-learning-ubern): for this **Part I** to a look at Deep Learning for Reinforcement Learning (RL), i.e. Deep Reinforcement Learning, I want to review some RL basics, largely following the well-tested [Sutton and Barto text](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), ending on a note about [planning](#smt-for-planning) vs learning and a focus on the foundational Bellman equation.
@@ -718,7 +720,7 @@ _Xu et al.'s words/image alignments with visualized attention maps, Figure 1 in 
 
 Note how attention is applied in the _LSTM_ context, not the currently predominant Transformer paradigm: It turns out that the concept travels. 
 
-Let's follow this thought to the next post, looking more closely at Attention and this way into talking about Transformers. (Coming soon, _#future-blog-post_.)
+Let's follow this thought to the next post, looking more closely at Attention and this way into talking about Transformers. (Coming soon, [_#future-blog-post_](#attn).)
 
 # Taking Symbolic on the Road (with [Wolfram](/wolfram)!) 
 
