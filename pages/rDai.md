@@ -78,7 +78,7 @@ $$
 \end{align}
 $$
 
-The input activation vector is of the form $$ \boldysmbol{i}(t) \in [0, 1]^I $$. This means that its multiplication with the cell input activation in the final equation above controls which, and to which degree, elements of $$ \boldsymbol{z}(t) $$ are used to update the cell state. Therefore the elements of $$ \boldsymbol{i}(t) $$ can be interpreted as the attention $$ \boldsymbol{z}(t) $$ receives.
+The input activation vector is of the form $$ \boldysmbol{i}(t) \in \left(0, 1\right)^I $$. This means that its multiplication with the cell input activation in the final equation above controls which, and to which degree, elements of $$ \boldsymbol{z}(t) $$ are used to update the cell state. Therefore the elements of $$ \boldsymbol{i}(t) $$ can be interpreted as the attention $$ \boldsymbol{z}(t) $$ receives.
 
 
 
