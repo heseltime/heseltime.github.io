@@ -17,7 +17,7 @@ feedformat: none
             <p><a href="#rl-1">Part I: Q-learning Algorithm Implementation for a Grid World Environment</a></p>
         </li>
         <li>
-            <h3><b>Attention</b> via LSTM, the Transformer-Connection</h3>
+            <h3><a href="#attn"><b>Attention</b> via LSTM, the Transformer-Connection</a></h3>
             <p>Coming soon.</p>
         </li>
         <li>
