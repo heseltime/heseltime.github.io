@@ -128,12 +128,15 @@ e_j(i) = \mathbf{v}^\top \tanh(\mathbf{W} s(i - 1) + \mathbf{U}h(j))
 \text{where } \mathbf{W} \in \mathbb{R}^{n \times n}, \mathbf{U} \in \mathbb{R}^{n \times 2n}, \text{ and } \mathbf{v} \in \mathbb{R}^{n} \text{ are the parameters. The dimension } n \text{ is the size of the hidden vector in the BiRNN.}
 $$
 
-
 (Hochreiter and Adler)
 
+After calculating the attention scores, a softmax function is applied to derive the attention vector, which is then used to compute the context vector as a weighted sum of the encoder's hidden states. 
 
+$$
 
-After calculating the attention scores, a softmax function is applied to derive the attention vector, which is then used to compute the context vector as a weighted sum of the encoder's hidden states. This process is illustrated in the section's figures, showing how the model focuses on different parts of an input sequence to generate each word in the target sequence.
+a(i) = \text{softmax}(e(i)).
+
+$$
 
 ### Multiplicative and Local Attention
 
