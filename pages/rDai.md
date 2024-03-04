@@ -144,6 +144,8 @@ c(i) = \mathbf{H}a(i) = \sum_{t=1}^{T} h(t)a_t(i)
 
 $$
 
+Here $$ \boldsymbol{H} = \left( \boldsymbol{h}(1), ..., \boldsymbol{h}(T) \right) $$ is a matrix with the hidden units as columns, so $$ \boldsymbol{f}_con $$ is the matrix-vector product of attention vector and hidden units.
+
 ### Multiplicative and Local Attention
 
 
