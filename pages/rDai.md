@@ -121,7 +121,9 @@ The decoder RNN generates the **output at each time step based on its current hi
 
 The **attention score**, which is crucial for computing the attention vector, is determined by a **feedforward neural network using the previous hidden state of the decoder and the hidden state from the encoder**. This score function is an example of _additive attention_ due to the summation operation inside the tanh function.
 
-> The attention score $$ e_j(i) $$ is in principle an alignment score that determines how well the inputs around position $$ j $$ and the output at position $$ i $$ match. The score function is a feedforward neural network with parameters $$ \boldsymbol{W} $$ and $$ \boldsymbol{U} $$ and inputs $$ \boldsymbol{s}(i − 1) $$ and $$ \boldsymbol{h}(j) $$. 
+> The attention score $$ e_j(i) $$ is in principle an alignment score that determines how well the inputs around position $$ j $$ and the output at position $$ i $$ match. **The score function is a feedforward neural network** with parameters $$ \boldsymbol{W} $$ and $$ \boldsymbol{U} $$ and inputs $$ \boldsymbol{s}(i − 1) $$ and $$ \boldsymbol{h}(j) $$. 
+
+(Hochreiter and Adler, emphasis added)
 
 This feedforward network is jointly trained with the other RNNs and is:
 
@@ -132,8 +134,6 @@ e_j(i) = \mathbf{v}^\top \tanh(\mathbf{W} s(i - 1) + \mathbf{U}h(j))
 $$
 
 Where $$ \mathbf{W} \in \mathbb{R}^{n \times n}, \mathbf{U} \in \mathbb{R}^{n \times 2n}, \mathbf{v} \in \mathbb{R}^{n} $$ are the parameters. The dimension $$ n $$ is the size of the hidden vector in the BiRNN.
-
-(Hochreiter and Adler)
 
 After calculating the attention scores, a softmax function is applied to derive the attention vector, which is then used to compute the context vector as a weighted sum of the encoder's hidden states. 
 
