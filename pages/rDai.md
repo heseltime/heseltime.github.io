@@ -434,9 +434,9 @@ NetTake[bert, "embedding"]
 
 ```
 
-![NetTake[bert, "embedding"] in Mathematica Notebook](image-44.png)
-
 ... the front-end is:
+
+![NetTake[bert, "embedding"] in Mathematica Notebook](image-44.png)
 
 > The transformer architecture then processes the vectors using 12 structurally identical self-attention blocks stacked in a chain. The key part of these blocks is the attention module, constituted of 12 parallel self-attention transformations, a.k.a. "attention heads".
 
