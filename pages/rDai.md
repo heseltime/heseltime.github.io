@@ -188,15 +188,7 @@ I defer to Hochreiter and Adler for introducing Self-attention via the LSTM netw
 
 (Cheng et al. (2016))
 
-> So far attention was based on the decoder having access to hidden states of the encoder. Cheng
-et al. (2016) introduced intra-attention or self-attention where an LSTM network has access to its
-own past cell states or hidden states. The idea is that all information about the previous states and
-inputs should be encoded in h(t). Therefore all relations between states should be induced, which
-is achieved by intra-attention or self-attention. Toward this end, Cheng et al. (2016) augment the
-LSTM architecture with a memory for the cell states c and the hidden states (LSTM outputs) h.
-The memory just stores all past cell state vectors c in a matrix C = (c(1), . . . , c(t − 1)) and all
-past hidden state vectors h in a matrix H(t − 1) = (h(1), . . . , h(t − 1)). Now the LSTM has
-direct access to its own past states, where the access mechanism is self-attention.
+> So far attention was based on the decoder having access to hidden states of the encoder. Cheng et al. (2016) introduced intra-attention or self-attention where an LSTM network has access to its own past cell states or hidden states. The idea is that all information about the previous states and inputs should be encoded in $$ h(t) $$. Therefore all relations between states should be induced, which is achieved by intra-attention or self-attention. Toward this end, Cheng et al. (2016) augment the LSTM architecture with a memory for the cell states c and the hidden states (LSTM outputs) $$ h $$. The memory just stores all past cell state vectors c in a matrix $$ C = \left(c(1), . . . , c(t − 1) \right) $$ and all past hidden state vectors $$ h $$ in a matrix $$ \boldsymbol{H}(t − 1) = \left(h(1), . . . , h(t − 1)\right) $$. Now the LSTM has direct access to its own past states, where the access mechanism is self-attention.
 
 
 ## Key-Value Attention and Transformers
