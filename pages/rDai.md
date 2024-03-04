@@ -442,11 +442,15 @@ NetTake[bert, "embedding"]
 
 ([WL documentation/example](https://www.wolfram.com/language/12/neural-network-framework/use-transformer-neural-nets.html?product=mathematica))
 
-Here is the difference between BERT (Bidirectional Encoder Representations from Transformers - Devlin et al., 2018) and GPT (Generative Pre-Trained Tranformer) via the Mathematica Notebook interface. Both models are based on the Transformer architecture
+Here is the difference between BERT (Bidirectional Encoder Representations from Transformers - Devlin et al., 2018) and GPT (Generative Pre-Trained Tranformer, introduced by OpenAI, e.g. in their uber successful [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)*) via the Mathematica Notebook interface. Both models are based on the Transformer architecture
 
 > GTP has a similar architecture as BERT. Its main difference is that it uses a causal self-attention, instead of a plain self-attention architecture. This can be seen by the use of the "Causal" mask in the AttentionLayer.
 
-(Ibid.)
+(Also in [WL documentation/example](https://www.wolfram.com/language/12/neural-network-framework/use-transformer-neural-nets.html?product=mathematica))
+
+[ChatGPT](https://chat.openai.com/) is conversational AI system that leverages the power of Transformer models. It is designed to generate human-like responses in conversation-based settings, providing users with a seamless and interactive experience and has had a massive cultural impact, globally. (When did AI systems become cultural events? Maybe at this point.)
+
+So, in WL:
 
 ```
 NetExtract[bert, {"encoder", 1, 1, "attention", 1, "attention"}]
