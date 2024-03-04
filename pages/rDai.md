@@ -360,15 +360,41 @@ Then in detail: where we a drawing out math operations as bubbles and lines basi
 
 ![Transformer Architecture Detail](image-48.png)
 
-Encode and decoder are enhanced by _Multi-head attention_
+Encoder and decoder are enhanced by _Multi-head attention_, where the input is a matrix for emedded words representing. _Positional encoding needs to be added_ since there is no sequential ordering inheren in the architecture of a feedforward network the way you have in RNN. So multi-head attention is applied to this, as in $$ \boldsymbol{Z}_0 = \boldsymbol{X} + \boldsymbol{P} \in \boldsymbol{R}^{dxT} $$ - here $$ \boldsymbol{P} $$ is said positional encoding.
 
-Let's do the formula already:
+The new thing is the _Query_, calculated on $$ \boldsymbol{Z}_0 $$ with Key and Value as well. For the n-th Transformer unit (layer) the formulas read:
+
+$$
+
+\mathbf{K}_n = \mathbf{W}_n^{K} \mathbf{Z}^{n-1}
+
+$$
+
+
+$$
+
+\mathbf{V}_n = \mathbf{W}_n^{V} \mathbf{Z}^{n-1}
+
+
+$$
+
+
+
+$$
+
+\mathbf{Q}_n = \mathbf{W}_n^{Q} \mathbf{Z}^{n-1}
+
+$$
+
+Now the overall idea, mathematically:
 
 $$
 
 \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
 
 $$
+
+But we can break this down some, highlighting $$ boldsymbol{E}_n $$ as the score, $$ \boldsymbol{A}_n $$ as [?], and $$ \boldsymbol{C}_n $$ as context [check].
 
 ### Transformers in Wolfram Language (WL)
 
