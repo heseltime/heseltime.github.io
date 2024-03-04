@@ -394,7 +394,7 @@ $$
 
 $$
 
-But we can break this down some, highlighting $$ \boldsymbol{E}_n $$ as the score inside the main brackets, $$ \boldsymbol{A}_n $$ as as the softmax of the score, and $$ \boldsymbol{C}_n $$ as context, the multiplication of $$ \boldsymbol{A}_n $$ with $$ \boldsymbol{V}_n $$.
+But we can break this down some, highlighting $$ \boldsymbol{E}_n $$ as the score inside the main brackets, $$ \boldsymbol{A}_n $$ as the softmax of the score, and $$ \boldsymbol{C}_n $$ as context, the multiplication of $$ \boldsymbol{A}_n $$ with $$ \boldsymbol{V}_n $$.
 
 There is a normalization of the score happening here, to prevent the softmax from saturation. This describes _one_ attention head: Suppose we have $$ h $$ heads, together they produce $$ h $$ context matrices $$ \boldsymbol{C}^1_n, ..., \boldsymbol{C}^h_n $$.
 
