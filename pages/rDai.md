@@ -394,7 +394,31 @@ $$
 
 $$
 
-But we can break this down some, highlighting $$ boldsymbol{E}_n $$ as the score, $$ \boldsymbol{A}_n $$ as [?], and $$ \boldsymbol{C}_n $$ as context [check].
+But we can break this down some, highlighting $$ \boldsymbol{E}_n $$ as the score inside the main brackets, $$ \boldsymbol{A}_n $$ as as the softmax of the score, and $$ \boldsymbol{C}_n $$ as context, the multiplication of $$ \boldsymbol{A}_n $$ with $$ \boldsymbol{V}_n $$.
+
+There is a normalization of the score happening here, to prevent the softmax from saturation. This describes _one_ attention head: Suppose we have $$ h $$ heads, together they produce $$ h $$ context matrices $$ \boldsymbol{C}^1_n, ..., \boldsymbol{C}^h_n $$.
+
+The output of the multi-head attention unit follows:
+
+$$
+
+\boldsymbol{R}_n = concat(\boldsymbol{C}^1_n, ..., \boldsymbol{C}^h_n) \boldsymbol{W}_n^Z \in \boldsymbol{R}^{dxT}
+
+$$
+
+The module also has shortcut connections, therefore the output is really:
+
+$$
+
+\boldsymbol{R}_n = \boldsymbol{R}_n + \boldsymbol{Z}_{n-1}
+
+$$
+
+This is normalized via layer normalization and fed into a fully connected feedfoward network. The resulting output is then passed to a new multi-head attention in the decoder. The decoder is similar to the encoder but has two multi-head attention units.
+
+> The first attention unit only receives input from the previous decoder units and masks out subsequent positions of the input. The second attention unit also takes the output of the according encoding unit. In general, for a given sentence to translate, the model needs to encode the sentence once and then runs the decoder until a token arrives that indicates the end of the sequence.
+
+(Hochreiter and Adler)
 
 ### Transformers in Wolfram Language (WL)
 
@@ -402,7 +426,7 @@ I almost forgot! Of course, you can [deploy Transformers in WL](https://www.wolf
 
 In fact, this is a great tool to take apart the models and learn about them that way, after you load and run them.
 
-For
+For the Mathematica Notebook input...
 
 ```
 
@@ -412,11 +436,13 @@ NetTake[bert, "embedding"]
 
 ![NetTake[bert, "embedding"] in Mathematica Notebook](image-44.png)
 
+... the front-end is:
+
 > The transformer architecture then processes the vectors using 12 structurally identical self-attention blocks stacked in a chain. The key part of these blocks is the attention module, constituted of 12 parallel self-attention transformations, a.k.a. "attention heads".
 
 ([WL documentation/example](https://www.wolfram.com/language/12/neural-network-framework/use-transformer-neural-nets.html?product=mathematica))
 
-Here is the difference between Bert and GPT via the Mathematica Notebook interface. 
+Here is the difference between BERT (Bidirectional Encoder Representations from Transformers - Devlin et al., 2018) and GPT (Generative Pre-Trained Tranformer) via the Mathematica Notebook interface. Both models are based on the Transformer architecture
 
 > GTP has a similar architecture as BERT. Its main difference is that it uses a causal self-attention, instead of a plain self-attention architecture. This can be seen by the use of the "Causal" mask in the AttentionLayer.
 
