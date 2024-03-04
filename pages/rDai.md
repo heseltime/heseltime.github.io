@@ -156,7 +156,29 @@ At the attention, level, what is happening? This intensity map ("sample alignmen
 
 ### Multiplicative and Local Attention
 
+[Luong et al. (2015)](https://arxiv.org/abs/1508.04025) modify the approach. Instead of a bidrectional GRU encoder, multiplicative attention uses a unidrectional stacked LSTM encoder, and in addition to the additive attention (_concat_ in this paper), _dot_ and _general_ score functions are introduced. Taken together, _multiplicative attention_ becomes:
 
+$$
+
+e_t(i) = \mathbf{h}(t)^\top \mathbf{s}(i) \quad \text{(dot)} 
+e_t(i) = \mathbf{h}(t)^\top \mathbf{W} \mathbf{s}(i) \quad \text{(general)}
+e_t(i) = \mathbf{v}^\top \tanh(\mathbf{W} [\mathbf{s}(i); \mathbf{h}(t)]) \quad \text{(concat)}
+
+$$
+
+Attention vector (_alignment vector_ in this paper):
+
+$$
+
+a(i) = \text{softmax}(e(i))
+
+$$
+
+> ultiplicative attention is simpler than additive attention. For short input sequences the performance of multiplicative attention is similar to that of additive attention, but for longer sequences additive attention has the advantage.
+
+(Hochreiter and Adler)
+
+Luong et al. (2015) also introduce propose _local_ attention (the idea is to not attend to all hidden units, but only to a subset of hidden units inside a window) in addition to _global_ attention.
 
 ### Self-Attention
 
