@@ -184,7 +184,7 @@ a(i) = \text{softmax}(e(i))
 
 $$
 
-> ultiplicative attention is simpler than additive attention. For short input sequences the performance of multiplicative attention is similar to that of additive attention, but for longer sequences additive attention has the advantage.
+> Multiplicative attention is simpler than additive attention. For short input sequences the performance of multiplicative attention is similar to that of additive attention, but for longer sequences additive attention has the advantage.
 
 (Hochreiter and Adler)
 
@@ -215,6 +215,40 @@ $$
 a(t) = \text{softmax}(e(t))
 
 $$
+
+$$
+
+\mathbf{\tilde{h}} = \mathbf{H}(t-1) \mathbf{a}(t-1)
+
+$$
+
+Here ...
+
+$$
+
+\mathbf{H}(t-1) = \left( \mathbf{h}(1), ..., \mathbf{h}(t-1) \right)
+
+$$
+
+is the matrix of hidden states up to $$ t - 1 $$. 
+
+The attention vector is also applied to all past cell states $$ \boldsymbol{C} = \left( \boldsymbol{c}(1), ..., \boldsymbol{c}(t - 1) \right) $$:
+
+$$
+
+\boldsymbol{\tilde{c}(t)} = \boldsymbol{C}(t-1)\boldsymbol{a}(t-1)
+
+$$
+
+Once again, to sum up in terms of the formulas for the forward pass:
+
+$$
+
+\boldsymbol{i}(t) = \sigma \left( \boldsymbol{W}_i^{\top} \boldsymbol{x}(t) + \boldsymbol{R}_i^{\top} \boldsymbol{\tilde{h}}(t) \right)
+
+$$
+
+LSTM with self-attention is called _Long Short-Term Memory-Network (LSTMN)_.
 
 
 ## Key-Value Attention and Transformers
