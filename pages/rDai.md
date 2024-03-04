@@ -337,7 +337,23 @@ We see the difference between previous attention mechanisms (a) and key-value at
 
 ## Transformers
 
-Transformer networks, or _Transformers_ for short, [...]
+Transformer networks, or _Transformers_ for short, **are an easy thing in this blog post now, because the concepts have been introduced** - I think this is the point the related lecture (and exercise at JKU) is making too.
+
+> The NeurIPS 2017 publication [Attention Is All you Need](https://arxiv.org/abs/1706.03762) from Google Brain introduced the Transformer which is based on End-to-end Memory Network
+
+From the abstract from Attention Is All You Need:
+
+> The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train.
+
+They go on to cite succesful BLEU scores, which demonstrates the architecture's capacity. The most famous items from this paper are however the diagrams, I would say: First in overview.
+
+![Transformer Architecture Overview](image-47.png)
+
+Then in detail: where we a drawing out math operations as bubbles and lines basically, but yes, it works.
+
+![Transformer Architecture Detail](image-48.png)
+
+
 
 
 ### Transformers in Wolfram Language (WL)
