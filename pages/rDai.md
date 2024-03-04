@@ -96,7 +96,11 @@ The magnitude of $$ e_k $$ depends on the product of the norms of $$ w^*_{k} $$ 
 
 ## Attention in seq2seq (Sequence-to-Sequence Models)
 
+The basic RNN seq2seq model consists of two networks, the encoder and the decoder, where the encoder reads a sentence of length $$ \left( \boldsymbol{x}(t) \right)^T_{t=1} $$ of length $$ T $$ and produces a fixed-dimensional vector representation $$ v $$ of the whole sequence.
 
+![The encoder-decoder RNN-structure](image-40.png)
+
+(From Hochreiter and Adler)
 
 
 ## Key-Value Attention and Transformers
