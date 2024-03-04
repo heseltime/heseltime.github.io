@@ -313,7 +313,7 @@ $$
 
 $$
 
-$$ \boldsymbol{W}_K $$, $$ \boldsymbol{W}_k \in \boldsymbol{R}^{dxd} $$, $$ \boldsymbol{w} \in \boldsybol{R}^d $$ and $$ \boldsymbol{1} \in \boldsymbol{R} $$.   
+$$ \boldsymbol{W}_K $$, $$ \boldsymbol{W}_k \in \boldsymbol{R}^{dxd} $$, $$ \boldsymbol{w} \in \boldsymbol{R}^d $$ and $$ \boldsymbol{1} \in \boldsymbol{R} $$.   
 
 Once again, the attention vector is obtained by applying softmax and the context vector is calculated by multiplying the attention vector by the values in $$ \boldsymbol{V}(t - 1) $$:
 
@@ -360,7 +360,7 @@ Then in detail: where we a drawing out math operations as bubbles and lines basi
 
 ![Transformer Architecture Detail](image-48.png)
 
-
+Encode and decoder are enhanced by _Multi-head attention_
 
 Let's do the formula already:
 
