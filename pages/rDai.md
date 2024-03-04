@@ -102,6 +102,47 @@ The basic RNN seq2seq model consists of two networks, the encoder and the decode
 
 (From Hochreiter and Adler)
 
+Typically $$ v $$ is the last state $$ h_T $$ of the encoder network but can also be the last cell state $$ c_T $$. This approach was introduced by both
+
+* [Cho et al. (2014)](https://arxiv.org/abs/1406.1078): using GRU.
+* [Sutskever et al. (2014)](https://arxiv.org/abs/1409.3215): in a similar but modified version that uses LSTM.
+
+Regardless of state vector being copied and RNN-Model used, the problem with the approach is that, no matter how complex the input sequence, it needs to be encoded as a whole, to one vector $$ v $$, rather than being broken down to only the relevant parts. The attention in this model is realized by the encoder RNN.
+
+### Additive Attention
+
+An early attention mechanism was introduced by [Bahdanau et al. (2014)](https://arxiv.org/abs/1409.0473), which enhances the encoder-decoder model by enabling it to focus on various parts of the input sequence sequentially. This mechanism is integrated with an alignment process. From the Abstract, highlighting how this ties into their translation task:
+
+> The models proposed recently for neural machine translation often belong to a family of encoder-decoders and consists of an encoder that encodes a source sentence into a fixed-length vector from which a decoder generates a translation. In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly. With this new approach, we achieve a translation performance comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation. Furthermore, qualitative analysis reveals that the (soft-)alignments found by the model agree well with our intuition.
+
+The encoder uses a **bidirectional RNN (BiRNN)** to process the input sequence both in the forward and backward directions, generating forward and backward hidden states. These states are combined at each time step to provide a comprehensive view of the input sequence.
+
+The decoder RNN generates the **output at each time step based on its current hidden state, the previous output, and a context vector**. This context vector is computed using the attention mechanism, which employs an **attention vector to create a weighted sum of the encoder's hidden states**.
+
+The **attention score**, which is crucial for computing the attention vector, is determined by a **feedforward neural network using the previous hidden state of the decoder and the hidden state from the encoder**. This score function is an example of _additive attention_ due to the summation operation inside the tanh function.
+
+> The attention score $$ e_j(i) $$ is in principle an alignment score that determines how well the inputs around position $$ j $$ and the output at position $$ i $$ match. The score function is a feedforward neural network with parameters $$ \boldsymbol{W} $$ and $$ \boldysymbol{U} $$ and inputs $$ \boldysmbol{s}(i − 1) $$ and $$ \boldsymbol{h}(j) $$. This feedforward network is jointly trained with the other RNNs and is:
+$$
+e_j(i) = \mathbf{v}^\top \tanh(\mathbf{W} s(i - 1) + \mathbf{U}h(j))
+
+\text{where } \mathbf{W} \in \mathbb{R}^{n \times n}, \mathbf{U} \in \mathbb{R}^{n \times 2n}, \text{ and } \mathbf{v} \in \mathbb{R}^{n} \text{ are the parameters. The dimension } n \text{ is the size of the hidden vector in the BiRNN.}
+$$
+
+
+(Hochreiter and Adler)
+
+
+
+After calculating the attention scores, a softmax function is applied to derive the attention vector, which is then used to compute the context vector as a weighted sum of the encoder's hidden states. This process is illustrated in the section's figures, showing how the model focuses on different parts of an input sequence to generate each word in the target sequence.
+
+### Multiplicative and Local Attention
+
+
+
+### Self-Attention
+
+
+
 
 ## Key-Value Attention and Transformers
 
