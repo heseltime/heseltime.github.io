@@ -190,6 +190,18 @@ I defer to Hochreiter and Adler for introducing Self-attention via the LSTM netw
 
 > So far attention was based on the decoder having access to hidden states of the encoder. Cheng et al. (2016) introduced intra-attention or self-attention where an LSTM network has access to its own past cell states or hidden states. The idea is that all information about the previous states and inputs should be encoded in $$ h(t) $$. Therefore all relations between states should be induced, which is achieved by intra-attention or self-attention. Toward this end, Cheng et al. (2016) augment the LSTM architecture with a memory for the cell states c and the hidden states (LSTM outputs) $$ h $$. The memory just stores all past cell state vectors c in a matrix $$ C = \left(c(1), . . . , c(t − 1) \right) $$ and all past hidden state vectors $$ h $$ in a matrix $$ \boldsymbol{H}(t − 1) = \left(h(1), . . . , h(t − 1)\right) $$. Now the LSTM has direct access to its own past states, where the access mechanism is self-attention.
 
+(Hochreiter and Adler)
+
+The formulas for calculating $$ \boldsymbol{e}(t) $$ and attention vector $$ \boldsymbold{a}(t) $$ over all previous timesteps $$ i = 1, ..., t - 1 $$ are:
+
+$$
+
+e_i(t) = \mathbf{v}^\top \tanh(\mathbf{W}_{hh} \mathbf{h}(i) + \mathbf{W}_{xx} \mathbf{x}(t) + \mathbf{W}_{\tilde{h}\tilde{h}} \tilde{\mathbf{h}}(t - 1)) \quad (4.22)
+a(t) = \text{softmax}(e(t)) \quad (4.23)
+
+$$
+
+
 ## Key-Value Attention and Transformers
 
 
