@@ -339,13 +339,20 @@ We see the difference between previous attention mechanisms (a) and key-value at
 
 Transformer networks, or _Transformers_ for short, **are an easy thing in this blog post now, because the concepts have been introduced** - I think this is the point the related lecture (and exercise at JKU) is making too.
 
-> The NeurIPS 2017 publication [Attention Is All you Need](https://arxiv.org/abs/1706.03762) from Google Brain introduced the Transformer which is based on End-to-end Memory Network
+> The NeurIPS 2017 publication [Attention Is All you Need](https://arxiv.org/abs/1706.03762) from Google Brain introduced the Transformer which is based on End-to-end Memory Network in Vaswani et al. (2017). It had great impact on the community. In contrast to previous attention models, the Transformer is not an RNN but a feedforward neural network. The Transformer relies on an extension of the key-value attention, it uses dot-product attention and it self-attending. It thus combines previously introduced concepts.
 
 From the abstract from Attention Is All You Need:
 
 > The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train.
 
-They go on to cite succesful BLEU scores, which demonstrates the architecture's capacity. The most famous items from this paper are however the diagrams, I would say: First in overview.
+Going a bit deeper into the background in the 2017 paper for some of this stuff:
+
+> Self-attention, sometimes called intra-attention is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence. Self-attention has been used successfully in a variety of tasks including reading comprehension, abstractive summarization, textual entailment and learning task-independent sentence representations [...].
+**End-to-end memory networks** are based on a recurrent attention mechanism instead of sequence aligned recurrence and have been shown to perform well on simple-language question answering and language modeling tasks [...] To the best of our knowledge, however, the Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence aligned RNNs or convolution.
+
+End-to-end memory networks as in [Sukhbaatar et al. 2015](https://arxiv.org/abs/1503.08895) might be a relevant concept to explore to understand where the thinking comes from fully. (Potential **#future-blog-post**)
+
+Vaswani et al. go on to cite succesful BLEU scores in the abstract, which demonstrates the architecture's capacity. The most famous items from this paper are however the diagrams, I would say: First in overview.
 
 ![Transformer Architecture Overview](image-47.png)
 
@@ -355,6 +362,13 @@ Then in detail: where we a drawing out math operations as bubbles and lines basi
 
 
 
+Let's do the formula already:
+
+$$
+
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+
+$$
 
 ### Transformers in Wolfram Language (WL)
 
