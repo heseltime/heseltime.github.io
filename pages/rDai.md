@@ -133,13 +133,14 @@ e_j(i) = \mathbf{v}^\top \tanh(\mathbf{W} s(i - 1) + \mathbf{U}h(j))
 
 $$
 
-Where $$ \mathbf{W} \in \mathbb{R}^{n \times n}, \mathbf{U} \in \mathbb{R}^{n \times 2n}, \mathbf{v} \in \mathbb{R}^{n} $$ are the parameters. The dimension $$ n $$ is the size of the hidden vector in the BiRNN.
+Where $$ \mathbf{W} \in \mathbb{R}^{n \times n}, \mathbf{U} \in \mathbb{R}^{n \times 2n}, \mathbf{v} \in \mathbb{R}^{n} $$ are the parameters. The dimension $$ n $$ is the size of the hidden vector in the BiRNN. The sum inside the tanh is where the name of the attention method comes from, as in "additive" attention.
 
 After calculating the attention scores, a softmax function is applied to derive the attention vector, which is then used to compute the context vector as a weighted sum of the encoder's hidden states. 
 
 $$
 
-a(i) = \text{softmax}(e(i)).
+a(i) = \text{softmax}(e(i))
+c(i) = \mathbf{H}a(i) = \sum_{t=1}^{T} h(t)a_t(i)
 
 $$
 
