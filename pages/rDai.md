@@ -283,9 +283,61 @@ Self-attention can be applied at the level of sentences, as in (Lin et al. (2017
 The authors use a bidirectional LSTM encoder as in Bahdenau et al. (2014), discussed earlier.
 
 
-## Key-Value Attention and Transformers
+### Key-Value Attention 
 
+The final form of attention to be highlighted, in order of development, is _Key-Value Attention_. So far we have performed attention like so: The calcuation of an attention score $$ \boldsymbol{e} $$, the transformation of the score to an attention vector $$ \boldsymbol{a} $$ and then the we calculated the context vector (_glimpse_) $$ \boldsymbol{c} $$. 
 
+But there is a better way: Daniluk et al. (2017), frustrated by the short attention spans they were finding (Frustratingly Short Attention Spans in Neural Language Modeling) analzyed that the hidden states are oversubscribed in the sense that they have multiple roles to fulfill.
+
+> Neural language models predict the next token using a latent representation of the immediate token history. Recently, various methods for augmenting neural language models with an attention mechanism over a differentiable memory have been proposed. For predicting the next token, these models query information from a memory of the recent history which can facilitate learning mid- and long-range dependencies. However, conventional attention mechanisms used in memory-augmented neural language models produce a single output vector per time step. This vector is used both for predicting the next token as well as for the key and value of a differentiable memory of a token history.
+
+They
+
+* encode the distribution for predicting the next token
+* serve as a key to compute the attention vector
+* encode relevant content to inform future predictions
+
+and are therefore open to breaking down into roles, directly inside the hidden states. The central idea is to separate the hidden vector into a _Key_ part $$ \boldsymbol{k} $$ and a value part $$ \boldsymbol{v} $$, both size $$ d $$.
+
+$$
+
+\mathbf{h}_t = \begin{pmatrix} \mathbf{k}_t^\top \\ \mathbf{v}_t^\top \end{pmatrix} \in \mathbb{R}^{2d}
+
+$$
+
+(I am following the notation in Hochreiter and Adler closely here: ) For the score at timestep $$ t $$, additive attention is applied to the keys in a sliding window of size $$ L $$ up to the curren time step $$ \boldsymbol{K}(t - 1) = \boldsymbol{k}(t - L), ..., \boldsymbol{k}(t - 1) $$ and the current key $$ \boldsymbol{k}(t) $$.
+
+$$
+
+\mathbf{e}_t = \mathbf{w}^\top \tanh(\mathbf{W}_K \mathbf{K} + [\mathbf{W}_k \mathbf{k}_t] \mathbf{1}^\top) \in \mathbb{R}^L
+
+$$
+
+$$ \boldsymbol{W}_K $$, $$ \boldsymbol{W}_k \in \boldsymbol{R}^{dxd} $$, $$ \boldsymbol{w} \in \boldsybol{R}^d $$ and $$ \boldsymbol{1} \in \boldsymbol{R} $$.   
+
+Once again, the attention vector is obtained by applying softmax and the context vector is calculated by multiplying the attention vector by the values in $$ \boldsymbol{V}(t - 1) $$:
+
+$$
+
+\boldsymbol{a}(t) = softmax(\boldsymbol{e}(t))
+
+$$
+
+$$
+
+\boldsymbol{c}(t) = \boldsymbol{V}(t - 1) \boldsymbol{a}(t)
+
+$$
+
+Daniluk et al. (2017) provide the following helpful schematic (top row):
+
+![Difference between previous attention mechanisms (a) and key-value attention (b). The context vector is denoted with r here.](image-43.png)
+
+We see the difference between previous attention mechanisms (a) and key-value attention (b). The context vector is denoted with r here.
+
+## Transformers
+
+Transformer networks, or _Transformers_ for short, [...]
 
 
 # <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
