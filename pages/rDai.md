@@ -146,6 +146,14 @@ $$
 
 Here $$ \boldsymbol{H} = \left( \boldsymbol{h}(1), ..., \boldsymbol{h}(T) \right) $$ is a matrix with the hidden units as columns, so $$ \boldsymbol{f}_con $$ is the matrix-vector product of attention vector and hidden units.
 
+The Bahdanau et al. model illustrated graphically:
+
+![Bahdanau Model illustrated](image-41.png)
+
+At the attention, level, what is happening? This intensity map ("sample alignments") from the paper illustrates the translation task being treated. Every column is an attention vector.
+
+![Sample alignments from the same paper](image-42.png)
+
 ### Multiplicative and Local Attention
 
 
