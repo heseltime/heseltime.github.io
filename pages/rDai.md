@@ -182,7 +182,21 @@ Luong et al. (2015) also introduce propose _local_ attention (the idea is to not
 
 ### Self-Attention
 
+I defer to Hochreiter and Adler for introducing Self-attention via the LSTM network, proposed in [Cheng et al. (2016)](https://arxiv.org/abs/1601.06733), after citing from the relevant abstrac first:
 
+> In this paper we address the question of how to render sequence-level networks better at handling structured input. We propose a machine reading simulator which processes text incrementally from left to right and performs shallow reasoning with memory and attention. The reader extends the Long Short-Term Memory architecture with a memory network in place of a single memory cell. This enables adaptive memory usage during recurrence with neural attention, offering a way to weakly induce relations among tokens. The system is initially designed to process a single sequence but we also demonstrate how to integrate it with an encoder-decoder architecture. Experiments on language modeling, sentiment analysis, and natural language inference show that our model matches or outperforms the state of the art.
+
+(Cheng et al. (2016))
+
+> So far attention was based on the decoder having access to hidden states of the encoder. Cheng
+et al. (2016) introduced intra-attention or self-attention where an LSTM network has access to its
+own past cell states or hidden states. The idea is that all information about the previous states and
+inputs should be encoded in h(t). Therefore all relations between states should be induced, which
+is achieved by intra-attention or self-attention. Toward this end, Cheng et al. (2016) augment the
+LSTM architecture with a memory for the cell states c and the hidden states (LSTM outputs) h.
+The memory just stores all past cell state vectors c in a matrix C = (c(1), . . . , c(t − 1)) and all
+past hidden state vectors h in a matrix H(t − 1) = (h(1), . . . , h(t − 1)). Now the LSTM has
+direct access to its own past states, where the access mechanism is self-attention.
 
 
 ## Key-Value Attention and Transformers
