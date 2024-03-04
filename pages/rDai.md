@@ -340,6 +340,50 @@ We see the difference between previous attention mechanisms (a) and key-value at
 Transformer networks, or _Transformers_ for short, [...]
 
 
+### Transformers in Wolfram Language (WL)
+
+I almost forgot! Of course, you can [deploy Transformers in WL](https://www.wolfram.com/language/12/neural-network-framework/use-transformer-neural-nets.html?product=mathematica) and load models like GPT and BERT super quickly too.
+
+In fact, this is a great tool to take apart the models and learn about them that way, after you load and run them.
+
+For
+
+```
+
+NetTake[bert, "embedding"]
+
+```
+
+![NetTake[bert, "embedding"] in Mathematica Notebook](image-44.png)
+
+> The transformer architecture then processes the vectors using 12 structurally identical self-attention blocks stacked in a chain. The key part of these blocks is the attention module, constituted of 12 parallel self-attention transformations, a.k.a. "attention heads".
+
+([WL documentation/example](https://www.wolfram.com/language/12/neural-network-framework/use-transformer-neural-nets.html?product=mathematica))
+
+Here is the difference between Bert and GPT via the Mathematica Notebook interface. 
+
+> GTP has a similar architecture as BERT. Its main difference is that it uses a causal self-attention, instead of a plain self-attention architecture. This can be seen by the use of the "Causal" mask in the AttentionLayer.
+
+(Ibid.)
+
+```
+NetExtract[bert, {"encoder", 1, 1, "attention", 1, "attention"}]
+```
+
+![NetExtract[bert, {"encoder", 1, 1, "attention", 1, "attention"}] in Mathematica Notebook](image-45.png)
+
+
+```
+NetExtract[gpt, {"decoder", 1, 1, "attention", 1, "attention"}]
+```
+
+![NetExtract[gpt, {"decoder", 1, 1, "attention", 1, "attention"}]](image-46.png)
+
+Leaving the tool-question at this for the moment, I'll say that looking at these kinds of models' architecture will form a signficant component in my [Masters Thesis (and Practical Component)](#jku-thesis-overview), write-up coming up soon (once I have the execution). 
+
+Thanks for reading!
+
+
 # <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
 
 Repository on [GitHub](https://github.com/heseltime/reinforcement-learning-ubern): for this **Part I** to a look at Deep Learning for Reinforcement Learning (RL), i.e. Deep Reinforcement Learning, I want to review some RL basics, largely following the well-tested [Sutton and Barto text](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), ending on a note about [planning](#smt-for-planning) vs learning and a focus on the foundational Bellman equation.
