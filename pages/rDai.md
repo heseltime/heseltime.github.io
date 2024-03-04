@@ -162,7 +162,15 @@ $$
 
 e_t(i) = \mathbf{h}(t)^\top \mathbf{s}(i) \quad \text{(dot)} 
 
+$$
+
+$$
+
 e_t(i) = \mathbf{h}(t)^\top \mathbf{W} \mathbf{s}(i) \quad \text{(general)}
+
+$$
+
+$$
 
 e_t(i) = \mathbf{v}^\top \tanh(\mathbf{W} [\mathbf{s}(i); \mathbf{h}(t)]) \quad \text{(concat)}
 
@@ -199,6 +207,10 @@ The formulas for calculating $$ \boldsymbol{e}(t) $$ and attention vector $$ \bo
 $$
 
 e_i(t) = \mathbf{v}^\top \tanh(\mathbf{W}_{hh} \mathbf{h}(i) + \mathbf{W}_{xx} \mathbf{x}(t) + \mathbf{W}_{\tilde{h}\tilde{h}} \tilde{\mathbf{h}}(t - 1))
+
+$$
+
+$$
 
 a(t) = \text{softmax}(e(t))
 
