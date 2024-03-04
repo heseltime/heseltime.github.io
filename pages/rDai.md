@@ -161,7 +161,9 @@ At the attention, level, what is happening? This intensity map ("sample alignmen
 $$
 
 e_t(i) = \mathbf{h}(t)^\top \mathbf{s}(i) \quad \text{(dot)} 
+
 e_t(i) = \mathbf{h}(t)^\top \mathbf{W} \mathbf{s}(i) \quad \text{(general)}
+
 e_t(i) = \mathbf{v}^\top \tanh(\mathbf{W} [\mathbf{s}(i); \mathbf{h}(t)]) \quad \text{(concat)}
 
 $$
@@ -192,12 +194,13 @@ I defer to Hochreiter and Adler for introducing Self-attention via the LSTM netw
 
 (Hochreiter and Adler)
 
-The formulas for calculating $$ \boldsymbol{e}(t) $$ and attention vector $$ \boldsymbold{a}(t) $$ over all previous timesteps $$ i = 1, ..., t - 1 $$ are:
+The formulas for calculating $$ \boldsymbol{e}(t) $$ and attention vector $$ \boldsymbol{a}(t) $$ over all previous timesteps $$ i = 1, ..., t - 1 $$ are:
 
 $$
 
-e_i(t) = \mathbf{v}^\top \tanh(\mathbf{W}_{hh} \mathbf{h}(i) + \mathbf{W}_{xx} \mathbf{x}(t) + \mathbf{W}_{\tilde{h}\tilde{h}} \tilde{\mathbf{h}}(t - 1)) \quad (4.22)
-a(t) = \text{softmax}(e(t)) \quad (4.23)
+e_i(t) = \mathbf{v}^\top \tanh(\mathbf{W}_{hh} \mathbf{h}(i) + \mathbf{W}_{xx} \mathbf{x}(t) + \mathbf{W}_{\tilde{h}\tilde{h}} \tilde{\mathbf{h}}(t - 1))
+
+a(t) = \text{softmax}(e(t))
 
 $$
 
