@@ -230,7 +230,7 @@ $$
 
 $$
 
-is the matrix of hidden states up to $$ t - 1 $$. 
+... is the matrix of hidden states up to $$ t - 1 $$. 
 
 The attention vector is also applied to all past cell states $$ \boldsymbol{C} = \left( \boldsymbol{c}(1), ..., \boldsymbol{c}(t - 1) \right) $$:
 
@@ -245,6 +245,32 @@ Once again, to sum up in terms of the formulas for the forward pass:
 $$
 
 \boldsymbol{i}(t) = \sigma \left( \boldsymbol{W}_i^{\top} \boldsymbol{x}(t) + \boldsymbol{R}_i^{\top} \boldsymbol{\tilde{h}}(t) \right)
+
+$$
+
+$$
+
+\boldsymbol{o}(t) = \sigma \left( \boldsymbol{W}_o^{\top} \boldsymbol{x}(t) + \boldsymbol{R}_o^{\top} \boldsymbol{\tilde{h}}(t) \right)
+
+$$
+
+$$
+
+\boldsymbol{z}(t) = \sigma \left( \boldsymbol{W}_z^{\top} \boldsymbol{x}(t) + \boldsymbol{R}_z^{\top} \boldsymbol{\tilde{h}}(t) \right)
+
+$$
+
+$$
+
+\boldsymbol{c}(t) = \boldsymbol{\tilde{c}}(t) + \boldsymbol{i}(t) \odot \boldsymbol{z}(t)
+ 
+$$
+
+Note: $$ \odot $$ signifies the Hademard-product.
+
+$$
+
+\boldsymbol{h}(t) = \boldsymbol{o}(t) \odot tanh(\boldsymbol{c}(t))
 
 $$
 
