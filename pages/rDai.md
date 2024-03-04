@@ -121,7 +121,10 @@ The decoder RNN generates the **output at each time step based on its current hi
 
 The **attention score**, which is crucial for computing the attention vector, is determined by a **feedforward neural network using the previous hidden state of the decoder and the hidden state from the encoder**. This score function is an example of _additive attention_ due to the summation operation inside the tanh function.
 
-> The attention score $$ e_j(i) $$ is in principle an alignment score that determines how well the inputs around position $$ j $$ and the output at position $$ i $$ match. The score function is a feedforward neural network with parameters $$ \boldsymbol{W} $$ and $$ \boldsymbol{U} $$ and inputs $$ \boldsymbol{s}(i − 1) $$ and $$ \boldsymbol{h}(j) $$. This feedforward network is jointly trained with the other RNNs and is:
+> The attention score $$ e_j(i) $$ is in principle an alignment score that determines how well the inputs around position $$ j $$ and the output at position $$ i $$ match. The score function is a feedforward neural network with parameters $$ \boldsymbol{W} $$ and $$ \boldsymbol{U} $$ and inputs $$ \boldsymbol{s}(i − 1) $$ and $$ \boldsymbol{h}(j) $$. 
+
+This feedforward network is jointly trained with the other RNNs and is:
+
 $$
 
 e_j(i) = \mathbf{v}^\top \tanh(\mathbf{W} s(i - 1) + \mathbf{U}h(j))
