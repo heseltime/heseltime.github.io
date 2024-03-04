@@ -276,6 +276,12 @@ $$
 
 LSTM with self-attention is called _Long Short-Term Memory-Network (LSTMN)_.
 
+Self-attention can be applied at the level of sentences, as in (Lin et al. (2017))[https://arxiv.org/abs/1703.03130]. From the abstract:
+
+> This paper proposes a new model for extracting an interpretable sentence embedding by introducing self-attention. Instead of using a vector, we use a 2-D matrix to represent the embedding, with each row of the matrix attending on a different part of the sentence.
+
+The authors use a bidirectional LSTM encoder as in Bahdenau et al. (2014), discussed earlier.
+
 
 ## Key-Value Attention and Transformers
 
