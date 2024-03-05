@@ -19,6 +19,10 @@ The down-side is, applying for outside schools and programs and fellowships/stip
 
 One option was put on the table: I retake the exam in one year, when I am probably still in this Masters, and since this stuff (and I [like it actually](/rDai#lstm)) is central to my degree, try and do it from a place of practice. However, does that place translate to a perfect score? This might not be the case, since the questions are super convoluted and the whole setup ... well, let's say, grades really don't say everything here.
 
+## This Works
+
+I actually did try, and I am not sure I could have tried much harder, so there. I'll take the pass and focus on what I care about.
+
 <nav class="nav">
     <ul class="nav__list">
         <a href="/" class="nav__link">
