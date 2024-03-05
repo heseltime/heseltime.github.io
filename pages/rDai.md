@@ -1232,7 +1232,7 @@ Actually, I already know I am doing my Practical Work Component this semester, s
 
 ![Seminar II in Practice, with Practical Work, no Symbolic AI (Already Done)](image-22.png)
 
-Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II: so, in other words, shooting beyond ideal here, for my target.
+Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II: so, in other words, shooting beyond ideal here, for my target. Computer Algebra is offered this semester; this topics [interests me](/wolfram) but is very optional.
 
 ### Semester III (**Target Final Semester**)/Winter (2024/2025)
 
