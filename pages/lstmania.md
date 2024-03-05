@@ -23,6 +23,11 @@ One option was put on the table: I retake the exam in one year, when I am probab
 
 I actually did try, and I am not sure I could have tried much harder, so there. I'll take the pass and focus on what I care about.
 
+## Really Fundamental
+
+It's about attitutude and priorities fundamentally: good scores vs impact is where I see my choice, see [rX](/notes) - this marks a shift in my academic outlook, as I come back to if full time (so to speak).
+
+
 <nav class="nav">
     <ul class="nav__list">
         <a href="/" class="nav__link">
