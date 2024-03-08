@@ -17,7 +17,15 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
 
 # Software Engineering Full Curriculum (Bachelor's of Science '24) #
 
-Fifth semester starts in fall 2023, sixth semester is all about practice and in the field; limited course work in that time - spring 2024.
+## sixth semester
+
+_This semester also credits for practical, internship-type work, which I am completing with Wolfram Research, [as part of my consulting work with the company.](/wolfram) Will include a short write-up as well: I will link it when I have it, maybe with production code samples and analysis if I can get permissions, on the topic of using WL for Software Engineering._
+
+- Lecture + Exercise: Software Development with Enterprise Technologies (Java-Stack focus, see .NET last semester)
+- Combined Lecture & Exercise: Current Trends in Web Technologies (Blockchain, NFTs, ... all the good stuff)
+- Study Project in C# with Industry Partner in Hagenberg ([ventopay](https://www.linkedin.com/company/ventopay-gmbh)) - Part II
+- Lecture + Exercise: Distributed and Parallel Systems
+- Lecture: Information Management 
 
 ## fifth semester
 
@@ -26,7 +34,7 @@ Fifth semester starts in fall 2023, sixth semester is all about practice and in 
 - Lecture + Exercise: Virtualization Tooling (Docker focus)
 - Lecture + Exercise: ~~Mobile Computing~~ Advanced Python, [credited from work over at JKU](/rDai#housekeeping) - sometimes you have to focus, in my case [AI-oriented work](/rDai) at this time.
 - Lecture: IT Law (Austria/EU focus, but the concepts travel)
-- Study Project in C# with Industry Partner in Hagenberg ([ventopay](https://www.linkedin.com/company/ventopay-gmbh))
+- Study Project in C# with Industry Partner in Hagenberg ([ventopay](https://www.linkedin.com/company/ventopay-gmbh)) - Part I
 - Thesis (see above) + Thesis Seminar
 
 ## fourth semester
