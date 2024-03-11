@@ -32,7 +32,7 @@ _This semester also credits for practical, internship-type work, which I am comp
 - Lecture + Exercise: Component-Oriented Software Engineering (C# and .NET)
 - Lecture + Exercise: Web-Architectures and Frameworks (Angular focus)
 - Lecture + Exercise: Virtualization Tooling (Docker focus)
-- Lecture + Exercise: ~~Mobile Computing~~ Advanced Python, [credited from work over at JKU](/rDai#housekeeping) - sometimes you have to focus, in my case [AI-oriented work](/rDai) at this time.
+- Lecture + Exercise: ~~Mobile Computing~~ Advanced Python, [credited from work over at JKU](/rDai#housekeeping) - sometimes you have to focus, in my case [AI-oriented work](/rDai) at this time. I played around with Swift as part of [my Bachelor-level prep, in AI _and CS_](/rDai#housekeeping), for my AI-Masters at JKU, as far as mobile goes - this course would have been in Kotlin. It's the one course from the full curriculum I did not do.
 - Lecture: IT Law (Austria/EU focus, but the concepts travel)
 - Study Project in C# with Industry Partner in Hagenberg ([ventopay](https://www.linkedin.com/company/ventopay-gmbh)) - Part I
 - Thesis (see above) + Thesis Seminar
