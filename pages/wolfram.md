@@ -39,7 +39,7 @@ I really like this overview:
 
 </div> 
 
-![Symbolic Computation according to RISC](Screenshot_2024-03-19_at_10.20.48.png)
+![Symbolic Computation according to RISC](assets/img/Screenshot_2024-03-19_at_10.20.48.png)
 
 [From RISC](https://risc.jku.at/studying-symbolic-computation/) - situating Computer Algebra somewhat, defining the field for themselves along the way:
 
@@ -86,7 +86,7 @@ Plot[MaxPizzaSlices[n], {n, 0, 10},
 
 Visualization results:
 
-![Table and Plot for n-Pizza-Cutting Problem](Screenshot_2024-03-19_at_11.00.10.png)
+![Table and Plot for n-Pizza-Cutting Problem](assets/img/Screenshot_2024-03-19_at_11.00.10.png)
 
 The number of slices grow pretty much exponentially with n cuts and their exact number is expressed by the formula $ n^2/2 + n/2 + 1 $ which is just ... really neat.
 
