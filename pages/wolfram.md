@@ -35,9 +35,13 @@ Let's see if I can detail some work projects in the future, but for now, here ar
 
 <div id="computer-algebra">
 
-I really like this overview [from RISC](https://risc.jku.at/studying-symbolic-computation/) situation Computer Algebra somewhat, and putting up the definition below.
+I really like this overview:
+
+</div> 
 
 ![Symbolic Computation according to RISC](Screenshot 2024-03-19 at 10.20.48.png)
+
+[From RISC](https://risc.jku.at/studying-symbolic-computation/) - situating Computer Algebra somewhat, defining the field for themselves along the way:
 
 > We design and implement algorithms that operate on algebraic expressions; typical application areas are e.g. (algebraic) geometry and (algorithmic) combinatorics.
 
@@ -45,7 +49,7 @@ In practice, which is what I will call those couple of exercises in the subject 
 
 As an example I picked up and expressed in a Wolfram Language setup, take the following Pizza Cutting Problem: **How to slice a pizze with n straight cuts so as to maximize the number of slices: how many slices, in terms of n, do you get?** Here is the problem worked and actually solved with Mathematica, using [RSolve](https://reference.wolfram.com/language/ref/RSolve.html) (Solves a recurrence equation!) and [Simplify](https://reference.wolfram.com/language/ref/Simplify.html) mainly:
 
-```
+$$
 In[1]:= (*Recursive relation*)
 Clear[MaxSlices]
 MaxSlices[0] = 1;
@@ -54,19 +58,19 @@ MaxSlices[n_] := MaxSlices[n - 1] + n
 (*Find the closed-form expression*)
 rsolve = RSolve[{s[n] == s[n - 1] + n, s[0] == 1}, s[n], n]
 simplified = Simplify[rsolve]
-```
+$$
 
 The results:
 
-```
+$$
 Out[4]= {{s[n] -> 1/2 (2 + n + n^2)}}
 
 Out[5]= {{s[n] -> 1/2 (2 + n + n^2)}}
-```
+$$
 
 Code to visualize:
 
-```
+$$
 MaxPizzaSlices[n_] := n^2/2 + n/2 + 1
 
 (*Display a table of values*)
@@ -78,7 +82,7 @@ TableForm[slicesTable,
 Plot[MaxPizzaSlices[n], {n, 0, 10}, 
  AxesLabel -> {"Number of Cuts", "Max Number of Slices"}, 
  PlotStyle -> Red]
-```
+$$
 
 Visualization results:
 
