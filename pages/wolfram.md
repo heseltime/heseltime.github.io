@@ -95,7 +95,9 @@ Visualization results:
 
 Though these kind of problems are fun and get to have serious applications too, I am sure and I know, for example in (quantum, e.g.) physics, I abandoned this extracurricular exercise class somewhat, perhaps for revisiting sometime in the future, to focus on the [thesis project](#theorema-et-al) and consulting work for Wolfram Research, detailed on this page.
 
-_A note on Math Software:_ Somehow, this is what my thesis project is about to me, and I think this aligns with what is being done at RISC - using WL as a language to express Math in software. To me right now, this turns on how math objects, expressions, are represented in WL. I contrast this with the Object Oriented (OO) paradigm, fields and methods and so on, where the functional aspect of a Math expression justifies the "symbolic" expression structure $ Function[FunctionalObject[SymbolicExpression[AllTheSame[]]]] $ - evaluation is structure here, data structure is function. This gets into the Functional paradigm. [See below](#theorema-et-al) for the bridging work I am interested in, in this paradigms sense.
+_A note on Math Software:_ Somehow, this is what my thesis project is about to me, and I think this aligns with what is being done at RISC - using WL as a language to express Math in software. To me right now, this turns on how math objects, expressions, are represented in WL. I contrast this with the Object Oriented (OO) paradigm, fields and methods and so on, where the functional aspect of a Math expression justifies the "symbolic" expression structure $ Function[FunctionalObject[SymbolicExpression[AllTheSame[]]]] $ - evaluation is structure here, data structure is function. This gets into the Functional paradigm. 
+
+[See below](#theorema-et-al) for the bridging work I am interested in, in this paradigms sense.
 
 
 ### Automated Reasoning
