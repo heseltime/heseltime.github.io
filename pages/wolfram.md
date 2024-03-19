@@ -35,7 +35,58 @@ Let's see if I can detail some work projects in the future, but for now, here ar
 
 <div id="computer-algebra">
 
-Details to follow.
+I really like this overview [from RISC](https://risc.jku.at/studying-symbolic-computation/) situation Computer Algebra somewhat, and putting up the definition below.
+
+![Symbolic Computation according to RISC](Screenshot 2024-03-19 at 10.20.48.png)
+
+> We design and implement algorithms that operate on algebraic expressions; typical application areas are e.g. (algebraic) geometry and (algorithmic) combinatorics.
+
+In practice, which is what I will call those couple of exercises in the subject I visited in the spring of 2024 with RISC, as I was finishing my Software Engineering thesis work as well (which I would situate in Math Software in the Venn diagram above), I got to study with a researcher focussing on sums, and how those can be expressed recursively or algebraically manipulated and used to prove certain problems in their new form. 
+
+As an example I picked up and expressed in a Wolfram Language setup, take the following Pizza Cutting Problem: **How to slice a pizze with n straight cuts so as to maximize the number of slices: how many slices, in terms of n, do you get?** Here is the problem worked and actually solved with Mathematica, using [RSolve](https://reference.wolfram.com/language/ref/RSolve.html) (Solves a recurrence equation!) and [Simplify](https://reference.wolfram.com/language/ref/Simplify.html) mainly:
+
+```
+In[1]:= (*Recursive relation*)
+Clear[MaxSlices]
+MaxSlices[0] = 1;
+MaxSlices[n_] := MaxSlices[n - 1] + n
+
+(*Find the closed-form expression*)
+rsolve = RSolve[{s[n] == s[n - 1] + n, s[0] == 1}, s[n], n]
+simplified = Simplify[rsolve]
+```
+
+The results:
+
+```
+Out[4]= {{s[n] -> 1/2 (2 + n + n^2)}}
+
+Out[5]= {{s[n] -> 1/2 (2 + n + n^2)}}
+```
+
+Code to visualize:
+
+```
+MaxPizzaSlices[n_] := n^2/2 + n/2 + 1
+
+(*Display a table of values*)
+slicesTable = Table[{n, MaxPizzaSlices[n]}, {n, 0, 10}]
+TableForm[slicesTable, 
+ TableHeadings -> {None, {"Number of Cuts", "Max Number of Slices"}}]
+
+(*Plot the function*)
+Plot[MaxPizzaSlices[n], {n, 0, 10}, 
+ AxesLabel -> {"Number of Cuts", "Max Number of Slices"}, 
+ PlotStyle -> Red]
+```
+
+Visualization results:
+
+![Table and Plot for n-Pizza-Cutting Problem](Screenshot 2024-03-19 at 11.00.10.png)
+
+The number of slices grow pretty much exponentially with n cuts and their exact number is expressed by the formula $ n^2/2 + n/2 + 1 $ which is just ... really neat.
+
+Though these kind of problems are fun and get to have serious applications too, I am sure and I know, for example in (quantum, e.g.) physics, I abandoned this exercise class somewhat, perhaps for revisiting sometime in the future, to focus on the [thesis project](/rDse) and consulting work for Wolfram Research, detailed on this page.
 
 </div>
 
