@@ -91,7 +91,7 @@ Visualization results:
 
 ![Table and Plot for n-Pizza-Cutting Problem](assets/img/Screenshot_2024-03-19_at_11.00.10.png)
 
-The number of slices grow pretty much exponentially with n cuts and their exact number is expressed by the formula $ n^2/2 + n/2 + 1 $ which is just ... really neat.
+**The number of slices grow pretty much exponentially with n cuts and their exact number is expressed by the formula $ n^2/2 + n/2 + 1 $** which is just ... really neat.
 
 Though these kind of problems are fun and get to have serious applications too, I am sure and I know, for example in (quantum, e.g.) physics, I abandoned this exercise class somewhat, perhaps for revisiting sometime in the future, to focus on the [thesis project](#theorema-et-al) and consulting work for Wolfram Research, detailed on this page.
 
