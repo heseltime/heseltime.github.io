@@ -43,7 +43,7 @@ Plugging this into WL, you get a wrapper tool with symbolic and all kinds of und
 
 <div id="computer-algebra">
 
-I really like this overview:
+But what about Computer Algebra? (Where WL can be considered a Computer Algebra tool.) I really like this overview:
 
 </div> 
 
