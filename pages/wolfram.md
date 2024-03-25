@@ -35,7 +35,7 @@ In[1] net = NetChain[{ElementwiseLayer[Ramp], SummationLayer[]}]
 
 ![Neural Net as a Function](image-50.png)
 
-Plugging this into WL, you get a wrapper tool with symbolic and all kinds of under-the-hood capabilites (like cloud connectivity!) that gives Machine Learning a unique twist.
+Plugging this into WL, you get a wrapper tool with symbolic and all kinds of under-the-hood capabilites (like cloud connectivity!) that give Machine Learning a unique twist.
 
 ## Academic In-Roads
 
@@ -43,7 +43,7 @@ Plugging this into WL, you get a wrapper tool with symbolic and all kinds of und
 
 <div id="computer-algebra">
 
-But what about Computer Algebra? (Where WL can be considered a Computer Algebra tool.) I really like this overview:
+<p>But what about Computer Algebra? (Where WL can be considered a Computer Algebra tool.) I really like this overview:</p>
 
 </div> 
 
