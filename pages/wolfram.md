@@ -27,7 +27,15 @@ But it is more interesting than what you can see at first glance (I would say, a
 
 ![Payload and Result](image-3.png)
 
-Let's see if I can detail some work projects in the future, but for now, here are some academic connections I make to this work, especially the Wolfram Language, i.e. Symbolic side, from [my grad studies, especially](/rDai).
+Let's see if I can detail some work projects in the future, but for now, here are some academic connections I make to this work, especially the Wolfram Language, i.e. Symbolic side, from [my grad studies, especially](/rDai): in a sense, I think it comes down to treating a neural-net-based object, be it an LLM or a simpler model without language, as a symbolic expression:
+
+```
+In[1] net = NetChain[{ElementwiseLayer[Ramp], SummationLayer[]}]
+```
+
+![Neural Net as a Function](image-50.png)
+
+Plugging this into WL, you get a wrapper tool with symbolic and all kinds of under-the-hood capabilites (like cloud connectivity!) that gives Machine Learning a unique twist.
 
 ## Academic In-Roads
 
