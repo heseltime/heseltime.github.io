@@ -1232,7 +1232,7 @@ Actually, I already know I am doing my Practical Work Component this semester, s
 
 ![Seminar II in Practice, with Practical Work, no Symbolic AI (Already Done)](image-22.png)
 
-Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II: so, in other words, shooting beyond ideal here, for my target. Computer Algebra is offered this semester; this topics [interests me](/wolfram) but is very optional.
+Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II: so, in other words, shooting beyond ideal here, for my target. Computer Algebra is offered this semester; this topic [interests me](/wolfram) but is very optional.
 
 ### Semester III (**Target Final Semester**)/Winter (2024/2025)
 
@@ -1342,7 +1342,7 @@ Very related to the EU Context: The <a href="https://fep-fee.eu/IMG/pdf/20210629
 
 ### Further Notes
 
-This could be a real world application too, clearly, since the basic functionality can be distributed by API with customization and standard software modules, as might be done for practical thesis work, on top: This idea also provides a clear delineation between data-oriented service (transformation to barrier free documents) and a module that would be implemented for a company in practical work, with loss of rights to such a module.
+This could be a real world application too, clearly, since the basic functionality can be distributexd by API with customization and standard software modules, as might be done for practical thesis work, on top: This idea also provides a clear delineation between data-oriented service (transformation to barrier free documents) and a module that would be implemented for a company in practical work, with loss of rights to such a module.
 
 # Planning (2023 Project)
 
