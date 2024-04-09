@@ -19,6 +19,12 @@ This is the [product](https://www.wolframcloud.com/) I work on now:
 
 But it is more interesting than what you can see at first glance (I would say, as backend developer) and more than just an extension of Desktop Mathematica, if you know it: it is about the interplay of Wolfam Language and Java, about symbolic computation and web servers, enabling all those nifty http-travels under the hood of a simple Wolfram Language execution.
 
+## Wolfram Cloud
+
+Let's go a bit deeper: [Here is a Wolfram U recorded public presentation given by past colleague on the Cloud Project](https://www.wolfram.com/broadcast/video.php?c=105&p=8&v=3090), going into some technical details, and also usage of the available Cloud functionality in Wolfram Language (WL). It's all about the notion of a CloudObject, the extended concepts and functionality that lead to Mathematica users being able to deploy expressions to the cloud and doing things with them there. Check out the 15-min mark for how to connect to the cloud right from a notebook and the intro to these concepts ("What is a Cloud Directory?").
+
+Shout out to Joel for [the slides he worked on too, used in the presentation linked above! (PDF-version without notebook functionality)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.pdf) [Mathematica Notebook Version (recommended)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.nb).
+
 ### [WolframGPT](https://www.wolfram.com/wolfram-plugin-chatgpt/) ...
 
 ... talks to Wolfram Cloud too, which is of particular interest to me, from a studies-marriage-to-work point of view.
