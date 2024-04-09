@@ -25,7 +25,7 @@ Let's go a bit deeper: [Here is a Wolfram U recorded public presentation given b
 
 **Use this tooling for your own projects!**
 
-[![Wolfram U Course](assets/img/Screenshot 2024-04-09 at 17.58.51.png)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.pdf))
+[![Wolfram U Course](assets/img/Screenshot 2024-04-09 at 17.58.51.png)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.pdf)
 
 Shout out to Joel for [the slides he worked on too, used in the presentation linked above! (PDF-version without notebook functionality)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.pdf) 
 
@@ -56,6 +56,8 @@ form = CloudPublish[
   "contact"
   ]
 ```
+
+This specifies a form object at a particular URL.
 
 ![Make a form to incorporate into a WL function just like that](assets/img/Screenshot 2024-04-09 at 18.06.43.png)
 
