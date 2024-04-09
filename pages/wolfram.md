@@ -13,7 +13,7 @@ My Masters curriculum actually contains significant components from symbolic com
 
 ## Cloud Project
 
-This is the [product](https://www.wolframcloud.com/) I work on now:
+This is the frontend for the [product](https://www.wolframcloud.com/) I work on:
 
 ![Wolfram Cloud](image-1.png)
 
@@ -25,9 +25,39 @@ Let's go a bit deeper: [Here is a Wolfram U recorded public presentation given b
 
 **Use this tooling for your own projects!**
 
-![Wolfram U Course](assets/img/Screenshot 2024-04-09 at 17.58.51.png)
+[![Wolfram U Course](assets/img/Screenshot 2024-04-09 at 17.58.51.png)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.pdf))
 
-Shout out to Joel for [the slides he worked on too, used in the presentation linked above! (PDF-version without notebook functionality)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.pdf) [Mathematica Notebook Version (recommended)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.nb).
+Shout out to Joel for [the slides he worked on too, used in the presentation linked above! (PDF-version without notebook functionality)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.pdf) 
+
+[Mathematica Notebook Version (recommended)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.nb).
+
+I'd say the most important functionality in the cloud, to get started, is:
+
+```
+CloudPut[]
+FormFunction[] (* see example below *)
+APIFunction[]
+```
+
+Here is a concrete example, for a WL-form to send an email and a response message. The form is an expression, like everything else in WL; we store it to the variable `form`.
+
+```
+form = CloudPublish[
+  FormFunction[{"Name" -> String, "Email" -> "EmailAddress"},
+   (
+     SendMail[{
+       "Subject" -> "New Music Survey Subscriber: " <> #Name,
+       "Body" -> StringTemplate["Name:``\nEmail:``"][#Name, #Email]
+       }];
+     
+     "Thank you for your subscription!"
+     ) &
+   ],
+  "contact"
+  ]
+```
+
+![Make a form to incorporate into a WL function just like that](assets/img/Screenshot 2024-04-09 at 18.06.43.png)
 
 ### [WolframGPT](https://www.wolfram.com/wolfram-plugin-chatgpt/) ...
 
