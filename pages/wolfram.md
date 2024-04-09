@@ -27,9 +27,9 @@ Let's go a bit deeper: [Here is a Wolfram U recorded public presentation given b
 
 [![Wolfram U Course](assets/img/Screenshot 2024-04-09 at 17.58.51.png)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.pdf)
 
-Shout out to Joel for [the slides he worked on too, used in the presentation linked above! (PDF-version without notebook functionality)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.pdf) 
+Shout out to Joel for [the slides he worked on too, used in the presentation linked above! (This is the PDF-version without notebook functionality)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.pdf) 
 
-[Mathematica Notebook Version (recommended)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.nb).
+[Here is the Mathematica Notebook Version for download (recommended)](../assets/pdf/BuildingApplicationsWithTheWolframCloud.nb).
 
 I'd say the most important functionality in the cloud, to get started, is:
 
