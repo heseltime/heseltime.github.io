@@ -21,7 +21,7 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
 
 _This semester also credits for practical, internship-type work, which I am completing with Wolfram Research, [as part of my consulting work with the company.](/wolfram) Will include a short write-up as well: I will link it when I have it, maybe with production code samples and analysis if I can get permissions, on the topic of using WL for Software Engineering._
 
-- Lecture + Exercise: Software Development with Enterprise Technologies (Java-Stack focus, see .NET last semester)
+- Lecture + Exercise: Software Development with Enterprise Technologies: Java-Stack focus initially, covering Modules (JPMS) and Build Systems (Maven and Gradle), ORM (JPA and Hibernate), Spring (Boot), but also Entity Framework - see .NET last semester.
 - Combined Lecture & Exercise: Current Trends in Web Technologies (Blockchain, NFTs, ... all the good stuff)
 - Study Project in C# with Industry Partner in Hagenberg ([ventopay](https://www.linkedin.com/company/ventopay-gmbh)) - Part II
 - Lecture + Exercise: Distributed and Parallel Systems
