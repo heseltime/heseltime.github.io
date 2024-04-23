@@ -154,11 +154,11 @@ _A note on Math Software:_ Somehow, this is what my thesis project is about to m
 
 <div id="automated-reasoning">
 
-Details to follow, asap, promise.
+Details to follow, asap, promise!
 
 </div>
 
-[My Master's degree housekeeping notes](/rDai#housekeeping) shows how the course is part of the (Symbolic Track) AI course at JKU, and from here, I would love integrate some of the really nice Math courses availablea the university, and using Mathematica for myself, into my studies, as time permits.
+[My Master's degree housekeeping notes](/rDai#housekeeping) shows how the course is part of the (Symbolic Track) AI course at JKU, and from here, I would love to integrate some of the really nice Math courses availablea the university, and using Mathematica for myself, into my studies, as time permits.
 
 
 ### Theorema and More
