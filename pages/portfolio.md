@@ -19,10 +19,20 @@ Not as visual, but certainly useful (ties in with my [grad thesis](/rDai#jku-the
 
 [Ventopay](https://ventopay.com/) does full-service cantine systems targeting the DACH market: their flagship [mocca](https://ventopay.com/bargeldloses-zahlungssystem-mocca/mocca-software/) software became the platform for a ten-person student project in close partnership between [Hagenberg Campus](https://www.fh-ooe.at/campus-hagenberg/) and the company. Tasked with developing the status and notifcation system, I took on a hybrid role of product owner (PO)/developer, implementing the traffic light style overview page for example, but also going in type loops between team and company to provide effective POing.
 
-## Screengrabs
+## Screengrabs Iteration II (Spring '24)
+
+The final project iteration was delivered on time, documented and evaluated (against ventopay's own review guidelines) in spring and further to this group's (ca. 10 members) graduation requirements in the [Software Engineering course in Hagenberg](/rDse). In a traditional Austrian manner, the finalized project was celebrated on-site in the countryside ([Mühlviertel](https://en.wikipedia.org/wiki/M%C3%BChlviertel)) to some beers.
+
+<img src="../assets/img/Screenshot 2024-04-27 093139.png" alt="mocca screengrab 1" class="xxx-large" />
+<img src="../assets/img/Screenshot 2024-04-27 093150.png" alt="mocca screengrab 2" class="xxx-large" />
+<img src="../assets/img/Screenshot 2024-04-27 110830.png" alt="mocca screengrab 3" class="xxx-large" />
+<img src="../assets/img/Screenshot 2024-04-27 110853.png" alt="mocca screengrab 4" class="xxx-large" />
+<img src="../assets/img/Screenshot 2024-04-27 110921.png" alt="mocca screengrab 5" class="xxx-large" />
+
+## Screengrabs Iteration I (Fall '23)
 
 <div id="ventopay-screenshots">
-    <img src="../assets/img/Screenshot 2024-01-20 144337.png" alt="mocca screengrab 2" class="xxx-large" /><img src="../assets/img/Screenshot 2024-01-20 144337.png" alt="mocca screengrab 2" class="xx-large" />
+    <img src="../assets/img/Screenshot 2024-01-20 144337.png" alt="mocca screengrab 2" class="xxx-large" />
     <img src="../assets/img/Screenshot 2024-01-20 144320.png" alt="mocca screengrab 1" class="xxx-large" />
     <img src="../assets/img/Screenshot 2024-01-20 144348.png" alt="mocca screengrab 3" class="xxx-large" />
 </div>
