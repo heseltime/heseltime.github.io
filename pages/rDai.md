@@ -40,7 +40,7 @@ feedformat: none
 
 _These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and their application too are taking center-stage for now, as my Masters contribution to the Zeitgeist._
 
-# <a name="jku-pres"></a> Replika
+# <a name="jku-pres"></a>Course Presentation/AI Product Analysis: Replika
 
 Short **course-presentation abotu the AI companion app** in its current iteration. Includes use case study with persona and AI product improvement, embedded in a critical analysis. I am sure we will see more products along this trend.
 
@@ -1322,7 +1322,7 @@ Very related to the EU Context: The <a href="https://fep-fee.eu/IMG/pdf/20210629
 
 </div>
 
-## Seminar: Language Models are Few-Shot Learners
+## Seminar Presentation: Language Models are Few-Shot Learners
 
 <div id="jku-sem">
 
