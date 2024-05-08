@@ -17,6 +17,10 @@ feedformat: none
             <p><a href="#rl-1">Part I: Q-learning Algorithm Implementation for a Grid World Environment</a></p>
         </li>
         <li>
+            <h3>Presentation: <a href="#jku-pres">Replika</a></h3>
+            <p><b>Course-presentation abotu the AI companion app</b> in its current iteration. Includes use case study with persona and AI product improvement.</p>
+        </li>
+        <li>
             <h3><a href="#attn"><b>Attention</b> via LSTM, the Transformer-Connection</a></h3>
             <p>LSTM's <i>Temporal</i> Attention as the way into this topic: why process all input, when only some parts are relevant? I want to end on the simplifications Transformers make, while focusing on Attention for seq2seq, i.e. Sequence-to-Sequence models. </p>
             <p>(End-of-story? <a href="https://www.nx-ai.com/">We'll see, maybe in Linz!</a>)</p>
@@ -35,6 +39,12 @@ feedformat: none
 </div>
 
 _These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and their application too are taking center-stage for now, as my Masters contribution to the Zeitgeist._
+
+# <a name="jku-pres"></a> Replika
+
+Short **course-presentation abotu the AI companion app** in its current iteration. Includes use case study with persona and AI product improvement, embedded in a critical analysis. I am sure we will see more products along this trend.
+
+[![My replika with test screenshots](image-51.png)](..\assets\pdf\KVRobopsychologySS24_grouptask_group2_8-final.pdf)
 
 # <a name="attn"></a> Attention via LSTM, the Transformer-Connection
 
