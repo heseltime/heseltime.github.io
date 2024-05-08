@@ -46,6 +46,8 @@ Short **course-presentation abotu the AI companion app** in its current iteratio
 
 [![My replika with test screenshots](image-51.png)](..\assets\pdf\KVRobopsychologySS24_grouptask_group2_8-final.pdf)
 
+This was a JKU group work.
+
 # <a name="attn"></a> Attention via LSTM, the Transformer-Connection
 
 [Andrej Karpathy](https://karpathy.github.io/) was not the first to point out: 
