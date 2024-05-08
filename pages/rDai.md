@@ -46,7 +46,7 @@ Short **course-presentation abotu the AI companion app** in its current iteratio
 
 [![My replika with test screenshots](image-51.png)](..\assets\pdf\KVRobopsychologySS24_grouptask_group2_8-final.pdf)
 
-This was a JKU group work.
+This was a JKU group work. Presentation delivered in May 2024.
 
 # <a name="attn"></a> Attention via LSTM, the Transformer-Connection
 
