@@ -133,7 +133,7 @@ As far as the algorithm goes, the training loop for DQN minimizes the Temporal D
   - **While not done do:**
     - **With probability $\epsilon$ select random action $a_t$**
     - **Otherwise select:** a_t = $argmax_a Q(s_t, a; \Theta)$
-    - $s_{t+1}, r_t, d_t, _$ = `env.step(at)`
+    - $s_{t+1}, r_t, d_t, \_$ = `env.step(at)`
     - **Store transition:** $(s_t, a_t, r_t, s_{t+1}, d_t)$ in $B$
     - **Sample random batch from memory $B$:** $(s_j, a_j, r_j, s_{j+1}, d_j)$
     - **Targets:**
