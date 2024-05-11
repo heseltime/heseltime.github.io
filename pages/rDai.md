@@ -121,17 +121,17 @@ As far as the algorithm goes, the training loop for DQN minimizes the Temporal D
 
 ### DQN Algorithm Pseudocode
 
-- **Initialize Replay Memory B with Capacity M**
-- **Initialize Q function with network θ**
-- **Initialize Q target function with network θ′**
+- **Initialize Replay Memory $B$ with Capacity $M$**
+- **Initialize Q function with network $\Theta$**
+- **Initialize Q target function with network $\Theta^'$***
 - **Initialize environment:** `env = env.make("name_of_env")`
 - **Add preprocessing wrappers:** `env = wrap(env)`
-- **Initialize exploration factor ϵ, learning rate α, batch size m, discount factor γ, other hyperparameters**
+- **Initialize exploration factor $\epsilon$, learning rate $\alpha$, batch size $m$, discount factor $\gamma$, other hyperparameters**
 
 - **For episode = 1 to N do:**
   - `st = env.reset()`
   - **While not done do:**
-    - **With probability ϵ select random action at**
+    - **With probability $\epsilon$ select random action at**
     - **Otherwise select:** `at = argmaxaQ(st, a; θ)`
     - `st+1, rt, dt, _ = env.step(at)`
     - **Store transition:** `(st, at, rt, st+1, dt) in B`
@@ -143,9 +143,9 @@ As far as the algorithm goes, the training loop for DQN minimizes the Temporal D
           rj + γ · maxa Q(sj+1, a; θ′) for non terminal sj+1
       ```
     - **Loss:** `L(θ) = (yj − Q(sj, aj; θ))^2`
-    - **Update θ:** `θ ← θ − α · ∇L(θ)`
+    - **Update $\Theta$:** `θ ← θ − α · ∇L(θ)`
     - **End while**
-  - **Update target network θ′:** `θ′ = τ · θ + (1− τ) · θ′`
+  - **Update target network $\Theta^'$:** `θ′ = τ · θ + (1− τ) · θ′`
 - **End for**
 
 ## The Challenge
