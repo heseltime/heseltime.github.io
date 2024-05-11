@@ -66,7 +66,7 @@ In a formula:
 
 $$
 
-V_{\pi}(s) = E_{\pi} \left[ R_t | s_t = s \right] = E_{\pi} \left[ \sigma_{k=0}^{\inf} \gamma^k r_{t+k+1} | s_t = s \right]
+V_{\pi}(s) = E_{\pi} \left[ R_t | s_t = s \right] = E_{\pi} \left[ \Sigma_{k=0}^{\infty} \gamma^k r_{t+k+1} | s_t = s \right]
 
 $$
 
