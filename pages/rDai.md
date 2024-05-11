@@ -12,7 +12,7 @@ feedformat: none
     <ul>
         <li>
             <h3>Reinforcement Learning Goes Deep</h3>
-            <p>Part II Coming Soon.</p>
+            <p>Part II: Deep Q-Network (DQN) for MiniGrid, with a recap of the relevant basics, and challenge code.</p>
             <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
             <p><a href="#rl-1">Part I: Q-learning Algorithm Implementation for a Grid World Environment</a></p>
         </li>
@@ -39,6 +39,24 @@ feedformat: none
 </div>
 
 _These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here botuin Linz, where however LLMs and their application too are taking center-stage for now, as my Masters contribution to the Zeitgeist._
+
+# <a name="rl-2"></a>Reinforcement Learning Goes Deep
+
+Now for a short, project-oriented piece on Deep Reinforcement Learning, building mainly on challenge 2 of 3 in the exercise portion for [JKU's Deep Reinforcement course](https://studienhandbuch.jku.at/118185) - 10/10, would-recommend. I'll also point to my [Part I](#reinforcement-learning-goes-deep-part-i-q-learning-algorithm-implementation-for-a-grid-world-environment), Reinforcement Learning without the Depth.
+
+![Minigrid example](/assets/img/DoorKeyEnv.gif)
+
+The subject of the task is [Minigrid](https://minigrid.farama.org/environments/minigrid/DoorKeyEnv/).
+
+## Recap of the Basics
+
+Through the lens of a mini-grid challenge.
+
+**Value-Function**: ...
+
+## The Challenge
+
+## The Approach (with Code)
 
 # <a name="jku-pres"></a>Course Presentation/AI Product Analysis: Replika
 
