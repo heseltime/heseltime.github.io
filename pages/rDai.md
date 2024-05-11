@@ -19,7 +19,7 @@ feedformat: none
         </li>
         <li>
             <h3>Presentation: <a href="#jku-pres">Replika</a></h3>
-            <p><b>Course-presentation abotu the AI companion app</b> in its current iteration. Includes use case study with persona and AI product improvement.</p>
+            <p><b>Course-presentation about the AI companion app</b> in its current iteration. Includes use case study with persona and AI product improvement.</p>
         </li>
         <li>
             <h3><a href="#attn"><b>Attention</b> via LSTM, the Transformer-Connection</a></h3>
@@ -126,8 +126,7 @@ As far as the algorithm goes, the training loop for DQN minimizes the Temporal D
 - **Initialize Q target function with network $\Theta^{'}$**
 - **Initialize environment:** `env = env.make("name_of_env")`
 - **Add preprocessing wrappers:** `env = wrap(env)`
-- **Initialize exploration factor $\epsilon$, learning rate $\alpha$, batch size $m$, discount factor $\gamma$, other hyperparameters**
-
+- **Initialize more**: exploration factor $\epsilon$, learning rate $\alpha$, batch size $m$, discount factor $\gamma$, any other hyperparameters.
 - **For $episode = 1$ to $N$ do:**
   - `st = env.reset()`
   - **While not done do:**
@@ -139,8 +138,8 @@ As far as the algorithm goes, the training loop for DQN minimizes the Temporal D
     - **Targets:**
         $$
         y_j = \begin{cases} 
-          r_j \text{for terminal }s_{j+1} \\
-          r_j + \gamma \cdot max a Q(s_{j+1}, a; \Theta^{'}) \text{for non terminal }s_{j+1}
+          r_j \text{ for terminal }s_{j+1} \\
+          r_j + \gamma \cdot max a Q(s_{j+1}, a; \Theta^{'}) \text{ for non-terminal }s_{j+1}
           \end{cases}
         $$
     - **Loss:** $L(\Theta) = (y_j − Q(s_j, a_j; \Theta))^2$
@@ -150,6 +149,8 @@ As far as the algorithm goes, the training loop for DQN minimizes the Temporal D
   - **End for**
 
 ## The Challenge
+
+
 
 ## The Approach (with Code)
 
