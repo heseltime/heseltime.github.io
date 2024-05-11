@@ -12,8 +12,8 @@ feedformat: none
     <ul>
         <li>
             <img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" />
-            <h3>Reinforcement Learning Goes Deep</h3>
-            <p><a href="#rl-2">Part II: Deep Q-Network (DQN) for MiniGrid</a>, with a recap of the relevant basics, and challenge code.</p>
+            <h3><a href="#rl-2">Reinforcement Learning Goes Deep</a> (Part II)</h3>
+            <p><b>Part II covers Deep Q-Network (DQN) for MiniGrid</b>, with a recap of the relevant basics, and challenge code.</p>
             <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
             <p><a href="#rl-1">Part I: Q-learning Algorithm Implementation for a Grid World Environment</a></p>
         </li>
