@@ -70,9 +70,29 @@ V_{\pi}(s) = E_{\pi} \left[ R_t | s_t = s \right] = E_{\pi} \left[ \Sigma_{k=0}^
 
 $$
 
-The return is the sum of our future rewards.
+The return is the sum of our future rewards. Visual intuition for the grid setting goes something like this:
 
+![Grid with good and bad cells](image-52.png)
 
+The action is a function of the policy, and the rewards depends on the action, to link the dependencies up. 
+
+**Q-Functions**: The Q-Function tells us how good the action is given a particular state. Formally: "Expected return of taking the action $a$ in state $s$, and following policy $ \pi $ afterwards." The relation between optimal $V$ (Value) and $Q$ function is direct:
+
+$$
+
+V^*(s) = max_a Q^*(s, a)
+
+$$
+
+Computation of the Q-Function:
+
+$$
+
+Q_{\pi}(s, a) = E_{\pi} \left[ \Sigma_{k=0}^{\infty} \gamma^k r_{t+k+1} | s_t = s, a_t = a \right]
+
+$$
+
+**Deep Q-Learning Algorithm**:
 
 ## The Challenge
 
