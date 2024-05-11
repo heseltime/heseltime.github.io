@@ -113,6 +113,41 @@ In general in this scenario ...
 
 ![DQN Overview](image-56.png)
 
+The **Replay Buffer**, a particular data set, is the core component. It is also, just like Neural Nets, somehow inspired by biology and animal learning, where the sleep and dream process, selecting examples from the preceeding day, affects future behaviour, i.e. learning is contingent upon some sort of delayed replay.
+
+In the ML view however, the Replay Buffer essentially breaks correlation in the data, by randomly sampling the data.
+
+As far as the algorithm goes, the training loop for DQN minimizes the Temporal Difference (TD) error. TD is just the local improvement as far as the state is concerned, taking into account the currently available best return.
+
+### DQN Algorithm Pseudocode
+
+- **Initialize Replay Memory B with Capacity M**
+- **Initialize Q function with network θ**
+- **Initialize Q target function with network θ′**
+- **Initialize environment:** `env = env.make("name_of_env")`
+- **Add preprocessing wrappers:** `env = wrap(env)`
+- **Initialize exploration factor ϵ, learning rate α, batch size m, discount factor γ, other hyperparameters**
+
+- **For episode = 1 to N do:**
+  - `st = env.reset()`
+  - **While not done do:**
+    - **With probability ϵ select random action at**
+    - **Otherwise select:** `at = argmaxaQ(st, a; θ)`
+    - `st+1, rt, dt, _ = env.step(at)`
+    - **Store transition:** `(st, at, rt, st+1, dt) in B`
+    - **Sample random batch from memory B:** `(sj, aj, rj, sj+1, dj)`
+    - **Targets:**
+      ```
+      yj =
+          rj for terminal sj+1
+          rj + γ · maxa Q(sj+1, a; θ′) for non terminal sj+1
+      ```
+    - **Loss:** `L(θ) = (yj − Q(sj, aj; θ))^2`
+    - **Update θ:** `θ ← θ − α · ∇L(θ)`
+    - **End while**
+  - **Update target network θ′:** `θ′ = τ · θ + (1− τ) · θ′`
+- **End for**
+
 ## The Challenge
 
 ## The Approach (with Code)
