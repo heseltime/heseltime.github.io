@@ -76,7 +76,7 @@ The return is the sum of our future rewards. Visual intuition for the grid setti
 
 The action is a function of the policy, and the rewards depends on the action, to link the dependencies up. 
 
-**Q-Functions**: The Q-Function tells us how good the action is given a particular state. Formally: "Expected return of taking the action $a$ in state $s$, and following policy $ \pi $ afterwards." The relation between optimal $V$ (Value) and $Q$ function is direct:
+**Q-Function**: The Q-Function tells us how good the action is given a particular state. Formally: "Expected return of taking the action $a$ in state $s$, and following policy $ \pi $ afterwards." The relation between optimal $V$ (Value) and $Q$ function is direct:
 
 $$
 
@@ -92,7 +92,26 @@ Q_{\pi}(s, a) = E_{\pi} \left[ \Sigma_{k=0}^{\infty} \gamma^k r_{t+k+1} | s_t = 
 
 $$
 
-**Deep Q-Learning Algorithm**:
+To illustrate an example using the grid intuition we took a moment ago, together with optimal Q- and V-functions (highest values over fall Q-/V-functions), we work a Q-learning example (where Q-learning comes from Dynamic Programming and the approach of braking down a big problem into small problems - DQN is the Deep Learning extension, see the [famous paper that introduced it about a decade ago, by playing Atari with this method](https://arxiv.org/abs/1312.5602)) where the agent move u(p) and r(ight):
+
+![Up and right grid game](image-53.png)
+
+The policy where the target (+1) is hit more often is the optimal policy, in turn determining optimal V-/Q-Function. Again, V is about state and Q is about action, they go together.
+
+In general in this scenario ...
+
+![Scenario 1 in grid game](image-54.png)
+
+
+... $s_b$ is probably in a more optimal situation (V) compared to $s_a$, but here ...
+
+![Scenario 2 in grid game](image-55.png)
+
+... $s_b$, being closer to the danger area, might actually not be more optimal. 
+
+**Deep Q-Learning Algorithm**: Let's start with an overview.
+
+![DQN Overview](image-56.png)
 
 ## The Challenge
 
