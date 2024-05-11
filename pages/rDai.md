@@ -123,29 +123,30 @@ As far as the algorithm goes, the training loop for DQN minimizes the Temporal D
 
 - **Initialize Replay Memory $B$ with Capacity $M$**
 - **Initialize Q function with network $\Theta$**
-- **Initialize Q target function with network $\Theta^'$***
+- **Initialize Q target function with network $\Theta^{'}$**
 - **Initialize environment:** `env = env.make("name_of_env")`
 - **Add preprocessing wrappers:** `env = wrap(env)`
 - **Initialize exploration factor $\epsilon$, learning rate $\alpha$, batch size $m$, discount factor $\gamma$, other hyperparameters**
 
-- **For episode = 1 to N do:**
+- **For $episode = 1$ to $N$ do:**
   - `st = env.reset()`
   - **While not done do:**
-    - **With probability $\epsilon$ select random action at**
-    - **Otherwise select:** `at = argmaxaQ(st, a; θ)`
-    - `st+1, rt, dt, _ = env.step(at)`
-    - **Store transition:** `(st, at, rt, st+1, dt) in B`
-    - **Sample random batch from memory B:** `(sj, aj, rj, sj+1, dj)`
+    - **With probability $\epsilon$ select random action $a_t$**
+    - **Otherwise select:** a_t = $argmax_a Q(s_t, a; \Theta)$
+    - $s_{t+1}, r_t, d_t, _$ = `env.step(at)`
+    - **Store transition:** $(s_t, a_t, r_t, s_{t+1}, d_t)$ in $B$
+    - **Sample random batch from memory $B$:** $(s_j, a_j, r_j, s_{j+1}, d_j)$
     - **Targets:**
-      ```
-      yj =
-          rj for terminal sj+1
+        $$
+        y_j = \begin{cases} 
+          rj for terminal sj+1 \\
           rj + γ · maxa Q(sj+1, a; θ′) for non terminal sj+1
-      ```
+          \end{cases}
+        $$
     - **Loss:** `L(θ) = (yj − Q(sj, aj; θ))^2`
     - **Update $\Theta$:** `θ ← θ − α · ∇L(θ)`
     - **End while**
-  - **Update target network $\Theta^'$:** `θ′ = τ · θ + (1− τ) · θ′`
+  - **Update target network $\Theta^{'}$:** `θ′ = τ · θ + (1− τ) · θ′`
 - **End for**
 
 ## The Challenge
