@@ -139,14 +139,14 @@ As far as the algorithm goes, the training loop for DQN minimizes the Temporal D
     - **Targets:**
         $$
         y_j = \begin{cases} 
-          rj for terminal sj+1 \\
-          rj + γ · maxa Q(sj+1, a; θ′) for non terminal sj+1
+          r_j \text{for terminal }s_{j+1} \\
+          r_j + \gamma \dot max a Q(s_{j+1}, a; \Theta^{'}) \text{for non terminal }s_{j+1}
           \end{cases}
         $$
-    - **Loss:** `L(θ) = (yj − Q(sj, aj; θ))^2`
-    - **Update $\Theta$:** `θ ← θ − α · ∇L(θ)`
+    - **Loss:** $L(\Theta) = (y_j − Q(s_j, a_j; \Theta))^2$
+    - **Update $\Theta$:** $\Theta \leftarrow \Theta − \alpha \dot \nabla L(\Theta)$
     - **End while**
-  - **Update target network $\Theta^{'}$:** `θ′ = τ · θ + (1− τ) · θ′`
+  - **Update target network $\Theta^{'}$:** $\Theta^{'} = \tau \dot \Theta + (1 − \tau) \dot \Theta^{'}$
 - **End for**
 
 ## The Challenge
