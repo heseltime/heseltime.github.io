@@ -24,7 +24,7 @@ _This semester also credits for practical, internship-type work, which I am comp
 - Lecture + Exercise: Software Development with Enterprise Technologies: Java-Stack focus initially, covering Modules (JPMS) and Build Systems (Maven and Gradle), ORM (JPA and Hibernate), Spring (Boot), but also Entity Framework - see .NET last semester.
 - Combined Lecture & Exercise: Current Trends in Web Technologies (Blockchain, NFTs, ... all the good stuff)
 - Study Project in C# with Industry Partner in Hagenberg ([ventopay](https://www.linkedin.com/company/ventopay-gmbh)) - Part II
-- Lecture + Exercise: Distributed and Parallel Systems
+- Lecture + Exercise: Distributed and Parallel Systems - favorite exercise project: [Toilet simulation](https://github.com/heseltime/VPSToilet) for parallelizing (synchronizing) toilet goers (producers) with their local facilities (consumers).
 - Lecture: Information Management 
 
 ## fifth semester

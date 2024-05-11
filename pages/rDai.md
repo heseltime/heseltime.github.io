@@ -53,9 +53,9 @@ The subject of the task is [Minigrid](https://minigrid.farama.org/environments/m
 
 Through the lens of a mini-grid challenge.
 
-**Value-Function**: Estimates how good it is for the agent to be in a given state. More formally: "Expected return of a state $s$ when following the policy $\pi$."
+**Value-Function**: Estimates how good it is for the agent to be in a given state. More formally: "Expected return of a state $s$ when following the policy $\pi$." (We want to maximize our future rewards.)
 
-Therefor it depends on:
+Therefore it depends on:
 
 -   current policy $ \pi $
 -   environent transition dynamics
@@ -69,6 +69,10 @@ $$
 V_{\pi}(s) = E_{\pi} \left[ R_t | s_t = s \right] = E_{\pi} \left[ \Sigma_{k=0}^{\infty} \gamma^k r_{t+k+1} | s_t = s \right]
 
 $$
+
+The return is the sum of our future rewards.
+
+
 
 ## The Challenge
 
