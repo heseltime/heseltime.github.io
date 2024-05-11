@@ -150,7 +150,21 @@ As far as the algorithm goes, the training loop for DQN minimizes the Temporal D
 
 ## The Challenge
 
+The challenge is to solve this environment:
 
+![6x6 Grid](image-57.png)
+
+So it is about making the agent collect the key, unlock the door and reach the goal in this 6x6-grid.
+
+Characteristics:
+
+-   **State space**: **Symbolic**, non-image observation $(3,7,7)$
+-   **Action space**: 7 discrete actions
+-   **Reward range**: $[0,1]$ 
+
+This 3x3 version can be considered a dumbed down version usable for debugging and the like:
+
+![3x3 Grid](image-58.png)
 
 ## The Approach (with Code)
 
