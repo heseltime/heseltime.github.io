@@ -20,7 +20,7 @@ feedformat: none
         <li>
             <h3>Presentation: <a href="#jku-pres">Replika</a></h3>
             <p><b>Course-presentation about the AI companion app</b> in its current iteration. Includes use case study with persona and AI product improvement.</p>
-            <a href="../assets/pdf/KVRobopsychologySS24_grouptask_group2_8-final.pdf"><img src="../assets/img/image-51.png" alt="Replika presentation slides" /></a>
+            <a href="../assets/pdf/KVRobopsychologySS24_grouptask_group2_8-final.pdf"><img src="../pages/img/image-51.png" alt="Replika presentation slides" /></a>
         </li>
         <li>
             <h3><a href="#attn"><b>Attention</b> via LSTM, the Transformer-Connection</a></h3>
