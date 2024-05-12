@@ -9,6 +9,7 @@ feedformat: none
 
 <div class="toc">
     <h2>academic blog post overview</h2>
+    <h4><a href="/portfolio">thesis AI project in portfolio</a> (degree practical work)</h4>
     <ul>
         <li>
             <img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" />
@@ -162,11 +163,15 @@ Characteristics:
 -   **Action space**: 7 discrete actions
 -   **Reward range**: $[0,1]$ 
 
-This 3x3 version can be considered a dumbed down version usable for debugging and the like:
+This 3x3 version can be considered a dumbed down version usable for debugging:
 
 ![3x3 Grid](image-58.png)
 
 ## The Approach (with Code)
+
+So I did take the approach of working with the 3x3 version of the grid to get a working prototype. The main logic is reproduced here/[full repo on GitHub](https://github.com/heseltime/drl).
+
+
 
 # <a name="jku-pres"></a>Course Presentation/AI Product Analysis: Replika
 
