@@ -9,7 +9,7 @@ feedformat: none
 
 <div class="toc">
     <h2>academic blog post overview</h2>
-    <h4>- <a href="/portfolio">thesis AI project in portfolio</a> (degree practical work)</h4>
+    <h4>Masters thesis forthcoming (2024) - <a href="/portfolio">thesis project in portfolio</a> (degree practical work)</h4>
     <ul>
         <li>
             <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /> Reinforcement Learning Goes Deep</a> (Part II)</h3>
@@ -20,6 +20,7 @@ feedformat: none
         <li>
             <h3>Presentation: <a href="#jku-pres">Replika</a></h3>
             <p><b>Course-presentation about the AI companion app</b> in its current iteration. Includes use case study with persona and AI product improvement.</p>
+            <a href="..\assets\pdf\KVRobopsychologySS24_grouptask_group2_8-final.pdf"><img src="image-51.png" alt="Replika presentation slides" /></a>
         </li>
         <li>
             <h3><a href="#attn"><b>Attention</b> via LSTM, the Transformer-Connection</a></h3>
