@@ -12,7 +12,7 @@ feedformat: none
     <h4>- <a href="/portfolio">thesis AI project in portfolio</a> (degree practical work)</h4>
     <ul>
         <li>
-            <img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" />
+            <img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" />
             <h3><a href="#rl-2">Reinforcement Learning Goes Deep</a> (Part II)</h3>
             <p><b>Part II covers Deep Q-Network (DQN) for MiniGrid</b>, with a recap of the relevant basics, and challenge code.</p>
             <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
