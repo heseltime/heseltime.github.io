@@ -9,7 +9,7 @@ feedformat: none
 
 <div class="toc">
     <h2>academic blog post overview</h2>
-    <h4><a href="/portfolio">thesis AI project in portfolio</a> (degree practical work)</h4>
+    <h4>- <a href="/portfolio">thesis AI project in portfolio</a> (degree practical work)</h4>
     <ul>
         <li>
             <img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" />
