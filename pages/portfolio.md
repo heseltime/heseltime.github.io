@@ -7,7 +7,17 @@ feedformat: none
 
 With a DevOps background I broke into Software Engineering, benefiting from [formal training in the subject](/rDse) on top of long-time programming (since middle school), and with multi-year experience in Enterprise Content Management (ECM) and my own initial hobby Single Page Applications (SPAs) sprinkled in there, I have made this my professional work: my model for implementation is workflow-oriented, modern ECM (think Alfresco and Activiti/Camunda) coupled with high-level analytics (think Wolfram Language, i.e. really high level). At the same time, I realize Software Engineering is many different approaches, so in the below I reference this where appropriate and explore the ways I can apply my skillset across paradigms.
 
-## Scripting: Python OpenAI API Package Testing
+<div class="toc" id="jku-thesis-project">
+    <h2>core project (academic software development)</h2>
+    <h4>Masters thesis project at Johannes Kepler University (JKU), consisting of the following research components leading up to the technical report (project) and thesis</h4>
+    <p>I'd like to thank the <a href="/notes">wonderful Update Social Team (on-going notes included)</a> in helping to refine this project up to an actionable starting point, and <a href="https://github.com/heseltime/updatesocial">reference the repo for initial testing and prototyping</a>.</p>
+    <h3>PDF-Metadata Extraction (Forthcoming)</h3>
+    <h3>LLM Processing and Evaluation of the Output (Forthcoming)</h3>
+    <h3>Standard Software Integration (Enterprise Content Management - ECM, Forthcoming)</h3>
+    <p>In the language of this portfolio, this scripting project (Software Engineering view of Machine Learning (ML): all scripting, right?) marks an ML departure. It also build on an <a href="#open-ai-api">initial OpenAI API Test involving transformation of a collection of daily reports to one monthly report</a>, demonstrating a summarization ECM use case.</p>
+</div>
+
+## <a name="open-ai-api"></a>Scripting: Python OpenAI API Package Testing
 
 Not as visual, but certainly useful (ties in with my [grad thesis](/rDai#jku-thesis-overview) too), therefore an honorable mention in my portfolio:
 

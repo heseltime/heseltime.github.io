@@ -9,7 +9,7 @@ feedformat: none
 
 <div class="toc">
     <h2>academic blog post overview</h2>
-    <h4>Masters thesis forthcoming (2024) - <a href="/portfolio">thesis project in portfolio</a> (degree practical work)</h4>
+    <h4>Masters thesis forthcoming (2024) - <a href="/portfolio#jku-thesis-project">thesis project in portfolio</a> (degree practical work)</h4>
     <ul>
         <li>
             <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /> Reinforcement Learning Goes Deep</a> (Part II)</h3>
