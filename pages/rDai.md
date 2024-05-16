@@ -408,7 +408,41 @@ So the core learning for me was the replay buffer for minibatch sampling of tran
 
 I used Google colab for this project and could train the 5x5 grid in less than 5 minutes for ca. 1000 episodes and then the 6x6 in about 15 minutes.
 
-*In Q-learning, the agent aims to learn a policy that maximizes the cumulative reward by estimating the Q-values, which represent the expected return (cumulative reward) of taking a particular action in a given state and following the optimal policy thereafter. ([See Part I](#rl-1).)
+*The **Bellman equation** is a fundamental concept in reinforcement learning that provides a recursive decomposition of the value function. In the context of Q-learning, the Bellman equation helps to determine the optimal Q-values for state-action pairs.
+
+In Q-learning, the agent aims to learn a policy that maximizes the cumulative reward by estimating the Q-values, which represent the expected return (cumulative reward) of taking a particular action in a given state and following the optimal policy thereafter.
+
+The Bellman equation for Q-values is expressed as:
+
+$$ Q(s, a) = \mathbb{E}[r + \gamma \max_{a'} Q(s', a') \mid s, a] $$
+
+Where:
+- $$ Q(s, a) $$ is the Q-value for taking action $$ a $$ in state $$ s $$.
+- $$ r $$ is the immediate reward received after taking action $$ a $$ in state $$ s $$.
+- $$ \gamma $$ (gamma) is the discount factor, which determines the importance of future rewards.
+- $$ s' $$ is the next state resulting from taking action $$ a $$ in state $$ s $$.
+- $$ \max_{a'} Q(s', a') $$ is the maximum Q-value for the next state $$ s' $$ over all possible actions $$ a' $$.
+
+
+In Deep Q-Networks (DQN), the Bellman equation is used to update the Q-values. Here's how it is applied in the code:
+
+1. **Current Q-Values**:
+    The current Q-values are computed by passing the current states through the Q-network.
+2. **Target Q-Values**:
+    The target Q-values are computed using the rewards and the maximum Q-values for the next states, as predicted by the target network. This is based on the Bellman equation.
+3. **Computing the Loss**:
+    The loss is computed as the mean squared error (MSE) between the current Q-values and the target Q-values.
+4. **Updating the Network**:
+    The gradients are computed and the network parameters are updated using backpropagation and an optimizer (e.g., Adam).
+
+Some more details to each step:
+
+- **Current Q-Values**: These represent the agent's current estimate of the expected return for each action in the given states.
+- **Target Q-Values**: These are the more accurate estimates obtained by using the Bellman equation. They take into account the immediate reward and the discounted future rewards.
+- **Loss Calculation**: The difference between the current Q-values and the target Q-values (squared error) is minimized during training, leading the Q-network to improve its predictions over time.
+- **Update Step**: The Q-network is updated using gradient descent to reduce the loss, thereby refining its estimates of the Q-values.
+
+([See Part I](#rl-1).)
 
 # <a name="jku-pres"></a>Course Presentation/AI Product Analysis: Replika
 
