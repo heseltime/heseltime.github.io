@@ -46,9 +46,13 @@ _These Masters level studies are on-going (target December 2024), now full-time,
 
 Now for a short, project-oriented piece on Deep Reinforcement Learning, building mainly on challenge 2 of 3 in the exercise portion for [JKU's Deep Reinforcement course](https://studienhandbuch.jku.at/118185) - 10/10, would-recommend. I'll also point to my [Part I](#reinforcement-learning-goes-deep-part-i-q-learning-algorithm-implementation-for-a-grid-world-environment), Reinforcement Learning without the Depth.
 
+![Minigrid example involved](/pages/door-key-curriculum.gif)
+
+The subject of the task is [Minigrid](https://minigrid.farama.org/environments/minigrid/DoorKeyEnv/) - but the main training/debugging will happen in the slightly dumbed down version:
+
 ![Minigrid example](/assets/img/DoorKeyEnv.gif)
 
-The subject of the task is [Minigrid](https://minigrid.farama.org/environments/minigrid/DoorKeyEnv/).
+If scale is the only difference, and the problem of finding a key and opening a door can be encoded in a grid, we can definitely imagine a host of more increasingly complex application scenarios for the same approach.
 
 ## Recap of the Basics
 
@@ -151,7 +155,7 @@ As far as the algorithm goes, the training loop for DQN minimizes the Temporal D
 
 ## The Challenge
 
-The challenge is to solve this environment:
+The challenge is to solve this environment: "Minigrid contains simple and easily configurable grid world environments to conduct Reinforcement Learning research. This library was previously known as gym-minigrid." ([MiniGrid](https://minigrid.farama.org/index.html))
 
 ![6x6 Grid](image-57.png)
 
@@ -163,15 +167,248 @@ Characteristics:
 -   **Action space**: 7 discrete actions
 -   **Reward range**: $[0,1]$ 
 
-This 3x3 version can be considered a dumbed down version usable for debugging:
+This 3x3/5x5 (incl. wall) version can be considered a dumbed down version usable for initial training and debugging:
 
 ![3x3 Grid](image-58.png)
 
+This is an example of the Minigrid [Empty](https://minigrid.farama.org/environments/minigrid/EmptyEnv/) 
+
 ## The Approach (with Code)
 
-So I did take the approach of working with the 3x3 version of the grid to get a working prototype. The main logic is reproduced here/[full repo on GitHub](https://github.com/heseltime/drl).
+So I did take the approach of working with the 5x5 version of the grid to get a working prototype. 
 
+The main logic is reproduced here/[full repo on GitHub](https://github.com/heseltime/drl).
 
+### MiniGrid
+
+```
+# Minigrid Environment
+from minigrid.wrappers import ImgObsWrapper
+class ChannelFirst(gym.ObservationWrapper):
+    def __init__(self, env):
+        super().__init__(env)
+        old_shape = env.observation_space.shape
+        self.observation_space = {}
+        self.observation_space = gym.spaces.Box(0, 255, shape=(3, 7, 7))
+
+    def observation(self, observation):
+        return np.swapaxes(observation, 2, 0)
+
+class ScaledFloatFrame(gym.ObservationWrapper):
+    def __init__(self, env):
+        gym.ObservationWrapper.__init__(self, env)
+
+    def observation(self, observation):
+        # careful! This undoes the memory optimization, use
+        # with smaller replay buffers only.
+        return np.array(observation).astype(np.float32)
+
+class MinigridEmpty5x5ImgObs(gym.Wrapper):
+    """Minigrid with image observations provided by minigrid, partially observable."""
+    def __init__(self, render=False):
+        if render:
+          env = gym.make('MiniGrid-Empty-5x5-v0', render_mode="rgb_array")
+        else:
+          env = gym.make('MiniGrid-Empty-5x5-v0')
+        env = ScaledFloatFrame(ChannelFirst(ImgObsWrapper(env)))
+        super().__init__(env)
+
+class MinigridDoorKey6x6ImgObs(gym.Wrapper):
+    """Minigrid with image observations provided by minigrid, partially observable."""
+    def __init__(self, render=False):
+        if render:
+          env = gym.make('MiniGrid-DoorKey-6x6-v0', render_mode="rgb_array")
+        else:
+          env = gym.make('MiniGrid-DoorKey-6x6-v0')
+        env = ScaledFloatFrame(ChannelFirst(ImgObsWrapper(env)))
+        super().__init__(env)
+```
+
+### The Actual (Policy) NN
+
+```
+class MlpMinigridPolicy(nn.Module):
+    def __init__(self, num_actions=7):
+        super().__init__()
+        self.num_actions = num_actions
+        self.fc = nn.Sequential(nn.Flatten(),
+                                nn.Linear(3*7**2, 256), nn.ReLU(),
+                                nn.Linear(256, 256), nn.ReLU(),
+                                nn.Linear(256, 64), nn.ReLU(),
+                                nn.Linear(64, num_actions))
+    def forward(self, x):
+        if len(x.size()) == 3:
+          x = x.unsqueeze(dim=0)
+        return self.fc(x)
+```
+
+### Terget Network Update Strategy
+
+```
+# Update Target network
+def soft_update(local_model, target_model, tau):
+    """Soft update model parameters.
+    θ_target = τ*θ_local + (1 - τ)*θ_target
+    Params
+    ======
+        local_model (PyTorch model): weights will be copied from
+        target_model (PyTorch model): weights will be copied to
+        tau (float): interpolation parameter
+    """
+    # TODO: Update target network
+    for target_param, local_param in zip(target_model.parameters(), local_model.parameters()):
+        target_param.data.copy_(tau*local_param.data + (1.0-tau)*target_param.data)
+```
+
+### Training Loop Using the Target Network Update and Hyperparams from Above
+
+```
+from torch.serialization import load
+
+# Train the agent using DQN for Pong
+returns = []
+returns_50 = deque(maxlen=50)
+losses = []
+buffer = ReplayBuffer(num_actions=num_actions, memory_len=buffer_size)
+
+dqn, dqn_target, timesteps = load_checkpoint(load_path)
+
+optimizer = optim.Adam(dqn.parameters(), lr=learning_rate)
+mse = torch.nn.MSELoss()
+state = env.reset()[0] # !
+for i in range(num_episodes):
+  ret = 0
+  done = False
+  while not done:
+    # Decay epsilon
+    epsilon = max(epsilon_lb, epsilon_ub - timesteps/ epsilon_decay)
+    # action selection
+    if np.random.choice([0,1], p=[1-epsilon,epsilon]) == 1:
+      action = np.random.randint(low=0, high=num_actions, size=1)[0]
+      # print("selected random action")
+    else:
+      # state_tmp = state[np.newaxis, :].astype(np.float32)
+      state_tensor = torch.tensor(state, dtype=torch.float32, device=device)
+      net_out = dqn(state_tensor).detach().cpu().numpy()
+      action = np.argmax(net_out)
+      # print("selected q-optimal action")
+
+    # next_state, r, done, info = env.step(a)
+    next_state, r, terminated, truncated, info = env.step(action)
+    done = terminated or truncated
+
+    # print(next_state.shape)
+    ret = ret + r
+
+    # TODO: store transition in replay buffer
+    buffer.add(state, action, r, next_state, done) # (state, action, ret, next_state, done)
+
+    state = next_state
+    timesteps = timesteps + 1
+
+    # update policy using temporal difference
+    if buffer.length() > minibatch_size and buffer.length() > update_after:
+      optimizer.zero_grad()
+
+      # TODO: Sample a minibatch randomly
+      states, actions, rewards, next_states, dones = buffer.sample_batch(minibatch_size)
+
+      # Convert data to tensors
+      states = torch.tensor(states, dtype=torch.float32, device=device)
+      next_states = torch.tensor(next_states, dtype=torch.float32, device=device)
+      #actions = torch.tensor(actions, dtype=torch.long, device=device)
+      #rewards = torch.tensor(rewards, dtype=torch.float32, device=device)
+      #dones = torch.tensor(dones, dtype=torch.float32, device=device)
+
+      # TODO: Compute q values for states
+      #current_Q_values = dqn(states).gather(1, actions)
+      #print("current_Q_values shape: ", current_Q_values.shape)
+      current_Q_values = dqn(states)
+
+      # TODO: compute the targets for training
+      max_Q, _ = torch.max(dqn_target(next_states), dim=1)
+      #next_Q_values = dqn_target(next_states).max(1)[0].detach()
+      #print("next_Q_values shape: ", next_Q_values.shape)
+      Q_targets = rewards + (1 - dones) * gamma * max_Q
+
+      # TODO: compute the predictions for training
+      #expected_Q_values = rewards + (gamma * next_Q_values * (1 - dones))
+      Q_predictions = current_Q_values.gather(1, actions.argmax(1, keepdim=True)).squeeze()
+
+      # TODO: Compute loss: mse = mean squared error
+      loss = mse(Q_predictions, Q_targets) # Q_targets.unsqueeze(1)
+
+      # Print the loss
+      #print(f"Loss at timestep {timesteps}: {loss.item()}")
+
+      #print('predictions', current_Q_values.shape, 'targets', expected_Q_values.unsqueeze(1).shape)
+      #print(loss)
+      loss.backward(retain_graph=False) # retain_graph=False ?
+      optimizer.step()
+      losses.append(loss.item())
+
+      # Update target network
+      soft_update(dqn, dqn_target, tau)
+    if done:
+      state = env.reset()[0]
+      print(f"Episode: \t{i}\t{ret}\t{datetime.now().strftime('%Y_%m_%d-%H_%M_%S')}")
+      break
+
+  returns.append(ret)
+  returns_50.append(ret)
+
+  if i % 50 == 0:
+    store_checkpoint(checkpoint_path=save_path, dqn_net=dqn, timesteps=timesteps)
+    print('\rEpisode {}\tAverage Score: {:.2f}'.format(i, np.mean(returns_50)))
+```
+
+Note: Some debugging lines and `TODO` comments still in there - here's the difference between ML experiment code and (production) engineering code. 
+
+#### Final Report (submitted with the project repo and the model attaining highest scores possible)
+
+##### Overview
+This report outlines the implementation of a Deep Q-Network (DQN) agent trained to play the game Pong. The agent learns through interaction with the environment, utilizing Q-learning with experience replay to update its policy.
+
+##### Training and Evaluation Outcomes
+
+![Training Progress](image-training-progress-plot-dqn.png)
+
+Evaluation: Highest score category on the leaderboard (0.965 averaged score in the evaluation script (challenge server)).
+
+##### Neural Network Architecture
+- **Model**: Deep Q-Network (DQN)
+- **Layers**:
+  - **Fully Connected Layers**: Four layers with ReLU activation.
+  - **Output Layer**: Outputs Q-values for each action - this is the MiniGrid Policy.
+
+##### Training Process
+
+###### Environment and Hyperparameters
+- **Environment**: MiniGrid: MinigridEmpty5x5ImgObs to start, then MinigridDoorKey6x6ImgObs once stabilized learning was achieved.
+- **Hyperparameters**:
+  - Learning Rate: 1e-3
+  - Replay Buffer Size: 100000
+  - Minibatch Size: 256
+  - Gamma (Discount Factor): 0.9
+  - Epsilon Decay: 100000 (decay epsilon in 100.000 timesteps)
+  - Epsilon Lower Bound: 0.3
+  - Epsilon Upper Bound: 1.0
+  - Target Network Update Rate ($\tau$): 1e-3
+  - **Number of Episodes: 1500** (marginally better than 1000, and even 800)
+
+###### Replay Buffer
+- **Purpose**: Stores experience tuples (state, action, reward, next state, done).
+- **Functionality**: Supports adding new experiences and sampling random mini-batches for training.
+
+###### Experience Report
+
+I think the exercise was a really helpful way to get a grasp on the concepts by filling in the essential gaps. I liked this emphasis on understanding over code volume (lines of code). Testing the hyperparameters and being able to rely on boilerplate functionality that would otherwise just be googled anyway is also really super.
+
+So the core learning for me was the replay buffer for minibatch sampling of tranisitons, review of epsilon greedy exploration vs exploitation, Q-values and Bellman Equation* computation, training with the computed Q-values as targets using a releatively simple NN structure encoding states.
+
+I used Google colab for this project and could train the 5x5 grid in less than 5 minutes for ca. 1000 episodes and then the 6x6 in about 15 minutes.
+
+*In Q-learning, the agent aims to learn a policy that maximizes the cumulative reward by estimating the Q-values, which represent the expected return (cumulative reward) of taking a particular action in a given state and following the optimal policy thereafter.
 
 # <a name="jku-pres"></a>Course Presentation/AI Product Analysis: Replika
 
