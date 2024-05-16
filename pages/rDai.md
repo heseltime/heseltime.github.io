@@ -181,7 +181,7 @@ The main logic is reproduced here/[full repo on GitHub](https://github.com/hesel
 
 ### MiniGrid
 
-```
+```python
 # Minigrid Environment
 from minigrid.wrappers import ImgObsWrapper
 class ChannelFirst(gym.ObservationWrapper):
@@ -226,7 +226,7 @@ class MinigridDoorKey6x6ImgObs(gym.Wrapper):
 
 ### The Actual (Policy) NN
 
-```
+```python
 class MlpMinigridPolicy(nn.Module):
     def __init__(self, num_actions=7):
         super().__init__()
@@ -244,7 +244,7 @@ class MlpMinigridPolicy(nn.Module):
 
 ### Terget Network Update Strategy
 
-```
+```python
 # Update Target network
 def soft_update(local_model, target_model, tau):
     """Soft update model parameters.
@@ -262,7 +262,7 @@ def soft_update(local_model, target_model, tau):
 
 ### Training Loop Using the Target Network Update and Hyperparams from Above
 
-```
+```python
 from torch.serialization import load
 
 # Train the agent using DQN for Pong
@@ -371,7 +371,7 @@ This report outlines the implementation of a Deep Q-Network (DQN) agent trained 
 
 ##### Training and Evaluation Outcomes
 
-![Training Progress](image-training-progress-plot-dqn.png)
+![Training Progress](/pages/image-training-progress-plot-dqn.png)
 
 Evaluation: Highest score category on the leaderboard (0.965 averaged score in the evaluation script (challenge server)).
 
@@ -408,7 +408,7 @@ So the core learning for me was the replay buffer for minibatch sampling of tran
 
 I used Google colab for this project and could train the 5x5 grid in less than 5 minutes for ca. 1000 episodes and then the 6x6 in about 15 minutes.
 
-*In Q-learning, the agent aims to learn a policy that maximizes the cumulative reward by estimating the Q-values, which represent the expected return (cumulative reward) of taking a particular action in a given state and following the optimal policy thereafter.
+*In Q-learning, the agent aims to learn a policy that maximizes the cumulative reward by estimating the Q-values, which represent the expected return (cumulative reward) of taking a particular action in a given state and following the optimal policy thereafter. ([See Part I](#rl-1).)
 
 # <a name="jku-pres"></a>Course Presentation/AI Product Analysis: Replika
 
