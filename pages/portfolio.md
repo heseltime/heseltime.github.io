@@ -17,6 +17,55 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <p>In the language of this portfolio, this scripting project (Software Engineering view of Machine Learning (ML): all scripting, right?) marks an ML departure. It also build on an <a href="#open-ai-api">initial OpenAI API Test involving transformation of a collection of daily reports to one monthly report</a>, demonstrating a summarization ECM use case.</p>
 </div>
 
+# Hagenberg Software Engineering Final Java Project: Spring Boot (Spring Data, Spring MVC) and React Marketplace App
+
+## Outline
+
+```
++------------------+    +-------------------------------------------------------+
+|    Frontend      |    |                         Backend                       |
+|                  |    |                   |               |                   |
+|  +--------+      |    | PresentationLayer | ServiceLayer  | PersistenceLayer  |
+|  | WebApp |      |    |                   |               |                   |
+|  | Model  |      |    |                   |               |                   |
+|  | HTML   | -----+--> | Controller    DTO |   Service     | DAO/Repo  Entity  |
+|  +--------+      |    |                   |  Components   |                   |
+|                  |    |                   |               |                   |
+|                  |    |                                                       |
++------------------+    +-------------------------------------------------------+
+```
+
+## Schema and API Design
+
+The Swagger OpenAPI Schema view:
+
+![Swagger Schema View](../assets/img/swt6/Screenshot%202024-05-21%20101948.png)
+
+Swagger UI - **Before Annotation**:
+
+![Swagger UI representation of the Controller endpoints](../assets/img/swt6/Screenshot%202024-05-21%20003320.png)
+
+**After Annotation** in the source code:
+
+![Swagger UI representation of the Controller endpoints with annotations](../assets/img/swt6/Screenshot%202024-05-21%20102000.png)
+
+## Result (Screenshots of the frontend)
+
+This was mainly a Spring Boot API project, so I would actually say the annotated Swagger OpenAPI document is the main output of this exercise. That said, here are the screenshots of a lightweight frontend:
+
+![Frontend 1](../assets/img/swt6/Screenshot%202024-05-21%20101758.png)
+![Frontend 2](../assets/img/swt6/Screenshot%202024-05-21%20101809.png)
+
+**Update**: almost forgot search functionality.
+
+![Frontend 2a](../assets/img/swt6/Screenshot%202024-05-21%20104257.png)
+![Frontend 2b](../assets/img/swt6/Screenshot%202024-05-21%20104312.png)
+
+![Frontend 3](../assets/img/swt6/Screenshot%202024-05-21%20101823.png)
+![Frontend 4](../assets/img/swt6/Screenshot%202024-05-21%20101848.png)
+
+## [Full Repo](https://github.com/heseltime/SWT6Marketplace)
+
 ## <a name="open-ai-api"></a>Scripting: Python OpenAI API Package Testing
 
 Not as visual, but certainly useful (ties in with my [grad thesis](/rDai#jku-thesis-overview) too), therefore an honorable mention in my portfolio:
