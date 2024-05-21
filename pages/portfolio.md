@@ -66,6 +66,8 @@ This was mainly a Spring Boot API project, so I would actually say the annotated
 
 ## [Full Repo](https://github.com/heseltime/SWT6Marketplace)
 
+All in all, this was a nice project drawing togeth Object Oriented programming, API design and a React frontend into a rapid development framework, since it had to get done fast. I think this kind of thing is the bread and butter in Software Engineering. But let's face it, the world is probably not quick to need yet another marketplace app.
+
 ## <a name="open-ai-api"></a>Scripting: Python OpenAI API Package Testing
 
 Not as visual, but certainly useful (ties in with my [grad thesis](/rDai#jku-thesis-overview) too), therefore an honorable mention in my portfolio:
