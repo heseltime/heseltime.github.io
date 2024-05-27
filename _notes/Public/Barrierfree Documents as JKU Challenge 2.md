@@ -3,6 +3,7 @@ title: JKU Challenge II
 feed: show
 date: 08-02-2024
 ---
+More on the initial note on the challenge (see JKU Challenge (I)) -
 # Entering the Challenge
 
 See [project proposal](https://github.com/heseltime/heseltime.github.io/blob/e10cc293c4ef0854b5a62fb7f8643861ba82155b/assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) (DE).
