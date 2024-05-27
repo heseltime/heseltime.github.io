@@ -9,6 +9,6 @@ From the original post:
 
 See the current [project proposal](https://github.com/heseltime/heseltime.github.io/blob/e10cc293c4ef0854b5a62fb7f8643861ba82155b/assets/pdf/JKU_CommunityCall_Antrag_Final_Rework.pdf) (DE) as the response.
 
-**Update! This [was successful and is going forward]([Challenges | LIT Open Innovation Center (jku.at)](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/community-call/challenges/)), see "Accessibility Buddies" project.**
+**Update!** This [was successful and is going forward]([Challenges | LIT Open Innovation Center (jku.at)](https://www.jku.at/lit-open-innovation-center/open-innovation-in-science/community-call/challenges/)), see "Accessibility Buddies" project.
 
 *Quick Housekeeping note: Working on submission of the entry, will need agreement for Institute of Integrated Study. Quick Info note Feb 8th, 2024 to Prof. M. End of Feb Update: All done.*
