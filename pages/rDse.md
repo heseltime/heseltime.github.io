@@ -25,7 +25,7 @@ _This semester also credits for practical, internship-type work, which I am comp
 - Combined Lecture & Exercise: Current Trends in Web Technologies (Blockchain, NFTs, ... all the good stuff)
 - Study Project in C# with Industry Partner in Hagenberg ([ventopay](https://www.linkedin.com/company/ventopay-gmbh)) - Part II
 - Lecture + Exercise: Distributed and Parallel Systems - favorite exercise project: [Toilet simulation](https://github.com/heseltime/VPSToilet) for parallelizing (synchronizing) toilet goers (producers) with their local facilities (consumers).
-- Lecture: Information Management: a nice full circle back to where getting serious about software (in my particular AI/ML context started) - the IT department (in my case, of a Red Cross blood bank at the height of the global onset of Covid-19). In the end all development has to fit into a cohesive IT (IM) structure, otherwise it is 100% pointless.
+- Lecture: Information Management: a nice full circle back to where getting serious about software (in my particular AI/ML context) started - the _IT department_ (in my case, of a Red Cross blood bank at the height of the global onset of Covid-19). In the end all development has to fit into a cohesive IT (IM) structure, otherwise it is 100% pointless. Though, I will say, my way in was always _processes_, and not hardware outfitting and helpdesk management, essential as these are for overall IM.
 
 ## fifth semester
 
