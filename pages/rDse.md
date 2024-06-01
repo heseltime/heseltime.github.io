@@ -29,7 +29,7 @@ _This semester also credits for practical, internship-type work, which I am comp
 
 ## fifth semester
 
-- Lecture + Exercise: Component-Oriented Software Engineering (C# and .NET)
+- Lecture + Exercise: Component-Oriented Software Engineering (C# and .NET): _to add a personal note, **this** was the most challenging course (for me) in the whole studies: getting really specific about OO programming as implemented by Microsoft and with all the .NET framework as it makes provisions for async programming, databases and web platforms, was the task. I motivated myself to study this stuff by connecting to my Work in WL, in fact literally: you can, it turns out, [call the WL kernel **fairly easily** from a .NET program](https://github.com/heseltime/SWK5-W-WolframNETLink), allowing for a radical extension of programming capabilities into the Mathematica domain - it's pretty cool._
 - Lecture + Exercise: Web-Architectures and Frameworks (Angular focus)
 - Lecture + Exercise: Virtualization Tooling (Docker focus)
 - Lecture + Exercise: ~~Mobile Computing~~ Advanced Python, [credited from work over at JKU](/rDai#housekeeping) - sometimes you have to focus, in my case [AI-oriented work](/rDai) at this time. I played around with Swift as part of [my Bachelor-level prep, in AI _and CS_](/rDai#housekeeping), for my AI-Masters at JKU, as far as mobile goes - this course would have been in Kotlin. It's the one course from the full curriculum I did not do.
