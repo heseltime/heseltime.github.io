@@ -1650,7 +1650,7 @@ Actually, I already know I am doing my Practical Work Component this semester, s
 
 Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II: so, in other words, shooting beyond ideal here, for my target. Computer Algebra is offered this semester; this topic [interests me](/wolfram) but is very optional.
 
-### Semester III (**Target Final Semester**)/Winter (2024/2025)
+### Semester III (~~Target Final Semester~~)/Winter (2024/2025)
 
 Once again an ideal:
 
@@ -1665,11 +1665,43 @@ This might be a lofty goal ... I already completed Practical Work and Seminar at
 
 Automated Reasoning is listed for this semster (2019 version), and is only offered this semester currently, along with Computer Algebra (but this one is not required in the 2021 curriculum anymore, just a nice course).
 
+**Update May 2024**: Running list of courses to take, given practicalities (Software Engineering degree pressures in Hagenberg, mainly) - looks like main Masters thesis writing will happen next spring, focus for fall will be practical work actually and more tests, drafting the thesis. This is a slightly slower, possibly quality-minded approach, and is more oriented towards the (JKU) ideal after all.
+
+As before:
+
+- XAI
+- Prob. Models
+- Automated Reasoning
+- Communicating AI
+- _Computer Vision (Exercise) still open!_
+
+Move to spring:
+
+- ~~Masters Thesis (Seminar)~~
+
+To do:
+
+- Masters Practical Work (though should be possible to pull some of this/start on the prototype this summer - to balance with Software Engineering thesis and examination however)
+- and also: _Math for AI 3, useful for Theory,_ see **next section/update**
+
+
 ### Shadow Semester IV (Summer 2025, Overflow/Bridging Semester)
 
 Basically only if needed for anything else than the following curricular ideal, where I already completed everything if I stay on target (then I would be doing my exam, see above, in the spring, which could be a nice timeline too): this would be a whole semester reserved for Masters Thesis (writing), Seminar and Exam. We'll see.
 
 ![Boring Semster with just Masters Thesis, Seminar and Exam](image-13.png)
+
+**Update May 2024**: this semester will be needed!
+
+As before:
+
+- Masters Thesis (also Seminar and Examination) _Note: should leave room for the usual extra-curriculars, esp. the spring theater performance too._
+
+New:
+
+- Theory!
+
+(Along with any other courses of interest, maybe travels, certainly work.)
 
 #### Target
 
