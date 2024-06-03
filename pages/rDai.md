@@ -1665,24 +1665,24 @@ This might be a lofty goal ... I already completed Practical Work and Seminar at
 
 Automated Reasoning is listed for this semster (2019 version), and is only offered this semester currently, along with Computer Algebra (but this one is not required in the 2021 curriculum anymore, just a nice course).
 
-**Update May 2024**: Running list of courses to take, given practicalities (Software Engineering degree pressures in Hagenberg, mainly) - looks like main Masters thesis writing will happen next spring, focus for fall will be practical work actually and more tests, drafting the thesis. This is a slightly slower, possibly quality-minded approach, and is more oriented towards the (JKU) ideal after all.
+_**Update May 2024**: Running list of courses to take, given practicalities (Software Engineering degree pressures in Hagenberg, mainly) - looks like main Masters thesis writing will happen next spring, focus for fall will be practical work actually and more tests, drafting the thesis. This is a slightly slower, possibly quality-minded approach, and is more oriented towards the (JKU) ideal after all._
 
 As before:
 
-- XAI
-- Prob. Models
-- Automated Reasoning
-- Communicating AI
-- _Computer Vision (Exercise) still open!_
+- _XAI_
+- _Prob. Models_
+- _Automated Reasoning_
+- _Communicating AI_
+- Computer Vision (Exercise) still open!
 
-Move to spring:
+_Move to spring:_
 
-- ~~Masters Thesis (Seminar)~~
+- _~~Masters Thesis (Seminar)~~_
 
-To do:
+_**To do**:_
 
-- Masters Practical Work (though should be possible to pull some of this/start on the prototype this summer - to balance with Software Engineering thesis and examination however)
-- and also: _Math for AI III, useful for Theory,_ see **next section/update**
+- _**Masters Practical Work** (though should be possible to pull some of this/start on the prototype this summer - to balance with Software Engineering thesis and examination however)_
+- _**and also**:_ Math for AI III, useful for Theory, _see **next section/update**_
 
 
 ### Shadow Semester IV (Summer 2025, Overflow/Bridging Semester)
@@ -1691,17 +1691,17 @@ Basically only if needed for anything else than the following curricular ideal, 
 
 ![Boring Semster with just Masters Thesis, Seminar and Exam](image-13.png)
 
-**Update May 2024**: this semester will be needed!
+_**Update May 2024**: this semester will be needed!_
 
-As before:
+_As before:_
 
-- Masters Thesis (also Seminar and Examination) _Note: should leave room for the usual extra-curriculars, esp. the spring theater performance too._
+- _Masters Thesis (also Seminar and Examination)_ Note: should leave room for the usual extra-curriculars, esp. the spring theater performance too.
 
-New:
+_New:_
 
-- Theory!
+- _Theory!_
 
-(Along with any other courses of interest, maybe travels, certainly work: Info from the IML office **June 3rd, 2024** - final exams need to be passed according to "Prüfungsraster" (grid of examination dates/results), then the thesis can be handed in - where the examiners have about four weeks to read it over - with an exam date as well. These are currently offered the last Wednesday and Friday of the month, every month: so a final exam in August or September, considering the Theory course, and in a similar schedule as with Hagenberg this year, is feasible.)
+_(Along with any other courses of interest, maybe travels, certainly work: Info from the IML office **June 3rd, 2024** - final exams need to be passed according to "Prüfungsraster" (grid of examination dates/results), then the thesis can be handed in - where the examiners have about four weeks to read it over - with an exam date as well. These are currently offered the last Wednesday and Friday of the month, every month: so a final exam in August or September, considering the Theory course, and in a similar schedule as with Hagenberg this year, is feasible.)_
 
 #### Target
 
