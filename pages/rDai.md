@@ -9,12 +9,18 @@ feedformat: none
 
 <div class="toc">
     <h2>academic blog post overview</h2>
+    <h4>Masters thesis forthcoming (2024) - <a href="/portfolio#jku-thesis-project">thesis project in portfolio</a> (degree practical work)</h4>
     <ul>
         <li>
-            <h3>Reinforcement Learning Goes Deep</h3>
-            <p>Part II Coming Soon.</p>
+            <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /> Reinforcement Learning Goes Deep</a> (Part II)</h3>
+            <p><b>Part II covers Deep Q-Network (DQN) for MiniGrid</b>, with a recap of the relevant basics, and challenge code.</p>
             <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
             <p><a href="#rl-1">Part I: Q-learning Algorithm Implementation for a Grid World Environment</a></p>
+        </li>
+        <li>
+            <h3>Presentation: <a href="#jku-pres">Replika</a></h3>
+            <p><b>Course-presentation about the AI companion app</b> in its current iteration. Includes use case study with persona and AI product improvement.</p>
+            <a href="../assets/pdf/KVRobopsychologySS24_grouptask_group2_8-final.pdf"><img src="../pages/image-51.png" alt="Replika presentation slides" /></a>
         </li>
         <li>
             <h3><a href="#attn"><b>Attention</b> via LSTM, the Transformer-Connection</a></h3>
@@ -35,6 +41,416 @@ feedformat: none
 </div>
 
 _These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and their application too are taking center-stage for now, as my Masters contribution to the Zeitgeist._
+
+# <a name="rl-2"></a>Reinforcement Learning Goes Deep
+
+Now for a short, project-oriented piece on Deep Reinforcement Learning, building mainly on challenge 2 of 3 in the exercise portion for [JKU's Deep Reinforcement course](https://studienhandbuch.jku.at/118185) - 10/10, would-recommend. I'll also point to my [Part I](#reinforcement-learning-goes-deep-part-i-q-learning-algorithm-implementation-for-a-grid-world-environment), Reinforcement Learning without the Depth.
+
+![Minigrid example involved](/pages/door-key-curriculum.gif)
+
+The subject of the task is [Minigrid](https://minigrid.farama.org/environments/minigrid/DoorKeyEnv/) - but the main training/debugging will happen in the slightly dumbed down version:
+
+![Minigrid example](/assets/img/DoorKeyEnv.gif)
+
+If scale is the only difference, and the problem of finding a key and opening a door can be encoded in a grid, we can definitely imagine a host of more increasingly complex application scenarios for the same approach.
+
+## Recap of the Basics
+
+Through the lens of a mini-grid challenge.
+
+**Value-Function**: Estimates how good it is for the agent to be in a given state. More formally: "Expected return of a state $s$ when following the policy $\pi$." (We want to maximize our future rewards.)
+
+Therefore it depends on:
+
+-   current policy $ \pi $
+-   environent transition dynamics
+-   reward function
+-   discount factor gamma
+
+In a formula:
+
+$$
+
+V_{\pi}(s) = E_{\pi} \left[ R_t | s_t = s \right] = E_{\pi} \left[ \Sigma_{k=0}^{\infty} \gamma^k r_{t+k+1} | s_t = s \right]
+
+$$
+
+The return is the sum of our future rewards. Visual intuition for the grid setting goes something like this:
+
+![Grid with good and bad cells](image-52.png)
+
+The action is a function of the policy, and the rewards depends on the action, to link the dependencies up. 
+
+**Q-Function**: The Q-Function tells us how good the action is given a particular state. Formally: "Expected return of taking the action $a$ in state $s$, and following policy $ \pi $ afterwards." The relation between optimal $V$ (Value) and $Q$ function is direct:
+
+$$
+
+V^*(s) = max_a Q^*(s, a)
+
+$$
+
+Computation of the Q-Function:
+
+$$
+
+Q_{\pi}(s, a) = E_{\pi} \left[ \Sigma_{k=0}^{\infty} \gamma^k r_{t+k+1} | s_t = s, a_t = a \right]
+
+$$
+
+To illustrate an example using the grid intuition we took a moment ago, together with optimal Q- and V-functions (highest values over fall Q-/V-functions), we work a Q-learning example (where Q-learning comes from Dynamic Programming and the approach of braking down a big problem into small problems - DQN is the Deep Learning extension, see the [famous paper that introduced it about a decade ago, by playing Atari with this method](https://arxiv.org/abs/1312.5602)) where the agent move u(p) and r(ight):
+
+![Up and right grid game](image-53.png)
+
+The policy where the target (+1) is hit more often is the optimal policy, in turn determining optimal V-/Q-Function. Again, V is about state and Q is about action, they go together.
+
+In general in this scenario ...
+
+![Scenario 1 in grid game](image-54.png)
+
+
+... $s_b$ is probably in a more optimal situation (V) compared to $s_a$, but here ...
+
+![Scenario 2 in grid game](image-55.png)
+
+... $s_b$, being closer to the danger area, might actually not be more optimal. 
+
+**Deep Q-Learning Algorithm**: Let's start with an overview.
+
+![DQN Overview](image-56.png)
+
+The **Replay Buffer**, a particular data set, is the core component. It is also, just like Neural Nets, somehow inspired by biology and animal learning, where the sleep and dream process, selecting examples from the preceeding day, affects future behaviour, i.e. learning is contingent upon some sort of delayed replay.
+
+In the ML view however, the Replay Buffer essentially breaks correlation in the data, by randomly sampling the data.
+
+As far as the algorithm goes, the training loop for DQN minimizes the Temporal Difference (TD) error. TD is just the local improvement as far as the state is concerned, taking into account the currently available best return.
+
+### DQN Algorithm Pseudocode
+
+- **Initialize Replay Memory $B$ with Capacity $M$**
+- **Initialize Q function with network $\Theta$**
+- **Initialize Q target function with network $\Theta^{'}$**
+- **Initialize environment:** `env = env.make("name_of_env")`
+- **Add preprocessing wrappers:** `env = wrap(env)`
+- **Initialize more**: exploration factor $\epsilon$, learning rate $\alpha$, batch size $m$, discount factor $\gamma$, any other hyperparameters.
+- **For $episode = 1$ to $N$ do:**
+  - `st = env.reset()`
+  - **While not done do:**
+    - **With probability $\epsilon$ select random action $a_t$**
+    - **Otherwise select:** a_t = $argmax_a Q(s_t, a; \Theta)$
+    - $s_{t+1}, r_t, d_t,$ _ = `env.step(at)`
+    - **Store transition:** $(s_t, a_t, r_t, s_{t+1}, d_t)$ in $B$
+    - **Sample random batch from memory $B$:** $(s_j, a_j, r_j, s_{j+1}, d_j)$
+    - **Targets:**
+        $$
+        y_j = \begin{cases} 
+          r_j \text{ for terminal }s_{j+1} \\
+          r_j + \gamma \cdot max a Q(s_{j+1}, a; \Theta^{'}) \text{ for non-terminal }s_{j+1}
+          \end{cases}
+        $$
+    - **Loss:** $L(\Theta) = (y_j − Q(s_j, a_j; \Theta))^2$
+    - **Update $\Theta$:** $\Theta \leftarrow \Theta − \alpha \cdot \nabla L(\Theta)$
+    - **End while**
+  - **Update target network $\Theta^{'}$:** $\Theta^{'} = \tau \cdot \Theta + (1 − \tau) \cdot \Theta^{'}$
+  - **End for**
+
+## The Challenge
+
+The challenge is to solve this environment: "Minigrid contains simple and easily configurable grid world environments to conduct Reinforcement Learning research. This library was previously known as gym-minigrid." ([MiniGrid](https://minigrid.farama.org/index.html))
+
+![6x6 Grid](image-57.png)
+
+So it is about making the agent collect the key, unlock the door and reach the goal in this 6x6-grid.
+
+Characteristics:
+
+-   **State space**: **Symbolic**, non-image observation $(3,7,7)$
+-   **Action space**: 7 discrete actions
+-   **Reward range**: $[0,1]$ 
+
+This 3x3/5x5 (incl. wall) version can be considered a dumbed down version usable for initial training and debugging:
+
+![3x3 Grid](image-58.png)
+
+This is an example of the Minigrid [Empty](https://minigrid.farama.org/environments/minigrid/EmptyEnv/) 
+
+## The Approach (with Code)
+
+So I did take the approach of working with the 5x5 version of the grid to get a working prototype. 
+
+The main logic is reproduced here/[full repo on GitHub](https://github.com/heseltime/drl).
+
+### MiniGrid
+
+```python
+# Minigrid Environment
+from minigrid.wrappers import ImgObsWrapper
+class ChannelFirst(gym.ObservationWrapper):
+    def __init__(self, env):
+        super().__init__(env)
+        old_shape = env.observation_space.shape
+        self.observation_space = {}
+        self.observation_space = gym.spaces.Box(0, 255, shape=(3, 7, 7))
+
+    def observation(self, observation):
+        return np.swapaxes(observation, 2, 0)
+
+class ScaledFloatFrame(gym.ObservationWrapper):
+    def __init__(self, env):
+        gym.ObservationWrapper.__init__(self, env)
+
+    def observation(self, observation):
+        # careful! This undoes the memory optimization, use
+        # with smaller replay buffers only.
+        return np.array(observation).astype(np.float32)
+
+class MinigridEmpty5x5ImgObs(gym.Wrapper):
+    """Minigrid with image observations provided by minigrid, partially observable."""
+    def __init__(self, render=False):
+        if render:
+          env = gym.make('MiniGrid-Empty-5x5-v0', render_mode="rgb_array")
+        else:
+          env = gym.make('MiniGrid-Empty-5x5-v0')
+        env = ScaledFloatFrame(ChannelFirst(ImgObsWrapper(env)))
+        super().__init__(env)
+
+class MinigridDoorKey6x6ImgObs(gym.Wrapper):
+    """Minigrid with image observations provided by minigrid, partially observable."""
+    def __init__(self, render=False):
+        if render:
+          env = gym.make('MiniGrid-DoorKey-6x6-v0', render_mode="rgb_array")
+        else:
+          env = gym.make('MiniGrid-DoorKey-6x6-v0')
+        env = ScaledFloatFrame(ChannelFirst(ImgObsWrapper(env)))
+        super().__init__(env)
+```
+
+### The Actual (Policy) NN
+
+```python
+class MlpMinigridPolicy(nn.Module):
+    def __init__(self, num_actions=7):
+        super().__init__()
+        self.num_actions = num_actions
+        self.fc = nn.Sequential(nn.Flatten(),
+                                nn.Linear(3*7**2, 256), nn.ReLU(),
+                                nn.Linear(256, 256), nn.ReLU(),
+                                nn.Linear(256, 64), nn.ReLU(),
+                                nn.Linear(64, num_actions))
+    def forward(self, x):
+        if len(x.size()) == 3:
+          x = x.unsqueeze(dim=0)
+        return self.fc(x)
+```
+
+### Terget Network Update Strategy
+
+```python
+# Update Target network
+def soft_update(local_model, target_model, tau):
+    """Soft update model parameters.
+    θ_target = τ*θ_local + (1 - τ)*θ_target
+    Params
+    ======
+        local_model (PyTorch model): weights will be copied from
+        target_model (PyTorch model): weights will be copied to
+        tau (float): interpolation parameter
+    """
+    # TODO: Update target network
+    for target_param, local_param in zip(target_model.parameters(), local_model.parameters()):
+        target_param.data.copy_(tau*local_param.data + (1.0-tau)*target_param.data)
+```
+
+### Training Loop Using the Target Network Update and Hyperparams from Above
+
+```python
+from torch.serialization import load
+
+# Train the agent using DQN for Pong
+returns = []
+returns_50 = deque(maxlen=50)
+losses = []
+buffer = ReplayBuffer(num_actions=num_actions, memory_len=buffer_size)
+
+dqn, dqn_target, timesteps = load_checkpoint(load_path)
+
+optimizer = optim.Adam(dqn.parameters(), lr=learning_rate)
+mse = torch.nn.MSELoss()
+state = env.reset()[0] # !
+for i in range(num_episodes):
+  ret = 0
+  done = False
+  while not done:
+    # Decay epsilon
+    epsilon = max(epsilon_lb, epsilon_ub - timesteps/ epsilon_decay)
+    # action selection
+    if np.random.choice([0,1], p=[1-epsilon,epsilon]) == 1:
+      action = np.random.randint(low=0, high=num_actions, size=1)[0]
+      # print("selected random action")
+    else:
+      # state_tmp = state[np.newaxis, :].astype(np.float32)
+      state_tensor = torch.tensor(state, dtype=torch.float32, device=device)
+      net_out = dqn(state_tensor).detach().cpu().numpy()
+      action = np.argmax(net_out)
+      # print("selected q-optimal action")
+
+    # next_state, r, done, info = env.step(a)
+    next_state, r, terminated, truncated, info = env.step(action)
+    done = terminated or truncated
+
+    # print(next_state.shape)
+    ret = ret + r
+
+    # TODO: store transition in replay buffer
+    buffer.add(state, action, r, next_state, done) # (state, action, ret, next_state, done)
+
+    state = next_state
+    timesteps = timesteps + 1
+
+    # update policy using temporal difference
+    if buffer.length() > minibatch_size and buffer.length() > update_after:
+      optimizer.zero_grad()
+
+      # TODO: Sample a minibatch randomly
+      states, actions, rewards, next_states, dones = buffer.sample_batch(minibatch_size)
+
+      # Convert data to tensors
+      states = torch.tensor(states, dtype=torch.float32, device=device)
+      next_states = torch.tensor(next_states, dtype=torch.float32, device=device)
+      #actions = torch.tensor(actions, dtype=torch.long, device=device)
+      #rewards = torch.tensor(rewards, dtype=torch.float32, device=device)
+      #dones = torch.tensor(dones, dtype=torch.float32, device=device)
+
+      # TODO: Compute q values for states
+      #current_Q_values = dqn(states).gather(1, actions)
+      #print("current_Q_values shape: ", current_Q_values.shape)
+      current_Q_values = dqn(states)
+
+      # TODO: compute the targets for training
+      max_Q, _ = torch.max(dqn_target(next_states), dim=1)
+      #next_Q_values = dqn_target(next_states).max(1)[0].detach()
+      #print("next_Q_values shape: ", next_Q_values.shape)
+      Q_targets = rewards + (1 - dones) * gamma * max_Q
+
+      # TODO: compute the predictions for training
+      #expected_Q_values = rewards + (gamma * next_Q_values * (1 - dones))
+      Q_predictions = current_Q_values.gather(1, actions.argmax(1, keepdim=True)).squeeze()
+
+      # TODO: Compute loss: mse = mean squared error
+      loss = mse(Q_predictions, Q_targets) # Q_targets.unsqueeze(1)
+
+      # Print the loss
+      #print(f"Loss at timestep {timesteps}: {loss.item()}")
+
+      #print('predictions', current_Q_values.shape, 'targets', expected_Q_values.unsqueeze(1).shape)
+      #print(loss)
+      loss.backward(retain_graph=False) # retain_graph=False ?
+      optimizer.step()
+      losses.append(loss.item())
+
+      # Update target network
+      soft_update(dqn, dqn_target, tau)
+    if done:
+      state = env.reset()[0]
+      print(f"Episode: \t{i}\t{ret}\t{datetime.now().strftime('%Y_%m_%d-%H_%M_%S')}")
+      break
+
+  returns.append(ret)
+  returns_50.append(ret)
+
+  if i % 50 == 0:
+    store_checkpoint(checkpoint_path=save_path, dqn_net=dqn, timesteps=timesteps)
+    print('\rEpisode {}\tAverage Score: {:.2f}'.format(i, np.mean(returns_50)))
+```
+
+Note: Some debugging lines and `TODO` comments still in there - here's the difference between ML experiment code and (production) engineering code. 
+
+#### Final Report (submitted with the project repo and the model attaining highest scores possible)
+
+##### Overview
+This report outlines the implementation of a Deep Q-Network (DQN) agent trained to play the game Pong. The agent learns through interaction with the environment, utilizing Q-learning with experience replay to update its policy.
+
+##### Training and Evaluation Outcomes
+
+![Training Progress](/pages/image-training-progress-plot-dqn.png)
+
+Evaluation: Highest score category on the leaderboard (0.965 averaged score in the evaluation script (challenge server)).
+
+##### Neural Network Architecture
+- **Model**: Deep Q-Network (DQN)
+- **Layers**:
+  - **Fully Connected Layers**: Four layers with ReLU activation.
+  - **Output Layer**: Outputs Q-values for each action - this is the MiniGrid Policy.
+
+##### Training Process
+
+###### Environment and Hyperparameters
+- **Environment**: MiniGrid: MinigridEmpty5x5ImgObs to start, then MinigridDoorKey6x6ImgObs once stabilized learning was achieved.
+- **Hyperparameters**:
+  - Learning Rate: 1e-3
+  - Replay Buffer Size: 100000
+  - Minibatch Size: 256
+  - Gamma (Discount Factor): 0.9
+  - Epsilon Decay: 100000 (decay epsilon in 100.000 timesteps)
+  - Epsilon Lower Bound: 0.3
+  - Epsilon Upper Bound: 1.0
+  - Target Network Update Rate ($\tau$): 1e-3
+  - **Number of Episodes: 1500** (marginally better than 1000, and even 800)
+
+###### Replay Buffer
+- **Purpose**: Stores experience tuples (state, action, reward, next state, done).
+- **Functionality**: Supports adding new experiences and sampling random mini-batches for training.
+
+###### Experience Report
+
+I think the exercise was a really helpful way to get a grasp on the concepts by filling in the essential gaps. I liked this emphasis on understanding over code volume (lines of code). Testing the hyperparameters and being able to rely on boilerplate functionality that would otherwise just be googled anyway is also really super.
+
+So the core learning for me was the replay buffer for minibatch sampling of tranisitons, review of epsilon greedy exploration vs exploitation, Q-values and Bellman Equation* computation, training with the computed Q-values as targets using a releatively simple NN structure encoding states.
+
+I used Google colab for this project and could train the 5x5 grid in less than 5 minutes for ca. 1000 episodes and then the 6x6 in about 15 minutes.
+
+*The **Bellman equation** is a fundamental concept in reinforcement learning that provides a recursive decomposition of the value function. In the context of Q-learning, the Bellman equation helps to determine the optimal Q-values for state-action pairs.
+
+In Q-learning, the agent aims to learn a policy that maximizes the cumulative reward by estimating the Q-values, which represent the expected return (cumulative reward) of taking a particular action in a given state and following the optimal policy thereafter.
+
+The Bellman equation for Q-values is expressed as:
+
+$$ Q(s, a) = \mathbb{E}[r + \gamma \max_{a'} Q(s', a') \mid s, a] $$
+
+Where:
+- $$ Q(s, a) $$ is the Q-value for taking action $$ a $$ in state $$ s $$.
+- $$ r $$ is the immediate reward received after taking action $$ a $$ in state $$ s $$.
+- $$ \gamma $$ (gamma) is the discount factor, which determines the importance of future rewards.
+- $$ s' $$ is the next state resulting from taking action $$ a $$ in state $$ s $$.
+- $$ \max_{a'} Q(s', a') $$ is the maximum Q-value for the next state $$ s' $$ over all possible actions $$ a' $$.
+
+
+In Deep Q-Networks (DQN), the Bellman equation is used to update the Q-values. Here's how it is applied in the code:
+
+1. **Current Q-Values**:
+    The current Q-values are computed by passing the current states through the Q-network.
+2. **Target Q-Values**:
+    The target Q-values are computed using the rewards and the maximum Q-values for the next states, as predicted by the target network. This is based on the Bellman equation.
+3. **Computing the Loss**:
+    The loss is computed as the mean squared error (MSE) between the current Q-values and the target Q-values.
+4. **Updating the Network**:
+    The gradients are computed and the network parameters are updated using backpropagation and an optimizer (e.g., Adam).
+
+Some more details to each step:
+
+- **Current Q-Values**: These represent the agent's current estimate of the expected return for each action in the given states.
+- **Target Q-Values**: These are the more accurate estimates obtained by using the Bellman equation. They take into account the immediate reward and the discounted future rewards.
+- **Loss Calculation**: The difference between the current Q-values and the target Q-values (squared error) is minimized during training, leading the Q-network to improve its predictions over time.
+- **Update Step**: The Q-network is updated using gradient descent to reduce the loss, thereby refining its estimates of the Q-values.
+
+([See Part I](#rl-1).)
+
+# <a name="jku-pres"></a>Course Presentation/AI Product Analysis: Replika
+
+Short **course-presentation about the AI companion app** in its current iteration. Includes use case study with persona and AI product improvement, embedded in a critical analysis. I am sure we will see more products along this trend.
+
+[![My replika with test screenshots](image-51.png)](..\assets\pdf\KVRobopsychologySS24_grouptask_group2_8-final.pdf)
+
+This was a JKU group work: I delivered the presentation in May 2024.
 
 # <a name="attn"></a> Attention via LSTM, the Transformer-Connection
 
@@ -1234,7 +1650,7 @@ Actually, I already know I am doing my Practical Work Component this semester, s
 
 Also Symbolic AI (now called Knowledge Representation and Reasoning) was already completed in Pre II: so, in other words, shooting beyond ideal here, for my target. Computer Algebra is offered this semester; this topic [interests me](/wolfram) but is very optional.
 
-### Semester III (**Target Final Semester**)/Winter (2024/2025)
+### Semester III (~~Target Final Semester~~)/Winter (2024/2025)
 
 Once again an ideal:
 
@@ -1249,11 +1665,43 @@ This might be a lofty goal ... I already completed Practical Work and Seminar at
 
 Automated Reasoning is listed for this semster (2019 version), and is only offered this semester currently, along with Computer Algebra (but this one is not required in the 2021 curriculum anymore, just a nice course).
 
+_**Update May 2024**: Running list of courses to take, given practicalities (Software Engineering degree pressures in Hagenberg, mainly) - looks like main Masters thesis writing will happen next spring, focus for fall will be practical work actually and more tests, drafting the thesis. This is a slightly slower, possibly quality-minded approach, and is more oriented towards the (JKU) ideal after all._
+
+As before:
+
+- _XAI_
+- _Prob. Models_
+- _Automated Reasoning_
+- _Communicating AI_
+- Computer Vision (Exercise) still open!
+
+_Move to spring:_
+
+- _~~Masters Thesis (Seminar)~~_
+
+_**To do**:_
+
+- _**Masters Practical Work** (though should be possible to pull some of this/start on the prototype this summer - to balance with Software Engineering thesis and examination however)_
+- _**and also**:_ Math for AI III, useful for Theory, _see **next section/update**_
+
+
 ### Shadow Semester IV (Summer 2025, Overflow/Bridging Semester)
 
 Basically only if needed for anything else than the following curricular ideal, where I already completed everything if I stay on target (then I would be doing my exam, see above, in the spring, which could be a nice timeline too): this would be a whole semester reserved for Masters Thesis (writing), Seminar and Exam. We'll see.
 
 ![Boring Semster with just Masters Thesis, Seminar and Exam](image-13.png)
+
+_**Update May 2024**: this semester will be needed!_
+
+_As before:_
+
+- _Masters Thesis (also Seminar and Examination)_ Note: should leave room for the usual extra-curriculars, esp. the spring theater performance too.
+
+_New:_
+
+- _Theory!_
+
+_(Along with any other courses of interest, maybe travels, certainly work: Info from the IML office **June 3rd, 2024** - final exams need to be passed according to "Prüfungsraster" (grid of examination dates/results), then the thesis can be handed in - where the examiners have about four weeks to read it over - with an exam date as well. These are currently offered the last Wednesday and Friday of the month, every month: so a final exam in August or September, considering the Theory course, and in a similar schedule as with Hagenberg this year, is feasible.)_
 
 #### Target
 
@@ -1312,7 +1760,7 @@ Very related to the EU Context: The <a href="https://fep-fee.eu/IMG/pdf/20210629
 
 </div>
 
-## Seminar: Language Models are Few-Shot Learners
+## Seminar Presentation: Language Models are Few-Shot Learners
 
 <div id="jku-sem">
 

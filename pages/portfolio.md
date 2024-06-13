@@ -7,7 +7,74 @@ feedformat: none
 
 With a DevOps background I broke into Software Engineering, benefiting from [formal training in the subject](/rDse) on top of long-time programming (since middle school), and with multi-year experience in Enterprise Content Management (ECM) and my own initial hobby Single Page Applications (SPAs) sprinkled in there, I have made this my professional work: my model for implementation is workflow-oriented, modern ECM (think Alfresco and Activiti/Camunda) coupled with high-level analytics (think Wolfram Language, i.e. really high level). At the same time, I realize Software Engineering is many different approaches, so in the below I reference this where appropriate and explore the ways I can apply my skillset across paradigms.
 
-## Scripting: Python OpenAI API Package Testing
+<div class="toc" id="jku-thesis-project">
+    <h2>core project (academic software development)</h2>
+    <h4>Masters thesis project at Johannes Kepler University (JKU), consisting of the following research components leading up to the technical report (project) and thesis</h4>
+    <p>I'd like to thank the <a href="/notes">wonderful Update Social Team (on-going notes included)</a> in helping to refine this project up to an actionable starting point, and <a href="https://github.com/heseltime/updatesocial">reference the repo for initial testing and prototyping</a>.</p>
+    <h3>PDF-Metadata Extraction (Forthcoming)</h3>
+    <h3>LLM Processing and Evaluation of the Output (Forthcoming)</h3>
+    <h3>Standard Software Integration (Enterprise Content Management - ECM, Forthcoming)</h3>
+    <p>In the language of this portfolio, this scripting project (Software Engineering view of Machine Learning (ML): all scripting, right?) marks an ML departure. It also build on an <a href="#open-ai-api">initial OpenAI API Test involving transformation of a collection of daily reports to one monthly report</a>, demonstrating a summarization ECM use case.</p>
+</div>
+
+## LIFT_C
+
+The technical continuation to a thesis is the result of a group project at [LIFT_C](https://www.jku.at/lift-c/) @[JKU](https://www.jku.at/en), see the [research feed for this](/_notes) and [this cute roll-up](https://heseltime.github.io/note/AB-Roll-Up-Design):
+
+![Roll-Up Design Accessibility Buddies](/assets/img/rollup.png)
+
+# <a name="open-api"></a> Hagenberg Software Engineering Final Java Project: Spring Boot (Spring Data, Spring MVC) and React Marketplace App
+
+## Outline
+
+```
++------------------+    +-------------------------------------------------------+
+|    Frontend      |    |                         Backend                       |
+|                  |    |                   |               |                   |
+|  +--------+      |    | PresentationLayer | ServiceLayer  | PersistenceLayer  |
+|  | WebApp |      |    |                   |               |                   |
+|  | Model  |      |    |                   |               |                   |
+|  | HTML   | -----+--> | Controller    DTO |   Service     | DAO/Repo  Entity  |
+|  +--------+      |    |                   |  Components   |                   |
+|                  |    |                   |               |                   |
+|                  |    |                                                       |
++------------------+    +-------------------------------------------------------+
+```
+
+## Schema and API Design
+
+The Swagger OpenAPI Schema view:
+
+![Swagger Schema View](../assets/img/swt6/Screenshot%202024-05-21%20101948.png)
+
+Swagger UI - **Before Annotation**:
+
+![Swagger UI representation of the Controller endpoints](../assets/img/swt6/Screenshot%202024-05-21%20003320.png)
+
+**After Annotation** in the source code:
+
+![Swagger UI representation of the Controller endpoints with annotations](../assets/img/swt6/Screenshot%202024-05-21%20102000.png)
+
+## Result (Screenshots of the frontend)
+
+This was mainly a Spring Boot API project, so I would actually say the annotated Swagger OpenAPI document is the main output of this exercise. That said, here are the screenshots of a lightweight frontend:
+
+![Frontend 1](../assets/img/swt6/Screenshot%202024-05-21%20101758.png)
+![Frontend 2](../assets/img/swt6/Screenshot%202024-05-21%20101809.png)
+
+**Update**: almost forgot search functionality.
+
+![Frontend 2a](../assets/img/swt6/Screenshot%202024-05-21%20104257.png)
+![Frontend 2b](../assets/img/swt6/Screenshot%202024-05-21%20104312.png)
+
+![Frontend 3](../assets/img/swt6/Screenshot%202024-05-21%20101823.png)
+![Frontend 4](../assets/img/swt6/Screenshot%202024-05-21%20101848.png)
+
+## [Full Repo](https://github.com/heseltime/SWT6Marketplace)
+
+All in all, this was a nice project drawing togeth Object Oriented programming, API design and a React frontend into a rapid development framework, since it had to get done fast. I think this kind of thing is the bread and butter in Software Engineering. But let's face it, the world is probably not quick to need yet another marketplace app.
+
+## <a name="open-ai-api"></a>Scripting: Python OpenAI API Package Testing
 
 Not as visual, but certainly useful (ties in with my [grad thesis](/rDai#jku-thesis-overview) too), therefore an honorable mention in my portfolio:
 
@@ -19,13 +86,25 @@ Not as visual, but certainly useful (ties in with my [grad thesis](/rDai#jku-the
 
 [Ventopay](https://ventopay.com/) does full-service cantine systems targeting the DACH market: their flagship [mocca](https://ventopay.com/bargeldloses-zahlungssystem-mocca/mocca-software/) software became the platform for a ten-person student project in close partnership between [Hagenberg Campus](https://www.fh-ooe.at/campus-hagenberg/) and the company. Tasked with developing the status and notifcation system, I took on a hybrid role of product owner (PO)/developer, implementing the traffic light style overview page for example, but also going in type loops between team and company to provide effective POing.
 
-## Screengrabs
+## Screengrabs Iteration II (Spring '24)
+
+The final project iteration was delivered on time, documented and evaluated (against ventopay's own review guidelines) in spring and further to this group's (ca. 10 members) graduation requirements in the [Software Engineering course in Hagenberg](/rDse). In a traditional Austrian manner, the finalized project was celebrated on-site in the countryside ([Mühlviertel](https://en.wikipedia.org/wiki/M%C3%BChlviertel)) to some beers.
 
 <div id="ventopay-screenshots">
-    <img src="../assets/img/Screenshot 2024-01-20 144337.png" alt="mocca screengrab 2" class="xxx-large" /><img src="../assets/img/Screenshot 2024-01-20 144337.png" alt="mocca screengrab 2" class="xx-large" />
-    <img src="../assets/img/Screenshot 2024-01-20 144320.png" alt="mocca screengrab 1" class="xxx-large" />
-    <img src="../assets/img/Screenshot 2024-01-20 144348.png" alt="mocca screengrab 3" class="xxx-large" />
+    <img src="../assets/img/Screenshot 2024-04-27 093139.png" alt="mocca screengrab 1" class="xxx-large" />
+    <img src="../assets/img/Screenshot 2024-04-27 093150.png" alt="mocca screengrab 2" class="xxx-large" />
+    <img src="../assets/img/Screenshot 2024-04-27 110830.png" alt="mocca screengrab 3" class="xxx-large" />
+    <img src="../assets/img/Screenshot 2024-04-27 110853.png" alt="mocca screengrab 4" class="xxx-large" />
+    <img src="../assets/img/Screenshot 2024-04-27 110921.png" alt="mocca screengrab 5" class="xxx-large" />
 </div>
+
+## Screengrabs Iteration I (Fall '23)
+
+
+<img src="../assets/img/Screenshot 2024-01-20 144337.png" alt="mocca screengrab 2" class="xxx-large" />
+<img src="../assets/img/Screenshot 2024-01-20 144320.png" alt="mocca screengrab 1" class="xxx-large" />
+<img src="../assets/img/Screenshot 2024-01-20 144348.png" alt="mocca screengrab 3" class="xxx-large" />
+
 
 ## Note
 
