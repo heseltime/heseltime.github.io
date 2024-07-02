@@ -883,7 +883,7 @@ NetExtract[gpt, {"decoder", 1, 1, "attention", 1, "attention"}]
 
 Leaving the tool-question at this for the moment, I'll say that looking at these kinds of models' architecture will form a signficant component in my [Masters Thesis (and Practical Component)](#jku-thesis-overview), write-up coming up soon (once I have the execution). 
 
-Thanks for reading!
+**Update (Wolfram Summer Research Program 2024)**: Thank you, Nicolò, for letting me link [this paper version of tracing a similar trajectory](../assets/pdf/WSRP2024/MLDeepDive.pdf), but further, to MAMBA, from a sequence learning deep dive talk at WSRP2024!
 
 
 # <a name="rl-1"></a> Reinforcement Learning Goes Deep (Part I): Q-learning Algorithm Implementation for a Grid World Environment
