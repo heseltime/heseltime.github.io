@@ -1684,6 +1684,9 @@ _**To do**:_
 - _**Masters Practical Work** (though should be possible to pull some of this/start on the prototype this summer - to balance with Software Engineering thesis and examination however)_
 - _**and also**:_ Math for AI III, useful for Theory, _see **next section/update**_
 
+_**Optional Course Result Improvement**:_
+
+- _**LSTM** (lecture grade)_
 
 ### Shadow Semester IV (Summer 2025, Overflow/Bridging Semester)
 
@@ -1702,6 +1705,10 @@ _New:_
 - _Theory!_
 
 _(Along with any other courses of interest, maybe travels, certainly work: Info from the IML office **June 3rd, 2024** - final exams need to be passed according to "Prüfungsraster" (grid of examination dates/results), then the thesis can be handed in - where the examiners have about four weeks to read it over - with an exam date as well. These are currently offered the last Wednesday and Friday of the month, every month: so a final exam in August or September, considering the Theory course, and in a similar schedule as with Hagenberg this year, is feasible.)_
+
+_**Optional Course Result Improvement**:_
+
+- _**Deep Reinforcement Learning** (exercise grade: assignment 3 mainly, assuming the previous two carry over/to review the lecture content some)_
 
 #### Target
 
