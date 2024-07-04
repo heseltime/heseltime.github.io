@@ -9,7 +9,7 @@ feedformat: none
 
 **What follows is documentation of my research project and thesis in Document Processing along with a list of courses matching my transcript from school below.** **Update**: In-progress presentation at [Wolfram Summer Program 2024](https://www.wolframcloud.com/obj/heseltine/Published/mentor-talk-wolfram-summer-program-2024.nb) ([Repo](https://github.com/heseltime/wsrp2024-mentor-talk)), with a special emphasis on using WL for Software Engineering and thinking of Mathematica notebooks as documents, informed by my ECM (Enterprise Content Management) background.
 
-![Recursion Flow](..\assets\img\wsrp\thesis-project-recursion-flow.png)
+![Recursion Flow](..\assets\img\wsrp\Artboard2@2x.png)
 
 # Thesis with RISC (Research Institute Symbolic Computation) also @Hagenberg: Mathematical Document Processing #
 
