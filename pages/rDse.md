@@ -11,7 +11,9 @@ feedformat: none
 
 ![Recursion Flow](..\assets\img\wsrp\Artboard2@2x.png)
 
-The technical concept focus was recursing through WL expressions, as per this project's requirements.
+The technical concept focus was recursing through WL expressions, as per this project's requirements. Also, here's me explaining it to a room full of Wolfram Summer Research Program high schoolers to get them thinking about project ideas involving document processing.
+
+![WSRP Mentor Talk](..\assets\img\wsrp\mentor-talk-graphic.png)
 
 # Thesis with RISC (Research Institute Symbolic Computation) also @Hagenberg: Mathematical Document Processing #
 
