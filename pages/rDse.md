@@ -13,7 +13,7 @@ feedformat: none
 
 The technical concept focus was recursing through WL expressions, as per this project's requirements. Also, here's me explaining it to a room full of Wolfram Summer Research Program high schoolers to get them thinking about project ideas involving document processing.
 
-![WSRP Mentor Talk](..\assets\img\wsrp\mentor-talk-graphic.png)
+![WSRP Mentor Talk](..\assets\img\wsrp\mentor-talk-graphic.jpg)
 
 # Thesis with RISC (Research Institute Symbolic Computation) also @Hagenberg: Mathematical Document Processing #
 
