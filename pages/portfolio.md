@@ -12,8 +12,11 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <h4>Masters thesis project at Johannes Kepler University (JKU), consisting of the following research components leading up to the technical report (project) and thesis</h4>
     <p>I'd like to thank the <a href="/notes">wonderful Update Social Team (on-going notes included)</a> in helping to refine this project up to an actionable starting point, and <a href="https://github.com/heseltime/updatesocial">reference the repo for initial testing and prototyping</a>.</p>
     <h3>PDF-Metadata Extraction (Forthcoming)</h3>
+    <p><b>0.</b></p>
     <h3>LLM Processing and Evaluation of the Output (Forthcoming)</h3>
+    <p><b>1.</b></p>
     <h3>Standard Software Integration (Enterprise Content Management - ECM, Forthcoming)</h3>
+    <p><b>+.</b> It is actually possible to extract this part out of the main academic work, and so I am starting here, for a practical work component in my Masters as well: Idea forthcoming.</p>
     <p>In the language of this portfolio, this scripting project (Software Engineering view of Machine Learning (ML): all scripting, right?) marks an ML departure. It also build on an <a href="#open-ai-api">initial OpenAI API Test involving transformation of a collection of daily reports to one monthly report</a>, demonstrating a summarization ECM use case.</p>
 </div>
 
