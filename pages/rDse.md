@@ -7,13 +7,11 @@ feedformat: none
 
 @University of Applied Sciences Upper Austria - Hagenberg Campus, Hagenberg: I am following a rigorous Software Engineering curriculum for a second Bachelor's degree in the subject, focussing mostly on the technical underpinnings and languages, but also related topics and soft skills, from project management through to modeling languages and approaches.
 
-**What follows is documentation of my research project and thesis in Document Processing along with a list of courses matching my transcript from school below.**
+**What follows is documentation of my research project and thesis in Document Processing along with a list of courses matching my transcript from school below.** **Update**: In-progress presentation at [Wolfram Summer Program 2024](https://www.wolframcloud.com/obj/heseltine/Published/mentor-talk-wolfram-summer-program-2024.nb) ([Repo](https://github.com/heseltime/wsrp2024-mentor-talk)), with a special emphasis on using WL for Software Engineering and thinking of Mathematica notebooks as documents, informed by my ECM (Enterprise Content Management) background.
 
 # Thesis with RISC (Research Institute Symbolic Computation) also @Hagenberg: Mathematical Document Processing #
 
 Not just Document Processing (often: Document Preparation), but <b>Mathematical</b> Document Processing: the goal a translation tool from Mathematica to LaTeX in the context of RISC's Theorema Tool. [Details directly from RISC](https://risc.jku.at/th/theorema-project-document-processing/) (RISC is an international institute with a research focus on various branches of symbolic computation) and [here an initial presentation given about the project (some DE, but the main content is in EN)](..\assets\pdf\Tma2TexPresentation1.pdf) scheduled for completion by June/July 2024. 
-
-**Update**: In-progress presentation at [Wolfram Summer Program 2024](https://www.wolframcloud.com/obj/heseltine/Published/mentor-talk-wolfram-summer-program-2024.nb).
 
 <!-- Final Presentation (January 2024): slides with thumbnail -->
 
