@@ -44,7 +44,7 @@ _These Masters level studies are on-going (target December 2024), now full-time,
 
 <div class="wsrp">
     <h2>wsrp 2024</h2>
-    <h4>Masters thesis forthcoming (2024)</h4>
+    <h4>I mentored some great students and their projects in the 2024 iteration of the <a href="https://education.wolfram.com/summer-research-high-school/">Wolfram Summer Research Program</a>:</h4>
     <ul>
         <li>
             <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /></a> Applications of LLMs in Political Science</h3>
