@@ -47,7 +47,7 @@ _These Masters level studies are on-going (target December 2024), now full-time,
     <h4>Masters thesis forthcoming (2024)</h4>
     <ul>
         <li>
-            <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /> Applications of LLMs in Political Science</h3>
+            <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /></a> Applications of LLMs in Political Science</h3>
             <p>Intro (TODO), possibly a bigger image.</p>
             <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
             <p><a href="#">Read the Full Wolfram Community Post</a></p>
