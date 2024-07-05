@@ -254,7 +254,7 @@ img.xxx-large {
   /* == Custom Class for Wolfram Summer Research Program content == */
 
   .wsrp {
-    background-color: #f0f0f0; /* Light gray background to keep it easy on the eyes */
+    background-color: #FFD580; /* Warm yellow-orange background */
     border-radius: 10px; /* Smooth, rounded corners for a friendly look */
     padding: 20px; /* Comfy space inside the box */
     margin: 20px 0; /* Balanced space outside the box, tweak as needed */
@@ -264,11 +264,12 @@ img.xxx-large {
     /* TODO: Ensure dark theme body text stays dark on the light background */
     
     .wsrp ul li h3 a {
-      color: var(--highlight-color-orange); /* Use the fun custom orange color for headings */
+      color: #FF4500; /* Red color for headings */
     }
     
     .wsrp ul {
       list-style-type: none; /* No bullet points for a cleaner look */
       padding-left: 0; /* Optional: Align with the parent container for neatness */
     }
+  
   
