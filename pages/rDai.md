@@ -42,6 +42,32 @@ feedformat: none
 
 _These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and their application too are taking center-stage for now, as my Masters contribution to the Zeitgeist._
 
+<div class="wsrp">
+    <h2>wsrp 2024</h2>
+    <h4>Masters thesis forthcoming (2024)</h4>
+    <ul>
+        <li>
+            <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /> Applications of LLMs in Political Science</h3>
+            <p>Intro (TODO), possibly a bigger image.</p>
+            <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
+            <p><a href="#">Read the Full Wolfram Community Post</a></p>
+        </li>
+        <li>
+            <h3>Analyzing Neural Nets in Wolfram Language: Weight Initialization (Untrained Nets)</h3>
+            <p>Intro (TODO), possibly a bigger image.</p>
+            <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
+            <p><a href="#">Read the Full Wolfram Community Post</a></p>
+        </li>
+        <li>
+            <h3>Analyzing Neural Nets in Wolfram Language: Weight-Noising (Trained Nets)</h3>
+            <p>Intro (TODO), possibly a bigger image.</p>
+            <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
+            <p><a href="#">Read the Full Wolfram Community Post</a></p>
+        </li>
+    </ul>
+    <p><i>The <a href="https://education.wolfram.com/summer-research-high-school/">Wolfram Summer Research Program</a> is a project-based research opportunity for motivated high-school students to move beyond the cutting edge of computational thinking and artificial intelligence.</i></p>
+</div>
+
 # <a name="rl-2"></a>Reinforcement Learning Goes Deep
 
 Now for a short, project-oriented piece on Deep Reinforcement Learning, building mainly on challenge 2 of 3 in the exercise portion for [JKU's Deep Reinforcement course](https://studienhandbuch.jku.at/118185) - 10/10, would-recommend. I'll also point to my [Part I](#reinforcement-learning-goes-deep-part-i-q-learning-algorithm-implementation-for-a-grid-world-environment), Reinforcement Learning without the Depth.
