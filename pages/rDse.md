@@ -21,7 +21,7 @@ The technical concept focus was recursing through WL expressions, as per this pr
 
 Not just Document Processing (often: Document Preparation), but <b>Mathematical</b> Document Processing: the goal a translation tool from Mathematica to LaTeX in the context of RISC's Theorema Tool. [Details directly from RISC](https://risc.jku.at/th/theorema-project-document-processing/) (RISC is an international institute with a research focus on various branches of symbolic computation).
 
-**Update (0)**: [here an initial presentation given about the project (some DE, but the main content is in EN)](..\assets\pdf\Tma2TexPresentation1.pdf) scheduled for completion by June/July 2024. 
+**Update (0)**: [here an initial **presentation** given about the project (some DE, but the main content is in EN)](..\assets\pdf\Tma2TexPresentation1.pdf) scheduled for completion by June/July 2024. 
 
 <!-- Final Presentation (January 2024): slides with thumbnail -->
 
