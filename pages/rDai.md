@@ -47,7 +47,7 @@ _These Masters level studies are on-going (target December 2024), now full-time,
     <h4>I mentored some great students and their projects in the 2024 iteration of the <a href="https://education.wolfram.com/summer-research-high-school/">Wolfram Summer Research Program</a>:</h4>
     <ul>
         <li>
-            <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /></a> Applications of LLMs in Political Science</h3>
+            <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /></a> <a href="#">Applications of LLMs in Political Science</a></h3>
             <p>Intro (TODO), possibly a bigger image.</p>
             <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
             <p><a href="#">Read the Full Wolfram Community Post</a></p>
