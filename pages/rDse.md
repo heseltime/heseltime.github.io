@@ -27,7 +27,8 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
 
 <div class="risc">
     <h2>risc thesis 2024</h2>
-    <h4><b>Update 2</b>: Expected soon! This thesis fulfills the requirements <a href="https://risc.jku.at/th/theorema-project-document-processing/">formulated by the Research Institue Symbolic Computation (RISC)</a>, mainly responding to <i>the task [of setting up] an environment for preparing entire (big) mathematical documents in <a href="https://arxiv.org/abs/1307.1945">Theorema 2.0</a></i>.</h4>
+    <h4><b>Update 2</b>: Expected soon!</h4> 
+    <p>This thesis fulfills the requirements <a href="https://risc.jku.at/th/theorema-project-document-processing/">formulated by the Research Institue Symbolic Computation (RISC)</a>, mainly responding to <i>the task [of setting up] an environment for preparing entire (big) mathematical documents in <a href="https://arxiv.org/abs/1307.1945">Theorema 2.0</a></i>.</p>
 </div>
 
 # Software Engineering Full Curriculum (Bachelor's of Science '24) #
