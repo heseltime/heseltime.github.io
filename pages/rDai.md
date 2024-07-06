@@ -61,8 +61,8 @@ _These Masters level studies are on-going (target December 2024), now full-time,
         </li>
         <li>
             <h3>Analyzing Neural Nets in Wolfram Language: Weight-Noising (Trained Nets)</h3>
-            <p>Intro (TODO), possibly a bigger image.</p>
-            <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
+            <p>Finally, we took a look at the impact of parameter perturbation on neural network performance.</p>
+            <img src="../assets/img/wsrp/trainednnstudy.png" alt="Weight-Noising (Trained Nets)">
             <p><a href="#">Read the Full Wolfram Community Post</a></p>
         </li>
     </ul>
