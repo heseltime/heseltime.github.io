@@ -285,7 +285,7 @@ img.xxx-large {
   /* TODO: Ensure dark theme body text stays dark on the light background */
   
   .risc ul li h3 a {
-    color: #90EE90; /* Light green color for headings */
+    color: #FF4500; /* Red color for headings */
   }
   
   .risc ul {
