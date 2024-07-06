@@ -21,6 +21,32 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
 
 <!-- Final Presentation (January 2024): slides with thumbnail -->
 
+<div class="risc">
+    <h2>thesis 2024</h2>
+    <h4>I mentored some great students and their projects in the 2024 iteration of the <a href="https://education.wolfram.com/summer-research-high-school/">Wolfram Summer Research Program</a>:</h4>
+    <ul>
+        <li>
+            <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /></a> <a href="#">Applications of LLMs in Political Science</a></h3>
+            <p>Intro (TODO), possibly a bigger image.</p>
+            <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
+            <p><a href="#">Read the Full Wolfram Community Post</a></p>
+        </li>
+        <li>
+            <h3>Analyzing Neural Nets in Wolfram Language: Weight Initialization (Untrained Nets)</h3>
+            <p>Intro (TODO), possibly a bigger image.</p>
+            <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
+            <p><a href="#">Read the Full Wolfram Community Post</a></p>
+        </li>
+        <li>
+            <h3>Analyzing Neural Nets in Wolfram Language: Weight-Noising (Trained Nets)</h3>
+            <p>Intro (TODO), possibly a bigger image.</p>
+            <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
+            <p><a href="#">Read the Full Wolfram Community Post</a></p>
+        </li>
+    </ul>
+    <p><i>The <a href="https://education.wolfram.com/summer-research-high-school/">Wolfram Summer Research Program</a> is a project-based research opportunity for motivated high-school students to move beyond the cutting edge of computational thinking and artificial intelligence.</i></p>
+</div>
+
 # Software Engineering Full Curriculum (Bachelor's of Science '24) #
 
 ## *sixth semester
