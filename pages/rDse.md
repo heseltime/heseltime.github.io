@@ -7,7 +7,9 @@ feedformat: none
 
 @University of Applied Sciences Upper Austria - Hagenberg Campus, Hagenberg: I am following a rigorous Software Engineering curriculum for a second Bachelor's degree in the subject, focussing mostly on the technical underpinnings and languages, but also related topics and soft skills, from project management through to modeling languages and approaches.
 
-**What follows is documentation of my research project and thesis in Document Processing along with a list of courses matching my transcript from school below.** **Update**: In-progress presentation at [Wolfram Summer Program 2024](https://www.wolframcloud.com/obj/heseltine/Published/mentor-talk-wolfram-summer-program-2024.nb) ([Repo](https://github.com/heseltime/wsrp2024-mentor-talk)), with a special emphasis on using WL for Software Engineering and thinking of Mathematica notebooks as documents, informed by my ECM (Enterprise Content Management) background.
+**What follows is documentation of my research project and thesis in Document Processing along with a list of courses matching my transcript from school below.** 
+
+**Update**: In-progress presentation at [Wolfram Summer Program 2024](https://www.wolframcloud.com/obj/heseltine/Published/mentor-talk-wolfram-summer-program-2024.nb) ([Repo](https://github.com/heseltime/wsrp2024-mentor-talk)), with a special emphasis on using WL for Software Engineering and thinking of Mathematica notebooks as documents, informed by my ECM (Enterprise Content Management) background.
 
 ![Recursion Flow](..\assets\img\wsrp\Artboard2@2x.png)
 
@@ -17,34 +19,15 @@ The technical concept focus was recursing through WL expressions, as per this pr
 
 # Thesis with RISC (Research Institute Symbolic Computation) also @Hagenberg: Mathematical Document Processing #
 
-Not just Document Processing (often: Document Preparation), but <b>Mathematical</b> Document Processing: the goal a translation tool from Mathematica to LaTeX in the context of RISC's Theorema Tool. [Details directly from RISC](https://risc.jku.at/th/theorema-project-document-processing/) (RISC is an international institute with a research focus on various branches of symbolic computation) and [here an initial presentation given about the project (some DE, but the main content is in EN)](..\assets\pdf\Tma2TexPresentation1.pdf) scheduled for completion by June/July 2024. 
+Not just Document Processing (often: Document Preparation), but <b>Mathematical</b> Document Processing: the goal a translation tool from Mathematica to LaTeX in the context of RISC's Theorema Tool. [Details directly from RISC](https://risc.jku.at/th/theorema-project-document-processing/) (RISC is an international institute with a research focus on various branches of symbolic computation).
+
+**Update 1**: [here an initial presentation given about the project (some DE, but the main content is in EN)](..\assets\pdf\Tma2TexPresentation1.pdf) scheduled for completion by June/July 2024. 
 
 <!-- Final Presentation (January 2024): slides with thumbnail -->
 
 <div class="risc">
-    <h2>thesis 2024</h2>
-    <h4>I mentored some great students and their projects in the 2024 iteration of the <a href="https://education.wolfram.com/summer-research-high-school/">Wolfram Summer Research Program</a>:</h4>
-    <ul>
-        <li>
-            <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /></a> <a href="#">Applications of LLMs in Political Science</a></h3>
-            <p>Intro (TODO), possibly a bigger image.</p>
-            <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
-            <p><a href="#">Read the Full Wolfram Community Post</a></p>
-        </li>
-        <li>
-            <h3>Analyzing Neural Nets in Wolfram Language: Weight Initialization (Untrained Nets)</h3>
-            <p>Intro (TODO), possibly a bigger image.</p>
-            <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
-            <p><a href="#">Read the Full Wolfram Community Post</a></p>
-        </li>
-        <li>
-            <h3>Analyzing Neural Nets in Wolfram Language: Weight-Noising (Trained Nets)</h3>
-            <p>Intro (TODO), possibly a bigger image.</p>
-            <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
-            <p><a href="#">Read the Full Wolfram Community Post</a></p>
-        </li>
-    </ul>
-    <p><i>The <a href="https://education.wolfram.com/summer-research-high-school/">Wolfram Summer Research Program</a> is a project-based research opportunity for motivated high-school students to move beyond the cutting edge of computational thinking and artificial intelligence.</i></p>
+    <h2>risc thesis 2024</h2>
+    <h4><b>Update 2</b>: Expected soon! This thesis fulfills the requirements <a href="https://risc.jku.at/th/theorema-project-document-processing/">formulated by the Research Institue Symbolic Computation (RISC)</a>, mainly responding to <i>the task [of setting up] an environment for preparing entire (big) mathematical documents in <a href="https://arxiv.org/abs/1307.1945">Theorema 2.0</a></i>.</h4>
 </div>
 
 # Software Engineering Full Curriculum (Bachelor's of Science '24) #
