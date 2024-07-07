@@ -107,7 +107,7 @@ _This semester also credits for practical, internship-type work, which I am comp
 
 ## ++ another note
 
-When it comes to development work, what I notice time and time again, is that there is some much IT/admin involved to get to a place where you can effectively "develop" (also the soft wrappers involved in getting the specs, if those are not a given), that I would really consider any and all work in that domain as much of an asset as any of the formal skills learned according to the list above. 
+When it comes to development work, what I notice time and time again, is that there is so much IT/admin involved to get to a place where you can effectively "develop" (also the soft wrappers involved in getting the specs, if those are not a given), that I would really consider any and all work in that domain as much of an asset as any of the formal skills learned according to the list above. 
 
 This is where Software Engineering is as much an art and a coordination (and so on) soft skill as an engineering discipline.
 
