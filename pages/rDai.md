@@ -56,7 +56,7 @@ _These Masters level studies are on-going (target December 2024), now full-time,
         <li>
             <h3><a href="#">Analyzing Neural Nets in Wolfram Language: Weight Initialization (Untrained Nets)</a></h3>
             <p>This was a study of the effects of randomly generated weights and biases on distributions of outputs of untrained neural networks, with special attention paid to activation functions.</p>
-            <img src="../assets/img/untrainednnstudy.png" alt="Weight Distributions">
+            <img src="../assets/img/wsrp/untrainednnstudy.png" alt="Weight Distributions">
             <p><a href="#">Read the Full Wolfram Community Post</a></p>
         </li>
         <li>
