@@ -293,3 +293,28 @@ img.xxx-large {
     padding-left: 0; /* Optional: Align with the parent container for neatness */
   }
     
+/* == White Bg Transparency Conversion Test == */
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+  background-color: white; /* This color will be turned transparent */
+  mix-blend-mode: multiply;
+}
+
+.image-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white; /* Color to make transparent */
+  mix-blend-mode: screen;
+  pointer-events: none; /* Ensure it doesn't block clicks */
+}
