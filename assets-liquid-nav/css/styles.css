@@ -295,19 +295,19 @@ img.xxx-large {
     
 /* == White Bg Transparency Conversion Test == */
 
-.image-container {
+.transparent-image-container {
   position: relative;
   display: inline-block;
 }
 
-.image-container img {
+.transparent-image-container img {
   width: 100%; /* Adjust as needed */
   height: auto; /* Adjust as needed */
   background-color: white; /* This color will be turned transparent */
   mix-blend-mode: multiply;
 }
 
-.image-container::before {
+.transparent-image-container::before {
   content: '';
   position: absolute;
   top: 0;
