@@ -48,19 +48,19 @@ _These Masters level studies are on-going (target December 2024), now full-time,
     <h4>The 2024 iteration of the <a href="https://education.wolfram.com/summer-research-high-school/">Wolfram Summer Research Program</a> is now complete: the following are the student projects I had a part in.</h4>
     <ul>
         <li>
-            <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /></a> <a href="#">Applications of LLMs in Political Science</a></h3>
+            <h3><a href="#"><img width="50" src="assets/img/Mathematica_Logo.png" alt="Mathematica Logo Wolfram Resarch" /> Applications of LLMs in Political Science</a></h3>
             <p>Here we test out some NLP functionality built into WL, to answer questions like: why is the 2020 Democrat party platform an outlier in some way to both other Democrat and Republican platforms? <b>Super interesting in this project:</b> WL in the "computational language" idea, knitting together NLP-functionality here.</p>
             <img src="../assets/img/wsrp/politicalscienceapplication.png" alt="Political Science Application">
             <p><a href="#">Read the Full Wolfram Community Post</a></p>
         </li>
         <li>
-            <h3><a href="#">Analyzing Neural Nets in Wolfram Language: Weight Initialization (Untrained Nets)</a></h3>
+            <h3><a href="#"><img width="50" src="assets/img/Mathematica_Logo.png" alt="Mathematica Logo Wolfram Resarch" /> Analyzing Neural Nets in Wolfram Language: Weight Initialization (Untrained Nets)</a></h3>
             <p>This was a study of the effects of randomly generated weights and biases on distributions of outputs of untrained neural networks, with special attention paid to activation functions. <b>Super interesting in this project:</b> WL handling of neural networks at the initialization stage, neural nets in Mathematica environments generally.</p>
             <img src="../assets/img/wsrp/untrainednnstudy.png" alt="Weight Distributions">
             <p><a href="#">Read the Full Wolfram Community Post</a></p>
         </li>
         <li>
-            <h3><a href="#">Analyzing Neural Nets in Wolfram Language: Weight-Noising (Trained Nets)</a></h3>
+            <h3><a href="#"><img width="50" src="assets/img/Mathematica_Logo.png" alt="Mathematica Logo Wolfram Resarch" /> Analyzing Neural Nets in Wolfram Language: Weight-Noising (Trained Nets)</a></h3>
             <p>Finally, we took a look at the impact of parameter perturbation on neural network performance. <b>Super interesting in this project:</b> WL manipulation of neural nets after training, neural nets in Mathematica environments generally</p>
             <img src="../assets/img/wsrp/trainednnstudy.png" alt="Weight-Noising (Trained Nets)">
             <p><a href="#">Read the Full Wolfram Community Post</a></p>
