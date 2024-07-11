@@ -49,7 +49,7 @@ _These Masters level studies are on-going (target December 2024), now full-time,
     <ul>
         <li>
             <h3><a href="#"><img width="40" src="assets/img/Mathematica_Logo.png" alt="Mathematica Logo Wolfram Resarch" /> Applications of LLMs in Political Science</a></h3>
-            <p>Here we test out some NLP functionality built into WL, to answer questions like: why is the 2020 Democrat party platform an outlier in some way to both other Democrat and Republican platforms? <b>Super interesting in this project:</b> WL in the "computational language" idea, knitting together NLP-functionality here.</p>
+            <p>Here we test out some NLP functionality built into WL, to answer questions like: why is the 2020 Democrat party platform an outlier in some way to both other Democrat and Republican platforms? <b>Super interesting in this project:</b> WL in the "computational language" idea, knitting together NLP-functionality here. We also did LLM-data-annotation and a comparision of LLM classification with traditional methods like PCA (Principial Component Analysis) on the way.</p>
             <div class="transparent-img-container">
                 <img src="../assets/img/wsrp/politicalscienceapplication.png" alt="Political Science Application">
             </div>
