@@ -29,7 +29,8 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
     <h2>risc thesis 2024</h2>
     <h4><b>Update 2</b>: Expected soon!</h4> 
     <p>This thesis fulfills the requirements <a href="https://risc.jku.at/th/theorema-project-document-processing/">formulated by the Research Institue Symbolic Computation (RISC)</a>, mainly responding to <i>the task [of setting up] an environment for preparing entire (big) mathematical documents in <a href="https://arxiv.org/abs/1307.1945">Theorema 2.0</a></i>.</p>
-    <h3>The meaning of this project to me, aside from getting me a job at Wolfram Research, is conceptual and related to Stephen Wolfram's notion of a <a href="https://writings.stephenwolfram.com/2019/05/what-weve-built-is-a-computational-language-and-thats-very-important/">computational</a> language, as well as the overall symbolic take on computing and programming, since this tooling offers a wrapper for the ca. 2020-onward Large Language Models (LLMs), a way to contextualize and concretely plug in language modeling level results for reliably accurate outputs. My <a href="/rDai">academic home in Linz</a> forms the LLM-side of the equation.</h3>
+    <h3>The meaning of this project to me, aside from getting me a job at Wolfram Research, is conceptual and related to Stephen Wolfram's notion of a <a href="https://writings.stephenwolfram.com/2019/05/what-weve-built-is-a-computational-language-and-thats-very-important/">computational</a> language, as well as the overall symbolic take on computing and programming, since this tooling offers a wrapper for the ca. 2020-onward Large Language Models (LLMs), a way to not only contextualize, but concretely plug in language modeling-level results for reliably accurate outputs. </h3>
+    <h3>My <a href="/rDai">academic home in Linz</a> forms the LLM-side of the equation.</h3>
 </div>
 
 # Software Engineering Full Curriculum (Bachelor's of Science '24) #
