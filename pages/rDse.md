@@ -34,7 +34,7 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
     <h3>My <a href="/rDai">academic home in Linz</a> forms the LLM-side of the equation.</h3>
 </div>
 
-# Software Engineering Full Curriculum (Bachelor's of Science '24) #
+# Software Engineering Full Curriculum (Bachelor's of Science in Engineering '24) #
 
 ## *sixth semester
 
