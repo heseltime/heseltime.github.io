@@ -25,10 +25,10 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
 
 <!-- Final Presentation (January 2024): slides with thumbnail -->
 
-<div class="risc">
+<div class="risc" style="background-color: #c7d7eb;">
     <h2>RISC Thesis 2024</h2>
     <h4><b>Update 2</b>: Upload expected soon!</h4> 
-    <img src="../assets/img/Tma2Tex-thumb.png" alt="Download Thesis When Available" style="display: block; margin: 20px auto; max-height: 590px; height: 100%">
+    <img src="../assets/img/Tma2Tex-thumb.png" alt="Download Thesis When Available" style="display: block; margin: 20px auto; max-height: 590px; height: 100%; background-color: #c7d7eb;">
     <p>This thesis fulfills the requirements <a href="https://risc.jku.at/th/theorema-project-document-processing/">formulated by the Research Institute Symbolic Computation (RISC)</a>, mainly responding to <i>the task [of setting up] an environment for preparing entire (big) mathematical documents in <a href="https://arxiv.org/abs/1307.1945">Theorema 2.0</a></i>.</p>
     <h3>The meaning of this project to me, aside from getting me a job at Wolfram Research, is conceptual and related to Stephen Wolfram's notion of a <a href="https://writings.stephenwolfram.com/2019/05/what-weve-built-is-a-computational-language-and-thats-very-important/">computational</a> language, as well as the overall symbolic take on computing and programming.</h3> 
     <p>Since this tooling offers a wrapper for the ca. 2020-onward Large Language Models (LLMs), a way to not only contextualize, but concretely plug in language modeling-level results for reliably accurate outputs. But hanging out with the original idea for a moment, here's Stephen Wolfram's take on what makes Wolfram Language a computational language, beyond a programming language: <i>In most standard programming languages, x on its own without a value doesn’t mean anything; it has to stand for some structure in the memory of the computer. But in a computational language, one’s got to be able to have things that are purely symbolic, and that represent, for example, entities in the real world—that one can operate on just like any other kind of data.</i> In my thesis work, I <b>connect this line of thinking to First Order Predicate logic, the logic of <a href="https://risc.jku.at/sw/theorema/">Theorema</a>, but then circle back to Mathematica notebooks as documents, and so this work and especially its practical component (the work wraps an engineering degree after all), is a document processing project</b> in the end.</p>
@@ -52,6 +52,7 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
 
     <p>I am immensely grateful for your trust, patience (once again), and also your commitment to continued learning and quality of your work, which is truly inspiring.</p>
 </div>
+
 
 
 # Software Engineering Full Curriculum (Bachelor's of Science in Engineering '24) #
