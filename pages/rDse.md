@@ -38,19 +38,16 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
     <p>I would like to thank, in chronological order as pertains to this thesis, the following persons who enabled this course of study and thesis in Hagenberg, both in the professional and the educational context:</p>
 
     <ul>
-        <li><b>At the Red Cross Blood Bank and Transfusion Center in Upper Austria, at Linz General Hospital</b>: 
-            <ul>
-                <li>DI Dr. Stephan Federsel and Dr. Norbert Niklas, IT leadership at the blood bank, for making generous allowances for pursuit of the part-time, Friday- (and Saturday-)form of the Software Engineering curriculum in Hagenberg, and for teaching me the value of quality software documentation.</li>
-            </ul>
+        <li><b>At the Red Cross Blood Bank and Transfusion Center in Upper Austria, at Linz General Hospital</b>: <b>DI Dr. Stephan Federsel</b> and <b>Dr. Norbert Niklas</b>, IT leadership at the blood bank, for making generous allowances for pursuit of the part-time, Friday- (and Saturday-)form of the Software Engineering curriculum in Hagenberg, and for teaching me the value of quality software documentation.
         </li>
 
         <li><b>My advisor Assoc. Univ.-Prof. DI Dr. Wolfgang Windsteiger</b>, but also the course management (Studiengangsleitung) for Software Engineering, for being blind to bureaucratic boundaries between Johannes Kepler University (JKU) and Fachhochschule Oberösterreich (Campus Hagenberg), so that the present thesis work could be situated at RISC, a JKU institute, but explore this Software Engineering topic in the domain of RISC’s general interest in Symbolic Computation and using Mathematica in particular, and Prof. Windsteiger for his patience as well.</li>
 
         <li><b>The wonderful people in Educational Outreach under Mads Bahrami, PhD, at Wolfram Research</b>, headquartered in Champaign, Illinois, for not just allowing me to participate in the Wolfram Summer School 2023, but also fully funding it, significantly accelerating learning of the Wolfram Language, and subsequently accepting my application for the role of Software Engineer in the Cloud Team at the company. In a full circle journey, I am teaching at Wolfram Summer Research Program 2024, the format for high schoolers, drawing on the understanding gained in the writing of this thesis, as well as the summer school, and looking forward to presenting results and methods deployed here to eager young students &mdash;</li>
 
-        <li>&mdash; for which, again, I am thankful to Wolfram Research but especially my manager, <b>John Pacey</b>, for allowing this kind of flexibility. The same I would also like to thank for use of learning and time on the job as the work placement requirement in the field of Software Engineering for official completion of the course of study.</li>
+        <li>&mdash; for which, again, I am thankful to Wolfram Research but especially <b>my manager</b>, <b>John Pacey</b>, for allowing this kind of flexibility. The same I would also like to thank for use of learning and time on the job as the work placement requirement in the field of Software Engineering for official completion of the course of study.</li>
 
-        <li>Finally, I would also like to thank my colleague and team lead, <b>Joel Klein</b>, for the training in using Wolfram Language as an engineering tool and patience, and very often his marked pleasure, in answering my many technical questions.</li>
+        <li>Finally, I would also like to thank my colleague and <b>team lead</b>, <b>Joel Klein</b>, for the training in using Wolfram Language as an engineering tool and patience, and very often his marked pleasure, in answering my many technical questions.</li>
     </ul>
 
     <p>I am immensely grateful for your trust, patience (once again), and also your commitment to continued learning and quality of your work, which is truly inspiring.</p>
