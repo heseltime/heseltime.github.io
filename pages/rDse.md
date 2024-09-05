@@ -25,14 +25,35 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
 
 <!-- Final Presentation (January 2024): slides with thumbnail -->
 
-<div class="risc">
-    <h2>risc thesis 2024</h2>
-    <h4><b>Update 2</b>: Expected soon!</h4> 
-    <p>This thesis fulfills the requirements <a href="https://risc.jku.at/th/theorema-project-document-processing/">formulated by the Research Institue Symbolic Computation (RISC)</a>, mainly responding to <i>the task [of setting up] an environment for preparing entire (big) mathematical documents in <a href="https://arxiv.org/abs/1307.1945">Theorema 2.0</a></i>.</p>
+<div class="risc" style="background-color: #c7d7eb;">
+    <h2>RISC Thesis 2024</h2>
+    <h4><b>Update 2</b>: Upload expected soon!</h4> 
+    <img src="../assets/img/Tma2Tex-thumb.png" alt="Download Thesis When Available" style="display: block; margin: 20px auto; max-height: 590px; height: 100%; background-color: #c7d7eb;">
+    <p>This thesis fulfills the requirements <a href="https://risc.jku.at/th/theorema-project-document-processing/">formulated by the Research Institute Symbolic Computation (RISC)</a>, mainly responding to <i>the task [of setting up] an environment for preparing entire (big) mathematical documents in <a href="https://arxiv.org/abs/1307.1945">Theorema 2.0</a></i>.</p>
     <h3>The meaning of this project to me, aside from getting me a job at Wolfram Research, is conceptual and related to Stephen Wolfram's notion of a <a href="https://writings.stephenwolfram.com/2019/05/what-weve-built-is-a-computational-language-and-thats-very-important/">computational</a> language, as well as the overall symbolic take on computing and programming.</h3> 
     <p>Since this tooling offers a wrapper for the ca. 2020-onward Large Language Models (LLMs), a way to not only contextualize, but concretely plug in language modeling-level results for reliably accurate outputs. But hanging out with the original idea for a moment, here's Stephen Wolfram's take on what makes Wolfram Language a computational language, beyond a programming language: <i>In most standard programming languages, x on its own without a value doesn’t mean anything; it has to stand for some structure in the memory of the computer. But in a computational language, one’s got to be able to have things that are purely symbolic, and that represent, for example, entities in the real world—that one can operate on just like any other kind of data.</i> In my thesis work, I <b>connect this line of thinking to First Order Predicate logic, the logic of <a href="https://risc.jku.at/sw/theorema/">Theorema</a>, but then circle back to Mathematica notebooks as documents, and so this work and especially its practical component (the work wraps an engineering degree after all), is a document processing project</b> in the end.</p>
     <h3>My <a href="/rDai">academic home in Linz</a> forms the LLM-side of the equation.</h3>
+
+    <h2>From the Preface ... </h2>
+    <p>I would like to thank, in chronological order as pertains to this thesis, the following persons who enabled this course of study and thesis in Hagenberg, both in the professional and the educational context:</p>
+
+    <ul>
+        <li><b>At the Red Cross Blood Bank and Transfusion Center in Upper Austria, at Linz General Hospital</b>: <b>DI Dr. Stephan Federsel</b> and <b>Dr. Norbert Niklas</b>, IT leadership at the blood bank, for making generous allowances for pursuit of the part-time, Friday- (and Saturday-)form of the Software Engineering curriculum in Hagenberg, and for teaching me the value of quality software documentation.
+        </li>
+
+        <li><b>My advisor Assoc. Univ.-Prof. DI Dr. Wolfgang Windsteiger</b>, but also the course management (Studiengangsleitung) for Software Engineering, for being blind to bureaucratic boundaries between Johannes Kepler University (JKU) and Fachhochschule Oberösterreich (Campus Hagenberg), so that the present thesis work could be situated at RISC, a JKU institute, but explore this Software Engineering topic in the domain of RISC’s general interest in Symbolic Computation and using Mathematica in particular, and Prof. Windsteiger for his patience as well.</li>
+
+        <li><b>The wonderful people in Educational Outreach under Mads Bahrami, PhD, at Wolfram Research</b>, headquartered in Champaign, Illinois, for not just allowing me to participate in the Wolfram Summer School 2023, but also fully funding it, significantly accelerating learning of the Wolfram Language, and subsequently accepting my application for the role of Software Engineer in the Cloud Team at the company. In a full circle journey, I am teaching at Wolfram Summer Research Program 2024, the format for high schoolers, drawing on the understanding gained in the writing of this thesis, as well as the summer school, and looking forward to presenting results and methods deployed here to eager young students &mdash;</li>
+
+        <li>&mdash; for which, again, I am thankful to Wolfram Research but especially <b>my manager</b>, <b>John Pacey</b>, for allowing this kind of flexibility. The same I would also like to thank for use of learning and time on the job as the work placement requirement in the field of Software Engineering for official completion of the course of study.</li>
+
+        <li>Finally, I would also like to thank my colleague and <b>team lead</b>, <b>Joel Klein</b>, for the training in using Wolfram Language as an engineering tool and patience, and very often his marked pleasure, in answering my many technical questions.</li>
+    </ul>
+
+    <p>I am immensely grateful for your trust, patience (once again), and also your commitment to continued learning and quality of your work, which is truly inspiring.</p>
 </div>
+
+
 
 # Software Engineering Full Curriculum (Bachelor's of Science in Engineering '24) #
 
