@@ -26,6 +26,12 @@ The technical continuation to a thesis is the result of a group project at [LIFT
 
 ![Roll-Up Design Accessibility Buddies](/assets/img/rollup.png)
 
+# <a name="it-u"></a> [IT-U](https://it-u.at/en/) Software Engineering Part for Interdisciplinary Installation Project
+
+This was a cute little project I was allowed to accompany in technical role resulting in a fairly original installations setup running on multiple raspberry pis and a local network, plugging into the global seismographic network in turn, making it audible at a human ("totem") level at a newborn university's temporary home inside Linz/JKU Science Park - the context was a summer school offered in 2024, the project team an interdisciplinary group (one visual artist, one humanities researcher, one natural scientist, me in the capacity of the dev), affording learning mostly in this small-group, trans-disciplinary, self-organized dimension, though working with raspberry tech and sonification technology was new to me, on the technical one.
+
+![IT:U Poster](/pages/inter_totem-poster.png)
+
 # <a name="open-api"></a> Hagenberg Software Engineering Final Java Project: Spring Boot (Spring Data, Spring MVC) and React Marketplace App
 
 ## Outline
