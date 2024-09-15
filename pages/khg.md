@@ -63,6 +63,10 @@ Something about signing in a group! (Another secret.)
 
 Why Traktor? You tell me! Fun sports (fun-sports) group with a an alcohol component (beer, this is Austria after all - but see next section for our, quite gay, take) sometimes. Also a Sauna Group division runs under this, maybe also a Climbing and Fight Club (Wrestling) one, but you don't talk about Fight Club. Also not my divison actually.
 
+But I do see Traktor as something like the executive arm of KHJ, where the alcohol component might not make for great publicity.
+
+![A Trakor Emoji](/assets/img/traktor.png)
+
 ### Posters for everything else.
 
 One more thing: at KHG I discovered that I really love, love, love making posters for different things, usually whacky events like sauna openings or beer runs (these two categories under the Tractor banner actually) - feedback has been mixed, I will admit, but the overloading of information frequently criticised is me selling an idea for an event, that I need to be able to map out on one poster (not in an essay like this.)
