@@ -45,6 +45,10 @@ But what does the community life mean, concretely? Here is how I find and give c
 
 ### KHJ: Catholic University Youth (Upper Austria)
 
+Partly because I seem to get the importance of this stuff, which is really the same as saying I am the right place in my life for it, I was promoted to the office of KHJ student president basically, for lack of a better translation from the German "Vorstand" - my take: I serve community and community building in general, this is the tangible difference relgion and church can make in the lives of the other students I live with.
+
+[See a slide show on this for the presentation I am giving currently to new incoming students (Google Slides).](https://docs.google.com/presentation/d/1qAb85NZwXKXToALrVz9pXuyoZqWJsNY2Y1SSw9AjCWc/edit?usp=sharing)
+
 ### Theater Group M23
 
 ### Quoir Group
