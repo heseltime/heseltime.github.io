@@ -65,7 +65,7 @@ Why Traktor? You tell me! Fun sports (fun-sports) group with a an alcohol compon
 
 But I do see Traktor as something like the executive arm of KHJ, where the alcohol component might not make for great publicity.
 
-![A Trakor Emoji](/assets/img/traktor.png)
+<img src="/assets/img/traktor.png" alt="A Trakor Emoji" style="display: block; margin: 10px auto; height: 30px" />
 
 ### Posters for everything else.
 
