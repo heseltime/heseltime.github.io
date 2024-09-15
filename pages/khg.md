@@ -5,7 +5,7 @@ title: Having a Life at KHG
 feedformat: none
 ---
 
-# Misc./Reflections of "Life", "Having a Life" @KHG
+# Misc./Reflections on "Life", "Having a Life" @KHG
 
 ## Introduction
 
