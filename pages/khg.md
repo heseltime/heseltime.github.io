@@ -51,9 +51,17 @@ Partly because I seem to get the importance of this stuff, which is really the s
 
 ### Theater Group M23
 
+The group's name comes from KHG's address. Last semester we performed a piece which totally speaks to my taste actually. By [Werner Schwab](https://en.wikipedia.org/wiki/Werner_Schwab), and Austrian playwright, the play "Der reizende Reigen nach dem Reigen des reizenden Herrn Arthur Schnitzler" parodies Schnitzler (in a strange coincidence, my cousing performed in the original play the same semester) but also features surrealist and overtly sexual elements (where Schnitzler and sexual mores are precisely the topic) like detachable plastic sex organs. Totally **not** what you would expect at a Catholic Society, which is why I particularly enjoyed this.
+
+But aside from the literary value, the personal one is learning to understand theater as a tool to get me in tune with a group, to express myself, in fact really exercise vocals and facial muscles, emotion and sensory perception while speaking publically, to name just a few of the hidden processes of theater I discovered - why did I hide from this so long? I know for a fact not only I am scared of getting up on stage though. Still, I think it took a setting like KHG and arriving at that magical (not really) place in life I mentioned to get me to do it = allow me to take the challenge.
+
 ### Quoir Group
 
-### Tractor Sports Group
+Something about signing in a group.
+
+### Tractor (Traktor in German) Sports Group
+
+Why Traktor? You tell me! Fun sports (fun-sports) group with a an alcohol component (beer, this is Austria after all - but see next section for our, quite gay, take) sometimes. Also a Sauna Group division runs under this, maybe also a Climbing and Fight Club (Wrestling) one, but you don't talk about Fight Club. Also not my divison actually.
 
 ### Posters for everything else.
 
@@ -63,7 +71,7 @@ So, take and judge for yourself:
 
 ![Beer Run Plus Floor Party Combo Event to Get Floor Parties More Active, as an Example](Beerrun WS2024 + Floor Party.png)
 
-(Tools used: Canva, Dalle for the image (generation), photo permissions!)
+(Tools used: Canva, Dall-E for the image (generation), photo permissions!)
 
 ## Conclusion
 
