@@ -11,7 +11,9 @@ feedformat: none
 
 "Ein Leben (haben)", (having) a life, that was the counter-argument to zeal in high school, at least in my class, where an in-group would often define itself by those who even in young years seemed to be living some kind of middle-class dream of cars, parties and outings, against those who preferred books. But:
 
-> TODO: average Austrian quote bishop
+> The book Die Durchschnittsfalle (The Average Trap) is by geneticist Markus Hengstschläger. It discusses genes, talents, and opportunities and claims that mediocrity is the favorite of Austrians, leading the country into an evolutionary dead end. "The average has never achieved anything innovative. A father proudly says, 'My son is so easy-going, he's never been noticed negatively.' But standing out positively isn't wanted either, because that would cause stress. Society always strives for the average. How, for example, should an average grade determine whether someone will be a good doctor? The statistical average does not lead us forward and is not suited for the future.
+
+(Bishop Manfred Scheuer)
 
 Taken from the sermon at my confirmation, shortly after moving into KHG: yes, they got me. And I am happy for it.
 
