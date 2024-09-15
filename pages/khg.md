@@ -51,6 +51,16 @@ But what does the community life mean, concretely? Here is how I find and give c
 
 ### Tractor Sports Group
 
+### Posters for everything else.
+
+One more thing: at KHG I discovered that I really love, love, love making posters for different things, usually whacky events like sauna openings or beer runs (these two categories under the Tractor banner actually) - feedback has been mixed, I will admit, but the overloading of information frequently criticised is me selling an idea for an event, that I need to be able to map out on one poster (not in an essay like this.)
+
+So, take and judge for yourself:
+
+![Beer Run Plus Floor Party Combo Event to Get Floor Parties More Active, as an Example](Beerrun WS2024 + Floor Party.png)
+
+(Tools used: Canva, Dalle for the image (generation), photo permissions!)
+
 ## Conclusion
 
 KHG has become my home away from home, only one hour by train: friends from childhood have left said home and friends from high school are sparse, as I told you, so I appreciate the place for what it is and I think I fit into it well and can contribute, mainly through KHJ going forward: I see my position in both with the Upper Austrians and the Internationals as a happy coincidence, and the whole place and my life there as a good basis for academic performance, more than that even, a precondition. 
