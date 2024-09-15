@@ -69,7 +69,7 @@ But I do see Traktor as something like the executive arm of KHJ, where the alcoh
 
 ### Posters for everything else.
 
-One more thing: at KHG I discovered that I really love, love, love making posters for different things, usually whacky events like sauna openings or beer runs (these two categories under the Tractor banner actually) - feedback has been mixed, I will admit, but the overloading of information frequently criticised is me selling an idea for an event, that I need to be able to map out on one poster (not in an essay like this.)
+One more thing: at KHG I discovered that I really **love, love, love** making posters for different things, usually whacky events like sauna openings or beer runs (these two categories under the Tractor banner actually) - feedback has been mixed, I will admit, but the overloading of information frequently criticised is me selling an idea for an event, that I need to be able to map out on one poster (not in an essay like this.)
 
 So, take and judge for yourself:
 
