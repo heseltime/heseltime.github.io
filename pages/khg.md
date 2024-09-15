@@ -27,7 +27,19 @@ From the start I was pretty much thrown into life in the community. I later read
 
 > Community cannot take root in a divided life. Long before community assumes external shape and form, it must be present as a seed in the undivided self: only as we are in communion with ourselves can we find community with others."
 
-I am reminded of my experience at Sarah Lawrence College, the small liberal arts college just outside NYC I called home for four years after school: but I find the relgious dimension (the college was a very secular space) adds an important social and spiritual dimension I need addressed in my life, to say the least on this topic for now.
+## Community in General
+
+I am reminded of my experience at Sarah Lawrence College, the small liberal arts college just outside NYC I called home for four years after school: but I find the relgious dimension (the college was a very secular place) adds an important social and spiritual dimension I need addressed in my life, to say the least on this topic for now. 
+
+Let's bring it back to the basics: What makes a communit a _real_ community, to my categories something more like Sarah Lawrence, less like my high school. A note here: looking back, I can tell traces of community, vestiges and remaining friendships from middle school, group building encouragements were there, but just like others failed at making everyone feel a part of the group, so did I, and the cost is, simply, a no community. It feels terrible: but the time of transition from middle to high school, and those years particularly, something about that. And still, I think it could be done better, and that part would have been up to me too, to take responsibility here.
+
+Bell Hooks also quotes M. Scott Peck in this regard:
+
+> The goal of genuine community is "to seek ways in which to live with ourselves and others in love and peace."
+
+The alternative is division, both within and without, lack of love, strife.
+
+## Living Community at KHG
 
 But what does the community life mean, concretely? Here is how I find and give community at KHG, nowadays: this section will be updated with some details shortly, I hope.
 
