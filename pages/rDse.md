@@ -25,7 +25,7 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
 
 <!-- Final Presentation (January 2024): slides with thumbnail -->
 
-<div class="risc" style="background-color: #c7d7eb;">
+<div class="risc" id="risc-work" style="background-color: #c7d7eb;">
     <h2>RISC Thesis 2024</h2>
     <h4><b>Update 2</b>: Upload expected soon!</h4> 
     <img src="../assets/img/Tma2Tex-thumb.png" alt="Download Thesis When Available" style="display: block; margin: 20px auto; max-height: 590px; height: 100%; background-color: #c7d7eb;">
@@ -56,7 +56,7 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
 
 
 # Software Engineering Full Curriculum (Bachelor's of Science in Engineering '24) #
-
+<div id="hagb-curriculum"></div>
 ## *sixth semester
 
 _This semester also credits for practical, internship-type work, which I am completing with Wolfram Research, [as part of my consulting work with the company.](/wolfram) Will include a short write-up as well: I will link it when I have it, maybe with production code samples and analysis if I can get permissions, on the topic of using WL for Software Engineering._
