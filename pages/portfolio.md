@@ -11,10 +11,10 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <h2>core project (academic software development)</h2>
     <h4>Masters thesis project at Johannes Kepler University (JKU), consisting of the following research components leading up to the technical report (project) and thesis</h4>
     <p>I'd like to thank the <a href="/notes">wonderful Update Social Team (on-going notes included)</a> in helping to refine this project up to an actionable starting point, and <a href="https://github.com/heseltime/updatesocial">reference the repo for initial testing and prototyping</a>.</p>
-    <h3>PDF-Metadata Extraction (Forthcoming)</h3>
-    <p><b>0.</b></p>
+    <h3>PDF-Metadata Extraction and Feedback Plattform (Forthcoming)</h3>
+    <p><b>0.</b> in C#?</p>
     <h3>LLM Processing and Evaluation of the Output (Forthcoming)</h3>
-    <p><b>1.</b></p>
+    <p><b>1.</b> Main Thesis work.</p>
     <h3 id="jku-practical-work">Standard Software Integration (Enterprise Content Management - ECM, Forthcoming)</h3>
     <p><b>+.</b> It is actually possible to extract this part out of the main academic work, and so I am starting here, for a <b>practical work component in my Masters</b>.</p>
     <img src="/assets/img/linkedin/hoffman-thumb.webp" alt="Dr Hoffman from Angela Carter's The Infernal Desire Machines Inspires This Work" />
