@@ -61,7 +61,7 @@ But aside from the literary value, the personal one is learning to understand th
 
 ### Quoir Group
 
-Something about signing in a group! (Another secret.)
+_Something about signing in a group!_ (Another secret.)
 
 ### Tractor (Traktor in German) Sports Group
 
