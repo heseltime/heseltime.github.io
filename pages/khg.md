@@ -87,7 +87,7 @@ So, take and judge for yourself:
 
 ## Conclusion
 
-KHG has become my home away from home, only one hour by train: friends from childhood have left said home and friends from high school are sparse, as I told you, so I appreciate the place for what it is and I think I fit into it well and can contribute, mainly through KHJ going forward: I see my position in both with the Upper Austrians and the Internationals as a happy coincidence, and the whole place and my life there as a good basis for academic performance, more than that even, a precondition. 
+KHG has become my home away from home, only one hour by train: friends from childhood have left said home and friends from high school are sparse, as I told you, so I appreciate the place for what it is and I think I fit into it well and can contribute, mainly through KHJ going forward: I see my position at the intersection of any Upper Austrian and Internationals' in-groups as a happy coincidence, and the whole place and my life there as a good basis for academic performance, more than that even, a precondition and a rock-solid basis.
 
 My education in this crucial area of life follows that of Bell Hooks:
 
