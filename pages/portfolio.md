@@ -11,12 +11,15 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <h2>core project (academic software development)</h2>
     <h4>Masters thesis project at Johannes Kepler University (JKU), consisting of the following research components leading up to the technical report (project) and thesis</h4>
     <p>I'd like to thank the <a href="/notes">wonderful Update Social Team (on-going notes included)</a> in helping to refine this project up to an actionable starting point, and <a href="https://github.com/heseltime/updatesocial">reference the repo for initial testing and prototyping</a>.</p>
-    <h3>PDF-Metadata Extraction (Forthcoming)</h3>
-    <p><b>0.</b></p>
+    <h3>PDF-Metadata Extraction and Feedback Plattform (Forthcoming)</h3>
+    <p><b>0.</b> in C#?</p>
     <h3>LLM Processing and Evaluation of the Output (Forthcoming)</h3>
-    <p><b>1.</b></p>
-    <h3>Standard Software Integration (Enterprise Content Management - ECM, Forthcoming)</h3>
-    <p><b>+.</b> It is actually possible to extract this part out of the main academic work, and so I am starting here, for a practical work component in my Masters as well: Idea forthcoming.</p>
+    <p><b>1.</b> Main Thesis work.</p>
+    <h3 id="jku-practical-work">Standard Software Integration (Enterprise Content Management - ECM, Forthcoming)</h3>
+    <p><b>+.</b> It is actually possible to extract this part out of the main academic work, and so I am starting here, for a <b>practical work component in my Masters</b>.</p>
+    <img src="/assets/img/linkedin/hoffman-thumb.webp" alt="Dr Hoffman from Angela Carter's The Infernal Desire Machines Inspires This Work" />
+    <p><b>From the Abstract</b>, since yes, I still need to write this kind of thing too: <i>This Practical Work Report details the selection and configuration of a modern GenAI (Generative AI)/ECM (enterprise content management) framework for optimizing the PDF document processing required to annotate and tag content to make it readable for screen-reader and related software. The goal is to create a portable module, on the one hand, where this Practical Work effort was also supported - by way of introduction the Alfresco ECM system and practical experience with the technology - by FAW GmbH, a company specializing in ECM product customizations in Hagenberg, Austria, and to provide a setup for efficient document processing and evaluation at a more involved level, leading to a Masters Thesis at JKU in Linz. Test-runs on an initial dataset demonstrating the applicability of LLMs (large language models) and particularly a self-hosted setup in addition to an API-based one complete the proof of concept, for using LLMs in either the few-shot in-context learning or the fine-tuning regime to make documents barrier-free and accessible.</i></p>
+    <p><b>Report coming soon!</b></p>
     <p>In the language of this portfolio, this scripting project (Software Engineering view of Machine Learning (ML): all scripting, right?) marks an ML departure. It also build on an <a href="#open-ai-api">initial OpenAI API Test involving transformation of a collection of daily reports to one monthly report</a>, demonstrating a summarization ECM use case.</p>
 </div>
 
