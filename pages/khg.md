@@ -55,7 +55,7 @@ Partly because I seem to get the importance of this stuff, which is really the s
 
 The group's name comes from KHG's address. Last semester we performed a piece which totally speaks to my taste actually. By [Werner Schwab](https://en.wikipedia.org/wiki/Werner_Schwab), an Austrian playwright, the play "Der reizende Reigen nach dem Reigen des reizenden Herrn Arthur Schnitzler" parodies Schnitzler (in a strange coincidence, my cousin performed in the original play the same semester) but also features surrealist and overtly sexual elements (where Schnitzler and sexual mores are precisely the topic) like detachable plastic sex organs. Totally **not** what you would expect at a Catholic Society, which is why I particularly enjoyed this.
 
-<img src="/assets/img/m23.webp" alt="A Trakor Emoji" style="display: block; margin: 10px -10px 10px 10px; height: 100px" />
+<img src="/assets/img/m23.webp" alt="Own M23 Theater Group Logo" style="float: right; margin: 10px; height: 100px;" />
 
 But aside from the literary value, the personal one is learning to understand theater as a tool to get me in tune with a group, to express myself, in fact really exercise vocals and facial muscles, emotion and sensory perception while speaking publicly, to name just a few of the hidden processes of theater I discovered - why did I hide from this so long? I know for a fact not only I am scared of getting up on stage though. Still, I think it took a setting like KHG and arriving at that magical (not really) place in life I mentioned to get me to do it = allow me to take the challenge.
 
