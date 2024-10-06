@@ -4,7 +4,7 @@ feed: show
 date: 06-10-2024
 ---
 
-_From the **devpost**! This is a working prototype developed in London over the [weekend of October 4th to 6th, 2024, and as part of a the Mistral AI x a16z (Andreessen Horowitz) Hackathon](), implementing the [idea outlined as part of Update Social in Linz this spring]() - just see the relevant rX-post here._
+_From the **[devpost](https://devpost.com/software/pdfstral?ref_content=my-projects-tab&ref_feature=my_projects)**! This is a working prototype developed in London over the [weekend of October 4th to 6th, 2024, and as part of a the Mistral AI x a16z (Andreessen Horowitz) Hackathon](), implementing the [idea outlined as part of Update Social in Linz this spring]() - just see the relevant rX-post here._
 
 ## Inspiration
 Accessibility is a super important topic that many people are not aware of, simply because it does not impact them directly. The new LLM tooling landscape promises to remove the manual workload previously stopping every single publicly available PDF (since it is the most common format, as everyone knows) document to be available to not just vision-impaired people but also other groups, which is why we wanted to make a proof-of-concept to tackle this important issue.
