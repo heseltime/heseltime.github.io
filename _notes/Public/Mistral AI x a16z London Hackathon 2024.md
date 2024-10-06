@@ -14,3 +14,4 @@ Longer-term link: https://pdfstral.streamlit.app/
 
 [![PDFStral Pitch Deck](../../assets/img/PDFStral-deck-coverslide.png)](https://docs.google.com/presentation/d/18mkzttmRAo7kTcdBRxyERATSdmqt9ODidUBlRLN30Mg/edit#slide=id.gcb9a0b074_1_0)
 
+Team: [Jack](https://www.linkedin.com/in/heselt-in-e/), [Akshay](https://www.linkedin.com/in/akshayakula/)
