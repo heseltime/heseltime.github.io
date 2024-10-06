@@ -25,6 +25,12 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <p>In the language of this portfolio, this scripting project (Software Engineering view of Machine Learning (ML): all scripting, right?) marks an ML departure. It also build on an <a href="#open-ai-api">initial OpenAI API Test involving transformation of a collection of daily reports to one monthly report</a>, demonstrating a summarization ECM use case.</p>
 </div>
 
+## [PDFstral.london](pdfstral.london)
+
+See <a href="/note/Mistral-AI-x-a16z-London-Hackathon-2024">Mistral AI x a16z London Hackathon 2024</a> - the <a href="https://pdfstral.streamlit.app/">output</a>:
+
+[![PDFstral Python Stack Document Accessibility Explorer](/assets/img/PDFstral-screengrab.png)](https://pdfstral.streamlit.app/)
+
 ## LIFT_C
 
 The technical continuation to a thesis is the result of a group project at [LIFT_C](https://www.jku.at/lift-c/) @[JKU](https://www.jku.at/en), see the [research feed for this](/_notes) and [this cute roll-up](https://heseltime.github.io/note/AB-Roll-Up-Design):
