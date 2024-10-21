@@ -1711,7 +1711,11 @@ _Move to spring:_
 _**To do**:_
 
 - _**Masters Practical Work** (though should be possible to pull some of this/start on the prototype this summer - to balance with Software Engineering thesis and examination however)_
-- _**and also**:_ Math for AI III, useful for Theory, _see **next section/update**_
+- _**and also**:_ 
+    - Math for AI III, useful for Theory, _see **next section/update**_
+    - Automated Reasoning (AR, Wolfram Language Interest): but also, might be needed for Area of Specialization credit - indirectly, where I cannot move over AR from the Track, but Knowledge Representation and Learning, or Planning and Reasoning, or Model Checking. 
+
+If I can keep up this level of course work, it makes for a really nice basis for the spring final semester and the examination roster submission too, as far as JKU requirements go. Still I'll want to strike a good balance with focus on thesis (practical) work, where most of this will simply have to shift to spring but should be kept up fairly continuously as well.
 
 _**Optional Course Result Improvement**:_
 
