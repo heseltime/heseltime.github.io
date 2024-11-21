@@ -36,12 +36,14 @@ _**Bring in your talk**: write to jack.heseltine@khg.jku.at, "especially if you 
 
 _This will be updated regularly._
 
-- Neuroinformatics (Invited/Informal Talk with a Prof. (Neuroinformatics)
+- _KHJ x Neuron AI Collaboration_
+- Neuroinformatics (Invited/Informal Talk with a Prof. (Neuroinformatics))
 
 ## Other Ideas
 
 _**As the emerge**, without concrete planning steps (yet)._
 
+- _KHJ x Pro Scientia Collaboration_
 - Clown Workshop
 - (and/or) Improv/Moderation Workshop
 
