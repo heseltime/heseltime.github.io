@@ -30,7 +30,7 @@ I see many peers not working in their field and my concrete goal I shared with m
 
 # Open Call for Wine & Cheese Input Talks by KHG People (KHGlis in German)
 
-_**Bring in your talk**: write to jack.heseltine@khg.jku.at, "especially if you live at KHG." Let's be flexible here._
+_**Bring in your talk**: [write to jack.heseltine@khg.jku.at](mailto:jack.heseltine@khg.jku.at), "especially if you live at KHG." Let's be flexible here._
 
 ## Talks in Planning
 
