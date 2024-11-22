@@ -28,8 +28,7 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
 <div class="risc" id="risc-work" style="background-color: #c7d7eb;">
     <h2>RISC Thesis 2024</h2>
     <h4><b>Update 2</b>: <a href="../assets/pdf/Tma2TeX-September-Draft.pdf">My submitted final draft is now available!</a> (September 2024)</h4> 
-    <a href="../assets/pdf/Tma2TeX-September-Draft.pdf"><img src="../assets/img/Tma2Tex-thumb.png" alt="My Final Draft Submission For Download" style="display: block; margin: 20px auto; max-height: 590px; height: 100%; background-color: #c7d7eb;"></a>
-    <h4><b>Update 2 (a)</b>: <a href="../assets/pdf/Tma2TeX-November.pdf">Of course there is a final, final Draft!</a> (November-Version (2024))</h4> 
+    <h5><b>Update 2 (a)</b>: <a href="../assets/pdf/Tma2TeX-November.pdf">Of course there is a final, final Draft!</a> (November-Version (2024))</h5> 
     <p>But I don't get to complain, Theorema, the topic I worked on is more than 20 years old: (abstract) work takes time.</p>
     <a href="../assets/pdf/Tma2TeX-September-Draft.pdf"><img src="../assets/img/Tma2Tex-thumb.png" alt="My Final Draft Submission For Download" style="display: block; margin: 20px auto; max-height: 590px; height: 100%; background-color: #c7d7eb;"></a>
     <p>This thesis fulfills the requirements <a href="https://risc.jku.at/th/theorema-project-document-processing/">formulated by the Research Institute Symbolic Computation (RISC)</a>, mainly responding to <i>the task [of setting up] an environment for preparing entire (big) mathematical documents in <a href="https://arxiv.org/abs/1307.1945">Theorema 2.0</a></i>.</p>
