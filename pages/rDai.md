@@ -12,6 +12,11 @@ feedformat: none
     <h4>Masters thesis forthcoming (2024) - <a href="/portfolio#jku-thesis-project">thesis project in portfolio</a> (degree practical work)</h4>
     <ul>
         <li>
+            <h3><a href="#xai">Knowledge Graph from Text</a>, or Explainability for Understanding Argumentation (Project)</h3>
+            <p>In this <b>Masters-level Group Project</b> I took on the role of planning an XAI (Explainable AI) experiment set to match an <a href="https://ojs.aaai.org/index.php/AAAI/article/view/6231">exciting paper in dealing with Argumentation Graph Construction</a>, aiming to make headway in our understanding of the interplay of text and graph under a given model-assumption.</p>
+            <p><a href="#xai">We covered various strands in XAI in the process</a></p>
+        </li>
+        <li>
             <h3><a href="#rl-2"><img src="/assets/img/DoorKeyEnv.gif" alt="Minigrid example" width="50" /> Reinforcement Learning Goes Deep</a> (Part II)</h3>
             <p><b>Part II covers Deep Q-Network (DQN) for MiniGrid</b>, with a recap of the relevant basics, and challenge code.</p>
             <img src="../assets/img/winterschoolbanner.png" alt="uBern Winter School Banner">
@@ -41,6 +46,12 @@ feedformat: none
 </div>
 
 _These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and their application too are taking center-stage for now, as my Masters contribution to the Zeitgeist._
+
+# <a name="xai"></a>XAI Project: End-to-End Argumentation Knowledge Graph Construction
+
+## Intermediate Report with Experiment Design
+
+See the [GitHub classroom repo clone](). Final results will follow early December.
 
 <div class="wsrp" id="wsrp-2024">
     <h2>wsrp 2024</h2>
