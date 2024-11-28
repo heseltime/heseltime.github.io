@@ -21,12 +21,14 @@ Wine and Cheese are intended to help restore the core intellectual tradition of 
 
 I see many peers not working in their field and my concrete goal I shared with my audience, where I held the main input talk before a workshop and lively discussion of learning paths as well as technologies, was to give them resources to help them move to IT work since that is an idea many of them harbor anyway, naturally, and as they told me previously in private. So it was very much about bringing the right people together as well as establishing the format, where I hope to call on other speakers in the future.
 
+_**As opposed to other topical groups, e.g. technical communities at JKU for AI or CS, say, while our topics might take their impulse from our day-to-day study focus, the idea is to go beyond and connect to a pragmatics as in the above, or generally, to look a bit beyond our field and back at society, informed by our knowledge.** I think this shapes the format and justifies the Christian value foundation from an intellectual perspective, since absent of such values, this is hard/meaningless to do, I would hold, in the sense that what a social critique would become an objectifying social science lecture and topic in and of itself, not an attempt at dialog grounded in some force field bringing us back and back to something we can agree upon is crucial for how we want to live, not just understand some aspect of life._
+
 ## Talks Happening Currently
 
 **JKU of course has technical focus** to a degree, _Masters degree or PhD even_, but still, the thought is to expand horizons beyond technical fields and get into a rhythm: now techy, next time philosophical; a talk by someone in KHG, then a talk by someone from outside. A workshop-, then a discussion-focus. And so on. So, here is my **current roadmap** with official announcement anticipated in the KHG community soon.
 
 - Xmas Workshop MQTT (x IT:U & Dynamic Projection Institute)
-- Queering Church at the University (Invited Talk with a PhD Student (Theology))
+- Queering Church, at the University (Invited Talk with a PhD Student (Theology))
 
 # Open Call for Wine & Cheese Input Talks by KHG People (KHGlis in German)
 
