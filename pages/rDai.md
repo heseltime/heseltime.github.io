@@ -53,7 +53,7 @@ _These Masters level studies are on-going (target December 2024), now full-time,
 
 _**TLDR**: We go from an initial interactive visualization test of the Knowledge Graph descriped in [Al-Katib, Hou et al.](https://ojs.aaai.org/index.php/AAAI/article/view/6231) to three standard explainable AI (XAI) approaches to explore a modern BERT implementation of the model discussed in the second part of the paper, on auto-labeling claims, by picking a subset of the tasks down-stream of an initial concept-prediction. Concept-prediction was poor but down-stream task performance improved, even with poorly predicted concepts, which was suprising. By tweaking both model and dataset we believe we could deliver better performance in future work(university Masters level class project, group of 4)._
 
-The bulletpoints of the [final presentation](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing) I held on December 11th, 2024, at JKU Linz (AI and Visualization) follow here in a summary of the presentation:
+The **bulletpoints of the [final presentation](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing) I held on December 11th, 2024, at JKU Linz (AI and Visualization) follow here summarily**:
 
 ### The Knowledge Graph (KG)
 
