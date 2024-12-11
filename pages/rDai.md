@@ -51,29 +51,25 @@ _These Masters level studies are on-going (target December 2024), now full-time,
 
 [![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
 
-_**TLDR**: We go from an initial interactive visualization test of the Knowledge Graph descriped in [Al-Katib, Hou et al.](https://ojs.aaai.org/index.php/AAAI/article/view/6231) to three standard explainable AI (XAI) approaches to explore a modern BERT implementation of the model discussed in the second part of the paper, on auto-labeling claims, by picking a subset of the tasks down-stream of an initial concept-prediction. Concept-prediction was poor but down-stream task performance improved, even with poorly predicted concepts, which was suprising. By tweaking both model and dataset we believe we could deliver better performance in future work, if pursued (university Masters level class project, group of 4, I held the [final presentation](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing) on December 11th, 2024, at JKU Linz (AI and Visualization).)_
+_**TLDR**: We go from an initial interactive visualization test of the Knowledge Graph descriped in [Al-Katib, Hou et al.](https://ojs.aaai.org/index.php/AAAI/article/view/6231) to three standard explainable AI (XAI) approaches to explore a modern BERT implementation of the model discussed in the second part of the paper, on auto-labeling claims, by picking a subset of the tasks down-stream of an initial concept-prediction. Concept-prediction was poor but down-stream task performance improved, even with poorly predicted concepts, which was suprising. By tweaking both model and dataset we believe we could deliver better performance in future work(university Masters level class project, group of 4)._
 
-The bulletpoints of the final presentation follow now:
+The bulletpoints of the [final presentation](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing) I held on December 11th, 2024, at JKU Linz (AI and Visualization) follow here in a summary of the presentation:
 
 ### The Knowledge Graph (KG)
 
-### 
+### Permutation Feature Importance
 
-### LIME
+### Local Interpretable Model-agnostic Explanations (LIME)
 
-### Concept Bottleneck
+### Concept Bottleneck Model (CBM)
 
 [![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-1.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
 
-Links:
+**Links**:
 
 - [Overview (GitHub)](https://github.com/jku-icg-classroom/assignment-2-model-explanations-cube5)
 - [Explanation Notebook (GitHub)]()
 - [Complete Final Presentation (Google Slides)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
-
-## Intermediate Report with Experiment Design
-
-See the [GitHub classroom repo clone](). Final results will follow early December.
 
 <div class="wsrp" id="wsrp-2024">
     <h2>wsrp 2024</h2>
