@@ -57,7 +57,7 @@ The **bulletpoints of the [final presentation](https://docs.google.com/presentat
 
 ### The Knowledge Graph (KG)
 
-[![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-1.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
+[![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0a.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
 
 ### Permutation Feature Importance
 
