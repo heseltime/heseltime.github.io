@@ -59,19 +59,30 @@ The **bulletpoints of the [final presentation](https://docs.google.com/presentat
 
 [![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0a.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
 
-### Permutation Feature Importance
+We work with a dataset representable as KG ultimately, the main features of interest being _Input.Claim_, _Input.Concepts_ and _Input.Stance_ as well as as _Answer.Relation_.
+
+### Permutation Feature Importance (PFI)
 
 [![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0b.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
+
+To understand **global** feature importance we shuffle feature values across the dataset.
 
 ### Local Interpretable Model-agnostic Explanations (LIME)
 
 [![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0c.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
 
+With LIME we **locally** explain predictions, paying attention to word oder mainly (_Input.Claim_), inspired by our findings from PFI.
+
 ### Concept Bottleneck Model (CBM)
 
 [![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0d.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
 
+Our dataset contains concept labels actually, so we are really dealing in concepts at a data level, but we are interest in applying concept-based techniques to our explaining as well, also at model level, where we introduced BERT representations already at PFI stage: we don't currently have the model, but contact with the researchers suggests this is an addition. We are interested specifically in predicting _Input.Stance_ based on both _Input.Concept_ predictions as well as the true labels.
+
 [![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-1a.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
+
+
+The intersting thing, our takeaway, is that both our noisy concept predictions and the true labels aid performance in _.Stance_ prediction as a down-stream task: this motivates us to carry out further research on improving model and down-stream task performance!
 
 [![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-1.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
 
