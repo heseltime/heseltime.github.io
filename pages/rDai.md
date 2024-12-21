@@ -77,7 +77,7 @@ I am noting the focus on **developing (techniques) and building (applications)**
 
 On this note, I am particularly excited about IT:U's NLP Group's applications-oriented PhD-offering, which I prefer to JKU's current one in AI* because of this orientation exactly. 
 
-*JKU is offering some "Symbolic AI" topics with the current Bilateral AI PhD Cluster of Excellence, which is interesting to me from an academic perspective, and I will mostl likely apply as backup as well, but finding the way into practical relevance is actually a priority for me, truly.
+*JKU is offering some "Symbolic AI" topics with the current Bilateral AI PhD Cluster of Excellence, which is interesting to me from an academic perspective, and I will most likely apply as backup as well, but finding the way into practical relevance is actually a priority for me, truly.
 
 
 
