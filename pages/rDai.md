@@ -47,6 +47,18 @@ feedformat: none
 
 _These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and their application too are taking center-stage for now, as my Masters contribution to the Zeitgeist._
 
+# <a name="it-u"></a>IT:U - LLM Benchmarking
+
+_See also [XAI Project](#xai)._
+
+The following is a set of presentations delivered as part of interviewing for the new [IT-U NLP Group](https://it-u.at/en/research/research-groups/natural-language-processing/) Computational X PhD program in Linz.
+
+## Personal Introduction (Academic)
+
+## Own Work: PDF Accessibilty, Approaching the Benchmarking Question
+
+## IT:U Work: LLM Benchmarking (Holmes)
+
 # <a name="xai"></a>XAI Project: End-to-End Argumentation Knowledge Graph Construction
 
 [![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
