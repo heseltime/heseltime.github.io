@@ -65,13 +65,13 @@ The main points:
 - own **vision**: see Linz context too, emphasizing both interational, academic perspective _and_ the potentially more business-driven, local (roots) view.
     - personal vision: (see also academic resume for) a professionally oriented vision, _With the upcoming wolfram.ai and LLM Assistant products, Mathematica is being supplied with RAG-guided LLM capabilities. The (PhD/+ level) researchers on the project host a Software-oriented discussion circle I actively participate in: my ambition for my PhD work is to unlock similar professional frontiers, at WR or elsewhere._
 
-> A (*) **definition** from the IT:U website, stressing the interdisciplinary aspect: _multidisciplinary research field within artificial intelligence (AI) that integrates principles from **computer science**, **linguistics**, **cognitive science**, and **related disciplines**. It_ aims _to enable machines to **understand**, **interpret**, and **generate human language** across various societal domains, including education, healthcare, scientific research, finance, and beyond._
+> A (*) **definition** from the IT:U website, stressing the interdisciplinary aspect: _multidisciplinary research field within artificial intelligence (AI) that integrates principles from **computer science**, **linguistics**, **cognitive science**, and **related disciplines**. It_ aims _to enable machines to **understand**, **interpret**, and **generate human language** across various societal domains, including education, healthcare, scientific research, finance, and beyond._ (From the [IT:U NLP Group page](https://it-u.at/en/research/research-groups/natural-language-processing/))
 
 In this context:
 
 > IT:U NLP **goals**, within the application areas outlined above:
 >   - _(a) to **develop robust and trustworthy language processing techniques** informed by linguistic principles for understanding and generating human language_ 
->   - _(b) to **build human-centered NLP applications** that advance education, social sciences, humanities, and scientific discovery_
+>   - _(b) to **build human-centered NLP applications** that advance education, social sciences, humanities, and scientific discovery_ (From the [IT:U NLP Group page](https://it-u.at/en/research/research-groups/natural-language-processing/))
 
 I am noting the focus on **developing (techniques) and building (applications)** in the above and so would add the **Linz-specfic context** as well, that of JKU IML (Institute of Machine Learning) under Hochreiter and the current development around xLSTM with a turn to applications in the form of NXAI at Tabakfabrik, and the vibrant IT ecosystem in Linz and Upper Austria overall - these contexts inform my application to IT:U in this field.
 
