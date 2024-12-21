@@ -66,15 +66,15 @@ The following is a set of **presentations and their notes especially delivered a
 
 ### in **5 mins**
 
-The main points:
+The main points: I am an ...
 
 - **engineer** with research, Wolfram Research angle
     - expressions (symbolic idea) vs NLP (*)
     - interdisciplinary, Liberal Arts background: connection to NLP definition below
     - member of IT:U Founding Lab (2023) and the 2024 summer school, understanding the overall IT:U spirit and origin
-- current (Masters) **thesis** in LLM application/evaluation topic, making PDFs barrierfree and accessible: see the next section, connection to IT:U NLP Lab's goals
-- own **vision**: see Linz context too, emphasizing both interational, academic perspective _and_ the potentially more business-driven, local (roots) view.
-    - personal vision: (see also academic resume for) a professionally oriented vision, _With the upcoming wolfram.ai and LLM Assistant products, Mathematica is being supplied with RAG-guided LLM capabilities. The (PhD/+ level) researchers on the project host a Software-oriented discussion circle I actively participate in: my ambition for my PhD work is to unlock similar professional frontiers, at Wolfram Research or elsewhere._
+- My current (Masters) **thesis** is an LLM application/evaluation topic, making PDFs barrierfree and accessible: see the next section, connection to IT:U NLP Lab's goals
+- I have my own **vision** for IT:U too: see Linz context down below, and emphasizing both interational, academic perspective _and_ the potentially more business-driven, local (roots) view.
+    - My personal vision: (see also academic resume for) a professionally oriented vision, _With the upcoming wolfram.ai and LLM Assistant products, Mathematica is being supplied with RAG-guided LLM capabilities. The (PhD/+ level) researchers on the project host a Software-oriented discussion circle I actively participate in: my ambition for my PhD work is to unlock similar professional frontiers, at Wolfram Research or elsewhere._
 
 > A (*) **definition** from the IT:U website, stressing the interdisciplinary aspect: _multidisciplinary research field within artificial intelligence (AI) that integrates principles from **computer science**, **linguistics**, **cognitive science**, and **related disciplines**. It_ aims _to enable machines to **understand**, **interpret**, and **generate human language** across various societal domains, including education, healthcare, scientific research, finance, and beyond._ 
 > (From the [IT:U NLP Group page](https://it-u.at/en/research/research-groups/natural-language-processing/))
