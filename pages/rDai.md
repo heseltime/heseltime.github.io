@@ -55,6 +55,8 @@ The following is a set of presentations delivered as part of interviewing for th
 
 ## Personal Introduction (Academic)
 
+### in **5 mins**
+
 The main points:
 
 - **engineer** with research, Wolfram Research angle
@@ -84,9 +86,13 @@ So to complete this section I would connect to goals (a) and (b) from my current
 
 ## Own Work: PDF Accessibilty, Approaching the Benchmarking Question
 
+### in **15 mins** _incl. Q&A_
+
 
 
 ## IT:U Work: LLM Benchmarking (Holmes)
+
+### in **15 mins** _plus Q&A (8 mins)_
 
 
 
