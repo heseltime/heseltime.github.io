@@ -53,6 +53,15 @@ _See also [XAI Project](#xai)._
 
 The following is a set of presentations delivered as part of interviewing for the new [IT-U NLP Group](https://it-u.at/en/research/research-groups/natural-language-processing/) Computational X PhD program in Linz.
 
+### This presentation/conversation is structured as follows (main content below)
+
+- intro Prof.: 3 mins
+- intro self (academic), see below: 5 mins
+- general Q&A: 12 mins
+- presentation own work, see below: 12 mins incl. Q&A
+- presentation NLP Group work, see below: 12 mins plus Q&A
+- own questions (see below!): 5 mins
+
 ## Personal Introduction (Academic)
 
 ### in **5 mins**
@@ -95,6 +104,9 @@ So to complete this section I would connect to goals (a) and (b) from my current
 ### in **15 mins** _plus Q&A (8 mins)_
 
 
+## Own Questions 
+
+### 5 mins
 
 
 # <a name="xai"></a>XAI Project: End-to-End Argumentation Knowledge Graph Construction
