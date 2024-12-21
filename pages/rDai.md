@@ -47,6 +47,44 @@ feedformat: none
 
 _These Masters level studies are on-going (target December 2024), now full-time, and occurring in the context of the Symbolic/Mathematical Track @JKU's AI Masters in AI. The most up-to-date [curriculum is listed in English](https://studienhandbuch.jku.at/curr/933) and I also wrote a [concept document](/assets/pdf/AI-SE-Symbolic-Computation-Concept.pdf) for a potential Symbolic Computation direction of these studies post-Masters here in Linz, where however LLMs and their application too are taking center-stage for now, as my Masters contribution to the Zeitgeist._
 
+# <a name="it-u"></a>IT:U - LLM Benchmarking
+
+_See also [XAI Project](#xai)._
+
+The following is a set of presentations delivered as part of interviewing for the new [IT-U NLP Group](https://it-u.at/en/research/research-groups/natural-language-processing/) Computational X PhD program in Linz.
+
+## Personal Introduction (Academic)
+
+The main points:
+
+- **engineer** with research, Wolfram Research angle
+    - expressions (symbolic idea) vs NLP (*)
+    - interdisciplinary, Liberal Arts background: connection to NLP definition below
+    - member of IT:U Founding Lab (2023) and the 2024 summer school, understanding the overall IT:U spirit and origin
+- current (Masters) **thesis** in LLM application/evaluation topic, making PDFs barrierfree and accessible: see the next section, connection to IT:U NLP Lab's goals
+- own **vision**: see Linz context too, emphasizing both interational, academic perspective _and_ the potentially more business-driven, local (roots) view.
+    - personal vision: (see also academic resume for) a professionally oriented vision, _With the upcoming wolfram.ai and LLM Assistant products, Mathematica is being supplied with RAG-guided LLM capabilities. The (PhD/+ level) researchers on the project host a Software-oriented discussion circle I actively participate in: my ambition for my PhD work is to unlock similar professional frontiers, at WR or elsewhere._
+
+> A (*) **definition** from the IT:U website, stressing the interdisciplinary aspect: _multidisciplinary research field within artificial intelligence (AI) that integrates principles from **computer science**, **linguistics**, **cognitive science**, and **related disciplines**. It_ aims _to enable machines to **understand**, **interpret**, and **generate human language** across various societal domains, including education, healthcare, scientific research, finance, and beyond._ (From the [IT:U NLP Group page](https://it-u.at/en/research/research-groups/natural-language-processing/))
+
+In this context:
+
+> IT:U NLP **goals**, within the application areas outlined above:
+>   - _(a) to **develop robust and trustworthy language processing techniques** informed by linguistic principles for understanding and generating human language_ 
+>   - _(b) to **build human-centered NLP applications** that advance education, social sciences, humanities, and scientific discovery_ (From the [IT:U NLP Group page](https://it-u.at/en/research/research-groups/natural-language-processing/))
+
+I am noting the focus on **developing (techniques) and building (applications)** in the above and so would add the **Linz-specfic context** as well, that of JKU IML (Institute of Machine Learning) under Hochreiter and the current development around xLSTM with a turn to applications in the form of NXAI at Tabakfabrik, and the vibrant IT ecosystem in Linz and Upper Austria overall - these contexts inform my application to IT:U in this field, where I would consider an NLP-applications oriented NXAI collaboration an important potential.
+
+On this note, I am particularly excited about IT:U's NLP Group's applications-oriented PhD-offering, which I prefer to JKU's current one in AI* because of this orientation exactly. 
+
+*JKU is offering some "Symbolic AI" topics with the current Bilateral AI PhD Cluster of Excellence, which is interesting to me from an academic perspective, and I will mostl likely apply as backup as well, but finding the way into practical relevance is actually a priority for me, truly.
+
+
+
+## Own Work: PDF Accessibilty, Approaching the Benchmarking Question
+
+## IT:U Work: LLM Benchmarking (Holmes)
+
 # <a name="xai"></a>XAI Project: End-to-End Argumentation Knowledge Graph Construction
 
 [![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)

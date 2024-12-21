@@ -25,6 +25,16 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <p>In the language of this portfolio, this scripting project (Software Engineering view of Machine Learning (ML): all scripting, right?) marks an ML departure. It also build on an <a href="#open-ai-api">initial OpenAI API Test involving transformation of a collection of daily reports to one monthly report</a>, demonstrating a summarization ECM use case.</p>
 </div>
 
+## NextStop (KHG)
+
+This is a Hagenberg project adapting the [REST API exercise class project](https://github.com/heseltime/SWK5-ue7-OrderManagement-) for the Component-Oriented Software Engineering Course (focused on .NET). The basic idea was to take the bus stop project requirement and apply it to an event management system idea for [KHG](/khg), attempting visualize goings-on in-house using a bus schedule metaphor.
+
+<!--
+concept logo would be cool
+-->
+
+More details in the Readme. (Upcoming.)
+
 ## [PDFstral.london](pdfstral.london)
 
 See <a href="/note/Mistral-AI-x-a16z-London-Hackathon-2024">Mistral AI x a16z London Hackathon 2024</a> - the <a href="https://pdfstral.streamlit.app/">output</a>:
