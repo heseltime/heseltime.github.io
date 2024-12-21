@@ -56,11 +56,11 @@ The following is a set of presentations delivered as part of interviewing for th
 ### This presentation/conversation is structured as follows (main content below)
 
 - intro Prof.: 3 mins
-- intro self (academic), see below: 5 mins
+- **intro self (academic)**, see below: 5 mins
 - general Q&A: 12 mins
-- presentation own work, see below: 12 mins incl. Q&A
-- presentation NLP Group work, see below: 12 mins plus Q&A
-- own questions (see below!): 5 mins
+- **presentation own work**, see below: 15 mins incl. Q&A
+- **presentation NLP Group work (Holmes paper)**, see below: 12 mins plus 8 mins Q&A
+- **own questions** (see below!): 5 mins
 
 ## Personal Introduction (Academic)
 
