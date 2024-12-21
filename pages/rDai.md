@@ -55,6 +55,26 @@ The following is a set of presentations delivered as part of interviewing for th
 
 ## Personal Introduction (Academic)
 
+The main points:
+
+- **engineer** with research, Wolfram Research angle
+    - expressions (symbolic idea) vs NLP (*)
+    - interdisciplinary, Liberal Arts background: connection to NLP definition below
+    - member of IT:U Founding Lab (2023) and the 2024 summer school, understanding the overall IT:U spirit and origin
+- current (Masters) **thesis** in LLM application/evaluation topic, making PDFs barrierfree and accessible: see the next section, connection to IT:U NLP Lab's goals
+- own **vision**: see Linz context too, emphasizing both interational, academic perspective _and_ the potentially more business-driven, local (roots) view.
+    - personal vision: (see also academic resume for) a professionally oriented vision, _With the upcoming wolfram.ai and LLM Assistant products, Mathematica is being supplied with RAG-guided LLM capabilities. The (PhD/+ level) researchers on the project host a Software-oriented discussion circle I actively participate in: my ambition for my PhD work is to unlock similar professional frontiers, at WR or elsewhere._
+
+> A (*) **definition** from the IT:U website, stressing the interdisciplinary aspect: _multidisciplinary research field within artificial intelligence (AI) that integrates principles from **computer science**, **linguistics**, **cognitive science**, and **related disciplines**. It_ aims _to enable machines to **understand**, **interpret**, and **generate human language** across various societal domains, including education, healthcare, scientific research, finance, and beyond._
+
+In this context:
+
+> IT:U NLP **goals**, within the application areas outlined above:
+>   - _(a) to **develop robust and trustworthy language processing techniques** informed by linguistic principles for understanding and generating human language_ 
+>   - _(b) to **build human-centered NLP applications** that advance education, social sciences, humanities, and scientific discovery_
+
+I am noting the focus on **developing (techniques) and building (applications)** in the above and so would add the **Linz-specfic context** as well, that of JKU IML (Institute of Machine Learning) under Hochreiter and the current development around xLSTM with a turn to applications in the form of NXAI at Tabakfabrik, and the vibrant IT ecosystem in Linz and Upper Austria overall - these contexts inform my application to IT:U in this field.
+
 ## Own Work: PDF Accessibilty, Approaching the Benchmarking Question
 
 ## IT:U Work: LLM Benchmarking (Holmes)
