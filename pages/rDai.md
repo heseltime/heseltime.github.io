@@ -49,9 +49,48 @@ _These Masters level studies are on-going (target December 2024), now full-time,
 
 # <a name="xai"></a>XAI Project: End-to-End Argumentation Knowledge Graph Construction
 
-## Intermediate Report with Experiment Design
+[![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
 
-See the [GitHub classroom repo clone](). Final results will follow early December.
+_**TLDR**: We go from an initial interactive visualization test of the Knowledge Graph described in [Al-Katib, Hou et al.](https://ojs.aaai.org/index.php/AAAI/article/view/6231) to three standard explainable AI (XAI) approaches to explore a modern BERT implementation of the model discussed in the second part of the paper, on auto-labeling claims, by picking a subset of the tasks down-stream of an initial concept-prediction. Concept-prediction was poor but down-stream task performance improved, even with poorly predicted concepts, which was suprising. By tweaking both model and dataset we believe we could deliver better performance in future work (university Masters level class project, group of 4)._
+
+The **bulletpoints of the [final presentation](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing) I held on December 11th, 2024, at JKU Linz (AI and Visualization) follow here summarily**:
+
+### The Knowledge Graph (KG)
+
+[![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0a.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
+
+We work with a dataset representable as KG ultimately, the main features of interest being _Input.Claim_, _Input.Concepts_ and _Input.Stance_ as well as as _Answer.Relation_.
+
+### Permutation Feature Importance (PFI)
+
+[![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0b.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
+
+To understand **global** feature importance we shuffle feature values across the dataset.
+
+### Local Interpretable Model-agnostic Explanations (LIME)
+
+[![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0c.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
+
+With LIME we **locally** explain predictions, paying attention to word oder mainly (_Input.Claim_), inspired by our findings from PFI.
+
+### Concept Bottleneck Model (CBM)
+
+[![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-0d.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
+
+Our dataset contains concept labels actually, so we are really dealing in concepts at a data level, but we are interest in applying concept-based techniques to our explaining as well, also at model level, where we introduced BERT representations already at PFI stage: we don't currently have the model, but contact with the researchers suggests this is an addition. We are interested specifically in predicting _Input.Stance_ based on both _Input.Concept_ predictions as well as the true labels.
+
+[![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-1a.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
+
+
+The intersting thing, our takeaway, is that both our noisy concept predictions and the true labels aid performance in _.Stance_ prediction as a down-stream task: this motivates us to carry out further research on improving model and down-stream task performance!
+
+[![Presentation Slides KG XAI Work](/assets/img/presentations/xai-pres-1.png)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
+
+**Links**:
+
+- [Overview (GitHub)](https://github.com/jku-icg-classroom/assignment-2-model-explanations-cube5)
+- [Explanation Notebook (GitHub)]()
+- [Complete Final Presentation (Google Slides)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
 
 <div class="wsrp" id="wsrp-2024">
     <h2>wsrp 2024</h2>

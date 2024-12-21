@@ -28,8 +28,9 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
 <div class="risc" id="risc-work" style="background-color: #c7d7eb;">
     <h2>RISC Thesis 2024</h2>
     <h4><b>Update 2</b>: <a href="../assets/pdf/Tma2TeX-September-Draft.pdf">My submitted final draft is now available!</a> (September 2024)</h4> 
-    <h5><b>Update 2 (a)</b>: <a href="../assets/pdf/Tma2TeX-November.pdf">Of course there is a final, final Draft!</a> (November-Version (2024))</h5> 
+    <h5><b>Update 2 (a)</b>: <a href="../assets/pdf/Tma2TeX-December.pdf">Of course there is a final, final Draft!</a> (December-Version (2024) without official cover sheet.)</h5> 
     <p>But I don't get to complain, Theorema, the topic I worked on is more than 20 years old: (abstract) work takes time.</p>
+    <h5><b>Update 2 (b)</b>: <a href="../assets/nbs/seminar-talk-Tma2TeX-2024.nb">(NB) Seminar Talk</a> (December 2024) and <a href="../assets/nbs/BuildingApplicationsWithTheWolframCloud.nb">(NB) Building Applications with the Wolfram Cloud (WolframU)</a></h5> 
     <a href="../assets/pdf/Tma2TeX-September-Draft.pdf"><img src="../assets/img/Tma2Tex-thumb.png" alt="My Final Draft Submission For Download" style="display: block; margin: 20px auto; max-height: 590px; height: 100%; background-color: #c7d7eb;"></a>
     <p>This thesis fulfills the requirements <a href="https://risc.jku.at/th/theorema-project-document-processing/">formulated by the Research Institute Symbolic Computation (RISC)</a>, mainly responding to <i>the task [of setting up] an environment for preparing entire (big) mathematical documents in <a href="https://arxiv.org/abs/1307.1945">Theorema 2.0</a></i>.</p>
     <h3>The meaning of this project to me, aside from getting me a job at Wolfram Research, is conceptual and related to Stephen Wolfram's notion of a <a href="https://writings.stephenwolfram.com/2019/05/what-weve-built-is-a-computational-language-and-thats-very-important/">computational</a> language, as well as the overall symbolic take on computing and programming.</h3> 
