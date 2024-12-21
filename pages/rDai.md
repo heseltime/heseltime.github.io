@@ -73,7 +73,13 @@ In this context:
 >   - _(a) to **develop robust and trustworthy language processing techniques** informed by linguistic principles for understanding and generating human language_ 
 >   - _(b) to **build human-centered NLP applications** that advance education, social sciences, humanities, and scientific discovery_ (From the [IT:U NLP Group page](https://it-u.at/en/research/research-groups/natural-language-processing/))
 
-I am noting the focus on **developing (techniques) and building (applications)** in the above and so would add the **Linz-specfic context** as well, that of JKU IML (Institute of Machine Learning) under Hochreiter and the current development around xLSTM with a turn to applications in the form of NXAI at Tabakfabrik, and the vibrant IT ecosystem in Linz and Upper Austria overall - these contexts inform my application to IT:U in this field.
+I am noting the focus on **developing (techniques) and building (applications)** in the above and so would add the **Linz-specfic context** as well, that of JKU IML (Institute of Machine Learning) under Hochreiter and the current development around xLSTM with a turn to applications in the form of NXAI at Tabakfabrik, and the vibrant IT ecosystem in Linz and Upper Austria overall - these contexts inform my application to IT:U in this field, where I would consider an NLP-applications oriented NXAI collaboration an important potential.
+
+On this note, I am particularly excited about IT:U's NLP Group's applications-oriented PhD-offering, which I prefer to JKU's current one in AI* because of this orientation exactly. 
+
+*JKU is offering some "Symbolic AI" topics with the current Bilateral AI PhD Cluster of Excellence, which is interesting to me from an academic perspective, and I will mostl likely apply as backup as well, but finding the way into practical relevance is actually a priority for me, truly.
+
+
 
 ## Own Work: PDF Accessibilty, Approaching the Benchmarking Question
 
