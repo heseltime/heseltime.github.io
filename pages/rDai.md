@@ -88,7 +88,11 @@ In this context:
 
 I am noting the focus on **developing (techniques) and building (applications)** in the above and so would add the **Linz-specfic context** as well, that of JKU IML (Institute of Machine Learning) under Hochreiter and the current development around xLSTM with a turn to applications in the form of NXAI at Tabakfabrik, and the vibrant IT ecosystem in Linz and Upper Austria overall - these contexts inform my application to IT:U in this field, where I would consider an NLP-applications oriented NXAI collaboration an important potential.
 
-On this note, I am particularly excited about IT:U's NLP Group's applications-oriented PhD-offering, which I prefer to JKU's current one in AI* because of this orientation exactly. 
+**Side**: Even more, I believe that the studies that happen inside IT:U's groups at the inception moment of the university are so crucial to what this university is to become for this city: here I also want to mention my [**postuni**](https://stirring-capybara-0feac3.netlify.app) effort, most recently collecting statements from mayoral candidates about IT:U's status as it looks for a site, and particularly PostCity as a viable option: the consensus about the suitability of the site is astounding and I am going to stay on top of the project regardless of the outcome of this application to follow the political discourse on the subject vice versa business interests that seem to drive ecologically devastating alternative approaches, such as the abandoned proposal to use greenland for the university. In this way I see a real political relevance of what happens at IT:U, and what I want do at IT:U also.
+
+![PostUni Banner ]()
+
+On this note also, I am particularly excited about IT:U's NLP Group's applications-oriented PhD-offering, which I prefer to JKU's current one in AI* because of this orientation exactly. 
 
 *JKU is offering some "Symbolic AI" topics with the current Bilateral AI PhD Cluster of Excellence, which is interesting to me from an academic perspective, and I will most likely apply as backup as well, but finding the way into practical relevance is actually a priority for me, truly.
 
