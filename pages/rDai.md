@@ -68,7 +68,7 @@ The following is a set of **presentations and their notes especially delivered a
 
 The main points: I am an ...
 
-- **engineer** with research, Wolfram Research angle
+- **engineer** (at the time of IT:U entry [full BScEng-level formal training in Software Engineering from Hagenberg](/rDse)) with research (completing my Masters in AI, see [degree plan with curricula on this page](#housekeeping)), Wolfram Research angle
     - expressions (symbolic idea) vs NLP (*)
     - interdisciplinary, Liberal Arts background: connection to NLP definition below
     - member of IT:U Founding Lab (2023) and the 2024 summer school, understanding the overall IT:U spirit and origin
