@@ -17,9 +17,9 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <p><b>1.</b> Main Thesis work. <i>Emerging structure:</i></p>
     <ul> 
         <li><i>General LLM Tasks/Few-Shot intro (ref. seminar presentation)</i></li>
-        <li><i>Practical-Work-takeaway: framework for pipeline-development and evluation</i></li>
+        <li><i>Practical-Work-takeaway: framework for pipeline-development and evaluation</i></li>
         <li><i>Main Research part: Evaluation LLM applications, SOTA, chosen approach, round out current theory</i></li>
-        <li><i>Implementation: some technical details and code</i></li>
+        <li><i>Implementation: Overview, some technical details and code</i></li>
         <li><i>Results: Discussion, future work</i></li>
     </ul>
     <h3 id="jku-practical-work">Standard Software Integration (Enterprise Content Management - ECM, Forthcoming)</h3>
