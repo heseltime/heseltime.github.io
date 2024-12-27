@@ -16,7 +16,7 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <h3>LLM Processing and Evaluation of the Output (Forthcoming)</h3>
     <p><b>1.</b> Main Thesis work. <i>Emerging structure:</i></p>
     <ul> 
-        <li><i>General LLM Tasks/Few-Shot <b>Intro</b> (ref. seminar presentation)</i></li>
+        <li><i>General LLM Tasks/Few-Shot <b>Intro</b>, see also seminar presentation, and make connection to Update Social as a way to introduce the current applications landscape and challenges</i></li>
         <li><i>Practical-Work-takeaway: <b>Technical framework</b> for pipeline-development</i></li>
         <li><i>Main Research part: <b>Evaluation</b> of LLM applications, SOTA, chosen approach, round out current theory</i></li>
         <li><i><b>Implementation</b>: Overview, some technical details and code</i></li>
