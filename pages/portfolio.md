@@ -29,11 +29,15 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
 
 This is a Hagenberg project adapting the [REST API exercise class project](https://github.com/heseltime/SWK5-ue7-OrderManagement-) for the Component-Oriented Software Engineering Course (focused on .NET). The basic idea was to take the bus stop project requirement and apply it to an event management system idea for [KHG](/khg), attempting visualize goings-on in-house using a bus schedule metaphor.
 
-<!--
-concept logo would be cool
--->
+![NextStop API Overview with Swagger](/assets/img/next-stop-api-swagger.png)
 
-More details in the Readme. (Upcoming.)
+More details in the [Readme](https://github.com/heseltime/SWK5-NextStop-AS1-alt). 
+
+### Front-End
+
+The frontend illustrates how the endpoints shown above are operationalized to the users: info-screens, bus drivers (check-ins), as well as bus company management roles.
+
+(Upcoming.)
 
 ## [PDFstral.london](pdfstral.london)
 
