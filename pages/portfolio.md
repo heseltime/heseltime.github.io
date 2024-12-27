@@ -16,11 +16,11 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <h3>LLM Processing and Evaluation of the Output (Forthcoming)</h3>
     <p><b>1.</b> Main Thesis work. <i>Emerging structure:</i></p>
     <ul> 
-        <li><i>General LLM Tasks/Few-Shot intro (ref. seminar presentation)</i></li>
-        <li><i>Practical-Work-takeaway: framework for pipeline-development and evaluation</i></li>
-        <li><i>Main Research part: Evaluation LLM applications, SOTA, chosen approach, round out current theory</i></li>
-        <li><i>Implementation: Overview, some technical details and code</i></li>
-        <li><i>Results: Discussion, future work</i></li>
+        <li><i>General LLM Tasks/Few-Shot <b>Intro</b> (ref. seminar presentation)</i></li>
+        <li><i>Practical-Work-takeaway: <b>Technical framework</b> for pipeline-development</i></li>
+        <li><i>Main Research part: <b>Evaluation</b> of LLM applications, SOTA, chosen approach, round out current theory</i></li>
+        <li><i><b>Implementation</b>: Overview, some technical details and code</i></li>
+        <li><i><b>Results</b>: Discussion, future work</i></li>
     </ul>
     <h3 id="jku-practical-work">Standard Software Integration (Enterprise Content Management - ECM, Forthcoming)</h3>
     <p><b>+.</b> It is actually possible to extract this part out of the main academic work, and so I am starting here, for a <b>practical work component in my Masters</b>.</p>
