@@ -94,7 +94,7 @@ On the topic of relevance, I am particularly excited about IT:U's NLP Group's ap
 
 *JKU is offering some "Symbolic AI" topics with the current Bilateral AI PhD Cluster of Excellence, which is interesting to me from an academic perspective, and I will most likely apply as backup as well, but finding the way into practical relevance is actually a priority for me, truly.
 
-So to complete this section I would connect to goals (a) and (b) from my current thesis topic and my professional background respectively.
+So to complete this section I would connect to goals (a) and (b) from my current thesis topic and my professional background respectively. My hope is that learnings from the research going into these presentations, as well as the discussions at interview, will inform the thesis itself, adding a perspective, especially on the question of (task-specific) evaluation/benchmarking of LLM performance.
 
 
 ## Own Work: PDF Accessibilty, Approaching the Benchmarking Question
