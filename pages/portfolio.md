@@ -32,7 +32,11 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <p>In the language of this portfolio, this scripting project (Software Engineering view of Machine Learning (ML): all scripting, right?) marks an ML departure. It also build on an <a href="#open-ai-api">initial OpenAI API Test involving transformation of a collection of daily reports to one monthly report</a>, demonstrating a summarization ECM use case.</p>
 </div>
 
-## NextStop (KHG)
+## <a name="postit-u"></a> ["In Linz beginnts!" - PostIT:U](postit-u.at)
+
+"It starts in Linz" - here is project I doubled for my roles in, one as fullstack engineer (hence inclusion in this portfolio) developing an [older project](#postcity) into something new, and second as KHJ (Catholic University Youth in Upper Austria) Head of the Board/IT:U Founding Lab Member, aiming to tell the story of finding this new university's location from the student perspective, (a), and (B), for Bolitics, holding the officeholders accountable, come January 12th (2025) Linz Mayoral Elections, by collecting their statements/positions _before_ the election.
+
+## <a name="next-stop"></a> NextStop (KHG)
 
 This is a Hagenberg project adapting the [REST API exercise class project](https://github.com/heseltime/SWK5-ue7-OrderManagement-) for the Component-Oriented Software Engineering Course (focused on .NET). The basic idea was to take the bus stop project requirement and apply it to an event management system idea for [KHG](/khg), attempting visualize goings-on in-house using a bus schedule metaphor.
 
@@ -223,7 +227,7 @@ Build tool: [Vite.js](https://vitejs.dev/guide/) Here a small-scale [view/list a
 
 Angular frontend project to follow, concluding semester 5 of an intensive [Software Engineering](/rDse) curriculum.
 
-# Der Standard Mock-up ('23, #ArsElectronica/#SoftwareEngineering: Some Experimental Frontend)
+# <a name="postcity"></a> Der Standard Mock-up ('23, #ArsElectronica/#SoftwareEngineering: Some Experimental Frontend)
 
 <div id="scrollytelling">See also <a href="/notes">rX Feed</a> and <a href="https://www.derstandard.at/promotion/velcom?DcIYkpda/idsa-eine-universitaet-beginnt#!/" target="_BLANK">the final piece published by Der Standard</a>, a high-end Austrian newspaper (my pretty face is in the header, if you can find me!) -  I delivered the below mockup for a scrollytelling, dynamic version with conveyor belts (the Ars Electronica Festival 2023 took place in an abandoned post (packages) processing plant) but Der Standard went with a simpler static design and layout (their loss!).</div>
 
