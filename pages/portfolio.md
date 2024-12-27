@@ -14,7 +14,10 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <h3>PDF-Metadata Extraction and Feedback Plattform (Forthcoming)</h3>
     <p><b>0.</b> in C#?</p>
     <h3>LLM Processing and Evaluation of the Output (Forthcoming)</h3>
-    <p><b>1.</b> Main Thesis work.</p>
+    <p><b>1.</b> Main Thesis work. <i>Emerging structure:</i></p>
+    <ul> 
+        <li><i>General LLM Tasks/Few-Shot intro (ref. seminar presentation)</i></li>
+    </ul>
     <h3 id="jku-practical-work">Standard Software Integration (Enterprise Content Management - ECM, Forthcoming)</h3>
     <p><b>+.</b> It is actually possible to extract this part out of the main academic work, and so I am starting here, for a <b>practical work component in my Masters</b>.</p>
     <img src="/assets/img/linkedin/hoffman-thumb.webp" alt="Dr Hoffman from Angela Carter's The Infernal Desire Machines Inspires This Work" />
