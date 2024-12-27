@@ -163,7 +163,7 @@ The intersting thing, our takeaway, is that both our noisy concept predictions a
 **Links**:
 
 - [Overview (GitHub)](https://github.com/jku-icg-classroom/assignment-2-model-explanations-cube5)
-- [Explanation Notebook (GitHub)]()
+- [Explanation Notebook (GitHub)](https://github.com/jku-icg-classroom/assignment-2-model-explanations-cube5/blob/main/Assignment-2-Model-Explanation.ipynb)
 - [Complete Final Presentation (Google Slides)](https://docs.google.com/presentation/d/1572iC_AuUncW8R4-qPOVSQVfnuL2CF2ntNV0sHHP5gI/edit?usp=sharing)
 
 <div class="wsrp" id="wsrp-2024">
