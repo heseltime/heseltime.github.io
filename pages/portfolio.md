@@ -36,7 +36,7 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
 
 "It starts in Linz" - here is project I doubled for my roles in, one as fullstack engineer (hence inclusion in this portfolio) developing an [older project](#postcity) into something new, and second as KHJ (Catholic University Youth in Upper Austria) Head of the Board/IT:U Founding Lab Member, aiming to tell the story of finding this new university's location from the student perspective, (a), and (B), for Bolitics, holding the officeholders accountable, come January 12th (2025) Linz Mayoral Elections, by collecting their statements/positions _before_ the election.
 
-![NextStop API Overview with Swagger](/assets/img/postitu-header-screengrab.png)
+[![NextStop API Overview with Swagger](/assets/img/postitu-header-screengrab.png)](https://postit-u.at)
 
 ## <a name="next-stop"></a> NextStop (KHG)
 
