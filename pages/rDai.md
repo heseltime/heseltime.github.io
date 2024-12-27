@@ -112,6 +112,12 @@ So to complete this section I would connect to goals (a) and (b) from my current
 
 ### 5 mins
 
+- Comp. X PhD Program and Applications, and if this can be shared: **how many applications to the NLP group were there? How many applicants were shortlisted for interview?**
+- (Future growth anticipation: **will there be positions next year?**)
+- Collaboration plans: **Overlap/ideas for collaboration within IT:U, with other groups? Ideas/anything concrete for collaboration with JKU, or industry in Linz?** ("Looking at you, NXAI")
+
+_Dear Yufang, thank you for the interview, and I will be to share a direct link to my notes and presentations immediately before, during or after my interview January 9th morning._
+
 
 # <a name="xai"></a>XAI Project: End-to-End Argumentation Knowledge Graph Construction
 
