@@ -32,7 +32,7 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <p>In the language of this portfolio, this scripting project (Software Engineering view of Machine Learning (ML): all scripting, right?) marks an ML departure. It also build on an <a href="#open-ai-api">initial OpenAI API Test involving transformation of a collection of daily reports to one monthly report</a>, demonstrating a summarization ECM use case.</p>
 </div>
 
-## <a name="postit-u"></a> ["In Linz beginnts!" - PostIT:U](postit-u.at)
+## <a name="postit-u"></a> ["In Linz beginnts!" - PostIT:U](https://postit-u.at)
 
 "It starts in Linz" - here is project I doubled for my roles in, one as fullstack engineer (hence inclusion in this portfolio) developing an [older project](#postcity) into something new, and second as KHJ (Catholic University Youth in Upper Austria) Head of the Board/IT:U Founding Lab Member, aiming to tell the story of finding this new university's location from the student perspective, (a), and (B), for Bolitics, holding the officeholders accountable, come January 12th (2025) Linz Mayoral Elections, by collecting their statements/positions _before_ the election.
 
