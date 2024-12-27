@@ -17,6 +17,10 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <p><b>1.</b> Main Thesis work. <i>Emerging structure:</i></p>
     <ul> 
         <li><i>General LLM Tasks/Few-Shot intro (ref. seminar presentation)</i></li>
+        <li><i>Practical-Work-takeaway: framework for pipeline-development and evluation</i></li>
+        <li><i>Main Research part: Evaluation LLM applications, SOTA, chosen approach, round out current theory</i></li>
+        <li><i>Implementation: some technical details and code</i></li>
+        <li><i>Results: Discussion, future work</i></li>
     </ul>
     <h3 id="jku-practical-work">Standard Software Integration (Enterprise Content Management - ECM, Forthcoming)</h3>
     <p><b>+.</b> It is actually possible to extract this part out of the main academic work, and so I am starting here, for a <b>practical work component in my Masters</b>.</p>
@@ -36,7 +40,7 @@ This is a Hagenberg project adapting the [REST API exercise class project](https
 
 More details in the [Readme](https://github.com/heseltime/SWK5-NextStop-AS1-alt). 
 
-### Front-End
+### Frontend
 
 The frontend illustrates how the endpoints shown above are operationalized to the users: info-screens, bus drivers (check-ins), as well as bus company management roles.
 
