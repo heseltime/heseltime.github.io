@@ -229,6 +229,8 @@ Angular frontend project to follow, concluding semester 5 of an intensive [Softw
 
 # <a name="postcity"></a> Der Standard Mock-up ('23, #ArsElectronica/#SoftwareEngineering: Some Experimental Frontend)
 
+**Update**: Developed further to a public-facing political [project about IT:U (neé IDSA) location politics for the 2025 Linz Mayoral Election](#postit-u).
+
 <div id="scrollytelling">See also <a href="/notes">rX Feed</a> and <a href="https://www.derstandard.at/promotion/velcom?DcIYkpda/idsa-eine-universitaet-beginnt#!/" target="_BLANK">the final piece published by Der Standard</a>, a high-end Austrian newspaper (my pretty face is in the header, if you can find me!) -  I delivered the below mockup for a scrollytelling, dynamic version with conveyor belts (the Ars Electronica Festival 2023 took place in an abandoned post (packages) processing plant) but Der Standard went with a simpler static design and layout (their loss!).</div>
 
 Nevertheless I was involved in the writing and content as well, see <a href="/notes">rX Feed</a> again, for that part: I find the art-society-technology approach Ars Electronica takes to be a fruitful way to think new tech, to say the least.
