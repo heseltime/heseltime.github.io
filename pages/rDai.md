@@ -114,7 +114,8 @@ _My hope is that learnings from the research going into these presentations, as 
 
 ### 5 mins
 
-- Comp. X PhD Program and Applications, and if this can be shared: **how many applications to the NLP group were there? How many applicants were shortlisted for interview?**
+- NLP Group Decisions **Timeline**? Helps me balance progress in other applications.
+- Comp. X PhD Program/NLP Group Applications, and if this can be shared: **how many applications to the NLP group were there? How many applicants were shortlisted for interview?**
 - (Future growth anticipation: **will there be positions next year?**)
 - Collaboration plans: **Overlap/ideas for collaboration within IT:U, with other groups? Ideas/anything concrete for collaboration with JKU, or industry in Linz?** ("Looking at you, NXAI")
 
