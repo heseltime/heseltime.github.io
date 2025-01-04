@@ -51,7 +51,7 @@ _These Masters level studies are on-going (target December 2024), now full-time,
 
 _See also [XAI Project](#xai)._
 
-The following is a set of **presentations and their notes especially delivered as part of interviewing for the new [IT-U NLP Group](https://it-u.at/en/research/research-groups/natural-language-processing/) Computational X PhD program** in Linz.
+The following is a set of **presentations and their notes, especially, delivered as part of interviewing for the new [IT-U NLP Group](https://it-u.at/en/research/research-groups/natural-language-processing/) Computational X PhD program** in Linz. _I am motivated to study in this group due to [on-going touchpoints in my studies with NLP](https://github.com/heseltime/commai/), and of course the real industry-relevance of current trends in LLMs particularly, but will use the following interview format to unpack how I got here._
 
 ### This presentation/conversation is **structured** as follows (main content, highlighted, below).
 
