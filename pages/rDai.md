@@ -100,7 +100,7 @@ So to complete this section I would connect to goals (a) and (b) from my current
 _My hope is that learnings from the research going into these presentations, as well as the discussions at interview, will inform the thesis itself, adding a perspective, especially on the question of (task-specific) evaluation/benchmarking of LLM performance._
 
 
-## Own Work: PDF Accessibilty, Approaching the Benchmarking Question
+## Own Work: PDF Accessibilty, Approaching the Benchmarking Question (Hoffman)
 
 ### in **15 mins** _incl. Q&A_
 
