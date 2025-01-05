@@ -161,6 +161,7 @@ Of course, projecting into the future is hard, and all I can hope to do here is 
 - Comp. X PhD Program/NLP Group Applications, and if this can be shared: **how many applications to the NLP group were there? How many applicants were shortlisted for interview?**
 - (Future growth anticipation: **will there be positions next year?**)
 - Collaboration plans: **Overlap/ideas for collaboration within IT:U, with other groups? Ideas/anything concrete for collaboration with JKU, or industry in Linz?** ("Looking at you, NXAI")
+- _There probably will not be time today, but my group in a JKU XAI course was curious if there are any topics in Knowledge Graphs you are currently pursuing or would consider pursuing, going from your work on [Al-Katib, Hou et al.](https://ojs.aaai.org/index.php/AAAI/article/view/6231). See also [below](#xai)._
 
 _Dear Yufang, thank you for the interview, and I will make sure to share a [direct link](#it-u) to these prep notes and presentations immediately before, during or after my interview January 9th morning._
 
