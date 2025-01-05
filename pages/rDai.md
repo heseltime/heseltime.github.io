@@ -110,7 +110,7 @@ _My hope is that learnings from the research going into these presentations, as 
 
 ### in **15 mins** _plus Q&A (8 mins)_
 
-#### Research Agenda
+#### Research Agenda (probably best for Q&A)
 
 I think it helfpul to pin this on the year 1 Project Module (Computational X Project and/or Research Methodology Project, see also below and in the [curriculum](https://acrobat.adobe.com/id/urn:aaid:sc:EU:a29373ff-a114-490e-99bb-9448f9d4a08d)): 
 
