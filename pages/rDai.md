@@ -106,9 +106,13 @@ _My hope is that learnings from the research going into these presentations, as 
 
 
 
+
 ## IT:U Work: LLM Benchmarking (Holmes)
 
 ### in **15 mins** _plus Q&A (8 mins)_
+
+
+
 
 #### Research Agenda (probably best for Q&A)
 
@@ -122,7 +126,11 @@ From the curriculum:
 
 For this, I would very much like to segue directly from the research and validation orientation of my Masters thesis to a more encompassing, applied (not precluding any other, potentially less technical research required for this side!) project drawing on the findings and putting together a production-level output, in order to drive the Research Lab and Core Modules in turn. I would find it particularly exciting to set up a **study and formulate research questions as it comes to applications, possibly collaborating with institutes like Institute of Integrated Study at JKU or industry partners**, of which there are some who are also interested in accessibility topics in Linz too.
 
-I expect to deal with topics fully embedded in the [IT:U NLP Group's focus areas](https://it-u.at/en/research/research-groups/natural-language-processing/).
+At the same time I think year 1's first term's Core Module (Computational X) Electives' flexibility will allow for meaningful and complemnetary knowledge and practical skills, and later, in second term, a rounding out of research focus areas by way of the gained research methodologies, in the Research Labs.
+
+![The IT-U PhD Timeline](../assets/img/itu/ituyearone-rectangled.png)
+
+I expect to deal with topics fully embedded in the [IT:U NLP Group's focus areas](https://it-u.at/en/research/research-groups/natural-language-processing/) by the time second term comes at the latest.
 
 ##### Focus Areas of Interest
 
@@ -135,7 +143,7 @@ I come from what I might call Symbolic-Augmented NLP and developing robust and e
 
 ##### Bringing It Back to **Governance**
 
-Linguistic competence, benchmarking in general, specific task measurements, symbolic frameworks: My intuition is that these can all be brought under the banner of **_Governance_** and that this will be a core LLM topic informed by applications areas as well. I would be excited to enter into a PhD program with this general research focus, and **a core project like Making PDFs Accessible and Barrierfree an initial handle on this larger area**, spinning off into practice-informed and/or existing research focus driven concerns throughout year 1, to settle on a concrete question by year 2. 
+Linguistic competence, benchmarking in general, specific task measurements, symbolic frameworks: My intuition is that these can all be brought under the banner of **_Governance_** and that this will be a core LLM topic informed by applications areas as well. I would be excited to enter into a PhD program with this general research focus, and **a core project like Making PDFs Accessible and Barrierfree an initial handle on this larger area**, spinning off into practice-informed and/or existing research focus driven concerns throughout year 1, to settle on a concrete question by year 2, in time for the PhD Thesis Proposal.
 
 #### Project Assistance
 
