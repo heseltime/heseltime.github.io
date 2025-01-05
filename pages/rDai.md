@@ -118,7 +118,7 @@ I think it helfpul to pin this on the year 1 Project Module (“Computational X 
 
 From the curriculum:
 
-> This course [”Research Methodology Project”] provides a practical introduction to the methods and techniques of academic research. Students will learn about research design, data collection, analysis, and interpretation. Through a real-world project, students will apply theoretical knowledge to develop research questions, conduct literature reviews, and implement research methods. The course emphasizes critical thinking, analytical skills, and collaboration, equipping students with the tools and experience necessary to conduct effective and ethical research in an interdisciplinary context.
+> This course ["Research Methodology Project"] provides a practical introduction to the methods and techniques of academic research. Students will learn about research design, data collection, analysis, and interpretation. Through a real-world project, students will apply theoretical knowledge to develop research questions, conduct literature reviews, and implement research methods. The course emphasizes critical thinking, analytical skills, and collaboration, equipping students with the tools and experience necessary to conduct effective and ethical research in an interdisciplinary context.
 
 For this, I would very much like to segue directly from the research and validation orientation of my Masters thesis to a more encompassing, applied (not precluding any other, potentially less technical research required for this side!) project drawing on the findings and putting together a production-level output, in order to drive the Research Lab and Core Modules in turn. I would find it particularly exciting to set up a **study and formulate research questions as it comes to applications, possibly collaborating with institutes like Institute of Integrated Study at JKU or industry partners**, of which there are some who are also interested in accessibility topics in Linz too.
 
@@ -135,7 +135,7 @@ I come from what I might call Symbolic-Augmented NLP and developing robust and e
 
 #### Project Assistance
 
-I understand and note this is an application for a four-year job as well as a research position! I see the project assistance outlined in the curriculum overview for years 2 - 4, and actually see myself in a potentially more technical role drawing on my AI and software engineering studies in the IT:U lab context as well, but am open to the group's needs of course.
+I understand and note this is an application for a four-year job as well as a research position! I see the **project assistance outlined in the curriculum overview for years 2 - 4**, and actually see myself in a potentially more technical role drawing on my AI and software engineering studies in the IT:U lab context as well, but am open to the group's needs of course.
 
 ### Obligatory Note
 
