@@ -133,7 +133,7 @@ I am gravitating toward the intersection of linguistic competence as outlined in
 
 I come from what I might call Symbolic-Augmented NLP and developing robust and explainable AI systems that integrate symbolic reasoning with LLMs, drawing on my background in symbolic computation and current work at Masters level in XAI, as well as industry experience with Wolfram Research where such a project is under way at production grade and scale. RAG (Retrieval-Augmented Generation) is of particular interest in this context and something I want to formally incorporate into my Masters thesis as well.
 
-##### Bringing It Back to Governance
+##### Bringing It Back to **Governance**
 
 Linguistic competence, benchmarking in general, specific task measurements, symbolic frameworks: My intuition is that these can all be brought under the banner of **_Governance_** and that this will be a core LLM topic informed by applications areas as well. I would be excited to enter into a PhD program with this general research focus, and **a core project like Making PDFs Accessible and Barrierfree an initial handle on this larger area**, spinning off into practice-informed and/or existing research focus driven concerns throughout year 1, to settle on a concrete question by year 2. 
 
