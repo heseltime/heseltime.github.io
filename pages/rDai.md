@@ -109,6 +109,28 @@ _My hope is that learnings from the research going into these presentations, as 
 
 ### in **15 mins** _plus Q&A (8 mins)_
 
+#### Research Agenda
+
+I think it helfpul to pin this on the year 1 Project Module: 
+
+![The IT-U PhD Timeline](../assets/img/itu/ituphdtrack.png)
+
+For this, I would very much like to segue directly from the research and validation orientation of my Masters thesis to a more encompassing, applied (not precluding any other, potentially less technical research required for this side!) project drawing on the findings and putting together a production-level output, in order to drive the Research Lab and Core Modules in turn.
+
+I expect to deal with topics fully embedded in the [IT:U NLP Group's focus areas](https://it-u.at/en/research/research-groups/natural-language-processing/) and building on the initial [curriculum](https://acrobat.adobe.com/id/urn:aaid:sc:EU:443612a2-f9af-44c0-90bb-c54f1b9be7ed).
+
+##### Focus Areas of Interest
+
+- Governance of Large Language Models (LLM)
+- Knowledge and Reasoning
+
+I am gravitating toward the intersection of linguistic competence as outlined in the paper under discussion in the above and more explicit knowledge questions and task applications of LLMs as in my own work, I am finding. From this view I might also count Computational Argumentation and Fact-checking, especially also with a view to exciting applications, as the third NLP group focus area of interest.
+
+##### Other Points of Interest from the Curriculum
+
+### Obligatory Note
+
+Of course, projecting into the future is hard, and all I can hope to do here is outline a sense of direction and check my own alignment with these propositions, as they become less vague and will undoubtedly be influenced by the group's existing research agenda.
 
 ## Own Questions 
 
