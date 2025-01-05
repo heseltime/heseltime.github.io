@@ -72,6 +72,7 @@ The main points: I am an ...
     - expressions (symbolic idea) vs NLP (*)
     - interdisciplinary, Liberal Arts background: connection to NLP definition below
     - member of IT:U Founding Lab (2023) and the 2024 summer school, understanding the overall IT:U spirit and origin
+    - broader, seminar-based initial undergrad in the US focussed on writing and independent research, which I credit with being able to shape my own academic route and define my own research questions and projects since, as documented on this blog for instance, and also, a spirit similar to the one I am finding at IT:U (interdisciplinary projects, seminars over lectures, etc. - more high-tech however)
 - My current (Masters) **thesis** is an LLM application/evaluation topic, making PDFs barrierfree and accessible: see the next section, connection to IT:U NLP Lab's goals
 - I have my own **vision** for IT:U too: see Linz context down below, and emphasizing both interational, academic perspective _and_ the potentially more business-driven, local (roots) view.
     - My personal vision: (see also academic resume for) a professionally oriented vision, _With the upcoming wolfram.ai and LLM Assistant products, Mathematica is being supplied with RAG-guided LLM capabilities. The (PhD/+ level) researchers on the project host a Software-oriented discussion circle I actively participate in: my ambition for my PhD work is to unlock similar professional frontiers, at Wolfram Research or elsewhere._
