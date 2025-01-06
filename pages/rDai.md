@@ -104,11 +104,8 @@ _My hope is that learnings from the research going into these presentations, as 
 
 ### in **15 mins** _incl. Q&A_
 
-**Slides** (PDF):
-
 [![Presentation Slides HOFFMAN](/assets/img/itu/Presentation_1_HOFFMAN_PDFs_Benchmarking-v1.1.pdf)](/assets/pdf/itu/Presentation_1_HOFFMAN_PDFs_Benchmarking-v1.1.pdf)
 
-Delivered on January 9th, 2025, to the NLP Group at IT:U.
 
 ## IT:U Work: LLM Benchmarking (Holmes)
 
