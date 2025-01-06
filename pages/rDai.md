@@ -149,9 +149,17 @@ Linguistic competence, benchmarking in general, specific task measurements, symb
 
 I understand and note this is an application for a four-year job as well as a research position! I see the **project assistance outlined in the curriculum overview for years 2 - 4**, and actually see myself in a potentially more technical role drawing on my AI and software engineering studies in the IT:U lab context as well, but am open to the group's needs of course.
 
+#### Play and Exploration
+
+One hallmark of IT:U is undoubtedly its lab setup. Something I can absolutely imagine exploring by intertwining it with a topic like linguistic competence, on the one hand, and something like the motion tracking studio or maker lab resources (pis, cameras, proxies), is transcending LLM language capabilities into other competences, like also feeding body pose or facial expression to an LLM and testing an embodied/agentic model, pushing for really natural language processing, in the sense of the richness of human communication. I am sure there would be opportunities for side projects of this sort along the way too.
+
 ### Obligatory Note
 
 Of course, projecting into the future is hard, and all I can hope to do here is outline a sense of direction and check my own alignment with these propositions, as they become less vague and will undoubtedly be influenced by the group's existing research agenda.
+
+#### Side Note: Timelines and Flexibility
+
+I consider myself the kind of person that can definitely keep a deadline and even speed if needed. I also do my homework. So if in the case of accceptance, faster Masters completion or preliminary work (I am thinking of paper reading homework to hit the ground running come summer 2025) is needed, I am open to being flexible in this way and want to signal my readiness to do what it takes, also to close any gaps in my preparation for undertaking this PhD, if there are some.
 
 ## Own Questions 
 
