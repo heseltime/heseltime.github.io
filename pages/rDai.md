@@ -104,7 +104,7 @@ _My hope is that learnings from the research going into these presentations, as 
 
 ### in **15 mins** _incl. Q&A_
 
-
+[![Presentation Slides HOFFMAN](/assets/img/itu/Presentation_1_HOFFMAN_PDFs_Benchmarking-v1.1.pdf)](/assets/pdf/itu/Presentation_1_HOFFMAN_PDFs_Benchmarking-v1.1.pdf)
 
 
 ## IT:U Work: LLM Benchmarking (Holmes)
