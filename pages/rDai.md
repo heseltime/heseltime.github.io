@@ -151,11 +151,15 @@ I understand and note this is an application for a four-year job as well as a re
 
 #### Play and Exploration
 
-One hallmark of IT:U is undoubtedly its lab setup. Something I can absolutely imagine exploring by intertwining it with a topic like linguistic competence, on the one hand, and something like the motion tracking studio or maker lab resources (pis, cameras, proxies), is transcending LLM language capabilities into other competences, like also feeding body pose or facial expression to an LLM and testing an embodied/agentic model, pushing for really natural language processing, in the sense of the richness of human communication. I am sure there would be opportunities for side projects of this sort along the way too.
+One hallmark of IT:U is undoubtedly its lab setup. Something I can absolutely imagine exploring by intertwining it with a topic like linguistic competence, on the one hand, and something like the motion tracking studio or maker lab resources (pis, cameras, proxies), is transcending LLM language capabilities into other competences, like also feeding body pose or facial expression to an LLM and testing an embodied/agentic model, pushing for really natural language processing, in the sense of the richness of human communication. I am sure there would be opportunities for side projects of this sort along the way too, maybe also again tying in with Ars Electronica, a partner of IT:U especially at the Founding Lab stage (still on the IT:U website footer too).
+
+#### The JKU/Current IT:U/Linz Dornach Microcosm
+
+JKU's Student Union hosts AI Get-Togethers at KHG, the Catholic University Society (and especially the Cellar Bar, a popular evening destination in the university area) and Neuron AI is a JKU Masters student grouping that visits to reads papers, also meeting at KHG: I literally live here, having found a home and a community, and have expressed elsewhere in my application materials that I see myself in a potential role facilitating the exchange, bringing in IT:U (maybe especially its AI-interested groups) into the fold as well, as this new university not only makes its mark, but integrates itself into existing academic circles locally as well! I would be absolutely honored to play that role in fact, if it makes sense, and as I take a moment from my Masters studies to envison what this might look like.
 
 ### Obligatory Note
 
-Of course, projecting into the future is hard, and all I can hope to do here is outline a sense of direction and check my own alignment with these propositions, as they become less vague and will undoubtedly be influenced by the group's existing research agenda.
+Of course, projecting into the future is hard, and all I can hope to do here is outline a sense of direction and check my own alignment with these propositions, as they become less vague and will undoubtedly be influenced by the group's existing research agenda, academically speaking.
 
 #### Side Note: Timelines and Flexibility
 
