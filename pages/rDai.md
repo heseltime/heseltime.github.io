@@ -175,7 +175,7 @@ I consider myself the kind of person that can definitely keep a deadline and eve
 - Collaboration plans: **Overlap/ideas for collaboration within IT:U, with other groups? Ideas/anything concrete for collaboration with JKU, or industry in Linz?** ("Looking at you, NXAI")
 - _There probably will not be time today, but my group in a JKU XAI course was curious if there are any topics in Knowledge Graphs you are currently pursuing or would consider pursuing, going from your work on [Al-Katib, Hou et al.](https://ojs.aaai.org/index.php/AAAI/article/view/6231). See also [below](#xai)._
 
-_Dear Yufang, thank you for the interview, and I will make sure to share a [direct link](#it-u) to these prep notes and presentations immediately before, during or after my interview January 9th morning._
+**_Dear Yufang, thank you for the interview, and I will make sure to share a [direct link](#it-u) to these prep notes and presentations immediately before, during or after my interview January 9th morning._**
 
 
 # <a name="xai"></a>XAI Project: End-to-End Argumentation Knowledge Graph Construction
