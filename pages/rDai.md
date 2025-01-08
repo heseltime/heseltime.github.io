@@ -111,7 +111,7 @@ _My hope is that learnings from the research going into these presentations, as 
 
 ### in **15 mins** _plus Q&A (8 mins)_
 
-
+[![Presentation Slides HOLMES](/assets/img/itu/itupres2-cover.png)](/assets/pdf/itu/Presentation_2_HOLMES-v0.1.pdf)
 
 
 #### Research Agenda (probably best for Q&A)
