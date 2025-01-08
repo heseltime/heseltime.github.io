@@ -111,8 +111,11 @@ _My hope is that learnings from the research going into these presentations, as 
 
 ### in **15 mins** _plus Q&A (8 mins)_
 
-[![Presentation Slides HOLMES](/assets/img/itu/itupres2-cover.png)](/assets/pdf/itu/Presentation_2_HOLMES-v0.1.pdf)
+[![Presentation Slides HOLMES](/assets/img/itu/itupres2-cover.png)](/assets/pdf/itu/Presentation_2_HOLMES-v1.0.pdf)
 
+#### **FlashHOLMES take-home exercise exercise suggestion**
+
+I have not had the time yet to apply **FlashHOLMES**, which I would be intrigued to try, and can offer this as further work in early Febrary or later (due to the exam season now in January) if this is helpful, depending on how applications are further processed and as a **potential take-home exercise** I would be excited about.
 
 #### Research Agenda (probably best for Q&A)
 
