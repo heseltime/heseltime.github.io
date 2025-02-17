@@ -91,6 +91,6 @@ KHG has become my home away from home, only one hour by train: friends from chil
 
 My education in this crucial area of life follows that of Bell Hooks:
 
-> I learned that it is more fulfilling to live one's life within a circle of love, interacting with loved ones to whom we are committed. Lots of us learn this lesson the hard way by finding ourselves along and without meaningful connection to friends.
+> I learned that it is more fulfilling to live one's life within a circle of love, interacting with loved ones to whom we are committed. Lots of us learn this lesson the hard way by finding ourselves alone and without meaningful connection to friends.
 
 (All About Love)
