@@ -18,7 +18,7 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <ul> 
         <li>10p. <i>General LLM Tasks/Few-Shot <b>Intro</b>, see also seminar presentation, and make connection to</i> Update Social (see LIFT_C below) <i>as a way to introduce the current applications landscape and challenges</i></li>
         <li>15p. <i>Practical-Work-takeaway: <b>Technical framework</b> for pipeline-development</i></li>
-        <li>20p. <i>Main Research part: <b>Evaluation</b> of LLM applications, SOTA, chosen approach, round out current theory. <b>Idea for first section</b>: start with the idea for LLM-automating the scoring mechanism tasks currently requiring manual input. Evaluate those against manual scoring. See if and how this approach can be extended to the overall goal of document-transformation for accessibility.</i></li>
+        <li>20p. <i>Main Research part: <b>Evaluation</b> of LLM applications, SOTA, chosen approach, round out current theory. <b>Idea for first section</b>: start with the idea for LLM-automating the scoring mechanism tasks currently requiring manual input. Evaluate those against manual scoring. See if and how this approach can be extended to the overall goal of document-transformation for accessibility. An exploration of completely LLM-based scoring might be interesting here (but is probably not required as a focus of this work).</i></li>
         <li>5-10p. <i><b>Implementation</b>: Overview, some technical details and code - for the AI part, in contrast to the practical work (system part)</i></li>
         <li>5-10p. <i><b>Results</b>: Discussion, future work</i></li>
     </ul>
