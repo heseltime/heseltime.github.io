@@ -12,7 +12,7 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <h4>Masters thesis project at Johannes Kepler University (JKU), consisting of the following research components leading up to the technical report (project) and thesis</h4>
     <p>I'd like to thank the <a href="/notes">wonderful Update Social Team (on-going notes included)</a> in helping to refine this project up to an actionable starting point, and <a href="https://github.com/heseltime/updatesocial">reference the repo for initial testing and prototyping</a>.</p>
     <h3>PDF-Metadata Extraction and Feedback Plattform (Forthcoming?)</h3>
-    <p><b>0.</b> It would be fun to spin this work out into something available to anyone who might be interested in the future!</p>
+    <p><b>0.</b> It would be exciting to spin this work out into something available to anyone who might be interested in the future: I'll reserver the rest of the summer of 2025 and ff., once the thesis is done, for this, if I can.</p>
     <h3>LLM Processing and Evaluation of the Output (Forthcoming)</h3>
     <p><b>1.</b> Main Thesis work (55-65p). <i>Emerging structure:</i></p>
     <ul> 
