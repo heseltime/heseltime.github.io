@@ -16,11 +16,11 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <h3>LLM Processing and Evaluation of the Output (Forthcoming)</h3>
     <p><b>1.</b> Main Thesis work (55-65p). <i>Emerging structure:</i></p>
     <ul> 
-        <li>10p. <i>General LLM Tasks/Few-Shot <b>Intro</b>, see also seminar presentation, and make connection to</i> Update Social (see LIFT_C below) <i>as a way to introduce the current applications landscape and challenges</i></li>
-        <li>15p. <i>Practical-Work-takeaway: <b>Technical framework</b> for pipeline-development</i></li>
-        <li>20p. <i>Main Research part: <b>Evaluation</b> of LLM applications, SOTA, chosen approach, round out current theory. <b>Idea for first section</b>: start with the idea for LLM-automating the scoring mechanism tasks currently requiring manual input. Evaluate those against manual scoring. See if and how this approach can be extended to the overall goal of document-transformation for accessibility. An exploration of completely LLM-based scoring might be interesting here (but is probably not required as a focus of this work).</i></li>
+        <li>10p.(+?) <i>General LLM Tasks/Few-Shot <b>Intro</b>, see also seminar presentation, and make connection to</i> Update Social (see LIFT_C below) <i>as a way to introduce the current applications landscape and challenges</i> In the final structure this part is broken down (Intro, Concepts and Definitions, Legal Context, Related Work)</li>
+        <li>15p. <i>Practical-Work-takeaway: <b>Technical framework</b> for pipeline-development</i> In the final structure: "Solution Design"</li>
+        <li>20p. <i>Main Research part: <b>Evaluation</b> of LLM applications, SOTA, chosen approach, round out current theory. <b>Idea for first section</b>: start with the idea for LLM-automating the scoring mechanism tasks currently requiring manual input. Evaluate those against manual scoring. See if and how this approach can be extended to the overall goal of document-transformation for accessibility. An exploration of completely LLM-based scoring might be interesting here (but is probably not required as a focus of this work).</i> In the final structure: "Methods and Data"</li>
         <li>5-10p. <i><b>Implementation</b>: Overview, some technical details and code - for the AI part, in contrast to the practical work (system part)</i></li>
-        <li>5-10p. <i><b>Results</b>: Discussion, future work</i></li>
+        <li>5-10p. <i><b>Results</b>: Discussion, pick up evaluation (of the whole project), future work</i></li>
     </ul>
     <h3 id="jku-practical-work">Standard Software Integration (Enterprise Content Management - ECM, Done!)</h3>
     <p><b>+.</b> It is actually possible to extract this part out of the main academic work, and so I am starting here, for a <b>practical work component in my Masters</b>.</p>
