@@ -23,7 +23,7 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
         <li>5-10p. <i><b>Results</b>: Discussion, pick up evaluation (of the whole project), future work</i></li>
     </ul>
     <p><b>Update</b>: The poster (required poster presentation session) is done - before the thesis. Another update to follow soon!</p>
-    <img alt="Making Documents Accessible and Barrier-free Poster" src="../../assets/img/presentations/poster-making-documents-barrierfree-v-1-0.png"/>
+    <img alt="Making Documents Accessible and Barrier-free Poster" src="../../assets/img/presentations/poster-making-documents-barrierfree-v-1-1.png"/>
     <a href="../../assets/pdf/JKU_AI_Masters_Practical_Work_Report_SS2025__hoffman_-1-1.pdf"><h3 id="jku-practical-work">Standard Software Integration (Enterprise Content Management - ECM, Done!)</h3></a>
     <p><b>+.</b> It is actually possible to extract this part out of the main academic work, and so I am starting here, for a <b>practical work component in my Masters</b>.</p>
     <img src="/assets/img/linkedin/hoffman-thumb.webp" alt="Dr Hoffman from Angela Carter's The Infernal Desire Machines Inspires This Work" />
