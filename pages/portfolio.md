@@ -36,9 +36,11 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
 
 ## <a name="jku-pain"></a> [P.A.I.N. is PERSONAL AND INTERCONNECTED with NATURE](https://p-a-i-n.world)
 
+[![Logo for this project about pain.](/assets/img/pain-screengrab.png)](https://p-a-i-n.world)
+
 Johannes Kepler University MED Faculty and Ludwig Boltzmann Institutes hosted the "**Transforming Medicine through AI and Art**" Hackathon at the medical faculty in Linz and ars electronica festival 2025: I was happy to contribute (mainly to the backend, in Python, and implementing data mapping, NLP-based lookup and LLM interfacing) at the end of my Masters degree (for extra-credit, so to speak, and a festival pass), in the format I started this studies in, as it turned out (bringing AI people and medical students together) - this project is about the interconnection of personal and planetary pain, in multiple dimensions.
 
-[![](/assets/img/pain-screengrab.png)](https://p-a-i-n.world)
+[![The world model and rendering for this project about pain.](/assets/img/pain-screengrab-2.png)](https://p-a-i-n.world)
 
 ## <a name="postit-u"></a> ["In Linz beginnts!" - PostIT:U](https://postit-u.at)
 
