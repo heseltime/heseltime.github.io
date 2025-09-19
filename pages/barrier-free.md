@@ -618,11 +618,88 @@ made, skipped = process_dir(finetuning_dir, overwrite=OVERWRITE_EXISTING, only_p
 print(f"Done. Created: {made}, Skipped: {skipped}")
 ```
 
-# Testing Set
+# Testing Set and Results
+
+## 12-Document-Test Set
+
+In my thesis I formally evaluate the (fine-tuned) models and uncover relatively low scoring in the chosen model classes, fine-tuning regime, and code setup: by formalizing the test set with a particular use case in mind, however, a contribution for future model evaluations is made, with a certain application context in mind (in this case, German language and General Accident Insurance as the domain - this context may be added to in the future) and with the hope for improvements. The test set is provided with this thesis and encompasses 12 test documents - by permission of AUVA it is also available online, <a href="https://github.com/heseltime/hoffman/tree/main/testing">in the project repository</a> for the thesis.
+
+### Fine-tuned Models
+
+> We bring the fine-tuned model to bear on the full test set of 12 documents for the main discussion of results. In aggregate, the fine-tuned llama3-1 variants do not close the overlap gap: model-average BLEU, ROUGE-L(F_1), and METEOR remain low (near 0–0.05 across documents), and the doc-best scores are only marginally higher than the per-model averages. Normalized edit metrics continue to be the most informative: LR sits in the mid range ("moderate closeness"), LS drops when hypotheses are much longer than references, and CER/WER spike under length bloat or when extracted token streams collapse to very short sequences. A consistent pattern across the 12 documents is stability without quality gains: fine-tuned outputs are often deterministic (small variance across responses), which helps consistency but also hints at mode collapse on some inputs. Overall, the fine-tuned models track the non-fine-tuned llama3 baselines in shape/length space while failing to improve token-level overlap.
+
+See the following note on methodology to explain the above excerpt.
+
+### Note on Metrics
+
+We evaluate accessible-PDF generation as a sequence-to-sequence task, comparing model output to ground-truth references using complementary NLP metrics:
+
+- **BLEU (↑ higher is better)**
+  - Measures local *n-gram precision* with a brevity penalty.
+  - High BLEU → correct tag/attribute reproduction in correct order.
+
+- **ROUGE (↑ higher is better)**
+  - Emphasizes *recall* of reference content.
+  - ROUGE-N: overlap of n-grams (e.g., unigrams, bigrams).
+  - ROUGE-L: longest common subsequence.
+  - High ROUGE → candidate covers most reference tokens, tolerant of extra output.
+
+- **METEOR (↑ higher is better)**
+  - Combines precision + recall (recall weighted more heavily).
+  - Includes stemming, synonymy, paraphrase, and order penalty.
+  - High METEOR → good coverage with flexibility for reordered/variant tags.
+
+- **Edit Distance (↓ lower is better)**
+  - Levenshtein distance: minimum edits (insertions, deletions, substitutions) to match reference.
+  - Low distance → fewer corrections needed for valid accessible PDF.
+
+#### Interpretation
+- **BLEU** → Exactness of local structures.
+- **ROUGE** → Coverage of reference content.
+- **METEOR** → Balanced correctness with order tolerance.
+- **Edit Distance** → Practical correction effort.
+
+Consistent improvement across BLEU, ROUGE, METEOR (↑), and Edit Distance (↓) indicates better alignment of generated PDFs with accessibility-ground-truth.
+
+#### Length-normalized Edit Similarities
+
+To complement raw Levenshtein distance `d = lev(R, C)` (reference `R`, candidate `C`), we normalize by string length to obtain error rates and similarity scores:
+
+- **CER (Character Error Rate) ↓**
+  - `CER = d / |R|`
+  - Edit distance normalized by reference length at **character level**.
+  - Lower is better → fewer character edits per reference character.
+
+- **WER (Word Error Rate) ↓**
+  - `WER = d_w / |R_w|`
+  - Edit distance at **token level** (words instead of characters).
+  - Lower is better → fewer word-level corrections needed.
+
+- **Levenshtein Similarity (LS) ↑**
+  - `LS = 1 - d / max(|R|, |C|)`
+  - Strict similarity: divides by the longer string length.
+  - Penalizes heavily when candidate is much longer than reference.
+
+- **Levenshtein Ratio (LR) ↑**
+  - `LR = (|R| + |C| - d) / (|R| + |C|)`
+  - More robust to length skew (normalizes by total combined length).
+  - Always `LR ≥ LS` when `d > 0`.
+
+##### Interpretation
+- **CER / WER** → error rates (lower = better).
+- **LS / LR** → similarity scores (higher = better).
+- **LS** is stricter (penalizes overlong outputs).
+- **LR** is more forgiving, balancing both lengths.
+
+Together, these metrics complement BLEU/ROUGE/METEOR by quantifying *edit effort per unit length* and giving a normalized similarity measure between 0 and 1.
 
 # OOD? Uncertainty in LLM Inference
 
+> TODO
+
 # More Testing Sets and Other Steps for this LLM Challenge 
+
+> TODO
 
 <nav class="nav">
     <ul class="nav__list">
