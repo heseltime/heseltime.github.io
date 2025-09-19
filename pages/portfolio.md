@@ -11,10 +11,10 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <h2>core project (academic software development)</h2>
     <h4>Masters thesis project at Johannes Kepler University (JKU), consisting of the following research components leading up to the technical report (project) and thesis</h4>
     <p>I'd like to thank the <a href="/notes">wonderful Update Social Team (on-going notes included)</a> in helping to refine this project up to an actionable starting point, and <a href="https://github.com/heseltime/updatesocial">reference the repo for initial testing and prototyping</a>.</p>
-    <h3>PDF-Metadata Extraction and Feedback Plattform (Forthcoming?)</h3>
-    <p><b>0.</b> It would be exciting to spin this work out into something available to anyone who might be interested in the future: I'll reserve the rest of the summer of 2025 and ff., once the thesis is done, for this, if I can.</p>
-    <h3>LLM Processing and Evaluation of the Output (Forthcoming)</h3>
-    <p><b>1.</b> Main Thesis work (55-65p). <i>Emerging structure:</i></p>
+    <h3>Public Test Set and Paper</h3>
+    <p><b>0.</b> <i>Forthcoming</i></p>
+    <h3>LLM Processing and Evaluation of the Output (see <a href="/rDai">Top of Blog</a>/<a href="/barrier-free">page</a> for a blog-post synthesis of the work itself, which will be linked once the university publishes it online)</h3>
+    <p><b>1.</b> Main Thesis work (55-65p). <i>Emerging structure (at planning stage - broad-strokes I stuck to this actually):</i></p>
     <ul> 
         <li>10p.(+?) <i>General LLM Tasks/Few-Shot <b>Intro</b>, see also seminar presentation, and make connection to</i> Update Social (see LIFT_C below) <i>as a way to introduce the current applications landscape and challenges</i> In the final structure this part is broken down (Intro, Concepts and Definitions, Legal Context, Related Work)</li>
         <li>15p. <i>Practical-Work-takeaway: <b>Technical framework</b> for pipeline-development</i> In the final structure: "Solution Design"</li>

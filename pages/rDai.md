@@ -9,7 +9,8 @@ feedformat: none
 
 <div class="toc">
     <h2>academic blog post overview</h2>
-    <h4>Masters thesis forthcoming (2024) - <a href="/portfolio#jku-thesis-project">thesis project in portfolio</a> (degree practical work)</h4>
+    <h4><a href="/portfolio#jku-thesis-project">Masters thesis project</a>, and here a <a href="/barrier-free">blog-post synthesis of the main LLM/ML work</a> upshot of the thesis itself</h4>
+    <p>This will be linked once it is university-published online.</p>
     <ul>
         <li>
             <h3><a href="#xai">Knowledge Graph from Text</a>, or Explainability for Understanding Argumentation (Project)</h3>
