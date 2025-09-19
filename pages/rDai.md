@@ -9,7 +9,7 @@ feedformat: none
 
 <div class="toc">
     <h2>academic blog post overview</h2>
-    <h4><a href="/portfolio#jku-thesis-project">Masters thesis project</a>, and here a <a href="/barrier-free">blog-post synthesis of the main LLM/ML work</a> upshot of the thesis itself</h4>
+    <h4 id="#jku-thesis-project"><a href="/portfolio#jku-thesis-project">Masters thesis project</a>, and here a <a href="/barrier-free">blog-post synthesis of the main LLM/ML work</a> upshot of the thesis itself</h4>
     <p>This will be linked once it is university-published online. <i>Presentation:</i></p>
     <!--<a href="../assets/pdf/KVRobopsychologySS24_grouptask_group2_8-final.pdf"><img src="../assets/img/barrier-free/presentation-cover.png" alt="Barrier-free PDF Final Presentation" /></a>-->
     <ul>
