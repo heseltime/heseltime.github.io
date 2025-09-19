@@ -80,6 +80,13 @@ html[data-theme="dark"] {
     padding-bottom: 0;
 }
 
+.mini {
+    font-size: var(--text-s);
+    font-weight: var(--text-weight-normal);
+    line-height: var(--text-leading-narrow);
+    padding-bottom: 2em;
+}
+
 h1 {
     font-size: var(--text-xxl);
     line-height: var(--text-leading-narrow);
