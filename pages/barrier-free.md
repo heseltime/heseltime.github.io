@@ -283,6 +283,83 @@ trainer = SFTTrainer(
 )
 ```
 
+Notes on the **Alpaca** format:
+- Comes from the Stanford **Alpaca dataset** (2023).
+- Each example has three fields: `instruction`, `input`, and `output`.
+- They are combined into a fixed template, which helps the model learn **instruction-following**
+
+**Unsloth** is a fine-tuning library optimized for LLMs (LoRA/QLoRA training):
+- It doesn’t change the format — it just trains more efficiently.
+
+Notes on the trainer itself:
+- **dataset_text_field = "text"**
+  - Trainer reads Alpaca-style strings from the `text` column.
+
+- **packing = False**
+  - Each row is treated as a full sequence.
+  - Easier to debug, but less GPU-efficient (padding overhead).
+
+- **max_seq_length = max_seq_length**
+  - Longer samples truncated, shorter ones padded.
+  - Must be ≤ model’s context window.
+
+- **per_device_train_batch_size = 2**
+  - Small per-GPU batch.
+
+- **gradient_accumulation_steps = 4**
+  - Effective batch size = 2 × 4 = 8 (per device).
+
+- **warmup_steps = 50**
+  - Linear warmup before LR schedule kicks in.
+
+- **max_steps = 1000**
+  - Train for a fixed number of steps.
+  - Alternative: use `num_train_epochs`.
+
+- **learning_rate = 2e-4**
+  - Standard for LoRA/QLoRA.
+  - Too high for full fine-tune.
+
+- **optim = "adamw_8bit"**
+  - 8-bit AdamW via bitsandbytes.
+  - Saves memory with minimal overhead.
+
+- **weight_decay = 0.01**
+  - Regularization on weights.
+
+- **lr_scheduler_type = "cosine"**
+  - Smooth decay after warmup.
+  - Good default for SFT.
+
+- **bf16 = True**
+  - Efficient on A100/H100 GPUs.
+  - Use `fp16=True` if bf16 unsupported.
+
+- **gradient_checkpointing = True**
+  - Saves memory, extra compute cost.
+
+- **logging_steps = 5**
+  - Logs loss/metrics frequently.
+
+- **report_to = "none"**
+  - No external logging.
+  - Switch to `"wandb"` / `"tensorboard"` if desired.
+
+- **save_steps = 200**
+  - Save checkpoints every 200 steps.
+
+- **save_total_limit = 2**
+  - Keep only the 2 most recent checkpoints.
+
+- **dataset_num_proc = 2**
+  - Two CPU workers for dataset preprocessing.
+
+- **output_dir = "outputs"**
+  - Checkpoints and logs saved here.
+
+- **seed = 3407**
+  - Reproducibility.
+
 Memory check:
 
 ```python
