@@ -11,7 +11,7 @@ feedformat: none
     <h2>academic blog post overview</h2>
     <h4><a href="/portfolio#jku-thesis-project">Masters thesis project</a>, and here a <a href="/barrier-free">blog-post synthesis of the main LLM/ML work</a> upshot of the thesis itself</h4>
     <p>This will be linked once it is university-published online. <i>Presentation:</i></p>
-    <a href="../assets/pdf/KVRobopsychologySS24_grouptask_group2_8-final.pdf"><img src="../assets/img/barrier-free/presentation-cover.png" alt="Barrier-free PDF Final Presentation" /></a>
+    <!--<a href="../assets/pdf/KVRobopsychologySS24_grouptask_group2_8-final.pdf"><img src="../assets/img/barrier-free/presentation-cover.png" alt="Barrier-free PDF Final Presentation" /></a>-->
     <ul>
         <li>
             <h3><a href="#xai">Knowledge Graph from Text</a>, or Explainability for Understanding Argumentation (Project)</h3>
