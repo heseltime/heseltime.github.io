@@ -78,6 +78,246 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
+```python
+from pathlib import Path
+import fitz  # PyMuPDF
+from datasets import Dataset
+import orjson
+import json
+import re
+
+# --- Parameters ---
+# Directory in Drive containing pairs like:
+#   foo_uncompressed.pdf                (source)
+#   foo_bf_uncompressed.pdf             (gold, manually made accessible)
+#   foo_a11y.json OR foo_a11y.txt       (optional report)
+finetuning_dir = Path("/content/drive/MyDrive/finetuning")
+
+# Keep inputs/outputs complete by default.
+# Set to a VERY high limit or None to disable. Keeping None = no truncation.
+max_lines = None    # e.g. set to 100000 if you need a cap
+
+# If your reports are extremely long, you can cap them independently:
+max_report_chars = None  # e.g. 100000; None = no cap
+
+# Instruction prompt (domain-specific, terse, no CoT exposure)
+instruction = """You are a low-level PDF accessibility fixer.
+
+INPUTS:
+1) PDF_CODE_RAW: Decompressed PDF page content streams (text operators, XObjects, structure refs).
+2) ACCESSIBILITY_REPORT: Concrete issues to fix (missing /Alt, reading order, headings, structure tree, lang, etc.).
+
+TASK:
+Rewrite the PDF content streams to produce an accessible version. Fix issues per the report and PDF/UA best practices.
+
+RESPONSE FORMAT:
+Return ONLY the improved PDF content streams. No commentary, no markdown, no extra text.
+"""
+
+# --- Helper to extract /Contents stream from each page ---
+def extract_content_streams(pdf_path: Path) -> str:
+    doc = fitz.open(str(pdf_path))
+    contents = []
+    for page in doc:
+        contents_obj = page.get_contents()
+        if isinstance(contents_obj, list):
+            for xref in contents_obj:
+                stream = doc.xref_stream(xref)
+                if stream:
+                    contents.append(stream.decode(errors="ignore"))
+        elif contents_obj:
+            stream = doc.xref_stream(contents_obj)
+            if stream:
+                contents.append(stream.decode(errors="ignore"))
+    doc.close()
+    return "\n".join(contents)
+
+def read_accessibility_report(base: str, folder: Path) -> str:
+    """
+    Looks for {base}_a11y.json or {base}_a11y.txt
+    Returns raw text. If JSON, pretty-prints compactly.
+    """
+    json_path = folder / f"{base}_a11y.json"
+    txt_path  = folder / f"{base}_a11y.txt"
+    if json_path.exists():
+        try:
+            with open(json_path, "rb") as f:
+                data = orjson.loads(f.read())
+            # Compact but readable JSON as text
+            return orjson.dumps(data, option=orjson.OPT_INDENT_2).decode("utf-8")
+        except Exception as e:
+            print(f"Warning: Failed to parse JSON report for {base}: {e}")
+    if txt_path.exists():
+        try:
+            return txt_path.read_text(encoding="utf-8", errors="ignore")
+        except Exception as e:
+            print(f"Warning: Failed to read TXT report for {base}: {e}")
+    return ""  # OK if missing
+```
+
+The following is good for checking everything is loading correctly:
+
+```python
+# --- Create instruction-style dataset (complete documents) ---
+examples = []
+
+bf_files = sorted(finetuning_dir.glob("*_bf_uncompressed.pdf"))
+print(f"Found {len(bf_files)} gold (accessible) PDFs.")
+
+for bf_path in bf_files:
+    base = bf_path.name.replace("_bf_uncompressed.pdf", "")
+    src_path = finetuning_dir / f"{base}_uncompressed.pdf"
+
+    try:
+        if not src_path.exists():
+            print(f"Warning: Missing source for {bf_path.name}, skipping.")
+            continue
+
+        # Extract full streams
+        src_code = extract_content_streams(src_path)
+        tgt_code = extract_content_streams(bf_path)
+        report   = read_accessibility_report(base, finetuning_dir)
+
+        # Optional caps (disabled by default)
+        if max_lines is not None:
+            src_code = "\n".join(src_code.splitlines()[:max_lines])
+            tgt_code = "\n".join(tgt_code.splitlines()[:max_lines])
+        if max_report_chars is not None and report:
+            report = report[:max_report_chars]
+
+        # Previews for logging
+        input_preview  = (src_code[:200] if src_code else "").replace("\n", "\\n")
+        output_preview = (tgt_code[:200] if tgt_code else "").replace("\n", "\\n")
+        report_preview = (report[:200] if report else "").replace("\n", "\\n")
+
+        print(
+            f"Adding example {base}:\n"
+            "--- Input (first 200 chars) ---\n"
+            f"{input_preview}\n"
+            "--- Report (first 200 chars) ---\n"
+            f"{report_preview}\n"
+            "--- Output (first 200 chars) ---\n"
+            f"{output_preview}\n"
+        )
+
+        # Single, complete example
+        examples.append({
+            "instruction": instruction,
+            # We keep raw + report as a single "input" block to preserve completeness.
+            "input": f"PDF_CODE_RAW:\n{src_code}\n\nACCESSIBILITY_REPORT:\n{report}",
+            "output": tgt_code
+        })
+
+    except FileNotFoundError:
+        print(f"Error: File not found: {src_path}. Skipping.")
+    except Exception as e:
+        print(f"Error processing pair {bf_path.name}: {e}")
+
+print(f"Prepared {len(examples)} examples.")
+```
+
+Pouring it into the Alpaca format (Unsloth):
+
+```python
+# --- HuggingFace Dataset + Unsloth Prompt Formatting (Alpaca-style) ---
+from datasets import Dataset
+
+alpaca_prompt = """Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
+### Instruction:
+{}
+
+### Input:
+{}
+
+### Response:
+{}"""
+
+EOS_TOKEN = tokenizer.eos_token
+
+def formatting_prompts_func(batch):
+    texts = []
+    for i, inp, out in zip(batch["instruction"], batch["input"], batch["output"]):
+        # Keep documents COMPLETE; no extra wrappers.
+        texts.append(alpaca_prompt.format(i, inp, out) + EOS_TOKEN)
+    return {"text": texts}
+
+dataset = Dataset.from_list(examples)
+dataset = dataset.map(formatting_prompts_func, batched=True, remove_columns=list(dataset.features.keys()))
+print(dataset[:1]["text"][0][:1000])
+```
+
+Training procedure:
+
+```python
+# Training
+from trl import SFTConfig, SFTTrainer
+
+trainer = SFTTrainer(
+    model = model,
+    tokenizer = tokenizer,
+    train_dataset = dataset,       # If you have a separate val set, pass eval_dataset=...
+    dataset_text_field = "text",
+    max_seq_length = max_seq_length,
+    dataset_num_proc = 2,
+    packing = False,               # Keep each document intact (no packing)
+    args = SFTConfig(
+        per_device_train_batch_size = 2,   # A100 can usually do 2–4 with 4-bit
+        gradient_accumulation_steps = 4,   # effective batch size 8
+        warmup_steps = 50,
+        # num_train_epochs = 3,            # or use steps:
+        max_steps = 1000,                  # adjust to your dataset size
+        learning_rate = 2e-4,
+        logging_steps = 5,
+        optim = "adamw_8bit",
+        weight_decay = 0.01,
+        lr_scheduler_type = "cosine",
+        seed = 3407,
+        output_dir = "outputs",
+        report_to = "none",
+        bf16 = True,                       # good on A100
+        gradient_checkpointing = True,
+        save_steps = 200,
+        save_total_limit = 2,
+    ),
+)
+```
+
+Memory check:
+
+```python
+# @title Show current memory stats
+gpu_stats = torch.cuda.get_device_properties(0)
+start_gpu_memory = round(torch.cuda.max_memory_reserved() / 1024 / 1024 / 1024, 3)
+max_memory = round(gpu_stats.total_memory / 1024 / 1024 / 1024, 3)
+print(f"GPU = {gpu_stats.name}. Max memory = {max_memory} GB.")
+print(f"{start_gpu_memory} GB of memory reserved.")
+```
+
+Actual training loop:
+
+```python
+# Train
+trainer_stats = trainer.train()
+```
+
+My learning rate graph (training set of about 100 document pairs and their respective accessibility reports, based on Adobe PDF Services) follows.
+
+
+
+
+## Comparison with training without meta-informational enrichment
+
+The same training procedure was run on the same training documents, but without reports: at training time, we get the following training performance. (Different context sizes were tested, the model was `Llama3.1 (8B)`.)
+
+[![Fine-tuning curve](/assets/img/barrier-free/barrier-free-fine-tuning_llama3.1-8B_alpaca_loss-curves-based-on-context-windows.png)](https://colab.research.google.com/drive/10g223UfFaE-kQ3bwvZeWhybuK8Rsz2Ma?usp=sharing)
+
+[Google Colab notebook](https://colab.research.google.com/drive/10g223UfFaE-kQ3bwvZeWhybuK8Rsz2Ma?usp=sharing).
+
+
+We will consider testing, for both scenarios, in the next section.
+
+
 ## Accessibility Reports
 
 Code, building on Adobe PDF Services (requiring this service's API credentials, id and key), also made for Google Colab and compatible with the directory setup described:
@@ -301,6 +541,8 @@ made, skipped = process_dir(finetuning_dir, overwrite=OVERWRITE_EXISTING, only_p
 print(f"Done. Created: {made}, Skipped: {skipped}")
 ```
 
+# Testing Set
+
 # OOD? Uncertainty in LLM Inference
 
-# More Tasks 
+# More Testing Sets and Other Steps for this LLM Challenge 
