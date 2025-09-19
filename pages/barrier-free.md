@@ -624,7 +624,7 @@ print(f"Done. Created: {made}, Skipped: {skipped}")
 
 In my thesis I formally evaluate the (fine-tuned) models and uncover relatively low scoring in the chosen model classes, fine-tuning regime, and code setup: by formalizing the test set with a particular use case in mind, however, a contribution for future model evaluations is made, with a certain application context in mind (in this case, German language and General Accident Insurance as the domain - this context may be added to in the future) and with the hope for improvements. The test set is provided with this thesis and encompasses 12 test documents - by permission of AUVA it is also available online, <a href="https://github.com/heseltime/hoffman/tree/main/testing">in the project repository</a> for the thesis.
 
-### Fine-tuned Models
+### Fine-tuned Models (No Meta-info) First Tests on Test Set
 
 > We bring the fine-tuned model to bear on the full test set of 12 documents for the main discussion of results. In aggregate, the fine-tuned llama3-1 variants do not close the overlap gap: model-average BLEU, ROUGE-L(F_1), and METEOR remain low (near 0–0.05 across documents), and the doc-best scores are only marginally higher than the per-model averages. Normalized edit metrics continue to be the most informative: LR sits in the mid range ("moderate closeness"), LS drops when hypotheses are much longer than references, and CER/WER spike under length bloat or when extracted token streams collapse to very short sequences. A consistent pattern across the 12 documents is stability without quality gains: fine-tuned outputs are often deterministic (small variance across responses), which helps consistency but also hints at mode collapse on some inputs. Overall, the fine-tuned models track the non-fine-tuned llama3 baselines in shape/length space while failing to improve token-level overlap.
 
@@ -692,6 +692,24 @@ To complement raw Levenshtein distance `d = lev(R, C)` (reference `R`, candidate
 - **LR** is more forgiving, balancing both lengths.
 
 Together, these metrics complement BLEU/ROUGE/METEOR by quantifying *edit effort per unit length* and giving a normalized similarity measure between 0 and 1.
+
+Now we have a solid background to look at the test set evaluation scores.
+
+## Comparison of Fine-tuned Models (with/without Meta-info)
+
+We pick some of the available plots, starting with ...
+
+### (Again/Detail:) Fine-tuned Models without Meta-information
+
+
+
+### Fine-tuned Models with Meta-information
+
+> TODO
+
+### Discussion
+
+> TODO
 
 # OOD? Uncertainty in LLM Inference
 
