@@ -9,7 +9,7 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
 
 <div class="toc" id="jku-thesis-project">
     <h2>core project (academic software development)</h2>
-    <h4>Masters thesis project at Johannes Kepler University (JKU), consisting of the following research components leading up to the technical report (project) and thesis</h4>
+    <h4><i>A Masters thesis project at Johannes Kepler University (JKU), consisting of the following research components leading up to the technical report (project) and thesis</i></h4>
     <p>I'd like to thank the <a href="/notes">wonderful Update Social Team (on-going notes included)</a> in helping to refine this project up to an actionable starting point, and <a href="https://github.com/heseltime/updatesocial">reference the repo for initial testing and prototyping</a>.</p>
     <h3>Public Test Set and Paper</h3>
     <p><b>0.</b> <i>Forthcoming</i></p>
