@@ -827,7 +827,48 @@ startxref
 
 # OOD? Uncertainty in LLM Inference
 
-> TODO
+## More Detailed Formulas
+
+### Perplexity
+
+Perplexity is based on the negative log-likelihood (NLL) of the predicted sequence.  
+Given a sequence of tokens \(x_1, x_2, \ldots, x_N\), and model probabilities \(p(x_t \mid x_{<t})\):
+
+$$
+\begin{align}
+\mathcal{L} &= - \frac{1}{N} \sum_{t=1}^{N} \log p(x_t \mid x_{<t}) \quad && \text{(average cross-entropy loss)} \\
+\text{PPL} &= \exp(\mathcal{L}) \quad && \text{(perplexity)}
+\end{align}
+$$
+
+- \(\mathcal{L}\) is the mean negative log-likelihood (NLL) across the sequence.  
+- \(\text{PPL}\) is the exponential of that loss.  
+- Intuition: Perplexity can be seen as the *effective number of equally likely choices* the model has at each prediction step.
+
+### Token Distribution Entropy
+
+At each generation step \(t\), the model produces a probability distribution over the vocabulary \(V\).  
+If \(p(v \mid x_{<t})\) is the probability of token \(v \in V\) at step \(t\):
+
+$$
+H_t = - \sum_{v \in V} p(v \mid x_{<t}) \, \log p(v \mid x_{<t})
+$$
+
+- \(H_t\) measures the uncertainty of the model’s prediction at time \(t\).  
+- Low entropy → model confident (probability mass on few tokens).  
+- High entropy → model uncertain (probability mass spread across many tokens).
+
+### Average Entropy Across Sequence
+
+You can also define an average entropy across the whole sequence:
+
+$$
+\bar{H} = \frac{1}{N} \sum_{t=1}^{N} H_t
+$$
+
+**Summary:**  
+- **Perplexity** is a *sequence-level* measure of uncertainty.  
+- **Entropy** is a *step-level* measure of uncertainty in next-token prediction.  
 
 # More Testing Sets and Other Steps for this LLM Challenge 
 
