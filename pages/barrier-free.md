@@ -833,6 +833,59 @@ In this work PDF-to-text libraries were used to sidestep binary blocks, so it is
 
 # OOD? Uncertainty in LLM Inference
 
+## What “Perplexity” Captures
+- Perplexity is a sequence-level measure derived from average negative log-likelihood.
+- Lower values ⇒ model finds the sequence highly probable (more confident).
+- Higher values ⇒ model finds the sequence unlikely (more uncertain).
+- Only meaningful for causal LMs (autoregressive models). Tokenization affects scale, so compare models fairly.
+
+## Why Greedy Generations Often Show Very Low Perplexity
+- Greedy decoding picks the highest-probability token at each step.
+- This biases the output toward very likely tokens, yielding near-minimal loss and perplexity ≈ 1–2.
+- To probe uncertainty, either (a) evaluate perplexity **conditional on the prompt** (mask out prompt tokens), or (b) evaluate sampled outputs.
+
+## Conditional vs. Unconditional Scoring
+- **Self-likelihood**: scoring the completion alone tends to be optimistic.
+- **Conditional perplexity**: score completion while **conditioning on the prompt** (ignore the prompt in the loss). This better reflects “how likely is the model’s answer given the context?”
+
+## Token-Level Uncertainty Signals
+- **Predictive entropy** (distribution spread over the next token): higher ⇒ more uncertainty; lower ⇒ more confidence.
+- **Top-1 probability**: simple proxy for confidence at each step.
+- Aggregate these across the completion (e.g., mean entropy, mean top-1 prob).
+
+## Beyond Perplexity: Practical Uncertainty Estimation
+- **Sampling-based probes**: enable sampling (temperature/top-p) and examine the distribution of perplexity/entropy across multiple draws.
+- **Monte Carlo Dropout**: run multiple forward passes with dropout active; variance in logits/probabilities reflects epistemic uncertainty.
+- **Ensembles**: different models (or checkpoints) on the same prompt; agreement ⇒ higher confidence, divergence ⇒ uncertainty.
+- **Semantic disagreement**: cluster or compare generated answers by meaning; high diversity indicates uncertainty/ambiguity.
+
+## Interpreting Scales (Rules of Thumb)
+- Perplexity near 1 on greedy outputs is normal and indicates very high confidence.
+- Mean next-token entropy:
+  - Very low: sharply peaked distributions (confident).
+  - Moderate: some ambiguity among candidates.
+  - High: broad distributions (uncertain).
+- Mean top-1 probability near 1 ⇒ confident; substantially lower ⇒ ambiguous next steps.
+
+## When Perplexity Can Mislead
+- **Distribution shift**: PPL can be low on templated text but still wrong semantically.
+- **Length & truncation**: long texts or context-window overflows require chunking; naive single-pass PPL may be invalid.
+- **Tokenization**: different tokenizers change the numeric scale; avoid cross-tokenizer comparisons.
+
+## Recommended Workflow
+1. Generate completion (greedy for determinism or sampled for probing).
+2. Compute **conditional perplexity** on the completion (prompt masked out of the loss).
+3. Compute **mean entropy** and **mean top-1 probability** across completion steps.
+4. (Optional) Repeat with sampling, MC dropout, or ensembles to gauge uncertainty robustness.
+5. Log per-part metrics and flag unusually high-uncertainty segments for review.
+
+## Implementation Notes (HF/Transformers)
+- Use the same model/tokenizer for generation and scoring.
+- Concatenate `prompt || completion`; mask prompt tokens in labels to get conditional metrics.
+- For entropy/top-1: use next-token logits at each step, softmax to probabilities, then aggregate.
+- For long inputs, use sliding windows so scoring aligns with the model’s context length.
+
+
 ## More Detailed Formulas
 
 ### Perplexity
@@ -847,7 +900,7 @@ $$
 \end{align}
 $$
 
-- $\mathcal{L}$ is the mean negative log-likelihood (NLL) across the sequence.  
+- $\mathcal{L}$ is the mean NLL across the sequence.  
 - $\text{PPL}$ is the exponential of that loss.  
 - Intuition: Perplexity can be seen as the *effective number of equally likely choices* the model has at each prediction step.
 
