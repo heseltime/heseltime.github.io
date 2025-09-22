@@ -707,6 +707,120 @@ We pick some of the available plots, starting with ...
 
 > TODO
 
+#### Example Output
+
+In a sense this was the most complete experiment, accessibility report training with a thinking model: so what does an output actually look like? Here is one example output, from the test set:
+
+```bash
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Filter /FlateDecode /Length 357>>
+stream
+x��R=OC1����q�T|&o�L �@!�>n��Ph;@�X����	\����r��)�� '��I��7Cw��a�8�&x|����R�tf����<´!}1�pN1L��1�#Xj�k�bܪ�V�qf��ű�{ܽd55:��ش����8!8~!bX[�\
+Mk�Z6KGim-��k�<dא�Un���7�V[w=y���-���Zk9Ai��%[��șD-U������'�k
+��nԛk`�Ns������Z?�������8�f�ɸ���&;�ރ������ZE�):ʚ[�#ah��#�ȱ%:"���",m[t�����tOt�
+��9:��|'�rGr>���
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Filter /FlateDecode /Length 356>>
+stream
+x����NC1�w��c;��v;kE���n�	T$P���oʂ�$�,Q|�s�ǰ�H�_�fKbL	�
+,��J��UE3�a��0����̭:��O���K�b�$7�[/��&MD�ѝ���VGV��@
+E/�0�lX�����YqF�f��5c�u��l\��V,�IVCɭi)y�u���M�s��%�U�
+�����g��9a�]�HI�Ħ�Av&����4�k��ߣgJ5�l'.�9V\*��#�~�xj6���z�����z�8��Oؐ�!t�:���5@��#���L�I8@�]Q���jH~ fG?:��z2F�'ѡ/=��b���ɟ�����K
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Filter /FlateDecode /Length 322>>
+stream
+x��R�N1���7�c;Y+ZD'�q��H���H�>�BB)�%���{~��I@1��,:��(b��`�
+OLH��A��鲛A�����)����&�㡅p�0>��D�+�JĜ)�V�d�BE
+XɵD�̒��Y��o�4G�\��ڢ$���r����DA-r��r�EOK(�R��H��a6�1��'�$r̤h�i;Ϣ�UR@�Q�FF�#��+�H2_
+�v��2c����k�P�e���fL~�QH�p��Z�>*U��~z�����z�)���nݶDè�������=�:�"����iۉ���o_6�������_��P
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+10 0 obj
+<<
+/Producer (PyFPDF 1.7.2 http://pyfpdf.googlecode.com/)
+/CreationDate (D:20250922123741)
+>>
+endobj
+11 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000001488 00000 n 
+0000001683 00000 n 
+0000000009 00000 n 
+0000000087 00000 n 
+0000000514 00000 n 
+0000000592 00000 n 
+0000001018 00000 n 
+0000001096 00000 n 
+0000001587 00000 n 
+0000001787 00000 n 
+0000001897 00000 n 
+trailer
+<<
+/Size 12
+/Root 11 0 R
+/Info 10 0 R
+>>
+startxref
+2001
+%%EOF
+```
+
 ### Discussion
 
 > TODO
