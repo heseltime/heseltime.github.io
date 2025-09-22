@@ -13,7 +13,7 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <p><b>0.</b> I'd like to thank the <a href="/notes">wonderful Update Social Team (on-going notes included)</a> in helping to refine this project up to an actionable starting point, and <a href="https://github.com/heseltime/updatesocial">reference the repo for initial testing and prototyping</a>.</p>
     <!--<h3>Public Test Set and Paper</h3>
     <p><b>0.</b> <i>Forthcoming</i></p>-->
-    <h3><b>Final Update for this work</b>: final LLM Processing and Evaluation of the Output in my <a href="/rDai#jku-thesis-project">academic overview with presentation</a>/here also a <a href="/barrier-free">blog-post synthesis</a> .</h3>
+    <h3><b>Final Update for this work</b>: LLM Processing and Evaluation of the Output in my <a href="/rDai#jku-thesis-project">academic overview with presentation</a>/<a href="/barrier-free">blog-post synthesis</a> .</h3>
     <!--<p><b><i>My deep gratitude for all the guidance as printed on page iv in the work, now <a href="">published</a> with the university too</i></b></p>-->
     <p><b>1.</b> Main Thesis work (55-65p). <i>Emerging structure (at planning stage - broad-strokes I stuck to this actually):</i></p>
     <ul> 
