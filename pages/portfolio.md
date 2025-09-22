@@ -12,8 +12,8 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <h4><i>A Masters thesis project at Johannes Kepler University (JKU), consisting of the following research components leading up to the technical report (project) and thesis</i></h4>
     <p><b>0.</b> I'd like to thank the <a href="/notes">wonderful Update Social Team (on-going notes included)</a> in helping to refine this project up to an actionable starting point, and <a href="https://github.com/heseltime/updatesocial">reference the repo for initial testing and prototyping</a>.</p>
     <!--<h3>Public Test Set and Paper</h3>
-    <p><b>0.</b> <i>Forthcoming</i></p>
-    <h3>LLM Processing and Evaluation of the Output (see <a href="/rDai#jku-thesis-project">academic overview and presentation</a>/<a href="/barrier-free">page for a blog-post synthesis of the work</a> itself, which will be linked once the university publishes it online)</h3>-->
+    <p><b>0.</b> <i>Forthcoming</i></p>-->
+    <h3><b>Final Update for this work</b>: LLM Processing and Evaluation of the Output (see <a href="/rDai#jku-thesis-project">academic overview and presentation</a>/<a href="/barrier-free">page for a blog-post synthesis of the work</a> itself</h3>
     <p><b>1.</b> Main Thesis work (55-65p). <i>Emerging structure (at planning stage - broad-strokes I stuck to this actually):</i></p>
     <ul> 
         <li>10p.(+?) <i>General LLM Tasks/Few-Shot <b>Intro</b>, see also seminar presentation, and make connection to</i> Update Social (see LIFT_C below) <i>as a way to introduce the current applications landscape and challenges</i> In the final structure this part is broken down (Intro, Concepts and Definitions, Legal Context, Related Work)</li>
