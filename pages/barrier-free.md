@@ -821,6 +821,12 @@ startxref
 %%EOF
 ```
 
+Large Language Models are designed to generate sequences of text, not arbitrary bytes. Since binary files often include values that do not map cleanly to text characters, direct generation of binary can lead to corruption or loss of information. To safely handle binary, LLMs usually output encodings such as Base64 or hexadecimal, which represent binary data in a text-friendly format that can later be decoded back into the original binary form. This approach allows LLMs to effectively "generate binary" while staying within the constraints of text-based communication.
+
+Binary, in computing, refers to data expressed in base-2, where each value is represented by a series of bits (0s and 1s). These bits can encode anything from numbers and letters to images, sound, and instructions for a computer program. While humans typically interact with higher-level representations like text or images, computers fundamentally operate on binary, interpreting sequences of bits according to file formats, protocols, or machine instructions.
+
+In this work PDF-to-text libraries were used to sidestep binary blocks, so it is suprising to notes binary in sample outputs: actually we were trying to input and output the code/text between these binary blocks in PDF!
+
 ### Discussion
 
 > TODO
@@ -832,7 +838,7 @@ startxref
 ### Perplexity
 
 Perplexity is based on the negative log-likelihood (NLL) of the predicted sequence.  
-Given a sequence of tokens \(x_1, x_2, \ldots, x_N\), and model probabilities \(p(x_t \mid x_{<t})\):
+Given a sequence of tokens $x_1, x_2, \ldots, x_N$, and model probabilities $p(x_t \mid x_{<t})$:
 
 $$
 \begin{align}
@@ -841,20 +847,20 @@ $$
 \end{align}
 $$
 
-- \(\mathcal{L}\) is the mean negative log-likelihood (NLL) across the sequence.  
-- \(\text{PPL}\) is the exponential of that loss.  
+- $\mathcal{L}$ is the mean negative log-likelihood (NLL) across the sequence.  
+- $\text{PPL}$ is the exponential of that loss.  
 - Intuition: Perplexity can be seen as the *effective number of equally likely choices* the model has at each prediction step.
 
 ### Token Distribution Entropy
 
-At each generation step \(t\), the model produces a probability distribution over the vocabulary \(V\).  
-If \(p(v \mid x_{<t})\) is the probability of token \(v \in V\) at step \(t\):
+At each generation step $t$, the model produces a probability distribution over the vocabulary $V$.  
+If $p(v \mid x_{<t})$ is the probability of token $v \in V$ at step $t$:
 
 $$
 H_t = - \sum_{v \in V} p(v \mid x_{<t}) \, \log p(v \mid x_{<t})
 $$
 
-- \(H_t\) measures the uncertainty of the model’s prediction at time \(t\).  
+- $H_t$ measures the uncertainty of the model’s prediction at time $t$.  
 - Low entropy → model confident (probability mass on few tokens).  
 - High entropy → model uncertain (probability mass spread across many tokens).
 
