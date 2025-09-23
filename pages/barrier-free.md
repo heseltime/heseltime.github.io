@@ -965,9 +965,27 @@ $$
 - For **masked LMs**, perplexity is misleading; instead use pseudo-perplexity or entropy-based confidence scores.  
 
 
+## Observations
+
+In evaluation, we generate a completion (either using greedy decoding for determinism or sampling for probing) and compute conditional perplexity on the completion, masking the prompt out of the loss. We also compute mean entropy and mean top-1 probability across completion steps, using next-token logits at each step. Interestingly, conditional perplexity for the top-performing models so far falls around ~1–1.5, which is extremely low, indicating the model is very confident and the tokens are highly predictable. However, low perplexity does not necessarily correlate with good output: we observe loops, repetition, filler, and a lack of valid PDF object code. This issue often reflects *mode collapse* or degenerate looping, where the model falls into repeating patterns (e.g., `"BT … ET BT … ET"` indefinitely). Such patterns are known to arise during fine-tuning, when the model learns to solve the training task narrowly but loses the ability to generalize to other forms of text. In this sense, low perplexity reflects predictability rather than quality—a phenomenon sometimes described as the *likelihood trap* [5].  
+
+[5] Zhang, Y., et al. (2020). *Trading Off Diversity and Quality in Natural Language Generation*.  
+
+
 # More Testing Sets and Other Steps for this LLM Challenge 
 
-> TODO
+Finally, a publishable test set of 12 domain-specific documents was compiled: it is conceivable to carry this project forward by compiling more test sets, but, currently, LLMs might not be the tools to address this challenge in this form. Viable next steps would be:
+
+- **Incorporating** positional logic and other sub-token numerical data, which currently pose an inference challenge to the chosen class of (fine-tuned) LLMs, despite their low perplexity/high certainty.  
+- Applying **NLP-specific metrics** for measuring reference similarities of the hypothesis documents. These were used to assess output quality, and while trends based on model complexity were observed, no improvements were detected when using meta-information during training or inference.  
+
+**Outlook:** This remains a nuanced problem with potentially large payoff. Future directions may include:  
+- (Tangent:) Exploring accessibility scoring via neural networks.  
+- Finding effective ways to break down the task of PDF code generation.  
+- Testing more complex current or future models.  
+- Expanding the test document set to include new domains, beyond the one introduced in this work.  
+
+**Contribution:** This work introduced an ECM platform integration, proposed a basic methodology, and conducted initial model testing and observations.  
 
 <nav class="nav">
     <ul class="nav__list">
