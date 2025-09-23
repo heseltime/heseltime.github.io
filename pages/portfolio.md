@@ -15,7 +15,7 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
     <p><b>0.</b> <i>Forthcoming</i></p>-->
     <h3><b>Final Update for this work</b>: LLM Processing and Evaluation of the Output in my <a href="/rDai#jku-thesis-project">academic overview with presentation</a>/<a href="/barrier-free">blog-post synthesis</a> .</h3>
     <!--<p><b><i>My deep gratitude for all the guidance as printed on page iv in the work, now <a href="">published</a> with the university too</i></b></p>-->
-    <p><b>1.</b> Main Thesis work (55-65p). <i>(So far for planning, the final work took its own path in the end.)</i></p>
+    <p><b>1.</b> Main Thesis work (55-65p).</p>
     <!--<ul> 
         <li>10p.(+?) <i>General LLM Tasks/Few-Shot <b>Intro</b>, see also seminar presentation, and make connection to</i> Update Social (see LIFT_C below) <i>as a way to introduce the current applications landscape and challenges</i> In the final structure this part is broken down (Intro, Concepts and Definitions, Legal Context, Related Work)</li>
         <li>15p. <i>Practical-Work-takeaway: <b>Technical framework</b> for pipeline-development</i> In the final structure: "Solution Design"</li>
