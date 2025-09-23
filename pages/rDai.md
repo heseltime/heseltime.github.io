@@ -13,7 +13,7 @@ feedformat: none
     <p>This will be linked once it is university-published online. <!--<i>Presentation:</i>--></p>
     <!--<a href="../assets/pdf/KVRobopsychologySS24_grouptask_group2_8-final.pdf"><img src="../assets/img/barrier-free/presentation-cover.png" alt="Barrier-free PDF Final Presentation" /></a>-->
     <p><i>Poster, as linked in my portfolio, for a quick overview:</i></p>
-    <img alt="Making Documents Accessible and Barrier-free Poster" src="../../assets/img/presentations/poster-making-documents-barrierfree-v-1-1.png"/>
+    <a href="/barrier-free"><img alt="Making Documents Accessible and Barrier-free Poster" src="../../assets/img/presentations/poster-making-documents-barrierfree-v-1-1.png"/></a>
     <ul>
         <li>
             <h3><a href="#xai">Knowledge Graph from Text</a>, or Explainability for Understanding Argumentation (Project)</h3>
