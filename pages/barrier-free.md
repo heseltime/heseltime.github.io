@@ -974,10 +974,10 @@ In evaluation, we generate a completion (either using greedy decoding for determ
 
 # More Testing Sets and Other Steps for this LLM Challenge 
 
-Finally, a publishable test set of 12 domain-specific documents was compiled: it is conceivable to carry this project forward by compiling more test sets, but, currently, LLMs might not be the tools to address this challenge in this form. Viable next steps would be:
+Finally, a publishable test set of 12 domain-specific documents was compiled: it is conceivable to carry this project forward by compiling more test sets, but, currently, LLMs might not be the tools to address this challenge in this form. Why?
 
-- **Incorporating** positional logic and other sub-token numerical data, which currently pose an inference challenge to the chosen class of (fine-tuned) LLMs, despite their low perplexity/high certainty.  
-- Applying **NLP-specific metrics** for measuring reference similarities of the hypothesis documents. These were used to assess output quality, and while trends based on model complexity were observed, no improvements were detected when using meta-information during training or inference.  
+- **Conclusion**: positional logic and other sub-token numerical data currently pose an inference challenge to the chosen class of (fine-tuned) LLMs, despite their low perplexity/high certainty, at least, and all LLMs potentially.
+- Applying **NLP-specific metrics** for measuring reference similarities of the hypothesis documents: These were used to assess output quality, and while trends based on model complexity were observed, no improvements were detected when using meta-information during training or inference.  
 
 **Outlook:** This remains a nuanced problem with potentially large payoff. Future directions may include:  
 - (Tangent:) Exploring accessibility scoring via neural networks.  
