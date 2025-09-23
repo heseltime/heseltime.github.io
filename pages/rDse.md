@@ -28,7 +28,7 @@ Not just Document Processing (often: Document Preparation), but <b>Mathematical<
 <div class="risc" id="risc-work" style="background-color: #c7d7eb;">
     <h2>RISC Thesis 2024</h2>
     <h4><b>Update 2</b>: <a href="../assets/pdf/Tma2TeX-September-Draft.pdf">My submitted final draft is now available!</a> (September 2024)</h4> 
-    <h5><b>Update 2 (a)</b>: <a href="../assets/pdf/Tma2TeX-December.pdf">Of course there is a final, final Draft!</a> (December-Version (2024) without official cover sheet.)</h5> 
+    <h5><b>Update 2 (a)</b>: <a href="../assets/pdf/Tma2TeX-December.pdf">Of course there is a final, final Draft!</a> (December-Version (2024) without official cover sheet.) and as <a href="https://epub.jku.at/obvulioa/content/titleinfo/12141917">university-(JKU)-published</a> as well</h5> 
     <p>But I don't get to complain, Theorema, the topic I worked on is more than 20 years old: (abstract) work takes time.</p>
     <h5><b>Update 2 (b)</b>: <a href="../assets/nbs/seminar-talk-Tma2TeX-2024.nb">(NB) Seminar Talk</a> (December 2024) and <a href="../assets/nbs/BuildingApplicationsWithTheWolframCloud.nb">(NB) Building Applications with the Wolfram Cloud (WolframU)</a></h5> 
     <a href="../assets/pdf/Tma2TeX-September-Draft.pdf"><img src="../assets/img/Tma2Tex-thumb.png" alt="My Final Draft Submission For Download" style="display: block; margin: 20px auto; max-height: 590px; height: 100%; background-color: #c7d7eb;"></a>
