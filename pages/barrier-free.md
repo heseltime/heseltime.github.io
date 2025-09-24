@@ -699,11 +699,13 @@ Now we have a solid background to look at the test set evaluation scores.
 
 ## Comparison of Fine-tuned Models (with/without Meta-info)
 
-We pick some of the available plots, starting with ...
+We pick some of the available plots, starting with Edit Distances and related ratios.
 
 ### (Again/Detail:) Fine-tuned Models without Meta-information
 
+![Levensthein Ratios Local Models](/assets/img/barrier-free/lr-local.png)
 
+Model-average LR (Levenshtein Ratio, higher is better): Locally run models ranked by normalized edit similarity to references: LR summarizes closeness after accounting for length; higher bars indicate candidates that are closer in edit space. 
 
 ### Fine-tuned Models with Meta-information
 
