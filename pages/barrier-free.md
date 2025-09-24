@@ -705,11 +705,11 @@ We pick some of the available plots, starting with Edit Distances and related ra
 
 ![Levensthein Ratios Local Models](/assets/img/barrier-free/lr-local.png)
 
-Model-average LR (Levenshtein Ratio, higher is better): Locally run models ranked by normalized edit similarity to references: LR summarizes closeness after accounting for length; higher bars indicate candidates that are closer in edit space. 
+Model-average LR (Levenshtein Ratio, higher is better): Locally run models ranked by normalized edit similarity to references: LR summarizes closeness after accounting for length; higher bars indicate candidates that are closer in edit space. (Llama3.1 performs the best on this task, but not particularly well.)
 
 ### Fine-tuned Models with Meta-information
 
-> TODO
+We test a hypothesis that accessibility reports, of the type attained in the first part of this thesis work, a [practical ECM implementation](/rDai#jku-thesis-project).
 
 #### Example Output
 
