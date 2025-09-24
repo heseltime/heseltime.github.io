@@ -835,7 +835,10 @@ In this work PDF-to-text libraries were used to sidestep binary blocks, so it is
 
 ### Discussion
 
-> TODO
+This study highlights that positional logic and other forms of sub-token numerical data present a significant inference challenge for the chosen class of fine-tuned LLMs, even in cases where perplexity is low and model certainty appears high. To assess output quality, NLP-specific similarity metrics between hypothesis and reference documents were applied. While these metrics revealed a trend toward improved performance with increasing model complexity, no measurable gains were observed when incorporating meta-information into training or inference. 
+
+This suggests that the problem space is both nuanced and underexplored, yet potentially highly rewarding. Future work may therefore focus on several directions: the use of neural networks for accessibility scoring, methods for decomposing the task of PDF code generation into more tractable subtasks, the evaluation of emerging or more complex model classes, and the inclusion of additional document domains beyond those introduced here. Overall, the contribution of this work lies in its integration into an enterprise content management platform, the proposal of a basic methodological framework, and the provision of initial model tests and observations to inform subsequent research.
+
 
 # OOD? Uncertainty in LLM Inference
 
@@ -971,9 +974,7 @@ $$
 
 ## Observations
 
-In evaluation, we generate a completion (either using greedy decoding for determinism or sampling for probing) and compute conditional perplexity on the completion, masking the prompt out of the loss. We also compute mean entropy and mean top-1 probability across completion steps, using next-token logits at each step. Interestingly, conditional perplexity for the top-performing models so far falls around ~1–1.5, which is extremely low, indicating the model is very confident and the tokens are highly predictable. However, low perplexity does not necessarily correlate with good output: we observe loops, repetition, filler, and a lack of valid PDF object code. This issue often reflects *mode collapse* or degenerate looping, where the model falls into repeating patterns (e.g., `"BT … ET BT … ET"` indefinitely). Such patterns are known to arise during fine-tuning, when the model learns to solve the training task narrowly but loses the ability to generalize to other forms of text. In this sense, low perplexity reflects predictability rather than quality—a phenomenon sometimes described as the *likelihood trap* [5].  
-
-[5] Zhang, Y., et al. (2020). *Trading Off Diversity and Quality in Natural Language Generation*.  
+In evaluation, we generate a completion (either using greedy decoding for determinism or sampling for probing) and compute conditional perplexity on the completion, masking the prompt out of the loss. We also compute mean entropy and mean top-1 probability across completion steps, using next-token logits at each step. Interestingly, conditional perplexity for the top-performing models so far falls around ~1–1.5, which is extremely low, indicating the model is very confident and the tokens are highly predictable. However, low perplexity does not necessarily correlate with good output: we observe loops, repetition, filler, and a lack of valid PDF object code. This issue often reflects *mode collapse* or degenerate looping, where the model falls into repeating patterns (e.g., `"BT … ET BT … ET"` indefinitely). Such patterns are known to arise during fine-tuning, when the model learns to solve the training task narrowly but loses the ability to generalize to other forms of text. In this sense, low perplexity reflects predictability rather than quality—a phenomenon sometimes described as the *likelihood trap* -- see also Zhang, Y., et al. (2020). *Trading Off Diversity and Quality in Natural Language Generation*.  
 
 
 # More Testing Sets and Other Steps for this LLM Challenge 
