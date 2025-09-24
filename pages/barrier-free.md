@@ -709,7 +709,9 @@ Model-average LR (Levenshtein Ratio, higher is better): Locally run models ranke
 
 ### Fine-tuned Models with Meta-information
 
-We test a hypothesis that accessibility reports, of the type attained in the first part of this thesis work, a [practical ECM implementation](/rDai#jku-thesis-project).
+We test a hypothesis that accessibility reports, of the type obtained in the first part of this thesis work, a [practical ECM implementation](/portfolio#jku-thesis-project), but notice that these actually perform worse, for both Llama3.1 and also "reasoning" models, like Deepseek's R1.
+
+![Best document results in terms of Levenshtein Similarity on tested models including thinking models like R1](/assets/img/barrier-free/docbest_ls.png)
 
 #### Example Output
 
