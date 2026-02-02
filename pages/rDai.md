@@ -9,7 +9,10 @@ feedformat: none
 
 <div class="toc">
     <h2>academic blog post overview</h2>
-    <h4>Masters thesis forthcoming (2024) - <a href="/portfolio#jku-thesis-project">thesis project in portfolio</a> (degree practical work)</h4>
+    <h4 id="#jku-thesis-project"><a href="/portfolio#jku-thesis-project">Masters thesis project</a>, and here a <a href="/barrier-free">blog-post synthesis of the main LLM/ML work</a> upshot of the thesis itself</h4>
+    <p>This will be linked once it is university-published online.</p>
+    <p><i><b>Presentation</b>:</i><a href="../assets/pdf/presentations/LLMs-for-Making-PDFs-More-Accessible-in-ECM.pdf"><img src="../assets/img/barrier-free/presentation-cover.png" alt="Barrier-free PDF Final Presentation" /></a></p>
+    <p><i><b>Poster</b>, as linked in my <a href="/portfolio#jku-thesis-project">portfolio (practical part)</a>, for a quick overview:</i><a href="/barrier-free"><img alt="Making Documents Accessible and Barrier-free Poster" src="../../assets/img/presentations/poster-making-documents-barrierfree-v-1-1.png"/></a></p>
     <ul>
         <li>
             <h3><a href="#xai">Knowledge Graph from Text</a>, or Explainability for Understanding Argumentation (Project)</h3>

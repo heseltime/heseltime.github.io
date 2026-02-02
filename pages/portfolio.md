@@ -9,21 +9,22 @@ With a DevOps background I broke into Software Engineering, benefiting from [for
 
 <div class="toc" id="jku-thesis-project">
     <h2>core project (academic software development)</h2>
-    <h4>Masters thesis project at Johannes Kepler University (JKU), consisting of the following research components leading up to the technical report (project) and thesis</h4>
-    <p>I'd like to thank the <a href="/notes">wonderful Update Social Team (on-going notes included)</a> in helping to refine this project up to an actionable starting point, and <a href="https://github.com/heseltime/updatesocial">reference the repo for initial testing and prototyping</a>.</p>
-    <h3>PDF-Metadata Extraction and Feedback Plattform (Forthcoming?)</h3>
-    <p><b>0.</b> It would be exciting to spin this work out into something available to anyone who might be interested in the future: I'll reserve the rest of the summer of 2025 and ff., once the thesis is done, for this, if I can.</p>
-    <h3>LLM Processing and Evaluation of the Output (Forthcoming)</h3>
-    <p><b>1.</b> Main Thesis work (55-65p). <i>Emerging structure:</i></p>
-    <ul> 
+    <h4><i>A Masters thesis project at Johannes Kepler University (JKU), consisting of the following research components leading up to the technical report (project) and thesis</i></h4>
+    <p><b>0.</b> I'd like to thank the <a href="/notes">wonderful Update Social Team (on-going notes included)</a> in helping to refine this project up to an actionable starting point, and <a href="https://github.com/heseltime/updatesocial">reference the repo for initial testing and prototyping</a>.</p>
+    <!--<h3>Public Test Set and Paper</h3>
+    <p><b>0.</b> <i>Forthcoming</i></p>-->
+    <h3><b>Final Update for this work</b>: LLM Processing and Evaluation of the Output in my <a href="/rDai#jku-thesis-project">academic overview with presentation</a>/<a href="/barrier-free">blog-post synthesis</a> .</h3>
+    <!--<p><b><i>My deep gratitude for all the guidance as printed on page iv in the work, now <a href="">published</a> with the university too</i></b></p>-->
+    <p><b>1.</b> Main Thesis work (55-65p).</p>
+    <!--<ul> 
         <li>10p.(+?) <i>General LLM Tasks/Few-Shot <b>Intro</b>, see also seminar presentation, and make connection to</i> Update Social (see LIFT_C below) <i>as a way to introduce the current applications landscape and challenges</i> In the final structure this part is broken down (Intro, Concepts and Definitions, Legal Context, Related Work)</li>
         <li>15p. <i>Practical-Work-takeaway: <b>Technical framework</b> for pipeline-development</i> In the final structure: "Solution Design"</li>
         <li>20p. <i>Main Research part: <b>Evaluation</b> of LLM applications, SOTA, chosen approach, round out current theory. <b>Idea for first section</b>: start with the idea for LLM-automating the scoring mechanism tasks currently requiring manual input. Evaluate those against manual scoring. See if and how this approach can be extended to the overall goal of document-transformation for accessibility. An exploration of completely LLM-based scoring might be interesting here (but is probably not required as a focus of this work).</i> In the final structure: "Methods and Data"</li>
         <li>5-10p. <i><b>Implementation</b>: Overview, some technical details and code - for the AI part, in contrast to the practical work (system part)</i></li>
         <li>5-10p. <i><b>Results</b>: Discussion, pick up evaluation (of the whole project), future work</i></li>
-    </ul>
-    <p><b>Update</b>: The poster (required poster presentation session) is done - before the thesis. Another update to follow soon!</p>
-    <img alt="Making Documents Accessible and Barrier-free Poster" src="../../assets/img/presentations/poster-making-documents-barrierfree-v-1-1.png"/>
+    </ul>-->
+    <p>& <b>Poster</b>: For the research, see the following poster (details in the <a href="/rDai#jku-thesis-project">research blog</a>).</p>
+    <a href="/rDai#jku-thesis-project"><img alt="Making Documents Accessible and Barrier-free Poster" src="../../assets/img/presentations/poster-making-documents-barrierfree-v-1-1.png"/></a>
     <h3 id="jku-practical-work">Standard Software Integration (Enterprise Content Management - ECM)</h3>
     <p><b>+.</b> It is actually possible to extract this part out of the main academic work, and so I am starting here, for a <b>practical work component in my Masters</b>.</p>
     <img src="/assets/img/linkedin/hoffman-thumb.webp" alt="Dr Hoffman from Angela Carter's The Infernal Desire Machines Inspires This Work" />
