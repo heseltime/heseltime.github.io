@@ -1609,3 +1609,227 @@ a[href^="http"] {
 .red {
     color: red;
 }
+
+/* Homepage rework with Clock */
+
+/* ---- layout / page ---- */
+.home--clock {
+    padding: clamp(24px, 4vw, 56px) 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .home__header {
+    text-align: center;
+    margin-bottom: clamp(18px, 3vw, 28px);
+  }
+  
+  .home__intro {
+    margin: 10px auto 0;
+    max-width: 52ch;
+    opacity: 0.85;
+    line-height: 1.4;
+  }
+  
+  /* center clock, keep links nearby */
+  .home__main {
+    display: grid;
+    gap: clamp(18px, 3vw, 28px);
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .home__clock {
+    display: grid;
+    place-items: center;
+  }
+  
+  .home__links {
+    width: min(720px, 100%);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  
+  .home__link {
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 2px;
+    padding: 12px 14px;
+    border-radius: 14px;
+    text-decoration: none;
+  
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(10px);
+  }
+  
+  .home__link i {
+    grid-row: 1 / span 2;
+    font-size: 20px;
+    opacity: 0.9;
+    align-self: center;
+  }
+  
+  .home__link span {
+    font-weight: 600;
+    line-height: 1.1;
+  }
+  
+  .home__link em {
+    font-style: normal;
+    font-size: 0.92rem;
+    opacity: 0.75;
+  }
+  
+  .home__link:hover {
+    transform: translateY(-1px);
+    border-color: rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.06);
+  }
+  
+  @media (max-width: 640px) {
+    .home__links {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* ---- clock ---- */
+  /* NOTE: your clock CSS uses absolute positioning.
+     So the container MUST be position: relative. */
+  .clock {
+    position: relative;
+  
+    width: 380px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  
+    /* optional: make it responsive on small screens */
+    max-width: 86vw;
+    max-height: 86vw;
+  }
+  
+  .clock-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden; /* keeps the face within circle */
+  }
+  
+  .clock-img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .clock::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 15;
+  }
+  
+  /* hands wrappers */
+  .clock .hour,
+  .clock .minute,
+  .clock .second {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+  }
+  
+  .clock .hour .hr {
+    width: 160px;
+    height: 160px;
+  }
+  .clock .minute .min {
+    width: 190px;
+    height: 190px;
+  }
+  .clock .second .sec {
+    width: 230px;
+    height: 230px;
+  }
+  
+  /* each hand rotates this circular element */
+  .hr,
+  .min,
+  .sec {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  /* actual hand bars */
+  .hr::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 80px;
+    background-color: #f00;
+    border-radius: 10px;
+    z-index: 10;
+  }
+  
+  .min::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 90px;
+    background-color: #0f0;
+    z-index: 11;
+    border-radius: 8px;
+  }
+  
+  .sec::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 130px;
+    background-color: #fff;
+    z-index: 12;
+    border-radius: 4px;
+  }
+  
+  /* responsive scaling: scale hand sizes with clock */
+  @media (max-width: 420px) {
+    .clock .hour .hr {
+      width: 38vw;
+      height: 38vw;
+    }
+    .clock .minute .min {
+      width: 46vw;
+      height: 46vw;
+    }
+    .clock .second .sec {
+      width: 56vw;
+      height: 56vw;
+    }
+  
+    .hr::before {
+      height: 19vw;
+    }
+    .min::before {
+      height: 22vw;
+    }
+    .sec::before {
+      height: 32vw;
+    }
+  }
+  
