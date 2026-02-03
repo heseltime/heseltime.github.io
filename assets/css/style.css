@@ -1612,6 +1612,20 @@ a[href^="http"] {
 
 /* Homepage rework with Clock */
 
+.jumbo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap; /* prevents overflow on mobile */
+}
+
+.inline-logo {
+    height: 1em;              /* key: tie size to font */
+    width: auto;
+    vertical-align: middle;
+}
+
+
 /* ---- layout / page ---- */
 .home--clock {
     padding: clamp(24px, 4vw, 56px) 16px;
