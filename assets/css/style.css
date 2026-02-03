@@ -1612,112 +1612,112 @@ a[href^="http"] {
 
 /* Homepage rework with Clock */
 
-/* ======================================
-   Reset / base
-====================================== */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* ======================================
-     Jumbo intro + inline logo
-  ====================================== */
-  
-  .jumbo {
+.jumbo {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    flex-wrap: wrap;
-    margin-bottom: clamp(20px, 3vw, 36px);
-  }
-  
-  
-  .inline-logo {
-    height: 1em;
+    flex-wrap: wrap; /* prevents overflow on mobile */
+}
+
+.inline-logo {
+    height: 1em;              /* key: tie size to font */
     width: auto;
     vertical-align: middle;
-    transform: translateY(0.05em);
+}
+
+
+/* ---- layout / page ---- */
+.home--clock {
+    padding: clamp(24px, 4vw, 56px) 16px;
+    max-width: 1100px;
+    margin: 0 auto;
   }
   
-  /* ======================================
-     Page layout
-  ====================================== */
+  .home__header {
+    text-align: center;
+    margin-bottom: clamp(18px, 3vw, 28px);
+  }
   
+  .home__intro {
+    margin: 10px auto 0;
+    max-width: 52ch;
+    opacity: 0.85;
+    line-height: 1.4;
+  }
+  
+  /* center clock, keep links nearby */
   .home__main {
     display: grid;
-    gap: clamp(22px, 4vw, 48px);
+    gap: clamp(18px, 3vw, 28px);
     align-items: center;
     justify-items: center;
   }
   
   .home__clock {
-    margin-top: clamp(20px, 3vw, 40px);
-    margin-bottom: clamp(12px, 2vw, 28px);
-  }
-  
-  /* ======================================
-     Clock container + animated circles
-  ====================================== */
-  
-  .clock-container {
-    position: relative;
     display: grid;
     place-items: center;
-    padding: 48px;
-    isolation: isolate;
   }
   
-  .clock-container .circle {
-    position: absolute;
-    border-radius: 50%;
-    z-index: 0;
-    animation: 2s ease-in-out infinite alternate;
+  .home__links {
+    width: min(720px, 100%);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
   }
   
-  .clock-container .circle--a {
-    width: 200px;
-    height: 200px;
-    top: 10px;
-    left: -40px;
-    background: linear-gradient(#f5180a, #c736fa);
-    animation-name: move-up;
+  .home__link {
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 2px;
+    padding: 12px 14px;
+    border-radius: 14px;
+    text-decoration: none;
+  
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(10px);
   }
   
-  .clock-container .circle--b {
-    width: 150px;
-    height: 150px;
-    right: -30px;
-    bottom: 10px;
-    background: linear-gradient(#33ff01, #c5ff1c);
-    animation-name: move-down;
+  .home__link i {
+    grid-row: 1 / span 2;
+    font-size: 20px;
+    opacity: 0.9;
+    align-self: center;
   }
   
-  @keyframes move-up {
-    to {
-      transform: translateY(-30px);
+  .home__link span {
+    font-weight: 600;
+    line-height: 1.1;
+  }
+  
+  .home__link em {
+    font-style: normal;
+    font-size: 0.92rem;
+    opacity: 0.75;
+  }
+  
+  .home__link:hover {
+    transform: translateY(-1px);
+    border-color: rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.06);
+  }
+  
+  @media (max-width: 640px) {
+    .home__links {
+      grid-template-columns: 1fr;
     }
   }
   
-  @keyframes move-down {
-    to {
-      transform: translateY(30px);
-    }
-  }
-  
-  /* ======================================
-     Clock glass
-  ====================================== */
-  
+  /* ---- clock ---- */
+  /* NOTE: your clock CSS uses absolute positioning.
+     So the container MUST be position: relative. */
   .clock {
     position: relative;
-    z-index: 1;
   
     width: 380px;
     height: 380px;
-  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1728,6 +1728,7 @@ a[href^="http"] {
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   
+    /* optional: make it responsive on small screens */
     max-width: 86vw;
     max-height: 86vw;
   }
@@ -1736,17 +1737,16 @@ a[href^="http"] {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: hidden; /* keeps the face within circle */
   }
   
   .clock-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     display: block;
+    object-fit: cover;
   }
   
-  /* center pin */
   .clock::before {
     content: "";
     position: absolute;
@@ -1757,10 +1757,7 @@ a[href^="http"] {
     z-index: 15;
   }
   
-  /* ======================================
-     Hand wrappers
-  ====================================== */
-  
+  /* hands wrappers */
   .clock .hour,
   .clock .minute,
   .clock .second {
@@ -1774,27 +1771,22 @@ a[href^="http"] {
     width: 160px;
     height: 160px;
   }
-  
   .clock .minute .min {
     width: 190px;
     height: 190px;
   }
-  
   .clock .second .sec {
     width: 230px;
     height: 230px;
   }
   
-  /* ======================================
-     Rotating rings
-  ====================================== */
-  
+  /* each hand rotates this circular element */
   .hr,
   .min,
   .sec {
-    position: absolute;
     display: flex;
     justify-content: center;
+    position: absolute;
     border-radius: 50%;
   }
   
@@ -1804,7 +1796,7 @@ a[href^="http"] {
     position: absolute;
     width: 8px;
     height: 80px;
-    background: #f00;
+    background-color: #f00;
     border-radius: 10px;
     z-index: 10;
   }
@@ -1814,9 +1806,9 @@ a[href^="http"] {
     position: absolute;
     width: 4px;
     height: 90px;
-    background: #0f0;
-    border-radius: 8px;
+    background-color: #0f0;
     z-index: 11;
+    border-radius: 8px;
   }
   
   .sec::before {
@@ -1824,19 +1816,34 @@ a[href^="http"] {
     position: absolute;
     width: 2px;
     height: 130px;
-    background: #fff;
-    border-radius: 4px;
+    background-color: #fff;
     z-index: 12;
+    border-radius: 4px;
   }
   
-  /* ======================================
-     Responsive scaling
-  ====================================== */
-  
+  /* responsive scaling: scale hand sizes with clock */
   @media (max-width: 420px) {
-    .clock-container {
-      padding: 28px;
+    .clock .hour .hr {
+      width: 38vw;
+      height: 38vw;
+    }
+    .clock .minute .min {
+      width: 46vw;
+      height: 46vw;
+    }
+    .clock .second .sec {
+      width: 56vw;
+      height: 56vw;
     }
   
-    .clock .hour .h
+    .hr::before {
+      height: 19vw;
+    }
+    .min::before {
+      height: 22vw;
+    }
+    .sec::before {
+      height: 32vw;
+    }
+  }
   
