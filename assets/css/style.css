@@ -1634,6 +1634,7 @@ a[href^="http"] {
     margin-bottom: clamp(20px, 3vw, 36px);
   }
   
+  
   .inline-logo {
     height: 1em;
     width: auto;
