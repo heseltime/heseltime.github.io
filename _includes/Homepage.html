@@ -13,22 +13,27 @@
     <main class="home__main">
 
         <section class="home__clock">
-          <div class="clock" aria-label="The Heseltime Clock">
-            <div class="clock-img">
-              <img src="{{ '/assets/img/clock.png' | relative_url }}" alt="" />
+            <div class="clock-container" aria-label="The Heseltime Clock">
+                <div class="circle circle--a"></div>
+                <div class="circle circle--b"></div>
+            
+                <div class="clock">
+                <div class="clock-img">
+                    <img src="{{ '/assets/img/clock.png' | relative_url }}" alt="" />
+                </div>
+            
+                <div class="hour">
+                    <span class="hr" id="hr"></span>
+                </div>
+                <div class="minute">
+                    <span class="min" id="min"></span>
+                </div>
+                <div class="second">
+                    <span class="sec" id="sec"></span>
+                </div>
+                </div>
             </div>
-    
-            <div class="hour">
-              <span class="hr" id="hr"></span>
-            </div>
-            <div class="minute">
-              <span class="min" id="min"></span>
-            </div>
-            <div class="second">
-              <span class="sec" id="sec"></span>
-            </div>
-          </div>
-        </section>
+        </section>          
 
         <script src="{{ '/assets/js/clock.js' | relative_url }}"></script>    
 
