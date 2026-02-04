@@ -1642,7 +1642,7 @@ a[href^="http"] {
     justify-items: center;
   }
 
-    .home__main p {
+    .home__main > p {
         text-align: center;
     }
   
@@ -1902,5 +1902,14 @@ a[href^="http"] {
       width: 50%;
       height: 50%;
     }
+  }
+  
+  .clock-container .circle-link {
+    z-index: 5;
+    pointer-events: auto;
+  }
+  
+  .clock {
+    pointer-events: none;
   }
   
