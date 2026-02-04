@@ -1641,6 +1641,10 @@ a[href^="http"] {
     align-items: center;
     justify-items: center;
   }
+
+    .home__main p {
+        text-align: center;
+    }
   
   .home__clock {
     margin-top: clamp(20px, 3vw, 40px);
