@@ -2,25 +2,34 @@ const hr = document.getElementById("hr");
 const min = document.getElementById("min");
 const sec = document.getElementById("sec");
 
-rotation = (target, val) => {
+const rotation = (target, val) => {
   target.style.transform = `rotate(${val}deg)`;
 };
 
-clock = () => {
-  let date = new Date();
-  let hh = (date.getHours() % 12) + date.getMinutes() / 59;
-  let mm = date.getMinutes();
-  let ss = date.getSeconds();
+const viennaFormatter = new Intl.DateTimeFormat("en-GB", {
+  timeZone: "Europe/Vienna",
+  hour: "numeric",
+  minute: "numeric",
+  second: "numeric",
+  hour12: false
+});
 
-  hh *= 30;
-  mm *= 6;
-  ss *= 6;
+const clock = () => {
+  const parts = viennaFormatter.formatToParts(new Date());
 
-  rotation(hr, hh);
-  rotation(min, mm);
-  rotation(sec, ss);
+  const hh = Number(parts.find(p => p.type === "hour").value);
+  const mm = Number(parts.find(p => p.type === "minute").value);
+  const ss = Number(parts.find(p => p.type === "second").value);
+
+  const hourDeg = ((hh % 12) + mm / 60) * 30;
+  const minDeg = mm * 6;
+  const secDeg = ss * 6;
+
+  rotation(hr, hourDeg);
+  rotation(min, minDeg);
+  rotation(sec, secDeg);
 
   setTimeout(clock, 500);
 };
 
-window.onload = clock();
+window.onload = clock;
