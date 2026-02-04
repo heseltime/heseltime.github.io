@@ -1663,14 +1663,14 @@ a[href^="http"] {
     position: absolute;
     border-radius: 50%;
     z-index: 0;
-    animation: 2s ease-in-out infinite alternate;
   
-    /* NEW: allow icon centering inside the circle */
     display: grid;
     place-items: center;
+  
+    animation: 2s ease-in-out infinite alternate;
   }
   
-  /* NEW: icon inside circle */
+  /* icon inside circle */
   .clock-container .circle img {
     width: 45%;
     height: 45%;
@@ -1679,11 +1679,25 @@ a[href^="http"] {
     filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));
   }
   
-  /* If you want the “inscribed/glass” vibe, uncomment ONE of these:
-  .clock-container .circle img { opacity: 0.85; mix-blend-mode: screen; }
-  .clock-container .circle img { opacity: 0.9;  mix-blend-mode: overlay; }
-  */
+  /* clickable circle (anchor) */
+  .circle-link {
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
   
+  .circle-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.08);
+  }
+  
+  .circle-link:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.85);
+    outline-offset: 6px;
+    border-radius: 50%;
+  }
+  
+  /* gradient circles */
   .clock-container .circle--a {
     width: 200px;
     height: 200px;
@@ -1703,18 +1717,14 @@ a[href^="http"] {
   }
   
   @keyframes move-up {
-    to {
-      transform: translateY(-30px);
-    }
+    to { transform: translateY(-30px); }
   }
   
   @keyframes move-down {
-    to {
-      transform: translateY(30px);
-    }
+    to { transform: translateY(30px); }
   }
   
-  /* NEW: respect reduced motion */
+  /* reduced motion support */
   @media (prefers-reduced-motion: reduce) {
     .clock-container .circle {
       animation: none;
@@ -1751,6 +1761,7 @@ a[href^="http"] {
     height: 100%;
     border-radius: 50%;
     overflow: hidden;
+    pointer-events: none;
   }
   
   .clock-img img {
@@ -1867,17 +1878,9 @@ a[href^="http"] {
       height: 56vw;
     }
   
-    .hr::before {
-      height: 19vw;
-    }
-  
-    .min::before {
-      height: 22vw;
-    }
-  
-    .sec::before {
-      height: 32vw;
-    }
+    .hr::before { height: 19vw; }
+    .min::before { height: 22vw; }
+    .sec::before { height: 32vw; }
   
     .clock-container .circle--a {
       width: 140px;
@@ -1891,7 +1894,6 @@ a[href^="http"] {
       right: -20px;
     }
   
-    /* NEW: slightly larger icons on small screens */
     .clock-container .circle img {
       width: 50%;
       height: 50%;
