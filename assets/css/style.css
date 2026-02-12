@@ -1904,4 +1904,8 @@ a[href^="http"] {
     }
   }
 
-  
+  /* Let clicks pass through the clock to whatever is underneath (your circles) */
+.clock,
+.clock * {
+  pointer-events: none;
+}
