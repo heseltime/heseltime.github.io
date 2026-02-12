@@ -16,15 +16,19 @@
 
         <section class="home__clock">
             <div class="clock-container" aria-label="The Heseltime Clock">
-                <div class="circle circle--a">
+                <a
+                    href="/musings"
+                    class="circle circle--a circle-link"
+                    rel="noopener noreferrer"
+                    aria-label="Musings project"
+                    >
                     <img
-                      src="{{ '/assets/img/musings-logo.png' | relative_url }}"
-                      alt=""
-                      aria-hidden="true"
+                        src="{{ '/assets/img/musings-logo.png' | relative_url }}"
+                        alt="Musings"
                     />
-                  </div>
-                  
-                  <a
+                </a>
+                
+                <a
                     href="/volcel"
                     class="circle circle--b circle-link"
                     rel="noopener noreferrer"
@@ -34,9 +38,7 @@
                         src="{{ '/assets/img/volcel-logo.png' | relative_url }}"
                         alt="Volcel"
                     />
-                </a>
-
-                  
+                </a>      
             
                 <div class="clock">
                 <div class="clock-img">
