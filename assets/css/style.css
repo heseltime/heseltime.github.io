@@ -1728,9 +1728,30 @@ a[href^="http"] {
     to { transform: translateY(30px); }
   }
   
+  /* volcel sun: turns slowly while its circle bobs up and down */
+  .clock-container .circle--b img {
+    animation: sun-spin 40s linear infinite;
+  }
+
+  @keyframes sun-spin {
+    to { transform: rotate(360deg); }
+  }
+
+  /* light sun in dark mode, for contrast */
+  html[data-theme="dark"] .clock-container .circle--b img {
+    filter: brightness(0) invert(0.96) sepia(0.25) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.45));
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .clock-container .circle--b img {
+      filter: brightness(0) invert(0.96) sepia(0.25) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.45));
+    }
+  }
+
   /* reduced motion support */
   @media (prefers-reduced-motion: reduce) {
-    .clock-container .circle {
+    .clock-container .circle,
+    .clock-container .circle--b img {
       animation: none;
     }
   }
